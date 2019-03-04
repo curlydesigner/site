@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /portfolio/
+---
+<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    {% include main-navigation.html %}
+</header> <!-- / END HOME SECTION  -->
+<div id="content" class="site-content">
+    <div class="container">
+        <div class="content-left-wrap col-md-12">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+                    <article class="page type-page status-publish hentry">
+                        <div class="entry-content">
+                            <div class="rx_portfolio container-fluid">
+                                <div class="row">
+                                    {% for post in site.categories['portfolio'] %}
+                                    <div class="col-md-4">
+                                        {% include post-thumb.html %}
+                                    </div><!-- .col-md-4 -->
+                                    {% assign idx = forloop.index | modulo: 3 %}
+                                    {% if idx == 0 %}
+                                </div><!-- .row -->
+                                <div class="row">
+                                    {% endif %}
+                                    {% endfor %}
+                                </div><!-- .row -->
+                            </div><!-- .container-fluid -->
+                        </div><!-- .entry-content -->
+                    </article><!-- .page -->
+                </main><!-- #main -->
+            </div><!-- #primary -->
+        </div><!-- .content-left-wrap -->
+    </div><!-- .container -->
+</div><!-- .site-content -->

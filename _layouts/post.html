@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<header id="home" class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    {% include main-navigation.html %}
+    {% if page.featuredImages %}
+    {% include featured-images.html %}
+    {% endif %}
+</header> <!-- / END HOME SECTION  -->
+<div id="content" class="site-content">
+    {{ content }}
+</div><!-- .site-content -->
+<div class="portfolioSingleContent" data-isPortfolio="true">
+    <p class="aeolusFont2 pageTitle">{{ page.title }}</p>
+    <p class="aeolusFont1 pageSubtitle"></p>
+    <!--the content-->
+    <div class="rxPostContent">
+        <div id="post-2089"
+            class="rx_aeolus type-rx_aeolus status-publish has-post-thumbnail hentry ae_portfolio_categories-mobile ae_portfolio_categories-research ae_portfolio_categories-web-design">
+            {{ content }}
+        </div>
+    </div>
+    <!--/the content-->
+    <div class="related_content rxPostContent">
+        <div class="rx_nav">
+            <p class="alignright nextPost">
+                {% if page.next.url %}
+                <a href="{{page.next.url}}" rel="next">Next »</a>
+                {% endif %}
+            </p>
+            <p class="alignright previousPost">
+                {% if page.previous.url %}
+                <a href="{{page.previous.url}}" rel="prev">« Previous</a>
+                {% endif %}
+            </p>
+            <div class="clear-fx"></div>
+        </div>
+
+        <!--related projects-->
+        <!--/related projects-->
+    </div>
+</div>

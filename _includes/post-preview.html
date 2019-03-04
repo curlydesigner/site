@@ -1,0 +1,97 @@
+<article id="post-1960" class="post-1960 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-fashionbeauty category-portfolio category-b-design category-ux-interactive category-web-design-ux-ui tag-ux tag-web-design"
+    itemtype="http://schema.org/BlogPosting" itemtype="http://schema.org/BlogPosting">
+    {% if post.image.feature %}
+    <div class="post-img-wrap">
+        <a href="{{ post.url }}" title="{{ post.title }}">
+            <img width="250" height="218" src="{{ post.image.feature }}" class="entry-image" alt="" class="attachment-zerif-post-thumbnail size-zerif-post-thumbnail wp-post-image"
+                sizes="(max-width: 250px) 100vw, 250px" />
+        </a>
+    </div>
+    {% endif %}
+    <div class="listpost-content-wrap">
+        <div class="list-post-top">
+            <header class="entry-header">
+                <h1 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
+                <div class="entry-meta">
+                    <span class="posted-on">Posted on
+                        <a href="{{ post.url }}" rel="bookmark">
+                            <time class="entry-date published" datetime="{{ post.date }}">{{ post.date | date: "%b %Y"
+                                }}</time>
+                        </a>
+                    </span><span class="byline"> by <span class="author vcard">{{ post.author }}</span></span>
+                </div><!-- .entry-meta -->
+
+
+            </header><!-- .entry-header -->
+
+            <div class="entry-content">
+                <p>SiMyDeal is a professional shopping assistant website. Where costumers can
+                    search
+                    for a specific product ( like a camera, for example). The idea of SiMyDeal that
+                    it
+                    picks the best product and value price for costumer&#8217;s for a specific
+                    budget
+                    rate. With the emerging growth of technology, our preference as consumers
+                    changes
+                    within a wink of an eye. These <a href="http://curlydesigner.com/simydeal-shopping/" rel="nofollow"><span
+                            class="sr-only">Read more about SiMyDeal &#8211; The
+                            Future of Shopping</span>[&hellip;]</a></p>
+
+                <footer class="entry-footer">
+
+                    <span class="cat-links">Posted in <a href="http://curlydesigner.com/category/blog/" rel="category tag">Blog</a>,
+                        <a href="http://curlydesigner.com/category/fashionbeauty/" rel="category tag">Fashion/Beauty</a>,
+                        <a href="http://curlydesigner.com/category/portfolio/" rel="category tag">Portfolio</a>, <a
+                            href="http://curlydesigner.com/category/b-design/" rel="category tag">Research</a>, <a href="http://curlydesigner.com/category/ux-interactive/"
+                            rel="category tag">UX &amp; Interactive</a>, <a href="http://curlydesigner.com/category/web-design-ux-ui/"
+                            rel="category tag">Web Design</a></span><span class="tags-links">Tagged
+                        <a href="http://curlydesigner.com/tag/ux/" rel="tag">UX / UI</a>, <a href="http://curlydesigner.com/tag/web-design/"
+                            rel="tag">Web design</a></span><span class="comments-link"><a href="http://curlydesigner.com/simydeal-shopping/#respond">Leave
+                            a comment</a></span>
+                </footer><!-- .entry-footer -->
+
+            </div><!-- .entry-content -->
+            <!-- .entry-summary -->
+
+        </div><!-- .list-post-top -->
+
+    </div><!-- .listpost-content-wrap -->
+
+</article><!-- #post-## -->
+
+<article class="post-162 post type-post status-publish format-standard {% if post.image.feature %}has-post-thumbnail{% endif %} hentry">
+
+    <div class="entry-meta-group clearfix">
+        <div class="grid_2 alpha">
+            <time class="entry-date entry-time updated" datetime="{{ post.date }}"><a href="{{ post.url }}" title="{{ post.date }}"
+                    rel="bookmark"><span class="entry-date-day">{{ post.date | date: "%e" }}</span><span class="entry-date-month-year">{{
+                        post.date | date: "%b %Y" }}</span></a></time> </div>
+        <div class="grid_8 omega">
+            <h2 class="entry-title">
+                <a href="{{ post.url }}" title="Permalink to {{ post.title }}" rel="bookmark">{{ post.title }}</a>
+            </h2>
+            <div class="entry-meta">
+                <span class="entry-author author vcard">by <span class="entry-author-name fn">Yura</span></span>
+                <span class="entry-meta-sep">&sdot; </span></div><!-- .entry-meta -->
+        </div>
+    </div>
+
+    <div class="entry-content clearfix">
+        {% if post.image.feature %}
+        <div class="entry-featured-image">
+            <a href="{{ post.url }}" title="{{ post.title }}">
+                <img width="200" height="180" src="{{ post.image.feature }}" class="entry-image" alt="" />
+            </a>
+        </div>
+        {% endif %}
+        {% if post.content contains site.excerpt_separator %}
+        <p>{{ post.excerpt }}</p>
+        <p>
+            <a href="{{ post.url }}" class="more-link">
+                <span>Read More &rarr;</span>
+            </a>
+        </p>
+        {% endif %}
+    </div> <!-- end .entry-content -->
+
+</article><!-- #post-## -->
