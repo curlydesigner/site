@@ -1,3 +1,0 @@
----
-name: UX &amp; Interactive
----
