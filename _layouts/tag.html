@@ -1,0 +1,38 @@
+---
+layout: main
+has_intro: false
+---
+
+<!-- top bar -->
+<div class="top-bar">
+    <h1>portfolio</h1>
+    <p><a href="/">Home</a> / {% if page.tag == "all" %}Portfolio{% else %}<a href="{{site.baseurl}}/portfolio">Portfolio</a> / {{page.tag}}{% endif %}</p>
+</div>
+<!-- end top bar -->
+
+<!-- main container -->
+<div class="main-container portfolio-inner clearfix">
+    <!-- portfolio div -->
+    <div class="portfolio-div">
+        <div class="portfolio">
+
+            {% include tags.html %}
+
+            <div class="no-padding portfolio_container">
+                {% if page.tag == "all" %}
+                    {% assign posts = site.posts %}
+                {% else %}
+                    {% assign posts = site.tags[page.tag] %}
+                {% endif %}
+                {% for post in posts %}
+                    {% include post-preview.html %}
+                {% endfor %}
+
+            </div>
+            <!-- end portfolio_container -->
+        </div>
+        <!-- portfolio -->
+    </div>
+    <!-- end portfolio div -->
+</div>
+<!-- end main container -->z

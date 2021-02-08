@@ -49,4 +49,6 @@ name: Breakfast
 ## Development
 ```
 bundle exec jekyll serve
+
+bundler exec jekyll serve --watch
 ```

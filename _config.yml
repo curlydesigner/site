@@ -1,5 +1,7 @@
 title: "Curly Designer - UX Interactive Digital Designer & Illustrator"
+copyright: "Curly Designer 2020"
 google_analytics: 
+permalink: /:title:output_ext
 excerpt_separator: <!--more-->
 assets:
   sources: 
