@@ -5,13 +5,13 @@ permalink: /:title:output_ext
 excerpt_separator: <!--more-->
 intro:
   words:
-    - "Design&nbsp;Thinking"
-    - "Product&nbsp;Design."
+    - "Design&nbsp;Thinking."
+    - "&nbsp;Product&nbsp;Design."
     - "UI&nbsp;Architecture."
-    - "IxD&nbsp;Design."
-    - "Illustrations."
-    - "Human&nbsp;Behavior."
-    - "Research."
+    - "&nbsp;&nbsp;&nbsp;IxD&nbsp;Design."
+    - "&nbsp;Illustrations."
+    - "&nbsp;Human&nbsp;Behavior."
+    - "&nbsp;&nbsp;&nbsp;&nbsp;Research."
   title: "MA USER EXPERIENCE | HUMAN Behavior | UI | IxD | DESIGNER"
 assets:
   sources: 
