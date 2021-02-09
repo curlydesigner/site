@@ -1,0 +1,22 @@
+<!-- box-intro -->
+<section class="box-intro">
+    <div class="table-cell">
+        <h1 class="box-headline letters rotate-2">
+            <span class="box-words-wrapper">
+                {% for word in site.intro.words %}
+                    {% if forloop.first %}
+                        <b class="is-visible">{{ word }}</b>
+                    {% else %}
+                        <b>{{ word }}</b>
+                    {% endif %}
+                {% endfor %}
+            </span>
+        </h1>
+        <h5>{{ site.intro.title }}</h5>
+    </div>
+
+    <div class="mouse">
+        <div class="scroll"></div>
+    </div>
+</section>
+<!-- end box-intro -->

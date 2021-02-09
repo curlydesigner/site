@@ -3,6 +3,16 @@ copyright: "Curly Designer 2020"
 google_analytics: 
 permalink: /:title:output_ext
 excerpt_separator: <!--more-->
+intro:
+  words:
+    - "Design&nbsp;Thinking"
+    - "Product&nbsp;Design."
+    - "UI&nbsp;Architecture."
+    - "IxD&nbsp;Design."
+    - "Illustrations."
+    - "Human&nbsp;Behavior."
+    - "Research."
+  title: "MA USER EXPERIENCE | HUMAN Behavior | UI | IxD | DESIGNER"
 assets:
   sources: 
     - assets/css

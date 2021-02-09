@@ -49,31 +49,7 @@
         {% include menu.html %}
 
         {% if page.has_intro %}
-        <!-- box-intro -->
-        <section class="box-intro">
-            <div class="table-cell">
-                <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
-                        <b class="is-visible">
-                           Design&nbsp;Thinking.</b>
-                        <b>Product&nbsp;Design.</b>
-                        <b>UI&nbsp;Architecure.</b>
-                        <b>IxD&nbsp;Design.</b>
-                        <b>Illustrations.</b>
-                        <b>Human&nbsp;Behaviour.</b>
-                        <b>Research.</b>
-      
-                    
-                    </span>
-                </h1>
-                <h5>MA USER EXPERIENCE | HUMAN Behaviour | UI | IxD | DESIGNER</h5>
-            </div>
-
-            <div class="mouse">
-                <div class="scroll"></div>
-            </div>
-        </section>
-        <!-- end box-intro -->
+            {% include intro.html %}
         {% endif %}
     </div>
 
