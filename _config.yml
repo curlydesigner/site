@@ -1,18 +1,18 @@
-title: "Curly Designer - UX Interactive Digital Designer & Illustrator"
-copyright: "Curly Designer 2020"
+title: "Curly Designer - UX/UI Interactive Designer & Illustrator"
+copyright: "Curly Designer 2021"
 google_analytics: 
 permalink: /:title:output_ext
 excerpt_separator: <!--more-->
 intro:
   words:
     - "Design&nbsp;Thinking."
-    - "&nbsp;Product&nbsp;Design."
-    - "UI&nbsp;Architecture."
+    - "UX/UI&nbsp;Architecture."
     - "&nbsp;&nbsp;&nbsp;IxD&nbsp;Design."
     - "&nbsp;Illustrations."
     - "&nbsp;Human&nbsp;Behavior."
-    - "&nbsp;&nbsp;&nbsp;&nbsp;Research."
-  title: "MA USER EXPERIENCE | HUMAN Behavior | UI | IxD | DESIGNER"
+    - "&nbsp;Product&nbsp;Design."
+    - "&nbsp;&nbsp;&nbsp;UX&nbsp;Research."
+  title: "MA DESIGNER | USER EXPERIENCE | HUMAN Behavior | UI | IxD"
 assets:
   sources: 
     - assets/css

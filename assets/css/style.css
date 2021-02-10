@@ -85,7 +85,7 @@ a {
 ==================================================*/
 
 h1 {
-    color: #393939;
+    color: #27244C;
     font-size: 60px;
     text-transform: uppercase;
 }
@@ -108,7 +108,7 @@ h5 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f5f5f5;
+    background-color: #272353f5;
     /* change if the mask should be a color other than white */
     z-index: 1000;
     /* makes sure it stays on top */
@@ -181,7 +181,7 @@ h5 {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(21, 18, 39, 0.95);
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -321,6 +321,7 @@ h5 {
 
 .box-primary-nav-trigger .box-menu-text {
     display: inline-block;
+    font-size: 16px;
 }
 
 .box-primary-nav-trigger .box-menu-icon {
@@ -446,7 +447,8 @@ b i:last-child {
     letter-spacing: 4px;
     text-transform: uppercase;
     color: #999;
-    line-height: 1.7
+    line-height: 1.7;
+    font-size: 18px;
 }
 
 
@@ -528,7 +530,7 @@ b i:last-child {
 /* text rotate */
 
 .box-headline {
-    font-size: 130px;
+    font-size: 90px;
     line-height: 1.0;
 }
 
