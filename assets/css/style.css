@@ -51,7 +51,7 @@ body {
 }
 
 .main-container {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .center {
@@ -1163,7 +1163,7 @@ textarea:focus {
         font-size: 12px;
     }
     .main-container {
-        padding: 50px 0;
+        padding: 10px 0;
     }
 }
 

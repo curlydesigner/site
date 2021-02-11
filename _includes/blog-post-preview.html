@@ -1,0 +1,23 @@
+<!-- single work -->
+<div
+    class="{% cycle 'col-md-3  col-sm-6', 'col-md-3  col-sm-6', 'col-md-6  col-sm-12', 'col-md-3  col-sm-6', 'col-md-3  col-sm-6' %}">
+    <a href="{{ post.url }}" class="portfolio_item">
+        <img src="{{ post.featured_image }}" alt="image" class="img-responsive" />
+        <div class="portfolio_item_hover">
+            <div class="portfolio-border clearfix">
+                <div class="item_info">
+                    <span>{{ post.title }}</span>
+                    <em>
+                        {% for tag in post.tags %}
+                            {{ tag }}
+                            {% if forloop.last == false %}
+                            /
+                            {% endif %}
+                        {% endfor %}
+                    </em>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<!-- end single work -->
