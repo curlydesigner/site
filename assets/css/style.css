@@ -1432,3 +1432,94 @@ input:focus, textarea:focus {
 }
 
 /* /timeline */
+
+/* card */
+
+.card {
+    border: 0;
+}
+
+.card-header {
+    border: 0;
+}
+
+.card-footer {
+    border: 0;
+}
+
+/* /card */
+
+/* skills */
+
+.progress-wrapper {
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.wave::before, .wave::after {
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 45%;
+    -webkit-transform: translateX(-50%) rotate(0);
+    transform: translateX(-50%) rotate(0);
+    -webkit-animation: rotate 6s linear infinite;
+    animation: rotate 6s linear infinite;
+    z-index: 10;
+}
+
+.wave::after {
+    border-radius: 47%;
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-transform: translateX(-50%) rotate(0);
+    transform: translateX(-50%) rotate(0);
+    -webkit-animation: rotate 10s linear -5s infinite;
+    animation: rotate 10s linear -5s infinite;
+    z-index: 20;
+}
+
+@-webkit-keyframes rotate {
+    50% {
+        -webkit-transform: translateX(-50%) rotate(180deg);
+        transform: translateX(-50%) rotate(180deg);
+    }
+    100% {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    50% {
+        -webkit-transform: translateX(-50%) rotate(180deg);
+        transform: translateX(-50%) rotate(180deg);
+    }
+    100% {
+        -webkit-transform: translateX(-50%) rotate(360deg);
+        transform: translateX(-50%) rotate(360deg);
+    }
+}
+
+/* /skills */
+
+/* education */
+
+.edu-bg-image {
+    position: absolute;
+    left: 0;
+    top: -300px;
+    z-index: -1;
+}
+
+/* /education */
