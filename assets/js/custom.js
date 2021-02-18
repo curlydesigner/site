@@ -70,7 +70,8 @@ $(window).load(function () {
         speed: 300,
         slidesToShow: 1,
         arrows: false,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        autoplay: true,
     });
 
 
