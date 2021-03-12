@@ -1162,6 +1162,7 @@ input:focus, textarea:focus {
 
 .testimonials {
     background-color: #301a35;
+    color: #fff;
 }
 
 .testimonials h2 {
@@ -1170,6 +1171,7 @@ input:focus, textarea:focus {
 
 .testimonials h4 {
     font-family: 'Great Vibes';
+    font-size: xx-large;
 }
 
 .testimonial-content {
