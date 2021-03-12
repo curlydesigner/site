@@ -26,6 +26,7 @@
 ==================================================*/
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
+@import url('https://fonts.googleapis.com/css?family=Great Vibes');
 /* General
 ==================================================*/
 
@@ -871,8 +872,7 @@ footer img {
     padding: 70px 70px;
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
     background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(177, 177, 177, 0.8)), url(../img/01.jpg);
-    background-size:0%
-    background-attachment: fixed;
+    background-size: 0% background-attachment: fixed;
     background-position: center center;
     text-align: center;
 }
@@ -1157,6 +1157,18 @@ input:focus, textarea:focus {
 .section {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.testimonials {
+    background-color: #301a35;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+}
+
+.testimonials h4 {
+    font-family: 'Great Vibes';
 }
 
 .testimonial-content {
@@ -1528,10 +1540,9 @@ input:focus, textarea:focus {
 
 /* /education */
 
-h1.about-header{
+h1.about-header {
     color: rgb(108, 106, 116);
     font-weight: 600;
     text-transform: inherit;
     font-size: 52px;
-
 }
