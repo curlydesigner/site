@@ -67,11 +67,13 @@ $(window).load(function () {
     $('.testimonial-slider').slick({
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 90,
         slidesToShow: 1,
         arrows: false,
         adaptiveHeight: true,
         autoplay: true,
+        
+        
     });
 
 
@@ -84,14 +86,14 @@ $(window).load(function () {
         dots: false,
         arrows: false,
         responsive: [{
-            breakpoint: 1024,
+            breakpoint: 800,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 500,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1
