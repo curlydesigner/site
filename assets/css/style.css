@@ -1336,6 +1336,21 @@ input:focus, textarea:focus {
     background-color: #fff;
 }
 
+.timeline>li .email-link  {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    border: 6px solid #f1f1f1;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(61, 78, 114);
+    
+}
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
@@ -1488,12 +1503,12 @@ input:focus, textarea:focus {
 .wave::before, .wave::after {
     content: "";
     position: absolute;
-    width: 800px;
-    height: 800px;
+    width: 900px;
+    height: 900px;
     bottom: 0;
     left: 50%;
     background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 40%;
+    border-radius: 50%;
     -webkit-transform: translateX(-50%) rotate(0);
     transform: translateX(-50%) rotate(0);
     -webkit-animation: rotate 10s linear infinite;
