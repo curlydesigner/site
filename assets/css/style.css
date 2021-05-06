@@ -77,6 +77,10 @@ a {
     font-size: 11px;
 }
 
+.text-align-left {
+    text-align: left;
+}
+
 /* typography
 ==================================================*/
 
@@ -88,6 +92,7 @@ h1 {
 
 h3 {
     color: #393939;
+    line-height: 35px;
 }
 
 h5 {
@@ -1155,8 +1160,8 @@ input:focus, textarea:focus {
 /* testimonial */
 
 .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .testimonials {
@@ -1172,11 +1177,13 @@ input:focus, textarea:focus {
     font-family: 'Great Vibes';
     font-size: 27px;
 }
- @media (min-width: 1200px) {
+
+@media (min-width: 1200px) {
     .testimonials .container {
         width: 750px;
     }
 }
+
 .testimonial-content {
     text-align: center;
 }
@@ -1287,7 +1294,7 @@ input:focus, textarea:focus {
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     min-height: 50px;
 }
 
@@ -1336,7 +1343,7 @@ input:focus, textarea:focus {
     background-color: #fff;
 }
 
-.timeline>li .email-link  {
+.timeline>li .email-link {
     z-index: 1;
     position: absolute;
     left: 0;
@@ -1348,7 +1355,6 @@ input:focus, textarea:focus {
     text-align: center;
     color: #fff;
     background-color: rgb(61, 78, 114);
-    
 }
 
 .timeline>li .timeline-image h4 {
@@ -1399,7 +1405,7 @@ input:focus, textarea:focus {
         left: 50%;
     }
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         min-height: 100px;
     }
     .timeline>li .timeline-panel {
@@ -1557,6 +1563,11 @@ input:focus, textarea:focus {
     left: 0;
     top: -300px;
     z-index: -1;
+}
+
+.edu-box {
+    text-align: left;
+    display: inline-block;
 }
 
 /* /education */
