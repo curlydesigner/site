@@ -1357,6 +1357,10 @@ input:focus, textarea:focus {
     background-color: rgb(61, 78, 114);
 }
 
+.timeline>li .linked-in {
+    background-color: #0076B4;
+}
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
