@@ -1493,6 +1493,9 @@ input:focus, textarea:focus {
 .card-footer {
     border: 0;
 }
+.card ion-icon {
+    font-size: 320px;
+}
 
 /* /card */
 
