@@ -1578,3 +1578,9 @@ h1.about-header {
     text-transform: inherit;
     font-size: 52px;
 }
+
+/* post */
+
+.post img {
+    width: 100%;
+}
