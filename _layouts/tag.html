@@ -27,6 +27,11 @@ has_intro: false
                 {% for post in posts %}
                     {% include post-preview.html %}
                 {% endfor %}
+                {% for post in site.posts %}
+                    {% if post.categories contains 'portfolio' and post.published != false %}
+                        {% include post-preview.html %}
+                    {% endif %}
+                {% endfor %}
 
             </div>
             <!-- end portfolio_container -->

@@ -2,3 +2,4 @@
 .asset-cache
 _site
 .jekyll-cache
+tmp
