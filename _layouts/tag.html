@@ -19,20 +19,22 @@ has_intro: false
             {% include tags.html %}
 
             <div class="no-padding portfolio_container">
-                {% if page.tag == "all" %}
-                    {% assign posts = site.posts %}
-                {% else %}
-                    {% assign posts = site.tags[page.tag] %}
-                {% endif %}
-                {% for post in posts %}
-                    {% include post-preview.html %}
-                {% endfor %}
-                {% for post in site.posts %}
-                    {% if post.categories contains 'portfolio' and post.published != false %}
-                        {% include post-preview.html %}
+                {% if page.tag %}
+                    {% if page.tag == "all" %}
+                        {% assign posts = site.posts %}
+                    {% else %}
+                        {% assign posts = site.tags[page.tag] %}
                     {% endif %}
-                {% endfor %}
-
+                    {% for post in posts %}
+                        {% include post-preview.html %}
+                    {% endfor %}
+                {% else %}
+                    {% for post in site.posts %}
+                        {% if post.categories contains 'portfolio' and post.published != false %}
+                            {% include post-preview.html %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
             </div>
             <!-- end portfolio_container -->
         </div>
