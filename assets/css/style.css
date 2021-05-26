@@ -936,6 +936,12 @@ footer img {
     font-size: 120px;
 }
 
+.design-tools .text-wrapper{
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+}
+
 /* Services page
 ==================================================*/
 
@@ -1503,6 +1509,11 @@ input:focus, textarea:focus {
 }
 .card ion-icon {
     font-size: 250px;
+}
+.card .text-wrapper {
+    text-align: left;
+    margin: auto;
+    display: inline-block;
 }
 
 /* /card */
