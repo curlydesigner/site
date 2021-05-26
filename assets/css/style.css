@@ -928,7 +928,7 @@ footer img {
     color: #888;
 }
 
-.highlighted-section{
+.highlighted-section {
     background: #F5F6F7;
 }
 
@@ -936,7 +936,7 @@ footer img {
     font-size: 120px;
 }
 
-.design-tools .text-wrapper{
+.design-tools .text-wrapper {
     text-align: left;
     display: inline-block;
     margin: auto;
@@ -1507,9 +1507,11 @@ input:focus, textarea:focus {
 .card-footer {
     border: 0;
 }
+
 .card ion-icon {
     font-size: 250px;
 }
+
 .card .text-wrapper {
     text-align: left;
     margin: auto;
@@ -1609,4 +1611,11 @@ h1.about-header {
 
 .post img {
     width: 100%;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
