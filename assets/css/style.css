@@ -1619,3 +1619,8 @@ h1.about-header {
     align-items: center;
     height: 100%;
 }
+
+.get-in-touch ion-icon{
+    font-size: 38px;
+    margin-top: 20px;
+}
