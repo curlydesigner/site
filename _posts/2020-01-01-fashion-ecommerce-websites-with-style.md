@@ -1,213 +1,87 @@
 ---
 layout: post
-title: FASHION eCOMMERCE WEBSITES WITH STYLE.
+title: UX for Fashion eCommerce 
 published: true
 tags: 
 categories:
     - blog
-permalink: /e-commerce-fashion
+permalink: /e-commerce
 featured_image: assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/photo-1.png
 ---
 
-  
-    Fashion eCommerce Websites with Style.
-  
-  
-  
-    Websites are the first interaction between a seller and a potential customer. Its not just about having a shopï¿½ it is also about having an appealing website, that will allow the seller to communicate exactly what the company is all about and invite the user to shop. Throughoutï¿½ having an easy, user friendly and attractive web design &#8211; itâs more than likely to attract the costumer to stay and bring more sales and marketing to your Brand. After searching far and wide here are a few examplesï¿½ for e-commerce fashion websites that haveï¿½ style, branding shines and theï¿½ product is aï¿½ king. 
-  
-  
-  
-    1.ï¿½ Free People
-  
-  
-  
-    
-      This Brand born in Philadelphia, Pennsylvania where a first store was opened. Free People nurtured the young people who lived there at 1970&#8217;s and shopped there, who looked for a little of their own freedom in the clothes they wore.
-    
-    
-      So first of all, when you enter the site, you immediately see a uniqueï¿½ design, with thin fonts and retro/vintage illustrations and boxes.
-    
-    
-      The layout is simple yet stunning with gorgeous photos of clothes and accessories on models.
-    
-    
-      Easy navigation andï¿½ clean. The header includes their current specials and deals without distracting from the new products showcased on the homepage.
-    
-    
-      Plus, their pop-up newsletter offer is in the same style as the rest of the site.
-    
-  
-  
-  
-    
-  
-  
-  
-    &nbsp;
-  
-  
-  
-     
-  
-  
-  
-    2.ï¿½ Desigual
-  
-  
-  
-    The beautiful, large, full-width slider on the homepage includes high quality photos of the products in use on models, and the rest of the design is quite simple, which puts the focus on this slider display.ï¿½ Desigual is a casual clothing brand based in Barcelona (Spain),ï¿½ appealing and colourful photography withï¿½ styleï¿½ &#8211;ï¿½ their Fashion. It claims to have a philosophy based on positivity, tolerance, commitment and fun.ï¿½ The fonts are very unique yet donât distract from the products. Clicking on any category leads to a well-organized display page that includes the ability to filter by the colour.
-  
-  
-  
-       
-  
-  
-  
-    The masculine yet relaxed and fun look and feel of this Men blends well with theï¿½ typography with large images in the full width slider as well as on show models holiday, summerï¿½ clothing in relaxed blue sky background toï¿½ promote the brand look.
-  
-  
-  
-    
-  
-  
-  
-    4.ï¿½ BORN shoes
-  
-  
-  
-    
-      A minimal design keeps the focus on the &#8216;products&#8217; with a nature atmosphere and natural materials. Gives a rich, premium look & hand made work of leathers and artisan detailing.
-    
-    
-      The full screen background on this site is made up of several different stunning photos and a slider in one section. Each of the images link to a portfolio-featured category or collection, with more categories in the navigation menu in the header. Even category pages include a muted photo background.
-    
-    
-      Another interesting feature is that every product page includes a Facebook comment widget, an excellent method for using social media to get people talking about their favouriteï¿½ Born products
-    
-  
-  
-  
-       
-  
-  
-  
-    5. Victoria&#8217;s Secretï¿½ 
-  
-  
-  
-    
-      True to Victoria Secretâs reputation, the largest American retailer of lingerie &#8211; use a large beautiful, sexyï¿½ image at the top of the homepage shows a model displaying the portfolio-featured items in steamy display. The black and pink colour scheme lend to the mysterious, feminine, sexy brand style.
-    
-    
-      Interestingly, the header does not include a product navigation menu. Instead, visitors can click on any of the images featuring different product lines as they scroll down the homepage.
-    
-  
-  
-  
-      
-  
-  
-  
-    
-  
-  
-  
-    5. Nasty Gal
-  
-  
-  
-    This is a women fashion brand and again uses, very romantic large image with a vintage style and a menu where you have few selections and a simple Search boxï¿½ you can access easily on the home page. ï¿½ And what I like here is the inspiring fashion styles it shows in each image with &#8216;Whats New&#8217; and &#8216;LookBooks&#8217; and not directly opens a shop
-  
-  
-  
-    
-  
-  
-  
-    6.
-  
 
 
-### Fashion eCommerce Websites with Style.
+### User Experience for Fashion eCommerce Websites
 
-![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/photo-1.png "Logo Title Text 1")
+<br> ![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/photo-1.png "Logo Title Text 1")<br>
 
-Websites are the first interaction between a seller and a potential customer. Its not just about having a shop it is also about having an appealing website, that will allow the seller to communicate exactly what the company is all about and invite the user to shop. Throughout having an easy, user friendly and attractive web design &#8211; it’s more than likely to attract the costumer to stay and bring more sales and marketing to your Brand. After searching far and wide here are a few examples for e-commerce fashion websites that have style, branding shines and the product is a king. 
+Now that the market has completely changed, many businesses are moving online. Making it easier to discover and purchase products from anywhere in the world. Even more online shopping can be more efficient, reducing paperwork, environmental waste and increasing overall productivity. However, that means a website or an app is the first interaction between a seller and a potential customer. It's not just about having an e-commerce website or an online shop, but about a virtual relationship between a seller and a potential customer. It is about creating an experience that simplifies the processes, increasing efficiency and keeping customers engaged. 
 
-1. Free People
+With the explosion of content, consumers take the time to research and compare what they're buying. People are increasingly selective with their choices and look for good services and prices to make sure their money is spent well. From furniture suppliers to financial consultancies, Sellers need to communicate their information quickly enough with a user experience that leaves a smile. 
 
-  This Brand born in Philadelphia, Pennsylvania where a first store was opened. Free People nurtured the young people who lived there at 1970&#8217;s and shopped there, who looked for a little of their own freedom in the clothes they wore.
+Excellent user experience design is about the proper functionality and accessibility that is easy to use and navigate. Mobile or/and desktop experience that attracts the right people to a Brand and delivers values in a meaningful way. An appealing, user-friendly design; that attracts and invites users to shop. Making the purchasing process as intuitive as possible. 
 
+"A great-looking website may achieve the goal of shaping and delivering a strong brand. With e-commerce design, it’s not just about how the website looks but how it works.”
 
-  So first of all, when you enter the site, you immediately see a unique design, with thin fonts and retro/vintage illustrations and boxes.
-
-
-  The layout is simple yet stunning with gorgeous photos of clothes and accessories on models.
+Here are a few essential factors to consider when creating an eCommerce website with inspiring examples of simple style, quick and easy flow, where branding shines and the product is a king. 
 
 
-  Easy navigation and clean. The header includes their current specials and deals without distracting from the new products showcased on the homepage.
+ [Free people](https://www.freepeople.com/)- an online store that offers a simple grid layout, yet stunning large gorgeous photos of clothes and accessories. Without overwhelming with information on sales and prices. 
+Users can select their favorite style from the menu and at the same time offered inspirational seasonal items accessible directly on the home page.  
+<br>
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-28 at 14.12.46.png "Logo Title Text 1")
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-28 at 14.13.21.png "Logo Title Text 1")
+
+When selecting a specific product, users can choose their preferred size, color and see complete information about the product. 
+Full use of left-hand website navigation with large visuals and magnifying glass to detail the exact materials. 
+
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-28 at 14.13.56.png "Logo Title Text 1")
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-28 at 14.14.12.png "Logo Title Text 1")
+
+  There are so many things to consider when building the perfect website experience. And a set of rules to help create a unified identity when connecting multiple elements of your Brand by defining your colors, your logo and, of course, your typography. 
+Fonts may seem like a small thing, but it has a lot of power you should not underestimate when considering typography. Picking the right font can have a significant impact on the final look and feel of your website. But remember to be consistent throughout all your platforms and printed materials regarding color, style, font sizes, and the hierarchy. 
+Free people used an excellent combination between custom handwritten typography and a modern sans/serif font. Which gives a balanced look that’s both timeless and modern and works perfectly with the freestyle concept.
+
+  
+
+I love [Desigual](https://www.desigual.com/en_CA/)! It is a simple design layout with a beautiful, large, full-width banner that immediately tells a story as you land on their homepage. The welcome message "Hello Summer" focuses on the new beachwear collection. And the scene of a jumping model on the summer beach background triggers emotions of fun, energetic and positive mood. 
+
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-28 at 18.21.25.png "Logo Title Text 1")
+
+Desigual is a casual clothing brand based in Barcelona (Spain), using appealing and colorful photography with so much energy and style. 
+Their style claims to have a philosophy based on positivity, tolerance, commitment and fun. The fonts are unique yet don't distract from the products. Clicking on any category leads to a well-organized display page that includes the ability to filter by collection, occasion, or style. 
+
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-28 at 18.21.42.png "Logo Title Text 1")
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-28 at 18.21.12.png "Logo Title Text 1")
 
 
-  Plus, their pop-up newsletter offer is in the same style as the rest of the site.
-
-
-2. Desigual
-
-
-
-The beautiful, large, full-width slider on the homepage includes high quality photos of the products in use on models, and the rest of the design is quite simple, which puts the focus on this slider display. Desigual is a casual clothing brand based in Barcelona (Spain), appealing and colourful photography with style &#8211; their Fashion. It claims to have a philosophy based on positivity, tolerance, commitment and fun. The fonts are very unique yet don’t distract from the products. Clicking on any category leads to a well-organized display page that includes the ability to filter by the colour.
-
-
-The masculine yet relaxed and fun look and feel of this Men blends well with the typography with large images in the full width slider as well as on show models holiday, summer clothing in relaxed blue sky background to promote the brand look.
-
-
-4. BORN shoes
-
-  A minimal design keeps the focus on the &#8216;products&#8217; with a nature atmosphere and natural materials. Gives a rich, premium look & hand made work of leathers and artisan detailing.
-
-
-  The full screen background on this site is made up of several different stunning photos and a slider in one section. Each of the images link to a portfolio-featured category or collection, with more categories in the navigation menu in the header. Even category pages include a muted photo background.
-
-
-  Another interesting feature is that every product page includes a Facebook comment widget, an excellent method for using social media to get people talking about their favourite Born products
-
-
-5. Victoria&#8217;s Secret 
+The beautiful, large, full-width slider on the homepage includes high quality photos of the products in use on models, and the rest of the design is quite simple, which puts the focus on this slider display. Desigual is a casual clothing brand based in Barcelona (Spain), appealing and colourful photography with style their Fashion. It claims to have a philosophy based on positivity, tolerance, commitment and fun. The fonts are very unique yet don’t distract from the products. Clicking on any category leads to a well-organized display page that includes the ability to filter by the colour.
+Every product tells a different story, but the pages and navigation are consistent and straightforward, suit their unique Brand style and naturally promoting their Fashion. 
 
 
 
 
-  True to Victoria Secret’s reputation, the largest American retailer of lingerie &#8211; use a large beautiful, sexy image at the top of the homepage shows a model displaying the portfolio-featured items in steamy display. The black and pink colour scheme lend to the mysterious, feminine, sexy brand style.
+ [Adidas](https://www.adidas.ca/en)
 
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 01.09.37.png "Logo Title Text 1")<br>
 
-  Interestingly, the header does not include a product navigation menu. Instead, visitors can click on any of the images featuring different product lines as they scroll down the homepage.
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 01.10.02.png "Logo Title Text 1")<br>
 
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 01.04.52.png "Logo Title Text 1")<br>
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 01.06.37.png "Logo Title Text 1")<br>
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 01.05.38.png "Logo Title Text 1")<br>
 
+[Black Butterfly’s](https://www.blackbutterflyclothing.com/) website immediately gives the feeling of charming, adorable, clean style. It has minimal color use in the UI, showcasing the product as the center of the focus. 
+It represents a simplistic, modern feel with a menu on the left and a straightforward structure. The fun photography brings a smile with its cute graphics. And users can quickly scroll through to the category that they’re interested in exploring.
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 00.11.15.png "Logo Title Text 1")<br>
 
+[Munjoi](https://munjoi.com/products/the-all-dai?variant=39974603751575) 
+A minimal and clean design keeps the focus on the shoe with innovative and natural materials. That gives a rich and premium look of a personal and easy fit.
+By [Awwards](https://www.awwwards.com/sites/munjoi-footwear) jury, Munjoi is rated as honorable with the best web design. The company brand itself as a plant-based, sustainable shoe with one of the lowest carbon footprints. Using energetic + bright photography to showcase their values through design. Showcasing the environment-friendly materials with soft and breathable cotton.
 
-  
-
-
-
-
-
-
-
-5. Nasty Gal
-
-
-
-This is a women fashion brand and again uses, very romantic large image with a vintage style and a menu where you have few selections and a simple Search box you can access easily on the home page.  And what I like here is the inspiring fashion styles it shows in each image with &#8216;Whats New&#8217; and &#8216;LookBooks&#8217; and not directly opens a shop
-
-
-
-
-
-
-
-6.
-
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 00.32.00.png "Logo Title Text 1")<br>
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 00.32.31.png "Logo Title Text 1")<br>
+<br>![alt text](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/Screen Shot 2021-05-29 at 00.33.19.png "Logo Title Text 1")<br>
 
 
 
