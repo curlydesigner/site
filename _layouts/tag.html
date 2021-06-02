@@ -20,16 +20,13 @@ has_intro: false
 
             <div class="no-padding portfolio_container">
                 {% if page.tag %}
+                    <!-- page tag {{ page.tag }} -->
                     {% if page.tag == "all" %}
                         {% assign posts = site.posts %}
                     {% else %}
                         {% assign posts = site.tags[page.tag] %}
                     {% endif %}
                     {% for post in posts %}
-                        {% include post-preview.html %}
-                    {% endfor %}
-                {% else %}
-                    {% for post in site.posts %}
                         {% if post.categories contains 'portfolio' and post.published != false %}
                             {% include post-preview.html %}
                         {% endif %}
