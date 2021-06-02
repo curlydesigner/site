@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'SiMyDeal - The Future of Shopping'
-published: true
+published: false
 tags:
     - UX/UI Design
     - Web Design

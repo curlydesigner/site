@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Psychology of Colour in Branding
-published: true
+published: false
 tags: 
 categories:
     - blog
