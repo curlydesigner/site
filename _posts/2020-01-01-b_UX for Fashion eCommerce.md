@@ -3,17 +3,19 @@ layout: post
 title: UX for Fashion eCommerce 
 published: true
 tags: 
+- Web Design
+- UX/UI Design
 categories:
     - blog
 permalink: /e-commerce-fashion
-featured_image: assets/posts/2020-01-b_ecommerce-websites/Bride.png
+featured_image: /assets/posts/2020-01-b_ecommerce-websites/Bride.png
 ---
 
 
 
 ### User Experience for Fashion eCommerce Websites
 
-<br> ![Bride](/assets/posts/2020-01-01-fashion-ecommerce-websites-with-style/photo-1.png "Bride")<br>
+<br> ![Bride](/assets/posts/2020-01-b_ecommerce-websites/Bride.png)<br>
 
 Now that the market has completely changed, many businesses are moving online. Making it easier to discover and purchase products from anywhere in the world. However, that means a website or an app is the first interaction between a seller and a potential customer. It's not just about having an e-commerce website or an online shop, but about a virtual relationship between a seller and a potential customer. It is about creating an experience that simplifies the processes, increasing efficiency and keeping customers engaged. 
 
@@ -59,12 +61,13 @@ Every product tells a different story, but the pages and navigation are consiste
 
 
 
- [Adidas](https://www.adidas.ca/en)
+ [Adidas](https://www.adidas.ca/en) demonstrates a flair for style and interactivity. It encourages the visitors to stay and explore the site by adding fun, enjoyment and technology. The homepage uses an intelligent combination of fluid, elastic layout inside of fixed and familiar navigation. The layout comes to life under the mouse and encourages the visitor to browse and look at all the page elements. The huge product collection of Adidas is organized into categories that help to keep the product collection well organized and straightforward. 
+Adidas's website and their App, promoting physical sport acitivty, organizing a Running challenge showcasing quotes and photography that has a focus on making a difference in the world. They brand themself as caring about the environment and creating eco-friendly products without the use of plastic. It is not surprising that adidas has so many awards. Ranking as the best in the industry for Brand Management and  Efficiency. And they have an award for the best retail website, outstanding achievement in web development. 
 
 <br>![adidas](/assets/posts/2020-01-b_ecommerce-websites/screenshot_adidas1.png)<br>
 <br>![adidas](/assets/posts/2020-01-b_ecommerce-websites/screenshot_adidas.png)<br>
 <br>![adidas](/assets/posts/2020-01-b_ecommerce-websites/screenshot_adidas2.png)<br>
-<br>![adidas](/assets/posts/2020-01-b_ecommerce-websites/screenshot_adidas3.png")<br>
+<br>![adidas](/assets/posts/2020-01-b_ecommerce-websites/screenshot_adidas3.png)<br>
 <br>![adidas](/assets/posts/2020-01-b_ecommerce-websites/screenshot_adidas0.png)<br>
 
 [Black Butterfly’s](https://www.blackbutterflyclothing.com/) website immediately gives the feeling of charming, adorable, clean style. It has minimal color use in the UI, showcasing the product as the center of the focus. 

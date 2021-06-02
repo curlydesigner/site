@@ -4,7 +4,7 @@ title: 'SiMyDeal - The Future of Shopping'
 published: true
 tags:
     - UX/UI Design
-    - Web design
+    - Web Design
 categories:
     - blog
     - portfolio
