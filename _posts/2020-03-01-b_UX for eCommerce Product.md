@@ -20,8 +20,14 @@ With the explosion of content and a highly competitive market - Time is money! C
 
 Businesses may offer similar products and services, however, not the same user experience and design. Meaningful and robust Brand identity with proper attention to design details could gain a sustainable competitive advantage. Excellent user experience is about the proper functionality and accessibility that is easy to use and navigate. Appealing with a user-friendly design; that invites and makes the purchasing process as intuitive as possible. 
 
-Here are a few environmentally friendly eCommerce websites with a simple style, quick and easy flow, where - branding shines and the product is a king.
+Countless things need to be considered when creating an eCommerce website, some of them: 
+- Logo header, menu items and product categories
+- Navigation and CTA (call-to-action) buttons
+- High-quality product images and photography that allows users to enlarge and browse the product, with clear information and product features. 
+- Easy access to the shopping cart and checkout process 
+- Any pop-up information, promotion email, or newsletters 
 
+During my experience, I have explored many websites, but those which are truly inspiring are the ones that have; simple style, quick and easy flow, where eco-branding shines and the product is a king.
 
 [Green House](https://www.greenhouse.ca/) an organic beverage company I just adore. They don't just make healthy drinks that taste good but also plastic-free using bottles from sustainable glass. Labeling all the healthy ingredients that benefit for the body, energy level and immune system. Every product is labeled with a unique name and organized into categories of benefits to the body. The label uses a neutral color and consistent design on a glass bottle where everything is transparent and represents a genuine clean product.
 The website is so minimalist, easy to navigate and clean. Even the logo is so simple and gently presented in the center, not overlapping or distracting from the content. The background is pure white and clean, while the high quality of the bottles in 3D photos with a reflection on the bottles gives it beautiful rainbow colors inspired by a combination of fresh greens, veggies and fruits.
