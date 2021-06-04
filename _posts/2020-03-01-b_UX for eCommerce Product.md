@@ -57,3 +57,4 @@ Potential customers can see a purchase price and potential savings as they creat
 <br>![Tesla](/assets/posts/2020-01-b_ecommerce-websites/tesla05.png)<br>
 <br>![tesla](/assets/posts/2020-01-b_ecommerce-websites/tesla07.png)<br>
 
+When designing a website, I always take the time to research industry standards and competitors, considering brand values, the target audience and usability needs. 
