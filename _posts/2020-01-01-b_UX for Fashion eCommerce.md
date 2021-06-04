@@ -85,4 +85,5 @@ By [Awwards](https://www.awwwards.com/sites/munjoi-footwear) jury, Munjoi is rat
 <br>![MUNJOI](/assets/posts/2020-01-b_ecommerce-websites/Screen Shot Munjoi4.png)<br>
 
 
-
+When designing a website, I constantly research the industry standards and competitors. I find it many times companies make the mistake of putting too much stuff and information on their home page. Some think that it provides them an advantage by letting the visitor see a lot at a glance. Overloading the visitor with information only makes it harder to find the necessary stuff at a given time. In any case, it is known that people scan quickly, looking for fixed points that can guide them to necessary points. The less unnecessary stuff displayed, the more efficient the process is. 
+Good marketing may bring in some traffic, but good design and an enjoyable user experience improve user satisfaction. The goal is to create a website that will be easy to use, accessible and effective. Ensuring safety, leaving a trustful and positive experience from the user's perspective. All of those could influence the success of a company's website and the Brand's impression. You may not have a second chance to make a good first impression!
