@@ -57,4 +57,5 @@ Potential customers can see a purchase price and potential savings as they creat
 <br>![Tesla](/assets/posts/2020-01-b_ecommerce-websites/tesla05.png)<br>
 <br>![tesla](/assets/posts/2020-01-b_ecommerce-websites/tesla07.png)<br>
 
-When designing a website, I always take the time to research industry standards and competitors, considering brand values, the target audience and usability requirements. 
+When designing a website, I always take the time to research the industry standards and competitors, considering brand values, target audience and usability requirements. Good marketing may bring in some traffic, but good design and an enjoyable user experience improve user satisfaction. The goal is to create a website that will be easy to use and effective.
+Ensuring safety, leaving a trustful and positive experience from the user's perspective. All of those could influence the success of a company's website and the Brand's impression. You may not have a second chance to make a good first impression!
