@@ -7,7 +7,6 @@ tags:
     - Web Design
 categories:
     - blog
-    - portfolio
 permalink: /simydeal-shopping
 featured_image: /assets/images/SiMyDeal_ScreenShot2016FEB09.jpg
 ---
