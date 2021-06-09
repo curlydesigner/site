@@ -1624,3 +1624,7 @@ h1.about-header {
     font-size: 38px;
     margin-top: 20px;
 }
+
+.top-bar.post h1{
+    font-size: 38px;
+}
