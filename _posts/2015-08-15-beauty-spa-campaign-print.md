@@ -4,7 +4,7 @@ categories:
     - portfolio
     - portfolio-featured
 tags: 
-    - Brand Marketing & Print
+    - Brand Marketing Online & Print
 title: Beauty Spa Campaign – Print
 featured_image: /assets/posts/2015-08-15-beauty-spa-campaign-print/2ec621cbd84fc0e26657377723b34948.jpg
 ---

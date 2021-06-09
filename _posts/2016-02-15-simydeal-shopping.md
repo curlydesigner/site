@@ -4,7 +4,6 @@ title: 'SiMyDeal - The Future of Shopping'
 published: false
 tags:
     - UX/UI Design
-    - Web Design
 categories:
     - blog
 permalink: /simydeal-shopping

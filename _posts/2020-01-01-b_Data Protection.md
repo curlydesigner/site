@@ -3,7 +3,6 @@ layout: post
 title: Data Protection
 published: true
 tags: 
-- Web Design
 - UX/UI Design
 categories:
     - blog
@@ -12,10 +11,9 @@ featured_image: /assets/posts/2020-01-01-b_Data Protection/TheSocial-dilema.jpg
 ---
 ### Data Protection, do you think it matters ?
 
-
-<br> ![privacy](/assets/posts/2020-01-01-b_Data Protection/TheSocial-dilema.jpg "privacy")<br>
-
 Let's admit, who reads the Privacy Policy & Terms and Conditions? 
+
+<br> ![privacy](/assets/posts/2020-01-01-b_Data Protection/AdobeStock_339776446.jpeg "privacy")<br>
 
 With the growth of technology, companies have proven to be inadequate guards of our personal data. 
 When WhatsApp announced their user information update. Asking to share data with Facebook and requesting access to more user data without giving a choice to decline. 
@@ -29,6 +27,10 @@ The more I dig, the more I realize how much we don't know. Our information has b
 Watching the documentary movie ["The Great Hack" 2019](https://www.imdb.com/title/tt4736550/) That gets into very detail, uncovering the dark world of data exploitation. Relieves how Facebook sold our Data ( Yes! the most personal information, status, likes and photos of each Facebook user). 
 And ["The Social Dilemma" 2020](https://www.imdb.com/title/tt11464826/?ref_=fn_al_tt_1), that exposes how social media is reprogramming civilization and making us into a laboratory, selling products. 
 
+<br> ![privacy](/assets/posts/2020-01-01-b_Data Protection/TheSocial-dilema.jpg "privacy")<br>
+
+["From The Social Dilemma" 2020](https://www.imdb.com/title/tt11464826/?ref_=fn_al_tt_1)
+
 It's not just about Facebook. Many people would agree that social media can be a great tool to communicate, share and support each other, especially now. But in the world where we are most connected, we can easily be torn apart.
 
 Now that we all know about the manipulation of Data collection and AI. It analyzes our behavior, appealing to our emotions and targeting our attention. E
@@ -38,6 +40,6 @@ With our lives moving online and the technologies are growing faster than ever. 
 It's about us as individuals and what we can do, living in a connected world where moral trust does exist. And we have privacy rules as part of Human Rights Laws. 
 The Data is out there and being used against us. It's about the world we create for ourselves and future generations. 
 
+
 It's just the beginning and with so many questions that remains unsolved, there is so much we can do by protecting our data. Privacy and Data protection policies have to be educated from school age. And more steps need to be taken to help spread awareness and make sure companies do take responsibility for protecting our Data.
 Creating a model of legislation, and us as individuals, taking responsibility for managing and protecting our own privacy.
-

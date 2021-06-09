@@ -4,7 +4,6 @@ title: CUSTOMER EXPERIENCE & SATISFACTION
 published: true
 tags:
     - UX/UI Design
-    - Mobile
 categories:
     - portfolio
     - portfolio-featured

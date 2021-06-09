@@ -3,8 +3,8 @@ layout: post
 title: LABELLA-UMBRELLA Online store
 published: true
 tags: 
-    - Web Design
     - UX/UI Design
+    - Brand Marketing Online & Print
 categories:
     - portfolio
     - portfolio-featured

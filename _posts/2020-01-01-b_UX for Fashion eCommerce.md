@@ -3,7 +3,7 @@ layout: post
 title: UX for Fashion eCommerce 
 published: true
 tags: 
-- Web Design
+- Brand Marketing Online & Print
 - UX/UI Design
 categories:
     - blog

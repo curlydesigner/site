@@ -3,8 +3,8 @@ layout: post
 title: Aesthetics and Usability
 published: true
 tags: 
-- Web Design
 - UX/UI Design
+- Brand Marketing Online & Print
 categories:
     - blog
 permalink: /e-commerce-product

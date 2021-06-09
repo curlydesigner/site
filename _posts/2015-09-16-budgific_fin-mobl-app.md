@@ -5,7 +5,6 @@ published: true
 tags:
     - UX/UI Design
     - Illustrations
-    - Mobile
 categories:
     - portfolio
     - portfolio-featured
