@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CUSTOMER EXPERIENCE, SATISFACTION KIOSK - COMPASS GROUP'
+title: CUSTOMER EXPERIENCE & SATISFACTION
 published: true
 tags:
     - UX/UI Design
@@ -13,27 +13,32 @@ featured_image: /assets/posts/2018-05-02-customer-satisfaction-kiosk/mtMRKT_AppM
 ---
 
 
+How to design a customer Feedback experience and turn casual customers into lifelong consumers ?!
+<br>
+Customer feedback is so important because it provides marketers and business owners with insight that they can use to improve their products and their overall customer experience. 
 
-Customer feedback is so important because it provides marketers and business owners with insight that they can use to improve their products and/or overall customer experience. 
-And turn casual customers into life long consumers.
-But how to design Customer Feedback experience ?
+[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/FullSizeRender (1).jpg)](#)
+I was observing how customers interact in the cafeteria space, asking questions and gathering their feedback to learn how the company can satisfy their needs during their interest in peaked moments. 
+When are those moments, and how could consumer needs be satisfied when they want something but are limited in their ability.
+How do we make sure customers have a satisfying experience the moment they walk into a business? And how to make sure it doesn't drop by keeping it positive, so the customer has a good impression throughout their experience from start to when they leave. 
+The experience will influence whether customers will come back or not, based on the interaction they had (or lack of it).
+
+[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerSatisfaction_JourneyMap.jpg)](#)
+
+Feedback is the only way to guarantee the company can create a product or service that customers want to buy.
+From the Customer Journey map, it's obvious that a good place for the Kiosk would be at the end of the check-out process or during the purchase or mobile payment.
+From the Customer Journey map we its obvious that a good place for the Kiosk would be in the end of the cheek-out process, or during the payment purchase.
+
+These are two wireframe options for customer feedback; one that could go on a tablet screen and one part of a mobile App
+
+[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/sketch_customer.jpg)](#)
 
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerExperiance_Mock.gif)](#)
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CleaningReport_Mockup2.jpg)](#)
 
-I was observing how customers interact in the cafeteria space and listening to what they say. gathering theirï¿½ feedback to learn how can the companyï¿½ satisfy theirï¿½ needs during their interest in peaked moments?! When are those moments, and how can consumer needs could be satisfied when they want something but are limited in their ability.
+
+
   
-Feedback is the only way to guarantee the company can create a product or service that customersï¿½ actually want to buy.
-
-[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/FullSizeRender (1).jpg)](#)
-[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerSatisfaction_JourneyMap.jpg)](#)
-
-
-  When A customer walks into a business He or She will have an opinion on the interaction that happened (or didn't happen). Customer will come back or not based on that interaction (or lack). ï¿½ How do we have a full control over making sure the experience is a good one?
-
-
-
-  From the Customer Journey mapï¿½ we can see that a good place for the Kioskï¿½ would beï¿½ in the end of the cheek-out process, or during the purchase.ï¿½ I wireframe two options for customer feedback; one that could go an a mobile kiosk screen and one inside a mobile App.ï¿½ 
 
 
 

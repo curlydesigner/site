@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wizits Facebook Game
-published: true
+published: false
 tags:
     - Gaming & IxD
 categories:
