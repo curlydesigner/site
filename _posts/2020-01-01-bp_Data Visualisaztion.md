@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Data Visualisaztion
-published: false
+published: true
+
 tags: 
 - UX/UI Design
 - Illustrations
@@ -15,9 +16,9 @@ featured_image: /assets/posts/2020-01-01-bp_Data Visualisaztion/AdobeStock_17080
 ### Data Visualisaztion, does it matters ?
 
 
-<br> ![data](/assets/posts/2020-01-01-bp_Data Visualisaztion/AdobeStock_248638709.jpg "data")<br>
-
 Let's admit, how easy it is to understand Data ? 
 
  Data visualisation is about presenting large amounts of information in ways that its easy to understandab patterns, trends and correlations.
+
+
 

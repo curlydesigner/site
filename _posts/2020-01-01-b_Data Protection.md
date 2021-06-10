@@ -29,7 +29,7 @@ And ["The Social Dilemma" 2020](https://www.imdb.com/title/tt11464826/?ref_=fn_a
 
 <br> ![privacy](/assets/posts/2020-01-01-b_Data Protection/TheSocial-dilema.jpg "privacy")<br>
 
-["From The Social Dilemma" 2020](https://www.imdb.com/title/tt11464826/?ref_=fn_al_tt_1)
+[Image from The Social Dilemma movie 2020](https://www.imdb.com/title/tt11464826/?ref_=fn_al_tt_1)
 
 It's not just about Facebook. Many people would agree that social media can be a great tool to communicate, share and support each other, especially now. But in the world where we are most connected, we can easily be torn apart.
 
