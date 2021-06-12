@@ -6,15 +6,19 @@ tags:
 - UX/UI Design
 categories:
     - blog
+    - portfolio-featured
 permalink: /data-protection
 featured_image: /assets/posts/2020-01-01-b_Data Protection/TheSocial-dilema.jpg
 ---
 ### Data Protection, do you think it matters ?
 
-Let's admit, who reads the Privacy Policy & Terms and Conditions? 
+
 
 <br> ![privacy](/assets/posts/2020-01-01-b_Data Protection/AdobeStock_339776446.jpeg "privacy")<br>
-
+<br>
+#### *Let's admit, who reads the Privacy Policy & Terms and Conditions?*
+<br>
+<br>
 With the growth of technology, companies have proven to be inadequate guards of our personal data. 
 When WhatsApp announced their user information update. Asking to share data with Facebook and requesting access to more user data without giving a choice to decline. 
 I took the time to research and update my contacts before I disappeared from the app. That raised many discussions and questions around the subject of our privacy. 

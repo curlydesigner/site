@@ -2,7 +2,8 @@
 layout: post
 title: Psychology of Colour in Branding
 published: false
-tags: - Brand Marketing Online & Print
+tags: 
+    - Brand Marketing Online & Print
 categories:
     - blog
 permalink: /colour-branding

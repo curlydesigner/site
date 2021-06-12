@@ -34,7 +34,9 @@ html, body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: rgb(138, 138, 138);
+    font-size: 16px;
+    font-weight: 100;
 }
 
 .no-padding {
@@ -95,8 +97,26 @@ h3 {
     line-height: 35px;
 }
 
+
+h4 {
+    color: #4e4d55;
+    line-height: 25px;
+    font-size: 14;
+    font-weight: 200;
+}
+
 h5 {
-    color: #ffbf00;
+    color: #2168a3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+h6 {
+    color: #727272;
+    line-height: 18px;
+    font-size: 14;
+    font-weight: 200;
 }
 
 /* preloader
@@ -443,6 +463,7 @@ b i:last-child {
     color: #999;
     line-height: 1.7;
     font-size: 18px;
+    font-weight: 500;
 }
 
 /* mouse effect */
@@ -1190,7 +1211,14 @@ input:focus, textarea:focus {
 .testimonials h4 {
     font-family: 'Great Vibes';
     font-size: 27px;
+    color: rgb(255, 255, 255);
 }
+
+.testimonials h6 {
+    font-size: 16px;
+    color: rgb(143, 136, 150);
+}
+
 
 @media (min-width: 1200px) {
     .testimonials .container {
@@ -1517,7 +1545,10 @@ input:focus, textarea:focus {
     margin: auto;
     display: inline-block;
 }
-
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
 /* /card */
 
 /* skills */
@@ -1620,9 +1651,18 @@ h1.about-header {
     height: 100%;
 }
 
+
+
 .get-in-touch ion-icon{
     font-size: 38px;
     margin-top: 20px;
+}
+
+.get-in-touch h5 {
+    color: #2168a3;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
 }
 
 .top-bar.post h1{

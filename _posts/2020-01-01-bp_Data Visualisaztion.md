@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Visualisaztion
-published: true
+published: false
 
 tags: 
 - UX/UI Design
