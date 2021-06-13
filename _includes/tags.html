@@ -2,10 +2,10 @@
 <div class="categories-grid wow fadeInLeft">
     <nav class="categories text-center">
         <ul class="portfolio_filter">
-            {% if post.categories contains 'blog' %}
-                <li><a href="{{site.baseurl}}/blog" class="{% if page.tag == 'all' %}active{% endif %}">All</a></li>
+            {% if post.categories contains "blog" or page.category_type == "blog" %}
+                <li><a href="{{site.baseurl}}/category/blog" class="{% if page.tag == 'all' %}active{% endif %}">All</a></li>
             {% else %}
-                <li><a href="{{site.baseurl}}/portfolio" class="{% if page.tag == 'all' %}active{% endif %}">All</a></li>
+                <li><a href="{{site.baseurl}}/category/portfolio" class="{% if page.tag == 'all' %}active{% endif %}">All</a></li>
             {% endif %}
             {% for tag in site.tags %}
                 {% capture tag_name %}{{ tag | first }}{% endcapture %}

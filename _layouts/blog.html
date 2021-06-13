@@ -1,6 +1,8 @@
 ---
 layout: main
 has_intro: false
+tag: all
+category_type: blog
 ---
 
 <!-- top bar -->
@@ -19,10 +21,14 @@ has_intro: false
             {% include tags.html %}
 
             <div class="no-padding portfolio_container">
-                {% if !page.tag or page.tag == "all" %}
-                    {% assign posts = site.posts %}
+                {% if page.tag %}
+                    {% if page.tag == "all" %}
+                        {% assign posts = site.posts %}
+                    {% else %}
+                        {% assign posts = site.tags[page.tag] %}
+                    {% endif %}
                 {% else %}
-                    {% assign posts = site.tags[page.tag] %}
+                    {% assign posts = site.posts %}
                 {% endif %}
                 {% for post in posts %}
                     {% if post.categories contains 'blog' and post.published != false %}
