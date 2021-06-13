@@ -1,4 +1,4 @@
 ---
 layout: tag
-tag: tag 2
+tag: Gaming & IxD
 ---
