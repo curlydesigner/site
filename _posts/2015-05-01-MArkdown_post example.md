@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: markdown post example
-published: false
+published: true
 tags: 
 categories:
     - blog
@@ -23,7 +23,14 @@ Let's admit, how easy it is to understand Data ?
 
 ### Header example h3
 
-#### Header EXamplee h4 
+#### Header EXamplee h4 Example of Header to see 
+
+Let's admit, how easy it is to understand Data ? 
+
+ Data visualisation is about presenting large amounts of information in ways that its easy to understandab patterns, trends and correlations.
+
+##### Header example H5
+###### header example h6
 
 Paragraphh exmaple **bold text important example** 
 

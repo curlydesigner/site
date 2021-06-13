@@ -1649,7 +1649,18 @@ h1.about-header {
     font-size: 18px;
     font-weight: 100;
     color: rgb(87, 87, 87);
+}
+.blog-post h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #121c24;
 
+}
+
+.blog-post h4{
+    font-size: 22px;
+    font-weight: 500;
+    color: #195463;
 
 }
 
@@ -1657,7 +1668,6 @@ h1.about-header {
     font-size: 12px;
     font-weight: 100;
     color: rgb(141, 141, 141);
-
 
 }
 
