@@ -6,7 +6,11 @@ has_intro: false
 <!-- top bar -->
 <div class="top-bar">
     <h1>portfolio</h1>
+    {% if post.categories contains 'blog' %}
     <p><a href="/">Home</a> / {% if page.tag == "all" %}Blog{% else %}<a href="{{site.baseurl}}/blog">Blog</a> / {{page.tag}}{% endif %}</p>
+    {% else %}
+    <p><a href="/">Home</a> / {% if page.tag == "all" %}Portfolio{% else %}<a href="{{site.baseurl}}/portfolio">Portfolio</a> / {{page.tag}}{% endif %}</p>
+    {% endif %}
 </div>
 <!-- end top bar -->
 
@@ -27,7 +31,7 @@ has_intro: false
                         {% assign posts = site.tags[page.tag] %}
                     {% endif %}
                     {% for post in posts %}
-                        {% if post.categories contains 'blog' and post.published != false %}
+                        {% if post.published != false %}
                             {% include post-preview.html %}
                         {% endif %}
                     {% endfor %}

@@ -1,4 +1,4 @@
 ---
-layout: blog-tag
+layout: tag
 tag: Wedding design and Event management
 ---

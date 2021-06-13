@@ -1,4 +1,0 @@
----
-layout: portfolio-tag
-tag: Brand Marketing Online & Print
----
