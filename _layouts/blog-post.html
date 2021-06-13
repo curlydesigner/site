@@ -11,7 +11,7 @@ has_intro: false
 <!-- end top-bar -->
 
 <!-- main-container -->
-<div class="container main-container blog-post">
+<div class="container main-container post blog-post">
 
     <div class="col-md-9">
         {{content}}
@@ -21,7 +21,7 @@ has_intro: false
         <ul class="cat-ul">
             {% for tag in site.tags %}
                 {% capture tag_name %}{{ tag | first }}{% endcapture %}
-                <li><i class="ion-ios-circle-filled"></i> {{ tag_name }}</li>
+                <li><a href="{{site.baseurl}}/blog/{{tag_name | slugify}}.html" class="{% if page.tag == tag_name %}active{% endif %}">{{ tag_name }}</a></li>
             {% endfor %}
         </ul>
     </div>

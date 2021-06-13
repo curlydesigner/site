@@ -2,7 +2,6 @@
 layout: portfolio-post
 categories: 
     - portfolio
-    - portfolio-featured
 tags: 
     - Brand Marketing Online & Print
 title: Beauty Spa Campaign – Print
