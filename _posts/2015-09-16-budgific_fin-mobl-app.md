@@ -7,7 +7,6 @@ tags:
     - Illustrations
 categories:
     - portfolio
-    - portfolio-featured
 permalink: /fin-mobile-app
 featured_image: /assets/posts/2015-09-16-budgific_fin-mobl-app.md/Present_FinBudgific.jpg
 ---
