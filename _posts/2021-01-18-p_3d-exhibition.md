@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio-post
 title: 3D Exhibition Design
 published: true
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: Psychology of Colour in Branding
 published: false
 tags: 

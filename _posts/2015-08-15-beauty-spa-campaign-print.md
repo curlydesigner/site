@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio-post
 categories: 
     - portfolio
     - portfolio-featured

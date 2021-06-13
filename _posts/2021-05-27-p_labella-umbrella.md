@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio-post
 title: LABELLA-UMBRELLA Online store
 published: true
 tags: 

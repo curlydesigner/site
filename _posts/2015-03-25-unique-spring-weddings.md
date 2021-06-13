@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: SIMPLE YET UNIQUE IDEAS FOR A WEDDING
 published: false
 tags:

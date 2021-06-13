@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio-post
 title: CUSTOMER EXPERIENCE & SATISFACTION
 published: true
 tags:

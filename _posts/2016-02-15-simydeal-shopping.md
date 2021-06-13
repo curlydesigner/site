@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: 'SiMyDeal - The Future of Shopping'
 published: false
 tags:

@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: blog-post
 title: Colour and Accessibility
 published: true
 tags: 
-- UX/UI Design
+    - UX/UI Design
 categories:
     - blog
     - portfolio

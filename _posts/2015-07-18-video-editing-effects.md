@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio-post
 title: Wizits Facebook Game
 published: false
 tags:

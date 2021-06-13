@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio-post
 title: Financial Mobile App
 published: true
 tags:

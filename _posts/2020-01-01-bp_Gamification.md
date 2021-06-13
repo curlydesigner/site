@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: blog-post
 title: Gamification
 published: false
 tags: 
-- Illustrations
-- Gaming & IxD
-- UX/UI Design
+    - Illustrations
+    - Gaming & IxD
+    - UX/UI Design
 categories:
     - blog
     - portfolio

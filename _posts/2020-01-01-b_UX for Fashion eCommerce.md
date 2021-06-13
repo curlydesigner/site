@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: blog-post
 title: UX for Fashion eCommerce 
 published: true
 tags: 
-- Brand Marketing Online & Print
-- UX/UI Design
+  - Brand Marketing Online & Print
+  - UX/UI Design
 categories:
-    - blog
+  - blog
 permalink: /e-commerce-fashion
 featured_image: /assets/posts/2020-01-b_ecommerce-websites/Bride.png
 ---

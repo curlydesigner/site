@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: blog-post
 title: Data Protection
 published: true
 tags: 
-- UX/UI Design
+    - UX/UI Design
 categories:
     - blog
     - portfolio-featured

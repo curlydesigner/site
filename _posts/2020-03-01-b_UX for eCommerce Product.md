@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: blog-post
 title: Aesthetics and Usability
 published: true
 tags: 
-- UX/UI Design
-- Brand Marketing Online & Print
+    - UX/UI Design
+    - Brand Marketing Online & Print
 categories:
     - blog
 permalink: /e-commerce-product
