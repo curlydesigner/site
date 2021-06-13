@@ -1,4 +1,4 @@
 ---
-layout: portfolio-tag
+layout: tag
 tag: Brand Marketing & Print
 ---

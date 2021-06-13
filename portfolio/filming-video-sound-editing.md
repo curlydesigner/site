@@ -1,4 +1,0 @@
----
-layout: portfolio-tag
-tag: Filming, Video & Sound Editing
----

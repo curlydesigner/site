@@ -1,4 +1,4 @@
 ---
-layout: portfolio-tag
+layout: tag
 tag: 3D Design
 ---

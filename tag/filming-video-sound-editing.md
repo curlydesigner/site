@@ -1,4 +1,4 @@
 ---
-layout: blog-tag
+layout: tag
 tag: Filming, Video & Sound Editing
 ---

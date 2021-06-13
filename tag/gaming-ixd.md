@@ -1,4 +1,4 @@
 ---
-layout: portfolio-tag
+layout: tag
 tag: Gaming & IxD
 ---

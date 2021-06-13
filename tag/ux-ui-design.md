@@ -1,4 +1,4 @@
 ---
-layout: blog-tag
+layout: tag
 tag: UX/UI Design
 ---
