@@ -7,6 +7,7 @@ tags:
     - Brand Marketing Online & Print
 categories:
     - blog
+    - portfolio-featured
 permalink: /e-commerce-product
 featured_image: /assets/posts/2020-01-b_ecommerce-websites/Concept_webAdobeStock_249959880.jpg
 ---

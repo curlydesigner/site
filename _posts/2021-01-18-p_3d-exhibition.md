@@ -7,7 +7,6 @@ tags:
     - Brand Marketing Online & Print
 categories:
     - portfolio
-    - portfolio-featured
 permalink: /3d-exhibition
 featured_image: /assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_005.jpg
 ---
