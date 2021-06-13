@@ -1653,6 +1653,14 @@ h1.about-header {
 
 }
 
+.blog-post h6{
+    font-size: 12px;
+    font-weight: 100;
+    color: rgb(141, 141, 141);
+
+
+}
+
 /* portfolio post */
 
 .portfolio-post {
