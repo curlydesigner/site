@@ -1646,7 +1646,8 @@ h1.about-header {
 /* blog post */
 
 .blog-post p{
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 100;
     color: rgb(87, 87, 87);
 
 
