@@ -1,4 +1,4 @@
 ---
 layout: tag
-tag: tag 3
+tag: Illustrations
 ---
