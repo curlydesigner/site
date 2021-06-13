@@ -1,14 +1,13 @@
 ---
 layout: main
 has_intro: false
-tag: all
-category_type: blog
+all_tags: true
 ---
 
 <!-- top bar -->
 <div class="top-bar">
     <h1>blog</h1>
-    <p><a href="/">Home</a> / {% if page.tag == "all" %}Blog{% else %}<a href="{{site.baseurl}}/blog">Blog</a> / {{page.tag}}{% endif %}</p>
+    <p><a href="/">Home</a> / Blog</p>
 </div>
 <!-- end top bar -->
 
@@ -21,15 +20,7 @@ category_type: blog
             {% include tags.html %}
 
             <div class="no-padding portfolio_container">
-                {% if page.tag %}
-                    {% if page.tag == "all" %}
-                        {% assign posts = site.posts %}
-                    {% else %}
-                        {% assign posts = site.tags[page.tag] %}
-                    {% endif %}
-                {% else %}
-                    {% assign posts = site.posts %}
-                {% endif %}
+                {% assign posts = site.posts %}
                 {% for post in posts %}
                     {% if post.categories contains 'blog' and post.published != false %}
                         {% include post-preview.html %}

@@ -5,12 +5,8 @@ has_intro: false
 
 <!-- top bar -->
 <div class="top-bar">
-    <h1>portfolio</h1>
-    {% if post.categories contains 'blog' %}
-    <p><a href="/">Home</a> / {% if page.tag == "all" %}Blog{% else %}<a href="{{site.baseurl}}/blog">Blog</a> / {{page.tag}}{% endif %}</p>
-    {% else %}
-    <p><a href="/">Home</a> / {% if page.tag == "all" %}Portfolio{% else %}<a href="{{site.baseurl}}/portfolio">Portfolio</a> / {{page.tag}}{% endif %}</p>
-    {% endif %}
+    <h1>Tags</h1>
+    <p><a href="/">Home</a> / {{page.tag}}</p>
 </div>
 <!-- end top bar -->
 
