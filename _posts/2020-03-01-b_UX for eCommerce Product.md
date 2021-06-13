@@ -18,10 +18,13 @@ Now that the market has completely changed, many businesses are moving online. M
 
 With the explosion of content and a highly competitive market - Time is money! Consumers are taking the time to research and compare what they're buying. And increasingly selective with their choices; looking for good services and prices to make sure their money spent well. Mobile or/and desktop experience, companies need to communicate their information quickly enough and delivering values in a meaningful way that leaves a smile.
 
+
 Businesses may offer similar products and services, however, not the same user experience and design. Meaningful and robust Brand identity with proper attention to design details could gain a sustainable competitive advantage. Excellent user experience is about the proper functionality and accessibility that is easy to use and navigate. Appealing with a user-friendly design; that invites and makes the purchasing process as intuitive as possible. 
+<br>
+<br>
 
 There are many aspects and countless items that need to be considered when creating an eCommerce website that could influence user performance:
-
+<br>
 - Logo header, menu items and product categories
 - Navigation and CTA (call-to-action) buttons
 - High-quality product images and photography that allows users to enlarge and browse the product, with clear information and product features. 
