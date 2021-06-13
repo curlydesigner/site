@@ -16,12 +16,13 @@ has_intro: false
     <div class="portfolio-div">
         <div class="portfolio">
 
+            {% include tags.html %}
+
             <div class="no-padding portfolio_container">
                 {% assign posts = site.categories["blog"] %}
                 {% for post in posts %}
                     {% include post-preview.html %}
                 {% endfor %}
-
             </div>
             <!-- end portfolio_container -->
         </div>
@@ -29,4 +30,4 @@ has_intro: false
     </div>
     <!-- end portfolio div -->
 </div>
-<!-- end main container -->z
+<!-- end main container -->

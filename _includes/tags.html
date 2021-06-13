@@ -2,10 +2,9 @@
 <div class="categories-grid wow fadeInLeft">
     <nav class="categories text-center">
         <ul class="portfolio_filter">
-            <li><a href="{{site.baseurl}}/portfolio" class="{% if page.tag == 'all' %}active{% endif %}">All</a></li>
             {% for tag in site.tags %}
                 {% capture tag_name %}{{ tag | first }}{% endcapture %}
-                <li><a href="{{site.baseurl}}/portfolio/{{tag_name | slugify}}" class="{% if page.tag == tag_name %}active{% endif %}">{{ tag_name }}</a></li>
+                <li><a href="{{site.baseurl}}/tag/{{tag_name | slugify}}" class="{% if page.tag == tag_name %}active{% endif %}">{{ tag_name }}</a></li>
             {% endfor %}
         </ul>
     </nav>
