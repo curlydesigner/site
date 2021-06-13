@@ -13,7 +13,7 @@ featured_image: /assets/posts/2020-01-b_ecommerce-websites/Concept_webAdobeStock
 ### Do aesthetics have anything to do with usability?
 
 <br> ![adobe stock](/assets/posts/2020-01-b_ecommerce-websites/Concept_webAdobeStock_249959880.jpg "Adobe Stock")<br>
-
+<br>
 Now that the market has completely changed, many businesses are moving online. Making it easier to discover and purchase products from anywhere in the world. Online shopping can be more efficient, reducing environmental waste and increasing overall productivity. However, that means a website or an app is the first interaction between a seller and a potential customer. It's not just about having an e-commerce website or an online shop, but about a virtual relationship between a seller and a potential customer. It is about creating an experience that simplifies the processes, increasing efficiency and keeping customers engaged.
 
 With the explosion of content and a highly competitive market - Time is money! Consumers are taking the time to research and compare what they're buying. And increasingly selective with their choices; looking for good services and prices to make sure their money spent well. Mobile or/and desktop experience, companies need to communicate their information quickly enough and delivering values in a meaningful way that leaves a smile.
@@ -29,6 +29,8 @@ There are many aspects and countless items that need to be considered when creat
 - Any pop-up information, promotion email, or newsletters 
 
 During my experience, I have explored many websites, but those which are truly inspiring are the ones that have; simple style, quick and easy flow, where eco-branding shines and the product is a king.
+<br>
+<br>
 
 [Green House](https://www.greenhouse.ca/) an organic beverage company I just adore. They don't just make healthy drinks that taste good but also plastic-free using bottles from sustainable glass. Labeling all the healthy ingredients that benefit for the body, energy level and immune system. Every product is labeled with a unique name and organized into categories of benefits to the body. The label uses a neutral color and consistent design on a glass bottle where everything is transparent and represents a genuine clean product.
 The website is so minimalist, easy to navigate and clean. Even the logo is so simple and gently presented in the center, not overlapping or distracting from the content. The background is pure white and clean, while the high quality of the bottles in 3D photos with a reflection on the bottles gives it beautiful rainbow colors inspired by a combination of fresh greens, veggies and fruits.
