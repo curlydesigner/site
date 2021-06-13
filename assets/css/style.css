@@ -1645,26 +1645,26 @@ h1.about-header {
 
 /* blog post */
 
-.blog-post p{
+.post p{
     font-size: 18px;
     font-weight: 100;
-    color: rgb(87, 87, 87);
+    color: rgb(102, 102, 102);
 }
-.blog-post h3{
-    font-size: 25px;
+.post h3{
+    font-size: 30px;
     font-weight: 500;
-    color: #121c24;
-
+    line-height: 45px;
+    color: rgb(16, 43, 68);
 }
 
-.blog-post h4{
-    font-size: 22px;
+.post h4{
+    font-size: 20px;
     font-weight: 500;
-    color: #195463;
-
+    line-height: 32px;
+    color: rgb(16, 43, 68);
 }
 
-.blog-post h6{
+.post h6{
     font-size: 12px;
     font-weight: 100;
     color: rgb(141, 141, 141);

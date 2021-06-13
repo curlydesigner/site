@@ -3,6 +3,7 @@ layout: blog-post
 title: 'SiMyDeal - The Future of Shopping'
 published: false
 tags:
+    - Brand Marketing Online & Print
     - UX/UI Design
 categories:
     - blog

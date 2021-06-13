@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: markdown post example
-published: true
+published: false
 tags: 
 categories:
     - blog

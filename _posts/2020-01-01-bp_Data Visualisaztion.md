@@ -2,7 +2,6 @@
 layout: blog-post
 title: Data Visualisaztion
 published: false
-
 tags: 
     - UX/UI Design
     - Illustrations

@@ -29,9 +29,9 @@ I spent hours digging into the topic of Data Collection, Privacy and Security. S
 
 #### *It's not about hiding!* 
 <br>
-            *Speaking to dozens of people: "I have nothing to hide" is what I most heard. 
+            Speaking to dozens of people: *"I have nothing to hide"* is what I most heard. 
             Some told me they trust the big corporations, accepting without reading. 
-            And those who are aware but lost hope, claiming: "Anyway, we don't have privacy anymore!"*
+            And those who are aware but lost hope, claiming: *"Anyway, we don't have privacy anymore!"*
 <br>
 <br>
 The more I dig, the more I realize how much we don't know. Our information has been leaked, hacked, sold and resold more times than most of us can count. And I feel like it's not on us to blame because so much is untold. 
