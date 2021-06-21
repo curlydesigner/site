@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Dark Mode Guidlines
+title: Colour and Accessibility
 published: true
 tags: 
     - UX/UI Design
@@ -10,15 +10,15 @@ categories:
     - portfolio
     - portfolio-featured
     
-permalink: /dark-theme
-featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg
+permalink: /colour-accessibility
+featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg
 ---
 
-![dark theme guidlines](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "dark theme guidlines")
+![color](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg "color")
 <br>
 <br> 
 
-### Dark Theme Guidlines - Colour, accessibility and UI for card based design.
+### Colour and Accessibility / Dark and Light Themes
 <br>
 In 2019 Apple and Google introduced the Dark mode themes for their OS. Many apps have developed with dark mode options and its design have grown since then, becoming increasingly popular. Contributing to enhancing visibility for users with low vision and sensitivity to bright light. Google also says it might improve battery life and make it easier for anyone to use a device in a low-light environment. Even when Dark Mode wasn't yet a thing, it still existed on the first computer screens that were already in "dark mode".
 <br>
@@ -61,12 +61,12 @@ Accessibility is something I never skip, especially for a dark mode design. For 
 
 <br>
 
-When designing a product, I constantly research industry standards and competitors, considering brand values, target audience and usability requirements. While creating the Dark Theme Guidelines for [BlackBerry Products](), I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode may be the next hot design feature but can also create many accessibility issues. For some people, dark themes are more accessible, for others, the light theme would be preferable. The bottom line, users need to have personalization. And have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find.
+When designing a product, I constantly research industry standards and competitors, considering brand values, target audience and usability requirements. While creating the Dark Theme Guidelines for [BlackBerry Products](/dark-theme), I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode may be the next hot design feature but can also create many accessibility issues. For some people, dark themes are more accessible, for others, the light theme would be preferable. The bottom line, users need to have personalization. And have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find.
 
 Design is about functionality, and more thought should be given to accessible color choices when designing using a dark or a light theme. 
 The goal is to create products that will be easy to use, accessible for everyone and effective. Ensuring trustful and positive experience from the user's perspective and company's impression.
 
-[Visit my work for Dark Theme Guidlines]() 
+[Visit my work for Dark Theme Guidlines](/dark-theme) 
 
 <br>
 
