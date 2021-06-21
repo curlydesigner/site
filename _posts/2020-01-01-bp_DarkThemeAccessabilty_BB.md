@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Colour and Accessibility
+title: Dark Mode Guidlines
 published: true
 tags: 
     - UX/UI Design
@@ -10,15 +10,15 @@ categories:
     - portfolio
     - portfolio-featured
     
-permalink: /colour-accessibility
-featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg
+permalink: /dark-theme
+featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg
 ---
 
-![color](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg "color")
+![dark theme guidlines](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "dark theme guidlines")
 <br>
 <br> 
 
-### Colour and Accessibility / Dark and Light Themes
+### Dark Theme Guidlines - Colour, accessibility and UI for card based design.
 <br>
 In 2019 Apple and Google introduced the Dark mode themes for their OS. Many apps have developed with dark mode options and its design have grown since then, becoming increasingly popular. Contributing to enhancing visibility for users with low vision and sensitivity to bright light. Google also says it might improve battery life and make it easier for anyone to use a device in a low-light environment. Even when Dark Mode wasn't yet a thing, it still existed on the first computer screens that were already in "dark mode".
 <br>
