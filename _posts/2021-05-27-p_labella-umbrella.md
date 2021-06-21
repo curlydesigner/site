@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: LABELLA-UMBRELLA Online store
+title: Online store
 published: true
 tags: 
     - UX/UI Design

@@ -5,6 +5,7 @@ published: true
 tags: 
     - UX/UI Design
     - Brand Marketing Online & Print
+    - Human Behaviour
 categories:
     - blog
     - portfolio-featured
@@ -15,6 +16,9 @@ featured_image: /assets/posts/2020-01-b_ecommerce-websites/Concept_webAdobeStock
 
 <br> ![adobe stock](/assets/posts/2020-01-b_ecommerce-websites/Concept_webAdobeStock_249959880.jpg "Adobe Stock")<br>
 <br>
+
+#### *It's about a virtual relationship between a seller and a potential customer.*
+<br>
 Now that the market has completely changed, many businesses are moving online. Making it easier to discover and purchase products from anywhere in the world. Online shopping can be more efficient, reducing environmental waste and increasing overall productivity. However, that means a website or an app is the first interaction between a seller and a potential customer. It's not just about having an e-commerce website or an online shop, but about a virtual relationship between a seller and a potential customer. It is about creating an experience that simplifies the processes, increasing efficiency and keeping customers engaged.
 
 With the explosion of content and a highly competitive market - Time is money! Consumers are taking the time to research and compare what they're buying. And increasingly selective with their choices; looking for good services and prices to make sure their money spent well. Mobile or/and desktop experience, companies need to communicate their information quickly enough and delivering values in a meaningful way that leaves a smile.
@@ -24,6 +28,9 @@ Businesses may offer similar products and services, however, not the same user e
 <br>
 <br>
 
+#### *Elements to consider.*
+
+<br>
 There are many aspects and countless items that need to be considered when creating an eCommerce website that could influence user performance:
 <br>
 - Logo header, menu items and product categories
@@ -36,6 +43,8 @@ During my experience, I have explored many websites, but those which are truly i
 <br>
 <br>
 
+#### *Inspirations where Branding shines and a Product is the king.*
+<br>
 [Green House](https://www.greenhouse.ca/) an organic beverage company I just adore. They don't just make healthy drinks that taste good but also plastic-free using bottles from sustainable glass. Labeling all the healthy ingredients that benefit for the body, energy level and immune system. Every product is labeled with a unique name and organized into categories of benefits to the body. The label uses a neutral color and consistent design on a glass bottle where everything is transparent and represents a genuine clean product.
 The website is so minimalist, easy to navigate and clean. Even the logo is so simple and gently presented in the center, not overlapping or distracting from the content. The background is pure white and clean, while the high quality of the bottles in 3D photos with a reflection on the bottles gives it beautiful rainbow colors inspired by a combination of fresh greens, veggies and fruits.
 
@@ -64,4 +73,9 @@ Potential customers can see a purchase price and potential savings as they creat
 <br>![Tesla](/assets/posts/2020-01-b_ecommerce-websites/tesla05.png)<br>
 <br>![tesla](/assets/posts/2020-01-b_ecommerce-websites/tesla07.png)<br>
 
-I strongly believe that a website is a window into how the business runs as an organization and reflects its identity. It is the first and main source of information and one of the most influential aspects of the client's first impression. When designing a website, I constantly research the industry standards and competitors, considering brand values, target audience and usability requirements. Good marketing may bring in some traffic, but good design and an enjoyable user experience improve user satisfaction. The goal is to create a website that will be easy to use, accessible and effective. Ensuring safety, leaving a trustful and positive experience from the user's perspective. All of those could influence the success of a company's website and the Brand's impression. You may not have a second chance to make a good first impression!
+<br>
+
+#### *Good Design thinking and enjoyable user experience improve user satisfaction.*
+
+<br>
+I strongly believe that a website is a window into how the business runs as an organization and reflects its identity. It is the first and main source of information and one of the most influential aspects of the client's first impression. When designing a website, I constantly research the industry standards and competitors, considering brand values, target audience and usability requirements. Good marketing may bring in some traffic, but good design and an enjoyable user experience improve user satisfaction. The goal is to create a website that will be easy to use, accessible and effective. Ensuring safety, leaving a trustful and positive experience from the user's perspective. All of those could influence the success of a company's website and the Brand's impression. 

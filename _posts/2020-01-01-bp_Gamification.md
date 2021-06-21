@@ -6,6 +6,7 @@ tags:
     - Illustrations
     - Gaming & IxD
     - UX/UI Design
+    - Human Behaviour
 categories:
     - blog
     - portfolio

@@ -3,7 +3,7 @@ layout: blog-post
 title: Data Protection
 published: true
 tags: 
-    - UX/UI Design
+    - Human Behaviour
 categories:
     - blog
     - portfolio-featured
