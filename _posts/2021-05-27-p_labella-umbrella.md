@@ -4,7 +4,7 @@ title: Online store
 published: true
 tags: 
     - UX/UI Design
-    - Brand Marketing Online & Print
+    - Brand Marketing
 categories:
     - portfolio
     - portfolio-featured

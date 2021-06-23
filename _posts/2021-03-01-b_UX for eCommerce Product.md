@@ -4,7 +4,7 @@ title: Aesthetics and Usability
 published: true
 tags: 
     - UX/UI Design
-    - Brand Marketing Online & Print
+    - Brand Marketing
     - Human Behaviour
 categories:
     - blog

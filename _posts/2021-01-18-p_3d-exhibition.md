@@ -4,7 +4,7 @@ title: 3D Exhibition Design
 published: true
 tags:
     - 3D Design
-    - Brand Marketing Online & Print
+    - Brand Marketing
 categories:
     - portfolio
 permalink: /3d-exhibition

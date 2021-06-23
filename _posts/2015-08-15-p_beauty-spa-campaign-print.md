@@ -3,7 +3,7 @@ layout: portfolio-post
 title: Beauty Spa Campaign
 published: true
 tags: 
-    - Brand Marketing Online & Print
+    - Brand Marketing
 categories: 
     - portfolio
     - portfolio-featured

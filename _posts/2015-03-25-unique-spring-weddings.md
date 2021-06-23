@@ -6,7 +6,7 @@ tags:
     - Brand Marketing & Print  
     - Illustrations
     - Wedding design and Event management
-    - Filming, Video & Sound Editing
+    - Video & Sound Editing
 categories:
     - blog
 permalink: /unique-spring-weddings
