@@ -9,7 +9,7 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /labella-umbrella
-featured_image: /assets/posts/2016-09-27-labella-umbrella/LBU_Mockup1-1-800x650.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_labellaumbrella3.png
 ---
 <br>
 

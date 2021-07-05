@@ -7,11 +7,10 @@ tags:
     - Human Behaviour
 categories:
     - blog
-    - portfolio
     - portfolio-featured
     
 permalink: /colour-accessibility
-featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 ---
 
 ![color](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg "color")

@@ -3,7 +3,9 @@ layout: portfolio-post
 title: TJX Market App
 published: true
 tags:
+    - Illustrations
     - UX/UI Design
+    - Human Behaviour
 categories:
     - portfolio
     - portfolio-featured

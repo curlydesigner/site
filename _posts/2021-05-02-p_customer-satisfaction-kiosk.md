@@ -5,11 +5,14 @@ published: true
 tags:
     - UX/UI Design
     - Human Behaviour
+    - Illustrations
+
 categories:
+    - blog
     - portfolio
     - portfolio-featured
 permalink: /customer-satisfaction-kiosk
-featured_image: /assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerSatisfaction_JourneyMap.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-journey.png
 ---
  <br>
  

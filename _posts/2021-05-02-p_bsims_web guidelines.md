@@ -8,7 +8,7 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /design-guidelines
-featured_image: /assets/posts/2021-05-02-p_bsims_web guidelines/Mock-place-website-laptop_1a.png
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_bsims-portal.png
 ---
 
 <br>

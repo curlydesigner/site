@@ -21,6 +21,4 @@ These days banking and managing money can get confusing and stressful. Althou
 Budgific is a terrific budget management application for smartphones, that helps users track their expenses, income, savings and save lots of money. This personal finance application can help users remember to pay bills, keep an eye on account balances, stay within a budgets and things we need to do daily and often.
 
 
-
-Launching soon…  
-![BUDGIFIC App](/assets/posts/2015-09-16-financial-mobile-app/Present_FinBudgific.jpg)
+![Budgific](/assets/posts/2015-09-16-budgific_fin-mobl-app.md/Present_FinBudgific.jpg "Budgific")

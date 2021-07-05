@@ -4,8 +4,12 @@ title: Wizits Facebook Game
 published: false
 tags:
     - Gaming & IxD
+    - Illustrations
+    - Video & Sound Editing
+    
 categories:
     - portfolio
+    - portfolio-featured
 permalink: /video-editing-effects
 featured_image: /assets/images/FeatureImage.jpg
 ---
