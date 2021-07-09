@@ -10,7 +10,7 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /tjx-market
-featured_image: /assets/posts/2018-05-02-customer-satisfaction-kiosk/mtMRKT_AppMockup.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_tjx.png
 ---
 
 <br>

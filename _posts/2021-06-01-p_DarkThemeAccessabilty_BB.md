@@ -14,7 +14,7 @@ permalink: /dark-theme
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_darktheme.png
 ---
 
-![dark theme guidlines](/assets/posts/FeaturedPortfolio- photos/fp_ph_darktheme.png "dark theme guidlines")
+![dark theme guidlines](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "dark theme guidlines")
 <br>
 <br> 
 

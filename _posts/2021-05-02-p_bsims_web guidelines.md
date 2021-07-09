@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: Design Guidelines
+title: Web Design Guidelines
 published: true
 tags:
     - UX/UI Design

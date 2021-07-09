@@ -8,7 +8,7 @@ categories:
     - blog
     - portfolio-featured
 permalink: /data-protection
-featured_image: /assets/posts/2020-01-01-b_Data Protection/TheSocial-dilema.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_socialmedia.png
 ---
 ### Data Protection, do you think it matters ?
 

@@ -10,7 +10,7 @@ categories:
     - blog
     - portfolio-featured
 permalink: /e-commerce-product
-featured_image: /assets/posts/2020-01-b_ecommerce-websites/Concept_webAdobeStock_249959880.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_concept.png
 ---
 ### Do aesthetics have anything to do with usability?
 

@@ -9,7 +9,7 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /3d-exhibition
-featured_image: /assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_005.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_3D.png
 ---
 <br>
 Working as an Exhibition Designer in [Barzilai Design](http://www.barzilaidesign.com/), I had the chance to experience one of the most challenging, dynamic and exciting projects. With hands-on experience of high-quality 3D modeling and rendering. I was working from the initial brief, brainstorming with other team members, sketching and 3D modeling Interior spaces. At the same time, responsible for designing large print graphics and Branded elements for Marketing products and world Exhibitions for international clients/audiences all over Europe.  
