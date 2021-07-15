@@ -11,7 +11,7 @@ categories:
 permalink: /colour-branding
 featured_image: /assets/images/WP_Curly_Icon_Print-e1426713942865.jpg
 ---
-[][1]
+#### What to consider when designing colour guidlines for Branding
 
 &nbsp;
 

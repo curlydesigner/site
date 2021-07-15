@@ -46,8 +46,10 @@ It's not just about Facebook. Many people would agree that social media can be a
 Now that we all know about the manipulation of Data collection and AI. It analyzes our behavior, appealing to our emotions and targeting our attention. 
 Easily bombarding us with information and content that influences our thinking, behaviors and manipulating our minds. 
 
-<br> 
+<br>
+
 #### *It's about education and privacy rules*
+
 <br> 
 
 With our lives moving online and the technologies are growing faster than ever. 
@@ -57,3 +59,11 @@ It's about us as individuals and what we can do, living in a connected world whe
 
 It's just the beginning and with so many questions that remains unsolved, there is so much we can do by protecting our data. 
 Privacy and Data protection policies have to be educated from school age. And more steps need to be taken to help spread awareness and make sure companies do take responsibility for protecting our Data. Creating a model of legislation, and us as individuals, taking responsibility for managing and protecting our own privacy.
+<br>
+<br> 
+
+#### *What do you think are the steps we can all take to help spread awareness and make sure companies do take responsibility for protecting our Data?* 
+
+<br>
+
+[View on my linkedin](https://www.linkedin.com/pulse/data-protection-do-you-think-matters-victoria-p)
