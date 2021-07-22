@@ -7,6 +7,7 @@ tags:
     - Human Behaviour
 categories:
     - blog
+    - portfolio
     - portfolio-featured
     
 permalink: /colour-accessibility
@@ -39,10 +40,11 @@ But not everyone may feel more comfortable, less tired and more focused while us
 
 Color contrast and tones used on a dark theme are vital for all users but especially for people with poor vision or disabilities. Users must be able to perceive content. This is why colors selected for text and icons need to be contrasted, readable and carefully used if there are gradients, semi-transparent colors, and background images. Everything has to be designed carefully and meet the contrast requirements. 
 <br>
-<br>
 
-![material.io /color contrast](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Screen Shot 2021-06-14 at 11.56.20.png "material.io /color contrast")
-###### Light vs Dark UI, [Google Material Design](https://material.io/design/color/dark-theme.html#usage) 
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "Dark Theme Guidlines")
+###### View my work for dark mode design, [BlackBerry Dark Theme Guidelines](/dark-theme) 
+
 <br>
 
 It's essential to consider the different content levels on a dark mode, especially with a card-based design. Shadows cannot be perceived the same as with the light theme. I have been experimenting with different shades of grey that can help to communicate visual hierarchy. Avoiding using 100% black because pure black is too hard on the eye.  
@@ -51,14 +53,16 @@ Accessibility is something I never skip, especially for a dark mode design. For 
 <br>
 <br>
 
-![light and dark theme UI](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/g_material_design.png "light and dark theme UI")
-###### A light and dark theme UI image from [Google Material Design](https://material.io/design/color/dark-theme.html#usage) 
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Theme Guidlines")
+###### Dark Theme Guidelines [Designed for BlackBerry Products](/dark-theme)  
 <br>
 
 
 [WEBAIM](https://webaim.org/resources/contrastchecker/) and [Contrast Checker](https://contrastchecker.com/) have a contrast ratio checker for text and graphic objects. You can enter a foreground and background color in RGB hex format or choose a color using the color picker.  And it will give you ratio results for WCAG AA and WCAG AAA.
 
 <br>
+
+
 
 When designing a product, I constantly research industry standards and competitors, considering brand values, target audience and usability requirements. While creating the Dark Theme Guidelines for [BlackBerry Products](/dark-theme), I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode may be the next hot design feature but can also create many accessibility issues. For some people, dark themes are more accessible, for others, the light theme would be preferable. The bottom line, users need to have personalization. And have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find.
 
@@ -69,4 +73,3 @@ The goal is to create products that will be easy to use, accessible for everyone
 
 <br>
 
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Theme Guidlines")

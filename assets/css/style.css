@@ -968,7 +968,7 @@ footer img {
     font-size: 50px;
 }
 
-.service-box {
+.service-box-link {
     margin-bottom: 30px;
 }
 
@@ -1278,6 +1278,10 @@ input:focus, textarea:focus {
     position: absolute;
     right: 200px;
     bottom: -50px;
+}
+
+.testimonials .text-content{
+    height: 400px;
 }
 
 /* /testimonial */
