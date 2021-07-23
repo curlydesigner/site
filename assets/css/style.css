@@ -1217,6 +1217,10 @@ input:focus, textarea:focus {
     color: rgb(143, 136, 150);
 }
 
+.testimonials a {
+    color: #66B8FF;
+}
+
 @media (min-width: 1200px) {
     .testimonials .container {
         width: 750px;
