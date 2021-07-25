@@ -18,10 +18,8 @@ Working as an Exhibition Designer in [Barzilai Design](http://www.barzilaidesign
 [![](/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_005.jpg)](#)
 
 [![](/assets/posts/2012-03-18-outsmart-3gsm-exhibition/outsmart_top.jpg)](#)
-
-<br>
     
-This booth was designed for [3GSM Mobile World Congress Exhibtion](https://www.mwcbarcelona.com/) in Barcelona 2009, within [Barzilai Design Studio](http://www.barzilaidesign.com/) for Outsmart company who produces and delivers inspiring visual communication for Exhibitions.
+###### This booth was designed for [3GSM Mobile World Congress Exhibtion](https://www.mwcbarcelona.com/) in Barcelona 2009, within [Barzilai Design Studio](http://www.barzilaidesign.com/) for Outsmart company who produces and delivers inspiring visual communication for Exhibitions.
 
 <br>
 
