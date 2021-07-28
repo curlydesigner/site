@@ -980,6 +980,12 @@ footer img {
     font-size: 380px;
 }
 
+@media only screen and (max-width: 420px) {
+    .service-box ion-icon {
+        font-size: 330px;
+    }
+}
+
 /* contact page
 ==================================================*/
 
@@ -1179,7 +1185,7 @@ input:focus, textarea:focus {
 
 @media only screen and (max-width: 420px) {
     .box-headline {
-        font-size: 50px;
+        font-size: 30px;
     }
     .box-intro h5 {
         font-size: 12px;
@@ -1284,7 +1290,7 @@ input:focus, textarea:focus {
     bottom: -50px;
 }
 
-.testimonials .text-content{
+.testimonials .text-content {
     height: 400px;
 }
 
@@ -1653,37 +1659,35 @@ h1.about-header {
 
 /* blog post */
 
-.post p{
+.post p {
     font-size: 18px;
     font-weight: 100;
     color: rgb(102, 102, 102);
 }
-.post h3{
+
+.post h3 {
     font-size: 30px;
     font-weight: 500;
     line-height: 45px;
     color: rgb(16, 43, 68);
 }
 
-.post h4{
+.post h4 {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
     color: rgb(16, 43, 68);
 }
 
-.post h6{
+.post h6 {
     font-size: 12px;
     font-weight: 100;
     color: rgb(141, 141, 141);
-
 }
 
 /* portfolio post */
 
-.portfolio-post {
-    
-}
+.portfolio-post {}
 
 .get-in-touch {
     display: flex;
