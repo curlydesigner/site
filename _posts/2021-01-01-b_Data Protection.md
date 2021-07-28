@@ -6,7 +6,6 @@ tags:
     - Human Behaviour
 categories:
     - blog
-    - portfolio-featured
 permalink: /data-protection
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_socialmedia.png
 ---

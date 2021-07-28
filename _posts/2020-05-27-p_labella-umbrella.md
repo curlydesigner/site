@@ -7,7 +7,6 @@ tags:
     - Brand Marketing
 categories:
     - portfolio
-    - portfolio-featured
 permalink: /labella-umbrella
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_labellaumbrella3.png
 ---
