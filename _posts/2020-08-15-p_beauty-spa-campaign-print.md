@@ -17,7 +17,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_sharplight3.png
 #### Designed for SharpLight 
 <br>
 
-This Campaign was designed for [SharpLight](https://sharplight.com/), the company is part of the American Beauty and Skin Care aesthetic companies with more than 100,000 clients all over the world. 
+This Campaign was designed for [SharpLight](https://sharplight.com/){:target="_blank"}, the company is part of the American Beauty and Skin Care aesthetic companies with more than 100,000 clients all over the world. 
 Therefore, it was a very demanded client.
 
 I was producing and designing graphics, advertising and marketing materials. For Spa magazines, packaging, exhibitions, leaflets/ brochures, posters, different holiday and sale postcards, stationery, presentations, web and online materials.
@@ -53,4 +53,4 @@ I managed more than one design brief at a time through individual work with Shar
 
 
 
-###### Designed within [Design&Shoot Studio](http://designandshoot.com/) 
+###### Designed within [Design&Shoot Studio](http://designandshoot.com/){:target="_blank"}

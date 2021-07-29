@@ -14,16 +14,6 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_poster2.png
 ---
 
 
-![poster](/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/OfficePoster.jpg "poster")
-<br>
-
-These Posters were designed for Office use and Marketing purposes.
-
-<br>
-
-![wallpaper](/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/OfficeWallpaper.jpg "wallpaper")
-<br>
-
 
 ------------------------
 
@@ -37,8 +27,9 @@ These Posters were designed for Office use and Marketing purposes.
 
 ##### PACKAGING IDENTITY & INDUSTRY STANDARTS
 <br>
-I was involved in the Packaging design guidelines for BlackBerry partners and suppliers. Working on Brand identity, layout and industry Standards. 
-Considering color pallete for both light and dark backgrounds. BlackBerry logo Format consists of two elements with a unique piece of artwork. I was specifying the proportion and arrangement of the EMBLEM design and the Word Mark specification determined. Considering all the aspects that can impact the Brand power. Elements like; logo size, colors, minimum size and critical spacing for Trademark and Copymark. Industry surtifications trademark rights and Copyrights. Leaving placeholders for Logo and partners' product name, header, size, and format description.     
+While working in BlackBerry, I had the opportunity to work across different channels in the company, both on the UX side and the Brand side. I was involved in working on Brand identity, layout and industry Standards. One of the examples is the Packaging Design Guidelines I was designing for partners and suppliers.
+
+BlackBerry logo Format consists of two elements with a unique piece of artwork. I was considering color pallete for both light and dark backgrounds, specifying the proportion and arrangement of the EMBLEM design and the Word Mark specification determined. Considering all the aspects that can impact the Brand power. Elements like; logo size, colors, minimum size and critical spacing for Trademark and Copymark. Industry certifications trademark rights and Copyrights. Leaving placeholders for Logo and partners' product name, header, size, and format description.     
 <br>
 
 ##### PACKAGING LAYOUT 
@@ -70,4 +61,18 @@ Separately, I focused on examples for front packaging design that demonstrates v
 
 ![packaging guidlines](/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/bb_pack_mock_light.png "packaging guidlines")
 
+---------------------------------------
+  
 
+  Other examples include Posters and Wallpaper designed for Office use and Marketing purposes.
+
+  <br>
+
+
+![poster](/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/OfficePoster.jpg "poster")
+<br>  
+
+
+
+![wallpaper](/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/OfficeWallpaper.jpg "wallpaper")
+<br>

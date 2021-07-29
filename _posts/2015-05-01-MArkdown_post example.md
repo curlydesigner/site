@@ -10,6 +10,11 @@ featured_image: /assets/posts/2020-01-01-bp_Data Visualisaztion/AdobeStock_17080
 ---
 ### Data Visualisaztion, does it matters ?
 
+Link to open in a new window - 
+
+[link text](the link){:target="_blank"}
+
+--------
 
 Let's admit, how easy it is to understand Data ? 
 

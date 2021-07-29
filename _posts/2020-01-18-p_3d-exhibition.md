@@ -12,14 +12,15 @@ permalink: /3d-exhibition
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_3D.png
 ---
 <br>
-Working as an Exhibition Designer in [Barzilai Design](http://www.barzilaidesign.com/), I had the chance to experience one of the most challenging, dynamic and exciting projects. With hands-on experience of high-quality 3D modeling and rendering. I was working from the initial brief, brainstorming with other team members, sketching and 3D modeling Interior spaces. At the same time, responsible for designing large print graphics and Branded elements for Marketing products and world Exhibitions for international clients/audiences all over Europe.  
+Working as an Exhibition Designer in [Barzilai Design](http://www.barzilaidesign.com/){:target="_blank"}, I had the chance to experience one of the most challenging, dynamic and exciting projects. With hands-on experience of high-quality 3D modeling and rendering. I was working from the initial brief, brainstorming with other team members, sketching and 3D modeling Interior spaces. At the same time, responsible for designing large print graphics and Branded elements for Marketing products and world Exhibitions for international clients/audiences all over Europe.  
 <br>
 
 [![](/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_005.jpg)](#)
 
-[![](/assets/posts/2012-03-18-outsmart-3gsm-exhibition/outsmart_top.jpg)](#)
-    
-###### This booth was designed for [3GSM Mobile World Congress Exhibtion](https://www.mwcbarcelona.com/) in Barcelona 2009, within [Barzilai Design Studio](http://www.barzilaidesign.com/) for Outsmart company who produces and delivers inspiring visual communication for Exhibitions.
+[![](/assets/posts/2012-03-18-outsmart-3gsm-exhibition/outsmart_top.jpg)](#)  
+
+
+###### This booth was designed for [3GSM Mobile World Congress Exhibtion](https://www.mwcbarcelona.com/){:target="_blank"} in Barcelona 2009, within [Barzilai Design Studio](http://www.barzilaidesign.com/){:target="_blank"} for Outsmart company who produces and delivers inspiring visual communication for Exhibitions.
 
 <br>
 
@@ -45,4 +46,4 @@ The Bar has been planned in the center of the booth, with 360 degrees access, to
 
 [![Kramer Electronics Exhibition](/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Kramer_08_Left.jpg)](#)
 
-###### Designed within the [Barzilai Design Studio](http://www.barzilaidesign.com/)
+###### Designed within the [Barzilai Design Studio](http://www.barzilaidesign.com/){:target="_blank"}

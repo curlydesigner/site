@@ -58,13 +58,13 @@ Accessibility is something I never skip, especially for a dark mode design. For 
 <br>
 
 
-[WEBAIM](https://webaim.org/resources/contrastchecker/) and [Contrast Checker](https://contrastchecker.com/) have a contrast ratio checker for text and graphic objects. You can enter a foreground and background color in RGB hex format or choose a color using the color picker.  And it will give you ratio results for WCAG AA and WCAG AAA.
+[WEBAIM](https://webaim.org/resources/contrastchecker/){:target="_blank"} and [Contrast Checker](https://contrastchecker.com/){:target="_blank"} have a contrast ratio checker for text and graphic objects. You can enter a foreground and background color in RGB hex format or choose a color using the color picker.  And it will give you ratio results for WCAG AA and WCAG AAA.
 
 <br>
 
 
 
-When designing a product, I constantly research industry standards and competitors, considering brand values, target audience and usability requirements. While creating the Dark Theme Guidelines for [BlackBerry Products](/dark-theme), I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode may be the next hot design feature but can also create many accessibility issues. For some people, dark themes are more accessible, for others, the light theme would be preferable. The bottom line, users need to have personalization. And have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find.
+When designing a product, I constantly research industry standards and competitors, considering brand values, target audience and usability requirements. While creating the Dark Theme Guidelines for BlackBerry Products, I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode may be the next hot design feature but can also create many accessibility issues. For some people, dark themes are more accessible, for others, the light theme would be preferable. The bottom line, users need to have personalization. And have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find.
 
 Design is about functionality, and more thought should be given to accessible color choices when designing using a dark or a light theme. 
 The goal is to create products that will be easy to use, accessible for everyone and effective. Ensuring trustful and positive experience from the user's perspective and company's impression.

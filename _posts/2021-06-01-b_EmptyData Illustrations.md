@@ -15,7 +15,7 @@ featured_image: /assets/posts/2021-01-01-b_EmptyData Illustrations/fp_ph_bberry_
 <br>
 
 ![EmptyData](assets/posts/2021-01-01-b_EmptyData Illustrations/allapss_emptydata_mock.png "EmptyData")
-###### Empty Data Illustrations for BlackBerry Hub+ Services [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.infrastructure)  
+###### Empty Data Illustrations for BlackBerry Hub+ Services [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.infrastructure){:target="_blank"}  
 <br>
 
 Many requests for Design typically focus on designing screens that contain large amounts of data, pages and elements that users use most. However, empty data states and onboarding screens are often overlooked aspects of UX. Working across different channels in the company, designing for security systems, privacy and productivity apps, both for web and mobile. I had the opportunity to solve a design challenge for proper feedback and visuals to communicate with new users and those who just installed the app for the first time. When no data appear and users land inside of an empty state with zero data. 
@@ -26,7 +26,9 @@ Designing illustrations that show general data visuals but simultaneously releva
 
 
 ![Ptab](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_ptab_mock.jpg "Ptab")
-###### BlackBerry Productivity Tab screen mocks. BlackBerry HUB+ Products Suit. [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.productivityedge&hl=en_CA&gl=US)  
+###### BlackBerry Productivity Tab screen mocks. BlackBerry HUB+ Products Suit. [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.productivityedge&hl=en_CA&gl=US){:target="_blank"}  
+
+
 <br>
 
 The BlackBerry Productivity Tab availble on BlackBerry devices and provides quick access to Inbox, Calendar, Tasks and Contacts.
@@ -37,12 +39,14 @@ Creating a series of onboarding screens which direct users through the widget in
 
 ![Onboarding](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_intro_p-tab_mock.jpg "Intro Screens")
 
-###### Onboarding Screens, designed for BlackBerry Productivity Tab [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.productivityedge&hl=en_CA&gl=US)  
+###### Onboarding Screens, designed for BlackBerry Productivity Tab [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.productivityedge&hl=en_CA&gl=US){:target="_blank"}  
+
+
 <br>
 
 ![Intro Screens](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_intro_keayboard_mock.jpg "Intro Screens")
 
-###### Onboarding Screens, designed for BlackBerry Keyboard [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.keyboard&hl=en_CA&gl=US)  
+###### Onboarding Screens, designed for BlackBerry Keyboard [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.keyboard&hl=en_CA&gl=US){:target="_blank"} 
 <br>
 
 The BlackBerry® Keyboard was available long ago before Android and IOS existed. The screen version of BlackBerry Keyboard includes several components like predictions and suggestions that can autocorrect typos, multi-language and customizable quick phrases.

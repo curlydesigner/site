@@ -35,8 +35,8 @@ I spent hours digging into the topic of Data Collection, Privacy and Security. S
 <br>
 The more I dig, the more I realize how much we don't know. Our information has been leaked, hacked, sold and resold more times than most of us can count. And I feel like it's not on us to blame because so much is untold. 
 
-Watching the documentary movie ["The Great Hack" 2019](https://www.imdb.com/title/tt4736550/) That gets into very detail, uncovering the dark world of data exploitation. Relieves how Facebook sold our Data ( Yes! the most personal information, status, likes and photos of each Facebook user). 
-And ["The Social Dilemma" 2020](https://www.imdb.com/title/tt11464826/?ref_=fn_al_tt_1), that exposes how social media is reprogramming civilization and making us into a laboratory, selling products. 
+Watching the documentary movie ["The Great Hack" 2019](https://www.imdb.com/title/tt4736550/){:target="_blank"} That gets into very detail, uncovering the dark world of data exploitation. Relieves how Facebook sold our Data ( Yes! the most personal information, status, likes and photos of each Facebook user). 
+And ["The Social Dilemma" 2020](https://www.imdb.com/title/tt11464826/?ref_=fn_al_tt_1){:target="_blank"} , that exposes how social media is reprogramming civilization and making us into a laboratory, selling products. 
 
 <br> ![Image from The Social Dilemma movie 2020](/assets/posts/2020-01-01-b_Data Protection/TheSocial-dilema.jpg "Image from The Social Dilemma movie 2020")<br>
 <br>
@@ -65,4 +65,4 @@ Privacy and Data protection policies have to be educated from school age. And mo
 
 <br>
 
-[View on my linkedin](https://www.linkedin.com/pulse/data-protection-do-you-think-matters-victoria-p)
+[View on my linkedin](https://www.linkedin.com/pulse/data-protection-do-you-think-matters-victoria-p){:target="_blank"}
