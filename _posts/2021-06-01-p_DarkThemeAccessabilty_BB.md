@@ -25,6 +25,8 @@ Design is about functionality! Accessibility is something I never skip, especial
 I was leading the design of Dark Mode for BlackBerry HUB+ prodcuts. Including secure apps suite like; Inbox, Calendar, Notes, Password, Battery Power & Guardian Security. 
 And responsible for creating Design Guidelines that has the right colour tones for the different elements in card based design. 
 
+<br>
+
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
 
 
@@ -33,11 +35,17 @@ And responsible for creating Design Guidelines that has the right colour tones f
 <br>
 
 Color contrast and tones used on a dark theme are vital for all users but especially for people with poor vision or disabilities. Users must be able to perceive content. This is why colors selected for text and icons need to be contrasted, readable and carefully used if there are gradients, semi-transparent colors, and background images. Everything has to be designed carefully and meet the contrast requirements. 
+
+
 <br>
 
 
 
 ![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/empty_Dark_VID_spec_Page_7.png "Dark Mode Code")
+
+<br>
+
+
 
 I was testing and exxploring differnt variations with essential consideration for the different content levels on a dark mode. Especially with a card-based design where shadows cannot be perceived the same as with the light theme. I have been experimenting with different shades of grey that can help to communicate visual hierarchy. Avoiding using 100% black because pure black is too hard on the eye.  
 <br>
