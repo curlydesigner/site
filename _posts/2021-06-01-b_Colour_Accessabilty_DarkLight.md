@@ -73,3 +73,10 @@ The goal is to create products that will be easy to use, accessible for everyone
 
 <br>
 
+View some of the other Design Guidlines I was leadign for
+
+
+- [Security Portal](/design-guidelines)
+- [Onboarding screens](/empty-data)
+- [BlackBerry Brand Packaging Guidelines](/bb-brand) 
+

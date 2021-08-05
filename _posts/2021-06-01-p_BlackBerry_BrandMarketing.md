@@ -76,3 +76,10 @@ Separately, I focused on examples for front packaging design that demonstrates v
 
 ![wallpaper](/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/OfficeWallpaper.jpg "wallpaper")
 <br>
+
+View some of the other Design Guidlines I was leadign for
+
+
+- [BlackBerry Dark Theme](/dark-theme) 
+- [Security Portal](/design-guidelines)
+- [Onboarding screens](/empty-data)

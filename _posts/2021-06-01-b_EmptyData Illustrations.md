@@ -58,6 +58,16 @@ A complementary set of on-screen keyboards for touch interaction and fast access
 ###### Onboarding Screens layout  
 <br> 
 
+I was responsible creating onboarding and empty data screen illustration. Designing screen layout, specific sizing for developers and guidlelines. 
+Preparing file templates that can be used accross the team for layout consistentcy. 
+
+View some of the other Design Guidlines I was leadign for
+
+
+- [BlackBerry Dark Theme](/dark-theme) 
+- [Security Portal](/design-guidelines)
+- [BlackBerry Brand Packaging](/bb-brand) 
+
 
 
 

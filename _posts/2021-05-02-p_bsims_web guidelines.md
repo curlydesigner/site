@@ -35,3 +35,13 @@ Looking into Brand values and color palate
 ![web portal-guidelines](/assets/posts/2021-05-02-p_bsims_web guidelines/webbsims_guidlines.png "web portal guidelines")
 
 
+View some of the other Design Guidlines I was leadign for
+
+
+- [BlackBerry Dark Theme](/dark-theme) 
+
+
+- [Onboarding screens](/empty-data)
+
+
+- [BlackBerry Brand Packaging Guidelines](/bb-brand) 
