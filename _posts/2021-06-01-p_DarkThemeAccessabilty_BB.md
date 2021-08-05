@@ -18,11 +18,12 @@ featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/fp_ph_
 <br>
 <br> 
 
-### Dark Theme Guidlines - Colour, accessibility and UI for card based design.
+### Dark Theme Guidlines 
+#### Colour, accessibility and UI for card based design.
 
 Design is about functionality! Accessibility is something I never skip, especially for a dark mode design. Not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. 
-I was leading the design of Dark Mode for BlackBerry HUB+ prodcuts. Including email, calendar, notes, password, battery power, guardian for security. 
-Responsible for creating Design guidelines that has the right colour tones for the different elements in card based design. 
+I was leading the design of Dark Mode for BlackBerry HUB+ prodcuts. Including secure apps suite like; Inbox, Calendar, Notes, Password, Battery Power & Guardian Security. 
+And responsible for creating Design Guidelines that has the right colour tones for the different elements in card based design. 
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
 
@@ -38,7 +39,7 @@ Color contrast and tones used on a dark theme are vital for all users but especi
 
 ![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/empty_Dark_VID_spec_Page_7.png "Dark Mode Code")
 
-It's essential to consider the different content levels on a dark mode, especially with a card-based design. Shadows cannot be perceived the same as with the light theme. I have been experimenting with different shades of grey that can help to communicate visual hierarchy. Avoiding using 100% black because pure black is too hard on the eye.  
+I was testing and exxploring differnt variations with essential consideration for the different content levels on a dark mode. Especially with a card-based design where shadows cannot be perceived the same as with the light theme. I have been experimenting with different shades of grey that can help to communicate visual hierarchy. Avoiding using 100% black because pure black is too hard on the eye.  
 <br>
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark_vid_spec_v2_2_20190416-8.jpg "Dark Mode UI")
