@@ -20,7 +20,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_bsims-porta
 While designing / redesigning a web portal, mainly for Government and Enterprise use, where security is fundamental, I dealt with many usability challenges. Where great focus and attention to detail has required. 
 
 
-I led the portal's design and worked closely with a developer to optimize the system for best performance, focusing on simplicity and high functionality. Creating wireframes and architecture flow with simple UI and Iconography. 
+I was leading the portal's design and worked closely with a developer to optimize the system for best performance, focusing on simplicity and high functionality. Creating wireframes and architecture flow with simple UI and Iconography. 
 
 Keeping the navigation on the left leading users to see the full content allowing them to complete the desired action. Icons got separate attention to identifying the menu actions with a focus on specific sizing color tones and consistent look. 
 
