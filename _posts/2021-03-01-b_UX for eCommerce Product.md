@@ -8,7 +8,6 @@ tags:
     - Human Behaviour
 categories:
     - blog
-    - portfolio-featured
 permalink: /e-commerce-product
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_concept.png
 ---
