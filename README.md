@@ -52,3 +52,15 @@ bundle exec jekyll serve
 
 bundler exec jekyll serve --watch
 ```
+
+
+## Fix GIF
+
+Install imagemagick
+```
+$ brew install imagemagick
+```
+Fix gif
+```
+$ convert -loop 0 bad.gif good.gif
+```
