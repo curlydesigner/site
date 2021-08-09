@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: Design Guidelines
-published: true
+published: false
 tags:
     - UX/UI Design
 categories:
