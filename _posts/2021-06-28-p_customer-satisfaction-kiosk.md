@@ -12,7 +12,7 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /customer-satisfaction-kiosk
-featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-journey.png
+featured_image: /assets/posts/2018-05-02-customer-satisfaction-kiosk/fp_customer-journey.jpg
 ---
  <br>
  

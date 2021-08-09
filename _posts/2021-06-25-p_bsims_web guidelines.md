@@ -11,7 +11,10 @@ permalink: /design-guidelines
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_bsims-portal.png
 ---
 
+![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Mock-place-website-laptop_1a.png "web portal mockup")<br>
+###### Mockup Login/Signup page
 <br>
+
 
 #### Design Guidlines for BlackBerry Security Web Portal. 
 <br>
@@ -27,9 +30,7 @@ Keeping the navigation on the left leading users to see the full content allowin
 By keeping colors and text consistent and to a minimum, with visual hierarchy and Branded elements highlighted the essential content, like link buttons, error and communication messages. So that visitors naturally gravitate toward the most important elements and relevant actions first. Using BlackBerry's Brand values and color palate.  
 
  <br>
- ![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Mock-place-website-laptop_1a.png "web portal mockup")<br>
-###### Mockup Login/Signup page
-<br>
+ 
 
 ##### Design Guidlines 
 <br>

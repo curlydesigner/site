@@ -61,13 +61,13 @@ While creating the Dark Theme Guidelines for BlackBerry Products, I also had the
 
 
 
+[Read my exploration about Dark Mode Design](https://curlydesigner.com/colour-accessibility) 
 
-[Read my post about Dark Mode Design](https://curlydesigner.com/colour-accessibility) 
 
 <br>
 
 
-View some of the other Design Guidlines I was leadign for
+View some of the other Design Guidlines I was creating for BlackBerry Products
 
 
 - [Security Portal](/design-guidelines)
