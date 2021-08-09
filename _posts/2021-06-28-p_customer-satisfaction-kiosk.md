@@ -51,4 +51,8 @@ These are two wireframe options for customer feedback; one that could go on a ta
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/sketch_customer.jpg)](#)
 
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerExperiance_Mock.gif)](#)
+
+
+[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/cg_mobile_customer.jpg)](#)
+
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CleaningReport_Mockup2.jpg)](#)
