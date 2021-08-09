@@ -22,16 +22,18 @@ featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/fp_ph_
 #### Colour, accessibility and UI for card based design.
 
 Design is about functionality! Accessibility is something I never skip, especially for a dark mode design. Not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. 
-I was leading the design of Dark Mode for BlackBerry HUB+ prodcuts. Including secure apps suite like; Inbox, Calendar, Notes, Password, Battery Power & Guardian Security. 
+I was leading the design of Dark Mode for BlackBerry HUB+ prodcuts. Including secure apps suite like; Secure Inbox, Calendar, Notes, Tasks, Password, Battery Power Center & other Guardian Security apps. 
 And responsible for creating Design Guidelines that has the right colour tones for the different elements in card based design. 
 
 <br>
 
-![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
-
-
 
 ![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/empty_Dark_VID_spec_Page_7.png "Dark Mode Code")
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
+###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security focused apps.  
+
+
 
 
 
@@ -43,15 +45,9 @@ Color contrast and tones used on a dark theme are vital for all users but especi
 <br>
 
 
-![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Mode Code")
+I was testing and exploring different variations with essential consideration for the various content levels on a dark mode. Especially with a card-based design where shadows cannot be perceived the same as with the light theme. I have been experimenting with different shades of grey that can help to communicate visual hierarchy—avoiding using 100% black because pure black is too hard on the eye.
 
 
-
-<br>
-
-
-
-I was testing and exxploring differnt variations with essential consideration for the different content levels on a dark mode. Especially with a card-based design where shadows cannot be perceived the same as with the light theme. I have been experimenting with different shades of grey that can help to communicate visual hierarchy. Avoiding using 100% black because pure black is too hard on the eye.  
 <br>
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark_vid_spec_v2_2_20190416-8.jpg "Dark Mode UI")
@@ -62,6 +58,15 @@ I was testing and exxploring differnt variations with essential consideration fo
 <br>
 
 While creating the Dark Theme Guidelines for BlackBerry Products, I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode may be the next hot design feature but can also create many accessibility issues. For some people, dark themes are more accessible, for others, the light theme would be preferable. The bottom line, users need to have personalization. And have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find. The goal is to create products that will be easy to use, accessible for everyone and effective. 
+
+<br>
+
+
+![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Mode Code")
+
+
+
+<br>
 
 
 
