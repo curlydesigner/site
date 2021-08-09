@@ -30,7 +30,10 @@ And responsible for creating Design Guidelines that has the right colour tones f
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
 
 
-![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Mode Code")
+
+![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/empty_Dark_VID_spec_Page_7.png "Dark Mode Code")
+
+
 
 <br>
 
@@ -40,8 +43,9 @@ Color contrast and tones used on a dark theme are vital for all users but especi
 <br>
 
 
+![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Mode Code")
 
-![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/empty_Dark_VID_spec_Page_7.png "Dark Mode Code")
+
 
 <br>
 
