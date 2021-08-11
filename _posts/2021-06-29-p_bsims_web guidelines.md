@@ -15,7 +15,7 @@ featured_image: /assets/posts/2021-05-02-p_bsims_web guidelines/fp_ph_bberry_bsi
 <br>
 
 
-![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop1_bsimsscreen.jpg "web portal mockup")<br>
+![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "web portal mockup")<br>
 
 
 ###### Mockup Login/Signup page
@@ -36,8 +36,8 @@ By keeping colors and text consistent and to a minimum, with visual hierarchy an
  <br>
  
 
-![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "web portal mockup")<br>
 
+![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop1_bsimsscreen.jpg "web portal mockup")<br>
 <br>
 
 
