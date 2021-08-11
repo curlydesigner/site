@@ -8,16 +8,20 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /design-guidelines
-featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_bsims-portal.png
+featured_image: /assets/posts/2021-05-02-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png
 ---
 
-![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Mock-place-website-laptop_1a.png "web portal mockup")<br>
+#### Design Guidlines for BlackBerry Security Web Portal. 
+<br>
+
+
+![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop1_bsimsscreen.jpg "web portal mockup")<br>
+
+
 ###### Mockup Login/Signup page
 <br>
 
 
-#### Design Guidlines for BlackBerry Security Web Portal. 
-<br>
 
 
 While designing / redesigning a web portal, mainly for Government and Enterprise use, where security is fundamental, I dealt with many usability challenges. Where great focus and attention to detail has required. 
@@ -32,8 +36,11 @@ By keeping colors and text consistent and to a minimum, with visual hierarchy an
  <br>
  
 
-##### Design Guidlines 
+![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "web portal mockup")<br>
+
 <br>
+
+
 
 ![web portal-guidelines](/assets/posts/2021-05-02-p_bsims_web guidelines/webbsims_guidlines.png "web portal guidelines")
 

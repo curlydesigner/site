@@ -62,16 +62,24 @@ Creating a series of onboarding screens which direct users through the widget in
 The BlackBerry® Keyboard was available long ago before Android and IOS existed. The screen version of BlackBerry Keyboard includes several components like predictions and suggestions that can autocorrect typos, multi-language and customizable quick phrases. I was involved in designing content for the BlackBerry HUB+ UX refresh and other products for Security and Productivity sectors. The mockup shows Keyboard Intro screens for new users to help them learn about new features and quick modes that let users easily access productivity features such as voice input, emojis, fine cursor control, clipboard and settings. Type by swiping a finger from letter to letter to form words and sentences without having to remove your finger from the keyboard.
 
 <br>
-![Onboarding](assets/posts/2021-01-01-b_EmptyData Illustrations/intro.jpg "Intro Screens")
-###### Onboarding Screens layout  
-<br> 
+
+
+
+![EmptyData](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "EmptyData")
+###### Light and Dark theme visuals 
+
+
+
+<br>
 
 I was creating designs and illustrations for Intro, Onboarding screens and Empty state data for new users. Designing screen layout, sizing guidelines for development and design. 
 Considering, both Dark and Light modes, preparing templates and files that can be used across the team for layout consistency. 
 
 
-![EmptyData](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "EmptyData")
-###### Light and Dark theme visuals 
+<br>
+![Onboarding](assets/posts/2021-01-01-b_EmptyData Illustrations/intro.jpg "Intro Screens")
+###### Onboarding Screens layout  
+<br> 
 
 
 
