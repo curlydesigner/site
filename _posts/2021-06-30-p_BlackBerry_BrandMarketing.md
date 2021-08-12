@@ -25,7 +25,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_poster2.png
 <br>
 
 
-##### PACKAGING IDENTITY & INDUSTRY STANDARTS
+##### PACKAGING IDENTITY & INDUSTRY STANDARDS
 <br>
 While working in BlackBerry, I had the opportunity to work across different channels in the company, both on the UX side and the Brand side. I was involved in working on Brand identity, layout and industry Standards. One of the examples is the Packaging Design Guidelines I was designing for partners and suppliers.
 
