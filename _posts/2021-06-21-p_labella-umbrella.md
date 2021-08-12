@@ -6,7 +6,6 @@ tags:
     - UX/UI Design
     - Brand Marketing
 categories:
-    - blog
     - portfolio
     - portfolio-featured
 permalink: /labella-umbrella
