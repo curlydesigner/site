@@ -13,6 +13,7 @@ permalink: /tjx-market
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_tjx.png
 ---
 
+#### How to combine the different Brands of TJX into one app ?!
 <br>
 
 The TJX Company is one of the leading apparel and home fashions retailer in the U.S. and worldwide.  TJ-Max, Marshalls, Home Sense, Winners, Sierra and more are all part of TJX Companies.  
