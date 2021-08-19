@@ -28,4 +28,3 @@ Still, even by using the different colors, all the backgrounds are consistent re
 
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/TJX_Brand.png)](#)
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/mtMRKT_AppMockup.jpg)](#)
-[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/TJX-MyMRKT_preorder-160223.jpg)](#)

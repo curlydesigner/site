@@ -28,7 +28,7 @@ And responsible for creating Design Guidelines that has the right colour tones f
 <br>
 
 
-![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/empty_Dark_VID_spec_Page_7.png "Dark Mode Code")
+![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard 7.png "Dark Mode Code")
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
 ###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security focused apps.  
@@ -38,6 +38,16 @@ And responsible for creating Design Guidelines that has the right colour tones f
 
 
 <br>
+
+![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard 7.png "Dark Mode Code")
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard 9.png "Dark Mode UI")
+###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security focused apps.  
+
+
+<br>
+
+
 
 Color contrast and tones used on a dark theme are vital for all users but especially for people with poor vision or disabilities. Users must be able to perceive content. This is why colors selected for text and icons need to be contrasted, readable and carefully used if there are gradients, semi-transparent colors, and background images. Everything has to be designed carefully and meet the contrast requirements. 
 
