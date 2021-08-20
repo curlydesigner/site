@@ -10,11 +10,10 @@ categories:
     - portfolio-featured
     
 permalink: /power-center
-featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/fp_ph_darktheme1.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.png
 ---
 
-![dark theme guidlines](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_darkTheme_mocks.png "dark theme guidlines")
-<br>
+
 <br> 
 
 ### BLACKBERRY POWER CENTER APP 
