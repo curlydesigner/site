@@ -102,6 +102,14 @@ Showing current memory space status.
 through the original phone settings.
 
 
+<br>
+
+
+#### VID SPEC - DIOLOG MESSAGES
+
+
+![pc wireframes](assets/posts/2021-06-31-p_bb-power_centre/bb-pc-dialog.png "pc wireframes")
+
 
 <br>
 
