@@ -37,22 +37,22 @@ How do we make sure customers have a satisfying experience the moment they walk 
 <br>
 <br>
 
-Feedback is the only way to guarantee the company can create a product or service that customers want to buy.
+Feedback is one of the ways how to guarantee the company can create a product or service that customers want to buy.
 
 
-From the Customer Journey map, it's obvious that a good place for the Kiosk would be at the end of the check-out process or during the purchase or mobile payment.
-From the Customer Journey map we its obvious that a good place for the Kiosk would be in the end of the cheek-out process, or during the payment purchase.
+After taking time and observing the interaction within the space, creating the Journey map, it becomes evident that a good place for Customer Feedback would be at a Kiosk station, part of the check-out process, or during mobile payment purchase.
 
-These are two wireframe options for customer feedback; one that could go on a tablet screen and one part of a mobile App.
+I explored two design wireframes proposals, considering the different platforms options and screen sizing. One proposal with a design for a tablet screen and another for a mobile App.
 <br>
 <br>
 
 
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/sketch_customer.jpg)](#)
 
+
+[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/cg_mobile_mock-customer.gif)](#)
+
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerExperiance_Mock.gif)](#)
 
-
-[![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/cg_mobile_customer.jpg)](#)
 
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CleaningReport_Mockup2.jpg)](#)
