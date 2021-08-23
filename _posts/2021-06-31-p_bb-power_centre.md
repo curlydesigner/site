@@ -28,19 +28,27 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.jpg
 
 <br>
 
-I was leading the design of Power Center App for BlackBerry HUB+ prodcuts. 
-Including secure apps suite like; Secure Inbox, Calendar, Notes, Tasks, Password, Battery Power Center & other Guardian Security apps. 
-I was responsible for creating design guidelines, wireframes, information architecture and user flows, involved throughout the entire product life-cycle, understanding human factors, functionality with focuses on usability and friendly interactions. 
+#### My Role:
 
 <br>
+
+Power Center is a mobile app part of the BlackBerry HUB+ Suit products. That includes secure Inbox, Calendar, Notes, Tasks, Password, Battery Power Center & other Guardian Security apps. I led the UX re-design for Power Center App, creating wireframes, user flows, illustrating icons and design guidelines that can be used across the team. 
+Involved throughout the entire product life-cycle, understanding human factors, functionality and focusing on usability and friendly interactions. 
+
+<br>
+
+
 #### UX GOALS 
 
 <br>
 
+-  The idea of the app is to allow users to manage the power settings on their device and set battery saving mode when battery power is low.
 
--  Showing an interactive phone battery level with information of any battery draining. 
+-  Showing an interactive battery level with information of any battery draining events. 
 
--  Showing any battery events in a clear, actionable manner 
+-  Showing an interactive battery level with information of any memory draining events. 
+
+-  Showing any battery and memory events in a clear, actionable manner 
 
 -  Designing an engaging app experience with useful information that can encourage returning users.
 
