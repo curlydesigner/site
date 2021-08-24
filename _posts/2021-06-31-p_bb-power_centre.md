@@ -28,7 +28,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.jpg
 
 <br>
 
-#### My Role:
+#### Overview:
 
 <br>
 
@@ -76,7 +76,7 @@ __________________________
 <br> 
 
 ![pc wireframes](assets/posts/2021-06-31-p_bb-power_centre/landingpage-spec.png "pc wireframes")
-###### UX - Visual Spec for BlackBerry Power Center
+###### Visual Spec for BlackBerry Power Center. Brainstormed, designed and developed with the UX team
 
 <br>
 
@@ -127,7 +127,17 @@ through the original phone settings.
 <br>
 
 
-View some of the other Design Guidlines I was creating for BlackBerry Products
+#### Tools Used 
+
+-  Adobe XD 
+-  Adobe Photoshop
+-  Adobe Illustrator
+-  InVision 
+
+
+<br>
+
+#### Other projects I was leading for BlackBerry Products:
 
 
 - [Security Portal](/design-guidelines)
