@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: portfolio-post
 title: POWER CENTER IXD
 published: true
 tags: 

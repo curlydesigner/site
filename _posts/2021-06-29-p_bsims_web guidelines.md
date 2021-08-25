@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: Design Guidelines
+title: Wireframes & UI Design Guidelines
 published: true
 tags:
     - UX/UI Design
@@ -11,14 +11,14 @@ permalink: /design-guidelines
 featured_image: /assets/posts/2021-05-02-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png
 ---
 
-#### Design Guidelines for BlackBerry Security Web Portal. 
+#### Wireframes and UI Design Guidelines for BlackBerry Security Web Portal. 
 <br>
 
 
 ![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "web portal mockup")<br>
 
 
-###### Mockup Login/Signup page
+
 <br>
 
 
