@@ -10,7 +10,7 @@ categories:
     - portfolio-featured
     
 permalink: /power-center
-featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.jpg
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.png
 
 ---
 
