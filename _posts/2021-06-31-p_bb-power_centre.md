@@ -154,7 +154,7 @@ through the original phone settings.
 
 <br>
 
-#### Other projects I was leading for BlackBerry Products:
+#### Other BlackBerry projects:
 
 
 - [Security Portal](/design-guidelines)
