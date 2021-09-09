@@ -9,7 +9,7 @@ tags:
 categories:
   - blog
 permalink: /e-commerce-fashion
-featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_ecommerce.png
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_ecommerce3.png
 ---
 
 
