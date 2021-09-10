@@ -19,6 +19,8 @@ featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/fp_ph_
 <br> 
 
 ### Dark Theme Guidlines 
+
+
 #### Colour, accessibility and UI for card based design.
 
 <br>
@@ -55,16 +57,15 @@ And responsible for creating Design Guidelines that has the right colour tones f
 <br>
 
 -  Users must be able to perceive content
-
--  Users need to have the possibility to customize their devices, giving their eyes a rest and adjusting for a better digital environment.
-
+   
+-  Users need to have customization and the best adjustment for their eyes. 
+   
 -  Easy to use, accessible for everyone and effective. 
 
 <br>
 
 
 
-![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard 7.png "Dark Mode Code")
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
 ###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security focused apps.  
