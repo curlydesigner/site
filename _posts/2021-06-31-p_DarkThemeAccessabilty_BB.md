@@ -21,11 +21,47 @@ featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/fp_ph_
 ### Dark Theme Guidlines 
 #### Colour, accessibility and UI for card based design.
 
+<br>
+
+
+
 Design is about functionality! Accessibility is something I never skip, especially for a dark mode design. Not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. 
 I was leading the design of Dark Mode for BlackBerry HUB+ prodcuts. Including secure apps suite like; Secure Inbox, Calendar, Notes, Tasks, Password, Battery Power Center & other Guardian Security apps. 
 And responsible for creating Design Guidelines that has the right colour tones for the different elements in card based design. 
 
 <br>
+
+#### Dark Theme Challenges
+
+<br>
+
+- Text can be hard to read – our eyes get used to reading books with dark text on a white background, so dark UI may cause eye strain. 
+
+- Colours can have lack sufficient contrast, toens and accessibility problems. 
+
+- Colours behave differently on light vs. dark themes. So colour palette needs to be carefully adjusted to communicate the same message effectively.
+
+- Dark UI doesn't have the same breathing room as 'white space' on a light theme. Too many elements can quickly make the screen cluttered and busy.
+
+- Not everyone likes dark theme 
+
+
+
+<br>
+
+
+#### Goals 
+
+<br>
+
+-  Users must be able to perceive content
+
+-  Users need to have the possibility to customize their devices, giving their eyes a rest and adjusting for a better digital environment.
+
+-  Easy to use, accessible for everyone and effective. 
+
+<br>
+
 
 
 ![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard 7.png "Dark Mode Code")
