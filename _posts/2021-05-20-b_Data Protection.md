@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: Data Protection
-published: true
+published: false
 tags: 
     - Human Behaviour
 categories:
