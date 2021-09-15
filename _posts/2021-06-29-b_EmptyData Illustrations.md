@@ -15,6 +15,29 @@ featured_image: /assets/posts/2021-01-01-b_EmptyData Illustrations/fp_ph_bberry_
 <br>
 
 
+
+Many requests for Design typically focus on designing screens that contain large amounts of data, pages and elements that users use most. However, empty data states and onboarding screens are often overlooked aspects of UX. 
+
+<br>
+
+
+#### *"You may not have a second chance to make an excellent first impression!"*
+
+<br>
+
+
+
+#### Design Goals
+
+<br>
+
+-  Communicate proper feedback and visuals for new users and those who just installed the app for the first time.
+
+-  Create a moment of charm with relevant illustrations and a great first impression that lasts. 
+
+
+<br>
+
 ![EmptyData](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_emptydata_mock.jpg "EmptyData")
 ###### Empty Data Illustrations for BlackBerry Hub+ Services [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.infrastructure){:target="_blank"}  
 <br>
@@ -27,9 +50,8 @@ featured_image: /assets/posts/2021-01-01-b_EmptyData Illustrations/fp_ph_bberry_
 
 <br>    
 
-Many requests for Design typically focus on designing screens that contain large amounts of data, pages and elements that users use most. However, empty data states and onboarding screens are often overlooked aspects of UX. Working across different channels in the company, designing for security systems, privacy and productivity apps, both for web and mobile. I had the opportunity to solve a design challenge for proper feedback and visuals to communicate with new users and those who just installed the app for the first time. When no data appear and users land inside of an empty state with zero data. 
-Considering the different elements, best features and essential factors to include in the onboarding process. 
-Designing illustrations that show general data visuals but simultaneously relevant and creating "moments of charm" for great first impression and introduction.
+Working across different channels in the company, designing for security systems, privacy and productivity apps, both for web and mobile. In this project I had the opportunity to solve a design challenge for proper feedback and visuals to communicate for new users and those who just installed the app for the first time. When no data appear and users land inside of an empty state with zero data. Considering the different elements, best features and essential factors to include in the onboarding process. 
+Designing illustrations that show general data but simultaneously relevant and creating "moments of charm" for great first impression and introduction.
 <br>
 <br>
 
