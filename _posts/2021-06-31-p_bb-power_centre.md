@@ -15,7 +15,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.png
 ---
 
 
-![ixd user flow](/assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.jpg "ixd user flow")
+![ixd user flow](/assets/posts/2021-06-31-p_bb-power_centre/bb-pc_mobile_mock.gif "ixd user flow")
 
 
 
@@ -126,6 +126,23 @@ through the original phone settings.
 
 <br>
 
+
+#### BEFORE 
+
+<br>
+
+![old screenshots](/assets/posts/2021-06-31-p_bb-power_centre/old_screenshoots.png "old screenshots")
+
+
+<br>
+
+#### AFTER 
+<br>
+
+![mockup](/assets/posts/2021-06-31-p_bb-power_centre/bb-pc_mobile_mock.gif "mockup")
+
+
+<br>
 
 #### Tools Used 
 
