@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: POWER CENTER IXD
+title: Coaching.com
 published: true
 tags: 
     - UX/UI Design
