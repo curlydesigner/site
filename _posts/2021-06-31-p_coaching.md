@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: POWER CENTER IXD
-published: true
+published: false
 tags: 
     - UX/UI Design
     - Human Behaviour
