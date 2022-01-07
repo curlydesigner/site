@@ -36,6 +36,14 @@ Power Center is a mobile app part of the BlackBerry HUB+ Suit products. That inc
 Involved throughout the entire product life-cycle, understanding human factors, functionality and focusing on usability and friendly interactions. 
 
 <br>
+#### BEFORE 
+
+<br>
+
+![old screenshots](/assets/posts/2021-06-31-p_bb-power_centre/old_screenshoots.png "old screenshots")
+
+
+<br>
 
 
 #### UX GOALS 
