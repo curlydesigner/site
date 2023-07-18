@@ -1,0 +1,173 @@
+---
+layout: portfolio-post
+title: Game Main HUD Navigation
+published: true
+tags: 
+    - UX/UI Design
+    - Human Behaviour
+categories:
+    - portfolio
+    - portfolio-featured
+    
+permalink: /wb-hud
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.png
+
+---
+
+
+![ixd user flow](/assets/posts/2021-06-31-p_bb-power_centre/bb-pc_mobile_mock.gif "ixd user flow")
+
+
+
+<br> 
+
+### GAME MAIN HUD
+
+
+#### IXD | USER FLOW | INFO-ARCHITECTURE | SIZE GUIDE RECOMMENDATION | FUNCTIONALITY PROTOTYPE  
+
+<br>
+
+#### Overview:
+
+<br>
+- 
+A 4X strategy game is a type of strategy game that focuses on four core gameplay elements: Explore, Expand, Exploit, and Exterminate. These games often involve managing and growing an empire or civilization, exploring a game world, and making strategic decisions to achieve victory. In 4X games, the main screens typically include:
+
+- A Map: where players can see the entire game world and explore different tiles, castles and armies.
+- Players can also interact with other players and engage in diplomacy and trade. 
+- Research Screen: The research screen is where players can select a tile and research, learn about a tile, take action and improve resource management and expanding an empire.
+- Empire Management Screen: where players can manage their empire's resources, including food, production, and money. This screen allows players to build new structures and units, manage their city, dragons and make other strategic decisions.
+- Combat Screen is where players can engage in battles with other dragons. Players can deploy their fleets, manage their resources, and make tactical decisions. 
+- Victory Screen: where players can view their progress towards victory conditions and see which dragons are leading the game. 
+
+<br>
+
+#### Information Architecture 
+
+
+<br>
+
+![old screenshots](/assets/posts/2021-06-31-p_bb-power_centre/old_screenshoots.png "old screenshots")
+
+
+<br>
+
+
+#### UX GOALS 
+
+<br>
+
+When it comes to user experience (UX) principles in 4X games, it involve complex systems and a wealth of information. Some of the gooals 
+
+- To ensure that the user interface (UI) provides clear and organized information about resources. What is a tile? How to own a tile on a map ? 
+- Use visual hierarchy, tooltips, and concise text to convey important information effectively.
+- Progressive Complexity: Gradually introduce game mechanics and features to players, especially in the early stages. Avoid overwhelming them with too much information all at once. Provide tutorials, tooltips, and guided gameplay to help players understand and master the game's mechanics and systems over time.
+
+
+<br>
+
+
+
+![ixd user flow](assets/posts/2021-06-31-p_bb-power_centre/ixd-userflow.png "ixd user flow")
+###### IxD - User Flow proposal for BlackBerry Power Center
+
+<br>
+
+![pc wireframes](assets/posts/2021-06-31-p_bb-power_centre/all-wireframes.png "pc wireframes")
+###### UX - Wireframes proposal for BlackBerry Power Center
+
+
+
+<br>
+
+__________________________
+
+<br> 
+
+![pc wireframes](assets/posts/2021-06-31-p_bb-power_centre/landingpage-spec.png "pc wireframes")
+###### Visual Spec for BlackBerry Power Center. Brainstormed, designed and developed with the UX team
+
+<br>
+
+#### LANDING PAGE 
+
+<br>
+
+**BATTERY**  The top component is an interactive battery element displaying the battery level and status.
+
+
+**CARDS** Underneath the top component, there are four cards that lead to: 
+
+
+-  **APPLICATIONS** - List of recommended applications. User can add an app to a list and configure its power
+saving set ups.
+-  **AUTOMATIC AUTORUN**  - Applications list that run automatically on the background, with taggles to switch ON/OFF
+-  **MEMORY** - List of current running Apps that drain the battery by using a lot of memory. And showing the current memory space status.
+-  **SYSTEM** - other system setups that user able to change through the original phone settings.
+
+
+**SETTINGS** Access to app Settings located in the right top corner.
+
+
+**APPLICATIONS** shows a list of recommended applications.
+User can add an app to a list and configure its power saving set ups.
+
+
+**AUTOMATIC AUTORUN** Applications list that run automatically on the background, with taggle to switch ON/OFF
+
+
+**MEMORY** - List of current running Apps that drain the battery by using a lot of memory.
+Showing current memory space status.
+
+
+**SYSTEM** - other system setups that user able to change
+through the original phone settings.
+
+
+<br>
+
+
+#### VID SPEC - DIOLOG MESSAGES
+
+
+![pc wireframes](assets/posts/2021-06-31-p_bb-power_centre/bb-pc-dialog.png "pc wireframes")
+
+
+<br>
+
+
+#### BEFORE 
+
+<br>
+
+![old screenshots](/assets/posts/2021-06-31-p_bb-power_centre/old_screenshoots.png "old screenshots")
+
+
+<br>
+
+#### AFTER 
+<br>
+
+![mockup](/assets/posts/2021-06-31-p_bb-power_centre/bb-pc_mobile_mock.gif "mockup")
+
+
+<br>
+
+#### Tools Used 
+
+-  Adobe XD 
+-  Adobe Photoshop
+-  Adobe Illustrator
+-  InVision 
+
+
+<br>
+
+#### Other BlackBerry projects:
+
+
+- [Security Portal](/design-guidelines)
+- [Onboarding screens](/empty-data)
+- [BlackBerry Brand Packaging Guidelines](/bb-brand) 
+- [BlackBerry Dark Theme](/dark-theme) 
