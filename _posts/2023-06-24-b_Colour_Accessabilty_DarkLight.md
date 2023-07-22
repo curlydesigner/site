@@ -5,6 +5,8 @@ published: true
 tags: 
     - UX/UI Design
     - Human Behaviour
+    - Gaming & IxD
+    - Illustrations
 categories:
     - blog
     - portfolio

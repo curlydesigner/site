@@ -5,6 +5,7 @@ published: true
 tags: 
     - UX/UI Design
     - Brand Marketing
+    - Illustrations
 categories:
     - portfolio
     - portfolio-featured

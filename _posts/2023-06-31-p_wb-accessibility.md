@@ -5,6 +5,7 @@ published: true
 tags: 
     - UX/UI Design
     - Human Behaviour
+    - Gaming & IxD
 categories:
     - portfolio
     - portfolio-featured
@@ -15,18 +16,12 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_target.png
 ---
 
 
-![ixd user flow](/assets/posts/2023-06-31-p_wb-4x/wb_target.png "ixd user flow")
-
-<br> 
-
-### 4X GAME Size Guide Research
+### UX Size Guide and Accessibility Size Guide
 
 
 #### IXD | USER FLOW | INFO-ARCHITECTURE | SIZE GUIDE RECOMMENDATION | FUNCTIONALITY PROTOTYPE  
 
 <br>
-
-#### Accessibility Size Guide
 
 Accessibility is a significant impact on the user experience of players. 
 Readability, text size, icons, touch target for actions, and spacing can affect the accessibility and usability of an interface. 
