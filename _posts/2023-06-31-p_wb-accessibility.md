@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: WB 4X Game - Main HUD Navigation
+title: Accessibility Size Guide
 published: true
 tags: 
     - UX/UI Design
@@ -10,13 +10,12 @@ categories:
     - portfolio-featured
     
 permalink: /wb-accessibility
-featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_featureimage2.png
+featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_target.png
 
 ---
 
 
-![ixd user flow](/assets/posts/2023-06-31-p_wb-4x/JourneyMAp.png "ixd user flow")
-###### Player's Journey Map 
+![ixd user flow](/assets/posts/2023-06-31-p_wb-4x/wb_target.png "ixd user flow")
 
 <br> 
 
@@ -27,7 +26,7 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_featureimage2.png
 
 <br>
 
-#### Accessibility Size
+#### Accessibility Size Guide
 
 Accessibility is a significant impact on the user experience of players. 
 Readability, text size, icons, touch target for actions, and spacing can affect the accessibility and usability of an interface. 
