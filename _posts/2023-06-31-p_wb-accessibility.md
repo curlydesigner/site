@@ -11,12 +11,12 @@ categories:
     - portfolio-featured
     
 permalink: /wb-accessibility
-featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_target.png
+featured_image: /assets/posts/2023-06-31-p_wb-4x/featureimage2.png
 
 ---
 
 
-### UX Size Guide and Accessibility Size Guide
+### UX Size Guide and Accessibility
 
 
 #### IXD | USER FLOW | INFO-ARCHITECTURE | SIZE GUIDE RECOMMENDATION | FUNCTIONALITY PROTOTYPE  
