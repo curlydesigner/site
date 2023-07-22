@@ -9,7 +9,7 @@ categories:
     - portfolio
     - portfolio-featured
     
-permalink: /wb-hud
+permalink: /wb-accessibility
 featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_featureimage2.png
 
 ---
@@ -20,38 +20,20 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_featureimage2.png
 
 <br> 
 
-### 4X GAME MAIN HUD NAVIGATION 
+### 4X GAME Size Guide Research
 
 
 #### IXD | USER FLOW | INFO-ARCHITECTURE | SIZE GUIDE RECOMMENDATION | FUNCTIONALITY PROTOTYPE  
 
 <br>
 
-#### Overview:
-
-<br>
-- 
-While working in WB Games I was involved in exploring Main HUD Navigation for a 4X strategy game. In this type of strategy game the focuse on four core gameplay elements: Explore, Expand, Exploit, and Exterminate.
-These games often involve managing and growing an empire or civilization, exploring a game world, and making strategic decisions to achieve victory. 
-In 4X games, the main screens typically include:
-
-<br>
-
-- A Map -  where players can see the entire game world and explore different tiles, castles and armies.
-- Research Screen - The research screen is where players can select a tile and research, learn about a tile, take action and improve resource management and expanding an empire.
-- Empire Management Screen - where players can manage their empire's resources, including food, production, and money. This screen allows players to build new structures and units, manage their city, dragons and make other strategic decisions.
-- Combat Screen - is where players can engage in battles with other dragons. Players can deploy their fleets, manage their resources, and make tactical decisions. 
-- Victory Screen - where players can view their progress towards victory conditions and see which dragons are leading the game. 
-- Chat - where players can interact with other players and engage in diplomacy and trade. 
-
-<br>
-
-__________________________
-
-#### Accessibility 
+#### Accessibility Size
 
 Accessibility is a significant impact on the user experience of players. 
-Readability, text size, icons, touch target for actions, and spacing can affect the accessibility and usability of an interface. The challenge of displaying a large amount of information that needs to appear on a small mobile map,  gameplay,  means Navigation need to be simplified and clear from their layout and assessability. Therefore, I took the time to create guidelines and templates that can be followed to ensure optimal touch target usability. Text, images, icons, and other elements are clear and straightforward with considerable leveraging and ‘white space.’  
+Readability, text size, icons, touch target for actions, and spacing can affect the accessibility and usability of an interface. 
+What I learned is the challenge of displaying a large amount of information that needs to appear on a small mobile gameplay, is very typical when designing for gaming. 
+Therefore, I took the time to create guidelines and templates that can be followed to ensure optimal touch target usability. 
+Text, images, icons, and other elements are clear and straightforward with considerable leveraging and ‘white space.’  
 <br> 
 
 
@@ -80,6 +62,7 @@ Elements have to be placed within the safety-marked area
 
 <br>
 
+_____________________
 
 #### GOOD EXAMPLES
 
@@ -112,10 +95,24 @@ Calcualtion of maximum element sthat could fit into the screeen and its placemen
 
 But of course it is also all about being smart about the implementation of code to ensure a responsive design that can adapt to different screen sizes and optimize its layout, text, and icons dynamically based on the screen size and orientation of the device being used. Taking the time to talk through with developers about the technical solutions for Utilizing flexible layouts and consideration for elements to be inside the visual area of the screen. 
 
-LABELS
+#### TEXTURES
 
-Consistent Navigation labels - Easy to read and clear to understand with contextual visualization cues to help users understand where they are and where they can go next.
+When designing for Map territories, Textures can indeed play a crucial role in accessibility and easy identification, especially when it comes to colour blindness. 
+By using textures, with the right visual contrast, patterns or gradients, it can provide tactile feedback to users with visual impairments. On a map it can help identify different territories or regions. 
+For example rough texture could represent mountains, while a smooth texture could represent plains. 
+Also consistent textures can represent different types of territories across various screens or components, users can quickly learn to associate specific textures with specific regions, making the map more intuitive and familiar to navigate.
+It's important to strike a balance between aesthetics and usability.
 
+#### LABELS - How important are they ? 
+
+
+- Labels help organize content, making it easier for users to locate specific information or navigate through. Consistent Navigation with labels may be helpful. With easy-to-read and clear-to-understand contextual visualization, cues can help users understand where they are and where they can go next.
+- Labels next to buttons and icons describe their functions explicitly. This is beneficial for all users, including those with cognitive impairments or those who are not familiar with certain symbols or iconography.
+- Also, labels provide essential information to screen readers and assistive technologies, enabling users with visual impairments to understand and interact with digital content. When elements are appropriately labeled, screen readers can announce the labels aloud, allowing users to navigate and access the content effectively.
+- Without labels, users may struggle to understand what information is expected in each field, leading to errors and frustration.
+- Labels play a role in providing clear error messages when something goes wrong. This is crucial for users to identify the problem and take appropriate action to correct it.
+
+I learned that incorporating labels is an essential aspect of accessible design, regardless of the user's abilities or disabilities. Labels contribute to a more inclusive and user-friendly experience, making it easier for everyone to access and engage with digital interfaces and information.
 
 #### Tools Used 
 
@@ -128,7 +125,7 @@ Consistent Navigation labels - Easy to read and clear to understand with context
 
 #### Other projects:
 
-
+- [WB HUD Global Navigation](/wb-hud)
 - [Security Portal](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
