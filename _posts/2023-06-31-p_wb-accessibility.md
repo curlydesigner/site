@@ -17,9 +17,7 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/featureimage2.png
 
 
 ### UX Size Guide and Accessibility
-
-
-#### IXD | USER FLOW | INFO-ARCHITECTURE | SIZE GUIDE RECOMMENDATION | FUNCTIONALITY PROTOTYPE  
+  
 
 <br>
 
@@ -107,12 +105,6 @@ It's important to strike a balance between aesthetics and usability.
 - Labels play a role in providing clear error messages when something goes wrong. This is crucial for users to identify the problem and take appropriate action to correct it.
 
 I learned that incorporating labels is an essential aspect of accessible design, regardless of the user's abilities or disabilities. Labels contribute to a more inclusive and user-friendly experience, making it easier for everyone to access and engage with digital interfaces and information.
-
-#### Tools Used 
-
--  Figma 
--  Adobe Illustrator
--  QuickTime Player 
 
 
 <br>

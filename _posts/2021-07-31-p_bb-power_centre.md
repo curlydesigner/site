@@ -11,7 +11,7 @@ categories:
     - portfolio-featured
     
 permalink: /power-center
-featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bb-pc.png
+featured_image: /assets/posts/2021-06-31-p_bb-power_centre/bb-pc_mobile_mock.gif
 
 ---
 
