@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: ScotiaBank iPad form
+title: ScotiaBank iPad App
 published: true
 tags: 
     - UX/UI Design
