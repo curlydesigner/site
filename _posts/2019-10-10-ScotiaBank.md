@@ -9,7 +9,7 @@ categories:
     - portfolio
     
 permalink: /scotiabank
-featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_featureimage2.png
+featured_image: /assets/posts/2019-10-10-ScotiaBank/featureimage2.png
 
 ---
 
