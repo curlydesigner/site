@@ -168,6 +168,7 @@ through the original phone settings.
 #### Other BlackBerry projects:
 
 
+- [UX Size Guide and Accessabilty](/wb-hud)
 - [Security Portal](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
