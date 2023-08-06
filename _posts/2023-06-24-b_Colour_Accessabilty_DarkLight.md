@@ -29,11 +29,11 @@ In 2019, Apple and Google introduced Dark mode themes for their operating system
 <br>
 <br>
 
-Even when Dark Mode wasn't yet a thing, it still existed on the BalckBerry Devices. The concept of dark mode isn't entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in "dark mode." However, it gained significant traction in 2019 when major tech giants like Apple and Google officially integrated it into their operating systems. But before all that, our eyes get used to reading books with dark text on a white background. Saying that, this was when we were working and studying during the day and sleeping at night. 
+Even when Dark Mode wasn't yet a thing, it still existed on the BalckBerry Devices. The concept of dark mode isn't entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in "dark mode." However, it gained significant traction when major tech giants officially integrated it into their operating systems. But before all that, our eyes get used to reading books with dark text on a white background. Saying that, this was when we were working and studying during the day and sleeping at night. 
 <br> 
 <br>
 
-#### LEARNING 
+#### LEARNINGS 
 
 Nowadays, when we use our devices around the clock, users want to have the possibility to customize their devices, giving their eyes a rest especially during night time use.Dark mode makes devices in low-light environments more comfortable by reducing glare and preserving night vision. 
 
@@ -47,9 +47,9 @@ Working a lot with developers, it seems like Dark mode has proven to be highly b
 <br>
 <br>
 
-#### CHALANGES 
+#### ACCESSABILITY 
 
-But not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. I see many products that move into dark mode but neglacting accessabilty ratio.
+The introduction of dark mode themes marked a significant turning point in user experience. Dark mode has evolved into a popular choice for its numerous benefits. But not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. I see many products that move into dark mode but neglacting accessabilty ratio.
 <br>
 Color contrast and tones used on a dark theme are vital for all users but especially for people with poor vision or disabilities. Users must be able to perceive content. This is why colors selected for text and icons need to be contrasted, readable and carefully used if there are gradients, semi-transparent colors, and background images. Everything has to be designed carefully and meet the contrast requirements. 
 <br>
@@ -77,7 +77,7 @@ Accessibility is something I never skip, especially for a dark mode design. For 
 
 
 
-When designing a product, I constantly research industry standards and competitors, considering brand values, target audience and usability requirements. While creating the Dark Theme Guidelines for BlackBerry Products, I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode may be the next hot design feature but can also create many accessibility issues. For some people, dark themes are more accessible, for others, the light theme would be preferable. The bottom line, users need to have personalization. And have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find.
+When designing a product, I constantly research industry standards and competitors, considering brand values, target audience and usability requirements. While creating the Dark Theme Guidelines for BlackBerry Products, I also had the opportunity to investigate the different aspects and challenges of accessibility. Dark mode has evolved a lot but still can create many accessibility issues. For some people, dark themes are more accessible, for others, the white background would be preferable. The bottom line, users need to have customization and have both a dark theme and a light theme and allow users to select the theme that works best for them. Make switching between dark themes and light themes obvious and easy to find.
 
 Design is about functionality, and more thought should be given to accessible color choices when designing using a dark or a light theme. 
 The goal is to create products that will be easy to use, accessible for everyone and effective. Ensuring trustful and positive experience from the user's perspective and company's impression.
