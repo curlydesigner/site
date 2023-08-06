@@ -22,24 +22,35 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 
 ### Colour and Accessibility / Dark and Light Themes
 <br>
-In 2019 Apple and Google introduced the Dark mode themes for their OS. Many apps have developed with dark mode options and its design have grown since then, becoming increasingly popular. Contributing to enhancing visibility for users with low vision and sensitivity to bright light. Google also says it might improve battery life and make it easier for anyone to use a device in a low-light environment. Even when Dark Mode wasn't yet a thing, it still existed on the first computer screens that were already in "dark mode".
+
+#### OVERVIEW
+
+In 2019, Apple and Google introduced Dark mode themes for their operating systems, revolutionizing the way users interact with their devices. Since then, dark mode options have become increasingly popular, with many apps adopting this design. The shift to dark mode has also brought various advantages, for potential battery life improvements and make it easier for anyone to use a device in a low-light environment. 
+<br>
 <br>
 
-But before all that, our eyes get used to reading books with dark text on a white background. Saying that, this was when we were working and studying during the day and sleeping at night.  Nowadays, when we use our devices around the clock, users want to have the possibility to customize their devices, giving their eyes a rest and adjusting them to our habits for a better digital environment. 
+Even when Dark Mode wasn't yet a thing, it still existed on the BalckBerry Devices. The concept of dark mode isn't entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in "dark mode." However, it gained significant traction in 2019 when major tech giants like Apple and Google officially integrated it into their operating systems. But before all that, our eyes get used to reading books with dark text on a white background. Saying that, this was when we were working and studying during the day and sleeping at night. 
+<br> 
 <br>
 
-Working a lot with developers, it seems like Dark mode contributed a lot with its design becoming more useful for coding. Except of giving more rest to their eyes from extended screen time it also allows seeing the code structure quickly with the coloring elements highlighted. And it esier to differentiate components, allowing the ability to scan instead of reading through every word. 
+#### LEARNING 
+
+Nowadays, when we use our devices around the clock, users want to have the possibility to customize their devices, giving their eyes a rest especially during night time use.Dark mode makes devices in low-light environments more comfortable by reducing glare and preserving night vision. 
+
+
+Working a lot with developers, it seems like Dark mode has proven to be highly beneficial. Beyond providing much-needed relief to their eyes during extended screen time, it also enhances the overall coding experience. The color-coded elements in dark mode allow developers to quickly discern the code structure, making it easier to identify and differentiate components. This feature enables them to scan through code rapidly, improving productivity and reducing the time spent on reading each line.
 
 <br>
+
 
 ![code](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_170801444.jpeg "code")
 <br>
 <br>
 
-
+#### CHALANGES 
 
 But not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. I see many products that move into dark mode but neglacting accessabilty ratio.
-
+<br>
 Color contrast and tones used on a dark theme are vital for all users but especially for people with poor vision or disabilities. Users must be able to perceive content. This is why colors selected for text and icons need to be contrasted, readable and carefully used if there are gradients, semi-transparent colors, and background images. Everything has to be designed carefully and meet the contrast requirements. 
 <br>
 
