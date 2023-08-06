@@ -63,6 +63,8 @@ Creating User flow and designing wireframes and interactive prototypes for a fac
 
 - Complying with banking regulations and data protection laws while delivering a smooth user experience that requires careful consideration.
 
+<br>
+
 To address these challenges, I was collaborating between the different teams, Product owners, Security experts, and Developers. To gather feedback that can help identify potential pain points and improve the login and user flow iteratively. 
 
 <br>
