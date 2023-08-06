@@ -52,11 +52,30 @@ Working a lot with developers, it seems like Dark mode has proven to be highly b
 <br>
 <br>
 
+#### CHALLENGES
+
+
+
+- Text can be hard to read if color is not used properly 
+- Colours can lack sufficient contrast and have accessibility issues. Colors behave differently on light vs. dark backgrounds, which means the color palette must be carefully designed to communicate the same message effectively.
+- Dark UI doesn’t have the same breathing room as ‘white space’ on a light theme. Too many elements can quickly make the screen cluttered and busy.
+- Not everyone likes dark theme 
+
+<br>
+
+<br>
+
 #### ACCESSABILITY 
 
 The introduction of dark mode themes marked a significant turning point in user experience. Dark mode has evolved into a popular choice for its numerous benefits. But not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. I see many products that move into dark mode but neglacting accessabilty ratio.
+
+
 <br>
+<br>
+
 Color contrast and tones used on a dark theme are vital for all users but especially for people with poor vision or disabilities. Users must be able to perceive content. This is why colors selected for text and icons need to be contrasted, readable and carefully used if there are gradients, semi-transparent colors, and background images. Everything has to be designed carefully and meet the contrast requirements. 
+
+<br>
 <br>
 
 
