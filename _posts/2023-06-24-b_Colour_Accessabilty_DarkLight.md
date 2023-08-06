@@ -20,16 +20,21 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 <br>
 <br> 
 
-### Colour and Accessibility / Dark and Light Themes
+### Colour and Accessibility - Dark and Light Themes Background
 <br>
 
 #### OVERVIEW
 
-In 2019, Apple and Google introduced Dark mode themes for their operating systems, revolutionizing the way users interact with their devices. Since then, dark mode options have become increasingly popular, with many apps adopting this design. The shift to dark mode has also brought various advantages, for potential battery life improvements and make it easier for anyone to use a device in a low-light environment. 
+<br>
+
+
+In 2019, Apple and Google introduced Dark mode themes for their OS, revolutionizing the way users interact with their devices. Since then, dark mode options have become increasingly popular, with many apps adopting this design. The shift to dark mode has also brought various advantages, for potential battery life improvements making it easier for anyone to use a device in a low-light environment. 
 <br>
 <br>
 
-Even when Dark Mode wasn't yet a thing, it still existed on the BalckBerry Devices. The concept of dark mode isn't entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in "dark mode." However, it gained significant traction when major tech giants officially integrated it into their operating systems. But before all that, our eyes get used to reading books with dark text on a white background. Saying that, this was when we were working and studying during the day and sleeping at night. 
+Even when Dark Mode wasn't yet a thing, it still existed on the BalckBerry Devices. The concept of dark mode isn't entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in "dark mode."
+
+However, it gained significant traction when major tech giants officially integrated it. Beforethe computers, our eyes got used to reading books with dark text on a white background. Saying that, this was when we were working and studying during the day and sleeping at night. 
 <br> 
 <br>
 
