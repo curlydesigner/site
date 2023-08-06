@@ -73,3 +73,12 @@ To address these challenges, I was collaborating between the different teams, Pr
 ![userflow](<../assets/posts/2019-10-10-ScotiaBank/Artboard 1 copy.png> "userflow")
 
 ![ScotiaBank](<../assets/posts/2019-10-10-ScotiaBank/featureimage2.png> "ScotiaBank")
+
+
+#### Other projects:
+
+- [UX Size Guide and Accessabilty](/wb-hud)
+- [Security Portal](/design-guidelines)
+- [Onboarding screens](/empty-data)
+- [BlackBerry Brand Packaging Guidelines](/bb-brand) 
+- [BlackBerry Dark Theme](/dark-theme) 
