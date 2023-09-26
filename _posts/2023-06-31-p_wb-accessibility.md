@@ -114,7 +114,7 @@ However, it's crucial to strike a delicate balance between aesthetics and usabil
 
 <br>
 
-<image>
+
 
 #### LABELS - How important are they ? 
 
