@@ -104,6 +104,8 @@ However, it's crucial to strike a delicate balance between aesthetics and usabil
 
 <br>
 
+<image>
+
 #### LABELS - How important are they ? 
 
 
@@ -115,6 +117,11 @@ However, it's crucial to strike a delicate balance between aesthetics and usabil
 
 I learned that incorporating labels is an essential aspect of accessible design, regardless of the user's abilities or disabilities. Labels contribute to a more inclusive and user-friendly experience, making it easier for everyone to access and engage with digital interfaces and information.
 
+
+<br>
+
+![main HUD](/assets/posts/2023-06-31-p_wb-4x/TileMap_Hud.png "main HUD")
+###### Design of a Main HUD for a 4X Game
 
 <br>
 
