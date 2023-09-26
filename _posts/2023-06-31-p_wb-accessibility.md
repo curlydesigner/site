@@ -94,6 +94,8 @@ Being involved in textured exploration, as we know it from nature, incorporating
 
 However, it's crucial to strike a delicate balance between aesthetics and usability. While textures can greatly contribute to accessibility, they should complement the overall visual appeal of the game UI without overwhelming itthe player. This harmonious fusion of aesthetics and usability ensures an engaging and inclusive gaming experience for all players.
 
+<br>
+
 #### LABELS - How important are they ? 
 
 
