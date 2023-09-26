@@ -55,7 +55,17 @@ I've noticed that many strategy mobile games have very small touch targets and a
 - Elements have to be placed within the safety-marked area.
 
 ![dont](assets/posts/2023-06-31-p_wb-4x/G_tilemap_dont1.png "dont")
-###### Not accessible example; don't create actions and icons that are too small or too close to each other.
+
+![dont](assets/posts/2023-06-31-p_wb-4x/G_tilemap_dont3.png "dont")
+
+![dont](assets/posts/2023-06-31-p_wb-4x/G_tilemap_dont2.png "dont")
+
+
+###### Not accessible example. Don't create actions and icons that are too small or too close to each other.
+
+
+
+
 
 <br>
 
