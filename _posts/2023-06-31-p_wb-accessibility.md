@@ -16,7 +16,7 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/featureimage2.png
 ---
 
 
-### UX Size Guide and Accessibility in Gaming
+### UX Size Guide and Accessibility for 4X Games
   
 
 <br>
