@@ -82,11 +82,13 @@ Calcualtion of maximum element sthat could fit into the screeen and its placemen
 ###### Elements on the side of the screen should be considered as a larger tappble area for thumb size fingers and placed within the safety-marked area. 
 
 
-But of course it is also all about being smart about the implementation of code to ensure a responsive design that can adapt to different screen sizes and optimize its layout, text, and icons dynamically based on the screen size and orientation of the device being used. Taking the time to talk through with developers about the technical solutions for Utilizing flexible layouts and consideration for elements to be inside the visual area of the screen. 
+However, it's equally vital to approach code implementation intelligently to guarantee a responsive design capable of adapting seamlessly to various screen dimensions. This adaptability extends to optimizing layout, text, and icons dynamically, depending on the device's screen size and orientation. Engaging in thoughtful discussions with developers to explore technical solutions that incorporate flexible layouts and ensure that essential elements remain within the screen's visible area is a key step in achieving this goal."
+
+<br>
 
 #### TEXTURES
 
-When designing for Map territories, Textures can indeed play a crucial role in accessibility and easy identification, especially when it comes to colour blindness. 
+When designing for 4X games where Map territories and textures can indeed play a crucial role in accessibility and easy identification, especially when it comes to colour blindness. 
 By using textures, with the right visual contrast, patterns or gradients, it can provide tactile feedback to users with visual impairments. On a map it can help identify different territories or regions. 
 For example rough texture could represent mountains, while a smooth texture could represent plains. 
 Also consistent textures can represent different types of territories across various screens or components, users can quickly learn to associate specific textures with specific regions, making the map more intuitive and familiar to navigate.
