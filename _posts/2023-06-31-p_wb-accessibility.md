@@ -88,11 +88,11 @@ However, it's equally vital to approach code implementation intelligently to gua
 
 #### TEXTURES
 
-When designing for 4X games where Map territories and textures can indeed play a crucial role in accessibility and easy identification, especially when it comes to colour blindness. 
-By using textures, with the right visual contrast, patterns or gradients, it can provide tactile feedback to users with visual impairments. On a map it can help identify different territories or regions. 
-For example rough texture could represent mountains, while a smooth texture could represent plains. 
-Also consistent textures can represent different types of territories across various screens or components, users can quickly learn to associate specific textures with specific regions, making the map more intuitive and familiar to navigate.
-It's important to strike a balance between aesthetics and usability.
+Designing for 4X games, where map territories and textures hold pivotal roles in accessibility and ease of identification, particularly for individuals with color blindness, the choice of textures becomes paramount. Well-implemented textures, boasting the right visual contrast, patterns, or gradients, can offer tactile feedback to users with visual impairments. These textures, when thoughtfully applied on a map, serve as valuable cues for distinguishing different territories or regions. 
+
+Being involved in textured exploration, as we know it from nature, incorporating a rough texture might signify a mountainous landscape, while a smooth surface could symbolize expansive plains. Consistency in applying these textures across various screens or components allows users to swiftly associate specific textures with particular regions. This familiarity and intuitive connection enhance the map's navigability.
+
+However, it's crucial to strike a delicate balance between aesthetics and usability. While textures can greatly contribute to accessibility, they should complement the overall visual appeal of the game UI without overwhelming itthe player. This harmonious fusion of aesthetics and usability ensures an engaging and inclusive gaming experience for all players.
 
 #### LABELS - How important are they ? 
 
