@@ -45,7 +45,6 @@ ______________________
 I've noticed that many strategy mobile games have very small touch targets and actions that are placed too close to each other. 
 <br>
 <br>
-Remember! <br>
 **Don't** create actions and icons that are too small or too close to each other.
 <br>
 <br>
