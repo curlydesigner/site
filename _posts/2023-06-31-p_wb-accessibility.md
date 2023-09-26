@@ -41,7 +41,7 @@ For players who are using their Thumb, 72px is the target area.
 ______________________
 
 #### NOT ACCESSIBLE EXAMPLES
-
+<br>
 I've noticed that many strategy mobile games have very small touch targets and actions that are placed too close to each other. 
 <br>
 Remember! <br>
@@ -61,7 +61,7 @@ Remember! <br>
 _____________________
 
 #### GOOD EXAMPLES
-
+<br>
 The design should be adapted for optimal screen size. Make sure actions are large enough and spaced out for reliable interaction. Different screen sizes may have convenient and hard-to-reach areas for tapping.
 This is why bottom side buttons should be adapted for maximum thumb-finger size tap.
 Targets that are frequently used or critical to the functionality should be placed within easy reach and should be larger than less important targets.
