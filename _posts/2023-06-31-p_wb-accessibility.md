@@ -21,11 +21,7 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/featureimage2.png
 
 <br>
 
-Accessibility is a significant impact on the user experience of players. 
-Readability, text size, icons, touch target for actions, and spacing can affect the accessibility and usability of an interface. 
-What I learned is the challenge of displaying a large amount of information that needs to appear on a small mobile gameplay, is very typical when designing for gaming. 
-Therefore, I took the time to create guidelines and templates that can be followed to ensure optimal touch target usability. 
-Text, images, icons, and other elements are clear and straightforward with considerable leveraging and ‘white space.’  
+Accessibility plays a crucial role in enhancing the overall user experience for gamers. Elements such as readability, text size, icon design, touch targets for in-game actions, and spacing have a direct impact on the accessibility and usability of a gaming interface. I've come to understand that one of the common challenges in game design is presenting a vast amount of information within the constraints of a small mobile screen. To address this challenge, I dedicated time to develop comprehensive guidelines and templates that can be followed to ensure the optimal usability of touch targets. This includes ensuring that text, images, icons, and other elements are presented clearly and intuitively, while making effective use of "white space" to provide a visually balanced and user-friendly experience for all gamers. 
 <br> 
 
 
@@ -43,7 +39,8 @@ ______________________
 
 #### NOT ACCESSIBLE EXAMPLES
 
-**Don’t** create actions and icons that are too small or too close to each other.
+I notice that some mobile games have very small touch tourget and actions that placed too close to each other. 
+Remmember! **Don't** create actions and icons that are too small or too close to each other.
 The distance and spacing between targets depend on the designed area but should take into consideration the largest finger size to prevent accidental touch.
 By using smaller icons consider more spacing to prevent accidental touch
 Elements that needs to touch each other needs to take into consideration the surrounding touch area
