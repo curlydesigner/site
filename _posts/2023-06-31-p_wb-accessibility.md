@@ -42,12 +42,15 @@ ______________________
 
 #### NOT ACCESSIBLE EXAMPLES
 
-I notice that some mobile games have very small touch tourget and actions that placed too close to each other. 
-Remmember! **Don't** create actions and icons that are too small or too close to each other.
-The distance and spacing between targets depend on the designed area but should take into consideration the largest finger size to prevent accidental touch.
-By using smaller icons consider more spacing to prevent accidental touch
-Elements that needs to touch each other needs to take into consideration the surrounding touch area
-Elements have to be placed within the safety-marked area
+I've noticed that many strategy mobile games have very small touch targets and actions that are placed too close to each other. 
+
+Remember! 
+**Don't** create actions and icons that are too small or too close to each other.
+
+The distance and spacing between targets depend on the designed area, and the largest finger size should be considered to prevent accidental touch.
+By using smaller icons, consider more spacing to prevent accidental touch
+Elements that need to touch each other need to take into consideration the surrounding touch area
+Elements have to be placed within the safety-marked area.
 
 ![dont](assets/posts/2023-06-31-p_wb-4x/G_tilemap_dont1.png "dont")
 ###### Not accessible example; don't create actions and icons that are too small or too close to each other.
