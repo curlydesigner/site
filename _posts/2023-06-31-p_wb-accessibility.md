@@ -16,7 +16,7 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/featureimage2.png
 ---
 
 
-### UX Size Guide and Accessibility for 4X Games
+### UX Size Guide and Accessibility for Mobile 4X Games
   
 
 <br>
@@ -85,9 +85,7 @@ Targets that are frequently used or critical to the functionality should be plac
 ![dont](assets/posts/2023-06-31-p_wb-4x/G_tilemap_bf2.png "dont")
 ###### Icons in the middle of screen could be designed smaller for index size finger
 
-![dont](assets/posts/2023-06-31-p_wb-4x/G_tilemap_bf1.png "dont")
-###### Bottom side buttons should be adapted for maximum thumb-finger size tap.
-
+<br>
 
 The ideal tappable action menu size 48px plus 24px (minimum) space to get 72px finger target area.
 Most important action located on the side adapted for thumbs size 72x72px
