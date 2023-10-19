@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: POWER CENTER IXD
+title: BlackBerry Battery Saver IXD
 published: true
 tags: 
     - UX/UI Design
@@ -169,7 +169,7 @@ through the original phone settings.
 
 
 - [UX Size Guide and Accessabilty](/wb-hud)
-- [Security Portal](/design-guidelines)
+- [Design System and UI Guidelines](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
 - [BlackBerry Dark Theme](/dark-theme) 

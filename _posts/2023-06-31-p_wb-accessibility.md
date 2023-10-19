@@ -8,8 +8,7 @@ tags:
     - Gaming & IxD
 categories:
     - portfolio
-    - portfolio-featured
-    
+       
 permalink: /wb-accessibility
 featured_image: /assets/posts/2023-06-31-p_wb-4x/featureimage2.png
 
@@ -148,8 +147,8 @@ I learned that incorporating labels is an essential aspect of accessible design,
 
 #### Other projects:
 
-- [WB HUD Global Navigation](/wbd-4xhud)
-- [Security Portal](/design-guidelines)
+- [WB HUD Global Navigation](/wb-hud)
+- [Design System and UI Guidelines](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
 - [BlackBerry Dark Theme](/dark-theme) 

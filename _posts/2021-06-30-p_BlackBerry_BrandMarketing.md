@@ -81,5 +81,5 @@ View some of the other Design Guidlines I was leadign for
 
 
 - [BlackBerry Dark Theme](/dark-theme) 
-- [Security Portal](/design-guidelines)
+- [Design System and UI Guidelines](/design-guidelines)
 - [Onboarding screens](/empty-data)

@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 title: Dark Mode Guidlines
-published: true
+published: false
 tags: 
     - UX/UI Design
     - Human Behaviour
@@ -21,12 +21,9 @@ featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/fp_ph_
 
 ### Dark Theme Guidlines 
 
-
 #### Colour, accessibility and UI for card based design.
 
 <br>
-
-
 
 Design is about functionality! Accessibility is something I never skip, especially for a dark mode design. Not everyone may feel more comfortable, less tired and more focused while using Dark Mode. Designing for a dark background requires specific accessibility guidelines to consider. 
 I was leading the design of Dark Mode for BlackBerry HUB+ prodcuts. Including secure apps suite like; Secure Inbox, Calendar, Notes, Tasks, Password, Battery Power Center & other Guardian Security apps. 
@@ -71,9 +68,6 @@ And responsible for creating Design Guidelines that has the right colour tones f
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
 ###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security focused apps.  
-
-
-
 
 
 <br>
@@ -128,7 +122,7 @@ While creating the Dark Theme Guidelines for BlackBerry Products, I also had the
 View some of the other Design Guidlines I was creating for BlackBerry Products
 
 - [UX Size Guide and Accessabilty](/wb-hud)
-- [Security Portal](/design-guidelines)
+- [Design System and UI Guidelines](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
 - [BlackBerry Power Center App](/power-center)
