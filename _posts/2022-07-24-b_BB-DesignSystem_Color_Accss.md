@@ -24,7 +24,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 
 <br> 
 
-##### [Overview](#overview) | [Learnings](#learnings) | [Challenges](#dark-theme-challenges) | [Accessibility](#accessibility) | [Design System](#design-system-breakdown)
+##### [Overview](#overview) | [Learnings](#learnings) | [Challenges](#dark-theme-challenges) | [Accessibility](#accessibilty) | [Design System](#design-system-breakdown)
 
 <br>
 
