@@ -21,8 +21,11 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_poster2.png
 ![packaging guidlines](/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/Box_Packaging_Mockup.png "packaging guidlines")
 <br>
 <br>
-#### Brand packaging guidlines
+
+### Brand packaging guidlines
+
 <br>
+
 
 
 ##### PACKAGING IDENTITY & INDUSTRY STANDARDS
@@ -79,7 +82,8 @@ Separately, I focused on examples for front packaging design that demonstrates v
 
 View some of the other Design Guidlines I was leadign for
 
-
-- [BlackBerry Dark Theme](/dark-theme) 
-- [Design System and UI Guidelines](/design-guidelines)
-- [Onboarding screens](/empty-data)
+- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
+- [SecuSuite Design System and UI Guidelines](/design-guidelines)
+- [BlackBerry Onboarding screens](/empty-data)
+- [BlackBerry Brand Packaging Guidelines](/bb-brand) 
+- [BlackBerry Dark Theme Guidelines and Accessibility](/colour-accessibility) 

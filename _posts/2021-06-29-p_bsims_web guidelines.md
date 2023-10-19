@@ -47,13 +47,11 @@ By keeping colors and text consistent and to a minimum, with visual hierarchy an
 ![web portal-guidelines](/assets/posts/2021-05-02-p_bsims_web guidelines/webbsims_guidlines.png "web portal guidelines")
 
 
-View some of the other Design Guidlines I was leadign for
+View more
 
 
-- [BlackBerry Dark Theme](/dark-theme) 
-
-
-- [Onboarding screens](/empty-data)
-
-
+- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
+- [SecuSuite Design System and UI Guidelines](/design-guidelines)
+- [BlackBerry Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
+- [BlackBerry Dark Theme Guidelines and Accessibility](/colour-accessibility) 

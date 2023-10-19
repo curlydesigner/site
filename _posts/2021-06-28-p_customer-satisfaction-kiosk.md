@@ -94,3 +94,12 @@ I explored two design wireframes proposals, considering the different platforms 
 
 
 [![](/assets/posts/2018-05-02-customer-satisfaction-kiosk/CleaningReport_Mockup2.jpg)](#)
+
+
+View More:
+
+- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
+- [SecuSuite Design System and UI Guidelines](/design-guidelines)
+- [BlackBerry Onboarding screens](/empty-data)
+- [BlackBerry Brand Packaging Guidelines](/bb-brand) 
+- [BlackBerry Dark Theme Guidelines and Accessibility](/colour-accessibility) 

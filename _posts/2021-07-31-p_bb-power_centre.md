@@ -168,8 +168,8 @@ through the original phone settings.
 #### Other BlackBerry projects:
 
 
-- [UX Size Guide and Accessabilty](/wb-hud)
-- [Design System and UI Guidelines](/design-guidelines)
-- [Onboarding screens](/empty-data)
+- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
+- [SecuSuite Design System and UI Guidelines](/design-guidelines)
+- [BlackBerry Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
-- [BlackBerry Dark Theme](/dark-theme) 
+- [BlackBerry Dark Theme Guidelines and Accessibility](/colour-accessibility) 
