@@ -19,14 +19,12 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 ![color](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg "color")
 <br>
 
-
-# Case Study: 
 ### Color and Accessibility | Design System        
 ### Dark & Light Themes for BlackBerry HUB+ 
 
 <br> 
 
-##### [Overview]() | [Learnings](#accessibility) | [Challenges]() | [Accessibility](#accessibility) | [Design System]()
+##### [Overview](#overview) | [Learnings](#learnings) | [Challenges](#dark-theme-challenges) | [Accessibility](#accessibility) | [Design System](#design-system-breakdown)
 
 <br>
 
@@ -123,6 +121,9 @@ Creating an inclusive experience requires careful consideration of color explora
   I was conducting simple usability testing to get valuable insights into the user experience that can help identify areas that may need improvement.
 
 <br>
+
+### Final Product 
+
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
 ###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps. 
