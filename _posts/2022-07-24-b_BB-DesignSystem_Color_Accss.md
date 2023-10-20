@@ -226,6 +226,10 @@ Design is about functionality, and more thought should be given to accessible co
 
 <br>
 
+___________________________________
+
+<br>
+
 More Works:
 
 - [WBD 4X Game Design System and Architecture](/wbd-4xhud)
