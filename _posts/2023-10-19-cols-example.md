@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
-title: WB 4X Game - Main HUD Navigation
-published: true
+title: Rows Example
+published: false
   - UX/UI Design
   - Human Behaviour
   - Gaming & IxD
@@ -10,7 +10,7 @@ categories:
   - portfolio
   - portfolio-featured
     
-permalink: /wbd-4xhud
+permalink: /cols-example
 featured_image: /assets/posts/2023-06-31-p_wb-4x/wb_featureimage2.png
 
 ---
