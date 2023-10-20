@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: portfolio-post
 title: Design System 
 published: true
 tags: 
@@ -25,6 +25,46 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 <br> 
 
 ##### [Overview](#overview) | [Learnings](#learnings) | [Challenges](#dark-theme-challenges) | [Accessibility](#accessibilty) | [Design System](#design-system-breakdown)
+
+<br>
+
+
+_______________________________________________
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+### My Role
+
+   UX UI Designer - BlackBerry Security 
+   
+   Tools Used 
+
+   -  Adobe XD 
+   -  Adobe Illustrator
+   -  Adobe photoshop
+
+  </div>
+
+  <div class="col-sm-6" markdown="1">
+   
+### Industry
+
+   Design for a Blackberry Design System 
+   
+   Secure Mobile Apps for HUB+ Productivity Suite
+
+   - Inbox Email and Notes Apps
+   - Calendar and Task Apps
+   - Secure Password App
+   - Power and Battery Center 
+   - Contacts App and Calls/Messanger App 
+   
+   
+  </div>
+</div>
+
+_______________________________________________
 
 <br>
 
@@ -60,28 +100,28 @@ From my extensive collaboration with developers and asking their preferences, it
 <br>
 - **Text Legibility and Color Contrast:**
 
-  **Challenge:** In dark theme design, text can be challenging to read if color choices and contrast levels are not carefully considered. 
+  In dark theme design, text can be challenging to read if color choices and contrast levels are not carefully considered. 
 
   **Solution:** I was conducting thorough testing to ensure sufficient color contrast, adhering to established accessibility guidelines. Use fonts that are easy to read in low-light conditions, with a unified Brand color palette that is adjusted to Light vs Dark themes.
 
 
 - **Text Legibility and Color Contrast:**
 
-  **Challenge:** Colors may behave differently on light and dark backgrounds, which demands a well-thought-out color palette to keep Brand Identity.
+  Colors may behave differently on light and dark backgrounds, which demands a well-thought-out color palette to keep Brand Identity.
 
   **Solution:** I worked through a careful color palette for a consistent Brand Identity tailored explicitly for dark and light themes, ensuring that it effectively communicates the intended message and is compatible with the Brand.
 
 
 - **Cluttered Interfaces:**
 
-  **Challenge:** Dark UI designs can quickly become cluttered due to the absence of “white space” in light themes.
+  Dark UI designs can quickly become cluttered due to the absence of “white space” in light themes.
 
   **Solution:** Prioritize clean and minimalist Design. Carefully consider the spacing between elements to avoid overcrowding. Maintain visual hierarchy through well-defined layouts and grouping of related components.
 
 
 - **User Preferences:**
 
-  **Challenge:** Only some people prefer dark themes, which can create a challenge in satisfying a diverse user base.
+  Only some people prefer dark themes, which can create a challenge in satisfying a diverse user base.
 
   **Solution:** Offering users the option to switch between light and dark themes. Provide clear instructions on making the switch in the user interface settings, allowing users to personalize their experience.
 
