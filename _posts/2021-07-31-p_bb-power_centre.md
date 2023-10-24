@@ -108,7 +108,9 @@ Involved throughout the entire product life-cycle, understanding human factors, 
 
 <br>
 
+#### Information Architecture 
 
+<br>
 
 ![ixd user flow](assets/posts/2021-06-31-p_bb-power_centre/ixd-userflow.png "ixd user flow")
 ###### IxD - User Flow proposal for BlackBerry Power Center
