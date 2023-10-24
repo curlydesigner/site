@@ -51,9 +51,9 @@ _______________________________________________
    
 ### Industry
 
-   Design for a Blackberry Design System 
+   Re-design for a Blackberry Power Center App
    
-   Secure Mobile Apps for HUB+ Productivity Suite
+   Part of the HUB+ Secure Mobile Productivity Suite
 
    - Inbox Email and Notes Apps
    - Calendar and Task Apps
