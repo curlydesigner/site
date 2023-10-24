@@ -29,6 +29,46 @@ featured_image: /assets/posts/2021-06-31-p_bb-power_centre/featureimage2.png
 
 <br>
 
+
+_______________________________________________
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+### My Role
+
+   UX UI Designer - BlackBerry Security 
+   
+   Tools Used 
+
+   -  Adobe XD 
+   -  Adobe Illustrator
+   -  Adobe photoshop
+
+  </div>
+
+  <div class="col-sm-6" markdown="1">
+   
+### Industry
+
+   Design for a Blackberry Design System 
+   
+   Secure Mobile Apps for HUB+ Productivity Suite
+
+   - Inbox Email and Notes Apps
+   - Calendar and Task Apps
+   - Secure Password App
+   - Power and Battery Center 
+   - Contacts App and Calls/Messanger App 
+   
+   
+  </div>
+</div>
+
+_______________________________________________
+
+<br>
+
 #### Overview:
 
 <br>
