@@ -1,17 +1,20 @@
-<!-- portfolio div -->
-<div class="portfolio-div">
-    <div class="portfolio">
-        <div class="no-padding portfolio_container">
+<!-- portfolio -->
+<section class="portfolio position-relative" id="portfolio">
+    <!-- portfolio div -->
+    <div class="portfolio-div">
+        <div class="portfolio">
+            <div class="row no-padding portfolio_container">
 
-            {% for post in site.categories.portfolio-featured %}
+                {% for post in site.categories.portfolio-featured %}
                 {% if post.published != false %}
-                    {% include post-preview.html %}
+                {% include post-preview.html %}
                 {% endif %}
-            {% endfor %}
+                {% endfor %}
 
+            </div>
+            <!-- end portfolio_container -->
         </div>
-        <!-- end portfolio_container -->
+        <!-- portfolio -->
     </div>
-    <!-- portfolio -->
-</div>
-<!-- end portfolio div -->
+    <!-- end portfolio div -->
+</section>
