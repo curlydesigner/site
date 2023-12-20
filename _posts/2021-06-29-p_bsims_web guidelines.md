@@ -4,6 +4,8 @@ title: UI Design Guidelines
 published: true
 tags:
     - UX/UI Design
+    - Design System
+    - Illustrations
 categories:
     - portfolio
     - portfolio-featured
