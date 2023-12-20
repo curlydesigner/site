@@ -4,15 +4,18 @@ google_analytics: UA-1970564-13
 permalink: /:title:output_ext
 excerpt_separator: <!--more-->
 intro:
+
   words:
-    - "Design&nbsp;Thinking."
-    - "UX/UI&nbsp;Architecture."
+    - "&nbsp;Design&nbsp;Thinking."
+    - "&nbsp;&nbsp;Data&nbsp;Visualization."
+    - "&nbsp;UX/UI&nbsp;Design."
+    - "Human-Centered&nbsp;Design."
     - "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IxD&nbsp;Design."
     - "&nbsp;Illustrations."
     - "&nbsp;Human&nbsp;Behavior."
     - "&nbsp;Product&nbsp;Design."
-    - "&nbsp;&nbsp;&nbsp;UX&nbsp;Research."
-  title: "MA. Design | B. Design | User Experience | Human Behavior | UI | IxD"
+
+  title: "MA. Design | B. Design | Data Visualization | UX UI Human-Centered Design | IxD"
 assets:
   sources: 
     - assets/css
