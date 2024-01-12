@@ -72,11 +72,6 @@ _______________________________________________
 
 <br>
 
-![ixd user flow](/assets/posts/2021-06-31-p_bb-power_centre/bb-pc_mobile_mock.gif "ixd user flow")
-
-
-<br>
-
 Power Center is a mobile app part of the BlackBerry HUB+ Suit products. That includes secure Inbox, Calendar, Notes, Tasks, Password, Battery Power Center & other Guardian Security apps. I led the UX re-design for Power Center App, creating wireframes, user flows, illustrating icons and design guidelines that can be used across the team. 
 Involved throughout the entire product life-cycle, understanding human factors, functionality and focusing on usability and friendly interactions. 
 
@@ -87,7 +82,7 @@ Involved throughout the entire product life-cycle, understanding human factors, 
 
 <br>
 
-![old screenshots](/assets/posts/2021-06-31-p_bb-power_centre/DALL-e-2024-BatteryM-App-PC2.png "old screenshots")
+![old screenshots](/assets/posts/2021-06-31-p_bb-power_centre/old_screenshoots.png "old screenshots")
 
 <br>
 
@@ -207,6 +202,10 @@ through the original phone settings.
 
 ![mockup](/assets/posts/2021-06-31-p_bb-power_centre/DALL-e-2024-BatteryM-App-PC2.png "mockup")
 
+
+<br>
+
+____________________________________________________
 
 #### Tools Used 
 
