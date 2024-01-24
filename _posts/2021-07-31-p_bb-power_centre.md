@@ -23,8 +23,13 @@ featured_image: /assets/posts/2021-06-31-p_bb-power_centre/bb_featureimage2.png
 
 ### BLACKBERRY POWER CENTER APP 
 
+<br>
 
-#### IXD | USER FLOW | DESIGN PROPOSAL 
+##### [OVERVIEW](#OVERVIEW) | [GOALS](#UX GOALS) | [IXD](#Information Architecture) | [LANDING](#LANDING PAGE REQUIRMENTS DESCRIPTION) | [VID](#VID SPEC - DIOLOG MESSAGES)  
+
+<br>
+
+#### IXD | INFO ARCHITECTURE & USER FLOW | DESIGN PROPOSAL 
 
 <br>
 
@@ -68,7 +73,7 @@ _______________________________________________
 
 <br>
 
-#### Overview:
+#### OVERVIEW
 
 <br>
 
@@ -131,7 +136,7 @@ __________________________
 
 <br>
 
-#### LANDING PAGE 
+#### LANDING PAGE REQUIRMENTS DESCRIPTION
 
 <br>
 
@@ -195,7 +200,7 @@ through the original phone settings.
 
 <br>
 
-#### DESIGN SUGGESTIONS 
+#### OTHER DESIGN SUGGESTIONS 
 <br>
 
 ![mockup](/assets/posts/2021-06-31-p_bb-power_centre/DALL-e-2024-BatteryM-App-PC1.png "mockup")
