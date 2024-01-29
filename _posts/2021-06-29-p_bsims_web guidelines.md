@@ -24,18 +24,70 @@ featured_image: /assets/posts/2021-05-02-p_bsims_web guidelines/fp_ph_bberry_bsi
 <br>
 
 
+_______________________________________________
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+### My Role
+
+   UX UI Design for a BlackBerry Security Portal
+   
+   Tools Used 
+
+   -  Adobe XD 
+   -  Adobe Illustrator
+   -  Adobe photoshop
+
+  </div>
+
+  <div class="col-sm-6" markdown="1">
+   
+### Industry
+
+ Cyber Security Portal, primarily serving Government and Enterprise clients.
+   
+   
+   
+  </div>
+</div>
+
+_______________________________________________
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+### Challenges
+
+ I navigated numerous usability challenges in an environment where security is paramount and great focus and attention to detail are required. With a strong emphasis on simplifying complexity and designing a more intuitive navigation & user-friendly experience. 
 
 
-While designing / redesigning a web portal, mainly for Government and Enterprise use, where security is fundamental, I dealt with many usability challenges. Where great focus and attention to detail has required. 
+ - Declutter the interface and information density without losing essential features.
+ - Create a visual hierarchy, better focus, and easy navigation that simplifies the dozens of menu items but keeps functionality and performance.
+ - Consistency in Branding & company’s values.
+ - Clear Error and Communication Messages.
 
 
-I was leading the portal’s design and working closely with a developer to optimize the system for best performance.  The challenge was, how to simplify the dozens of menu items with a focus on high functionality and smooth performance. 
-Creating wireframes and architecture flow with simple UI and personalized Iconography for each menu item.
+  </div>
+
+  <div class="col-sm-6" markdown="1">
+   
+### Approach
+
+ While I was the lead UX UI Designer on the portal - I worked closely with a Developer and Product owner to optimize the creation of the Design System for best performance.
+ My approach involved creating info architecture, wireframe and iconography.
 
 
-Keeping the navigation on the left leading users to see the full content allowing them to complete the desired action. Icons got separate attention to identifying the menu actions with a focus on specific sizing color tones and consistent look. 
+ - Implementing a minimalist design, balancing the use of colors with personalized iconiconography for each menu item so it is easily identifiable. Establishing a clear visual hierarchy to guide users naturally towards the most important elements and actions, while ensuring that all necessary information and functions are accessible.
+ - Effective Navigation - ensuring the left-hand navigation panel allows users to see the full content and actions and organizing the menu items in a way that is intuitive and user-friendly. 
+ - Integrating BlackBerry's brand values and color palette to resonate with the brand's identity and ethos.
+   
+   
+  </div>
+</div>
 
-By keeping colors and text consistent and to a minimum, with visual hierarchy and Branded elements highlighted the essential content, like link buttons, error and communication messages. So that visitors naturally gravitate toward the most important elements and relevant actions first. Using BlackBerry's Brand values and color palate.  
+_______________________________________________
+
 
  <br>
  
