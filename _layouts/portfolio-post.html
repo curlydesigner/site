@@ -4,7 +4,7 @@ has_intro: false
 ---
 
 <!-- top-bar -->
-<div class="top-bar post">
+<div class="top-bar post" style="{% if page.top_bar_image %} background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url('{{page.top_bar_image}}');background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(177, 177, 177, 0.8)), url('{{page.top_bar_image}}');{% endif %}">
     <h1>{{page.title}}</h1>
     <p><a href="/">Home</a> / <a href="/category/portfolio">Portfolio</a></p>
 </div>
