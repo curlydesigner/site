@@ -10,7 +10,7 @@ categories:
     - portfolio-featured
 permalink: /empty-data
 featured_image: /assets/posts/2021-01-01-b_EmptyData Illustrations/fp_ph_bberry_emptydata.png
-top_bar_image: /assets/posts/2021-01-01-b_EmptyData Illustrations/fp_ph_bberry_emptydata.png
+top_bar_image: /assets/posts/2021-01-01-b_EmptyData Illustrations/P_BB-emty-data_Illust.png
 ---
 ### Onboarding Screens and Empty Data Illustrations
 <br>
