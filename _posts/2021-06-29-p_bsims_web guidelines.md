@@ -16,7 +16,6 @@ featured_image: /assets/posts/2021-05-02-p_bsims_web guidelines/fp_ph_bberry_bsi
 #### Design System and UI Guidelines for BlackBerry Security Web Portal. 
 <br>
 
-
 ![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "web portal mockup")<br>
 
 
