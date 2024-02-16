@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: UI Design Guidelines
+title: Web UI Design System
 published: true
 tags:
     - UX/UI Design
@@ -13,13 +13,8 @@ permalink: /design-guidelines
 featured_image: /assets/posts/2021-06-29-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png
 ---
 
-#### Design System and UI Guidelines for BlackBerry Security Web Portal. 
-<br>
-
-![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/Desktop1_bsimsscreen.jpg "mockup")<br>
-
-
-
+![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/Mock-place-website-laptop_1a.png "mockup")<br>
+###### Design System and UI Guidelines for BlackBerry Security Web Portal. 
 <br>
 
 
@@ -30,11 +25,11 @@ _______________________________________________
 
 ### My Role
 
-   UX UI Design for a BlackBerry Security Portal
+   Web UI Design for a BlackBerry Security Portal
    
-   Tools Used 
+   Tools:
 
-   -  Adobe XD 
+   -  Adobe XD / Figma
    -  Adobe Illustrator
    -  Adobe photoshop
 
@@ -98,9 +93,12 @@ _______________________________________________
 ![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/webbsims_guidlines.png "icons")<br>
 <br>
 
+![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "icons")<br>
+![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/bsims-menu.png "mockup")
+
 ![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/bsims-allicons.png "mockup")
 
-![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "icons")<br>
+
 
 <br>
 
