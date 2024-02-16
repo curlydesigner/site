@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: SecuSuite
+title: BlackBerry SecuSuite 
 published: true
 tags: 
     - UX/UI Design
@@ -36,15 +36,13 @@ featured_image: /assets/posts/2021-06-31-p_bb-SecuSuite/fp_bb-secusuite.png
 
 <br>
 
-##### [IXD](#ixd---features--screens-i-was-involved-in) | [INFO-ARCHITECTURE](#information-architecture) | [UX CHALLANGES](#ux-goals-and-challenges) | [USER FLOW](#user-flow) | [PROTOTYPING](#wireframes--prototype) | [DESIGN SYSTEM](#figma---components-and-design-system) | [ACCESSIBILITY](#accessibility)  
+##### [OVERVIEW](#UX GOALS) | [RESEARCHD](#Research) | [MOODBOARD](#ux-goals-and-challenges) | [TESTING ANDROID/IOS](#user-flow) | [UX GOALS](#wireframes--prototype) | [UX REQUIREMENTS](#figma---components-and-design-system) | [INFO-ARCHITECTURE](#accessibility)  | [WIREFRAMES] | [MOBILE] | [DESKTOP] | 
 
 <br>
 
 _______________________________________________
 
-![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot-website.png "screenshot")
-
-![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot2021.png "wireframe")
+![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ss-bb-logos.png "screenshot")
 
 ______________________________________________
 
@@ -84,9 +82,6 @@ _______________________________________________
  And expanding the [Design System](/colour-accessibility) I had created to ensure a unified brand experience across all products.
  
  
-
-
-
 <br>
 
   </div>
@@ -102,48 +97,44 @@ _______________________________________________
 _______________________________________________
 
 
+![logos](assets/posts/2021-06-31-p_bb-SecuSuite/logos.png "logos")
+
+
+_____________________________________
+
 <br>
 
 #### MoodBoard 
 
 <br>
 
+![moodboard](assets/posts/2021-06-31-p_bb-SecuSuite/ai-bb-ss-moodboard.png "moodboard")
+
+_____________________________
 
 
-#### SecuSuite Logo
+<br> 
+#### UX GOALS 
 
-#### UX GOALS - TRUSTWORTHY | PREMIUM | APPROACHABLE
-
-<br>
-
--  Good usabilty insights and confidence trust
-
--  Simple and well structured UI but at the same time attractive design to increase the use.
-
-
-<br>
-<br>
-
-
-
-![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/1-SecuSuite-Review.png "screenshot")
+- TRUSTWORTHY 
+- PREMIUM 
+- APPROACHABLE
 
 <br>
 
-![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-goals.png "screenshot")
-
+![goals](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-goals.png "goals")
 
 
 <br>
 
-![ixd user flow](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-requirment.png "ixd user flow")
+![req](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-requirment.png "req")
 
+![improvements](assets/posts/2021-06-31-p_bb-SecuSuite/1-SecuSuite-Review.png "improvements")
 
 <br>
 
 
-
-![ixd user flow](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-userflow.png "ixd user flow")
+![info-arch](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-userflow.png "info-arch")
 
 <br>
 
@@ -154,20 +145,49 @@ __________________________
 
 ![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-Mobile-contacts.png "wireframe")
 
-
-<br>
-
-
+![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-screens.png "wireframe")
 
 ![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-Mobile-spec.png "wireframe")
 
 <br>
+
+#### Replying to Single Message
+
+![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-reply-singleAndroid.png "wireframe")
+
+<br>
+
+#### Replying to Group Message
+
+![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-reply-group.png "wireframe")
+
+<br>
+
+#### Replying to a message that was deleted
+
+![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-reply-messageDeleted-Android.png "wireframe")
+
 
 
 ![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/3-SecuSuite-Desktop.png "wireframe")
 
 <br>
 
+
+#### SecuGATE Architecture
+
+![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ss-bb-architecture1.png "screenshot")
+![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ss-bb-architecture3.png "screenshot")
+
+<br>
+
+#### Website
+
+![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot-website.png "screenshot")
+![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot2021.png "wireframe")
+
+
+__________________________________
 
 #### Tools Used 
 
@@ -178,10 +198,8 @@ __________________________
 
 <br>
 
-#### SecuGATE Architecture
-
-<br>
 ______________________________________________________
+
 
 #### Other projects I was leading for BlackBerry Products:
 
