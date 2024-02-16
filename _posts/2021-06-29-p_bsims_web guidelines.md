@@ -10,13 +10,13 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /design-guidelines
-featured_image: /assets/posts/2021-05-02-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png
+featured_image: /assets/posts/2021-06-29-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png
 ---
 
 #### Design System and UI Guidelines for BlackBerry Security Web Portal. 
 <br>
 
-![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "web portal mockup")<br>
+![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/Desktop1_bsimsscreen.jpg "mockup")<br>
 
 
 
@@ -70,6 +70,9 @@ _______________________________________________
   </div>
 
   <div class="col-sm-6" markdown="1">
+
+ 
+ 
    
 ### Approach
 
@@ -87,18 +90,23 @@ _______________________________________________
 
 _______________________________________________
 
-
  <br>
- 
+
+![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png "mockup")<br>
 
 
-![mockup](/assets/posts/2021-05-02-p_bsims_web guidelines/Desktop1_bsimsscreen.jpg "web portal mockup")<br>
+![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/webbsims_guidlines.png "icons")<br>
 <br>
 
+![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/bsims-allicons.png "mockup")
 
+![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "icons")<br>
 
-![web portal-guidelines](/assets/posts/2021-05-02-p_bsims_web guidelines/webbsims_guidlines.png "web portal guidelines")
+<br>
 
+![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/Mock-place-website-laptop_1a.png "icons")<br>
+
+____________________________________________
 
 View more
 

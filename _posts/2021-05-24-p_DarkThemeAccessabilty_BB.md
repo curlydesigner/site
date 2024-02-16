@@ -11,7 +11,7 @@ categories:
     - portfolio
     - portfolio-featured
     
-permalink: /dark-theme
+permalink: /colour-accessibility
 featured_image: /assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/fp_ph_darktheme1.jpg
 ---
 
