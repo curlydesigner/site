@@ -62,7 +62,9 @@ ______________________________________________
    
 #### Industry
 
-   SecuSUITE - Secure Messaging and Phone Calls app
+   SecuSUITE 
+   
+   Secure Messaging & Phone Calls app
    
    
 
@@ -101,17 +103,6 @@ _______________________________________________
 
 
 _____________________________________
-
-<br>
-
-#### MoodBoard 
-
-<br>
-
-![moodboard](assets/posts/2021-06-31-p_bb-SecuSuite/ai-bb-ss-moodboard.png "moodboard")
-
-_____________________________
-
 
 <br> 
 #### UX GOALS 
