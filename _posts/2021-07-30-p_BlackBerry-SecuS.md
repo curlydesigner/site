@@ -10,7 +10,7 @@ categories:
     - portfolio-featured
     
 permalink: /secusuite
-featured_image: /assets/posts/2021-06-31-p_bb-SecuSuite/fp_bb-secusuite.png
+featured_image: /assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-feaut-img.png
 ---
 
 <style>
@@ -103,13 +103,6 @@ _______________________________________________
 
 
 _____________________________________
-
-<br> 
-#### UX GOALS 
-
-- TRUSTWORTHY 
-- PREMIUM 
-- APPROACHABLE
 
 <br>
 
