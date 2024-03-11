@@ -11,7 +11,7 @@ categories:
     - portfolio-featured
     
 permalink: /power-center
-featured_image: /assets/posts/2021-06-31-p_bb-power_centre/bb_featureimage2.png
+featured_image: /assets/posts/2021-06-31-p_bb-power_centre/featureimage2.png
 
 ---
 
@@ -196,16 +196,6 @@ through the original phone settings.
 <br>
 
 ![mockup](/assets/posts/2021-06-31-p_bb-power_centre/bb-pc_mobile_mock.gif "mockup")
-
-
-<br>
-
-#### OTHER DESIGN SUGGESTIONS 
-<br>
-
-![mockup](/assets/posts/2021-06-31-p_bb-power_centre/DALL-e-2024-BatteryM-App-PC1.png "mockup")
-
-![mockup](/assets/posts/2021-06-31-p_bb-power_centre/DALL-e-2024-BatteryM-App-PC2.png "mockup")
 
 
 <br>
