@@ -6,7 +6,8 @@ tags:
     - UX/UI Design
     - Human Behaviour
 categories:
-    - portfolio
+  - portfolio
+  - portfolio-featured
     
 permalink: /athoc
 featured_image: /assets/posts/2021-06-31-p_bb-AtHoc/fp_bb-athoc.png
