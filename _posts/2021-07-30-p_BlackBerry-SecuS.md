@@ -118,11 +118,6 @@ _____________________________________
 <br>
 
 
-![info-arch](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-userflow.png "info-arch")
-
-<br>
-
-
 __________________________
 
 <br>
