@@ -81,6 +81,21 @@ In my role, I led a comprehensive dark theme design system for all products with
 
 <br> 
 
+### Final Product 
+
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
+###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps. 
+
+<br>
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_emptydata_accounts_allapps.jpg "EmptyData")
+###### Illustrations for Light Thene - BlackBerry Hub+ Services 
+
+<br>
+
+________________________________________
+
 ### Learnings
 
 <br>
