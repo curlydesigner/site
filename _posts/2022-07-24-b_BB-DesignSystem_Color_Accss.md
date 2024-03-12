@@ -67,19 +67,6 @@ _______________________________________________
 
 _______________________________________________
 
-<br>
-
-### Overview
-
-<br>
-
-Even when Dark Mode wasn’t yet a thing, it still existed on the BlackBerry Devices. The concept of dark mode isn’t entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in “dark mode.”
-
-Later on, it gained significant traction when major tech giants Apple and Google officially integrated Dark mode themes for their OS. Since then, dark mode options have become increasingly popular, with many apps adopting this Design.
-
-In my role, I led a comprehensive dark theme design system for all products within BlackBerry HUB+. This involved conducting a detailed case study and research to understand challenges related to dark theme usage. And developing design system guidelines to ensure accessibility and visual aesthetics were optimized for both dark and light backgrounds.
-
-<br> 
 
 ### Final Product 
 
@@ -95,6 +82,20 @@ In my role, I led a comprehensive dark theme design system for all products with
 <br>
 
 ________________________________________
+
+<br>
+
+### Overview
+
+<br>
+
+Even when Dark Mode wasn’t yet a thing, it still existed on the BlackBerry Devices. The concept of dark mode isn’t entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in “dark mode.”
+
+Later on, it gained significant traction when major tech giants Apple and Google officially integrated Dark mode themes for their OS. Since then, dark mode options have become increasingly popular, with many apps adopting this Design.
+
+In my role, I led a comprehensive dark theme design system for all products within BlackBerry HUB+. This involved conducting a detailed case study and research to understand challenges related to dark theme usage. And developing design system guidelines to ensure accessibility and visual aesthetics were optimized for both dark and light backgrounds.
+
+<br> 
 
 ### Learnings
 
@@ -114,34 +115,102 @@ From my extensive collaboration with developers and asking their preferences, it
 ### Dark Theme Challenges
 
 <br>
-- **Text Legibility and Color Contrast:**
 
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+- **Text and Color**
+ 
   In dark theme design, text can be challenging to read if color choices and contrast levels are not carefully considered. 
 
-  **Solution:** I was conducting thorough testing to ensure sufficient color contrast, adhering to established accessibility guidelines. Use fonts that are easy to read in low-light conditions, with a unified Brand color palette that is adjusted to Light vs Dark themes.
+<br>
+
+  </div>
+  <div class="col-sm-6" markdown="1">
+
+  **Solution**
+
+  I was conducting thorough testing to ensure sufficient color contrast, adhering to established accessibility guidelines. Use fonts that are easy to read in low-light conditions, with a unified Brand color palette that is adjusted to Light vs Dark themes.
+
+  </div>
+</div>
 
 
-- **Text Legibility and Color Contrast:**
+<br>
 
+
+
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+- **Color Contrast:**
+ 
   Colors may behave differently on light and dark backgrounds, which demands a well-thought-out color palette to keep Brand Identity.
 
-  **Solution:** I worked through a careful color palette for a consistent Brand Identity tailored explicitly for dark and light themes, ensuring that it effectively communicates the intended message and is compatible with the Brand.
+<br>
 
+  </div>
+  <div class="col-sm-6" markdown="1">
+
+  **Solution**
+
+ I worked through a careful color palette for a consistent Brand Identity tailored explicitly for dark and light themes, ensuring that it effectively communicates the intended message and is compatible with the Brand.
+
+  </div>
+</div>
+
+
+<br>
+
+
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
 
 - **Cluttered Interfaces:**
-
+ 
   Dark UI designs can quickly become cluttered due to the absence of “white space” in light themes.
 
-  **Solution:** Prioritize clean and minimalist Design. Carefully consider the spacing between elements to avoid overcrowding. Maintain visual hierarchy through well-defined layouts and grouping of related components.
+<br>
 
+  </div>
+  <div class="col-sm-6" markdown="1">
+
+  **Solution**
+
+ Prioritize clean and minimalist Design. Carefully consider the spacing between elements to avoid overcrowding. Maintain visual hierarchy through well-defined layouts and grouping of related components.
+
+  </div>
+</div>
+
+
+<br>
+
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
 
 - **User Preferences:**
-
+ 
   Only some people prefer dark themes, which can create a challenge in satisfying a diverse user base.
 
-  **Solution:** Offering users the option to switch between light and dark themes. Provide clear instructions on making the switch in the user interface settings, allowing users to personalize their experience.
+<br>
 
-  <br>
+  </div>
+  <div class="col-sm-6" markdown="1">
+
+  **Solution**
+
+ Offering users the option to switch between light and dark themes. Provide clear instructions on making the switch in the user interface settings, allowing users to personalize their experience.
+
+  </div>
+</div>
+
+
+<br>
+
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark-mode_challenges20215.png "Dark Mode UI")
 
