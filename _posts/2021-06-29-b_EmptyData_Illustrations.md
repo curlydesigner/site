@@ -86,7 +86,19 @@ ________________
 
 ![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illust-sketches.png "EmptyData")
 
-![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illust-sketches.png "EmptyData")
+
+<br>
+
+#### Exploration
+
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-empty-data-sketches1.png "EmptyData")
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-empty-data-sketches3.png "EmptyData")
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-empty-data-sketches4.png "EmptyData")
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/Mockup-Illustrations.png "EmptyData")
 
 
 ___________________
@@ -97,17 +109,13 @@ ___________________
 ###### Empty Data Illustrations for BlackBerry Hub+ Services [Availble on Google Play](https://play.google.com/store/apps/details?id=com.blackberry.infrastructure){:target="_blank"}  
 <br>
 
-![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illust-sketches.png "EmptyData")
-###### Empty Data Illustrations closeup
 
 ![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_accounts_allapps.jpg "EmptyData")
 ###### BlackBerry Hub+ Apps
 
-
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustratlight.png "EmptyData")
+###### BlackBerry Hub+ Apps
 <br>    
-
-![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_accounts_allapps.jpg "EmptyData")
-###### Empty Data Illustrations for BlackBerry Hub+ Services 
 
 
 ![EmptyData](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "EmptyData")
@@ -115,15 +123,26 @@ ___________________
 
 <br>
 
-![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr-light.png "EmptyData")
-###### Empty Data Illustration for Light Theme
-
-<br>
-
 ![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr-dark.png "EmptyData")
 ###### Empty Data Illustrations for Dark Theme
 
+
 <br>
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr-light.png "EmptyData")
+###### Empty Data Illustration for Light Theme
+
+
+<br>
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr3-light.png "EmptyData")
+###### Empty Data Illustrations for Dark Theme
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr5-light.png "EmptyData")
+###### Empty Data Illustrations for Dark Theme
+
+![EmptyData](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr4-light.png "EmptyData")
+###### Empty Data Illustrations for Dark Theme
 
 __________________
 
