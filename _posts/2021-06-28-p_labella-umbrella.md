@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: Online store
+title: Responsive Online Store
 published: true
 tags: 
     - UX/UI Design

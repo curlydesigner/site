@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: BlackBerry Battery Saver IXD
+title: BlackBerry Battery App IXD
 published: true
 tags: 
     - UX/UI Design

@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title: Empty Data Illustrations
+title: Data Illustrations
 published: true
 tags: 
     - Illustrations
