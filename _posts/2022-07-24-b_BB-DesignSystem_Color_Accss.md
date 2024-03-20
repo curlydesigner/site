@@ -214,9 +214,6 @@ From my extensive collaboration with developers and asking their preferences, it
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark-mode_challenges20215.png "Dark Mode UI")
 
-![dark theme guidlines](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_darkTheme_mocks.png "dark theme guidlines")
-###### Dark Theme testing colour variations 
-
 <br>
 
 ________________________________________
@@ -247,7 +244,79 @@ Creating an inclusive experience requires careful consideration of color explora
 
 <br>
 
-### Final Product 
+________________________________________
+
+<br>
+
+### Accessibility and Colour Exploration
+
+![dark theme guidlines](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_darkTheme_mocks.png "dark theme guidlines")
+###### Dark Theme testing colour variations 
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt-3.png "Dark Theme Guidlines")
+
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-exploration1.png "Dark Theme Guidlines")
+
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-explore2.png "Dark Theme Guidlines")
+###### Dark Theme Guidelines [Designed for BlackBerry Products]  
+
+<br>
+
+________________________________________
+
+
+### Design System Breakdown
+
+<br>
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Theme Guidlines")
+###### Dark Theme Guidelines [Designed for BlackBerry Products]  
+
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt3.png "Dark Theme Guidlines")
+###### BlackBery Dark Theme Color Spec by App
+
+<br>
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt4.png "Dark Theme Guidlines")
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dfts.png "Dark Theme Guidlines")
+
+<br>
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard7.png "Dark Theme Guidlines")
+
+![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard8.png "Dark Mode Code")
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt9.png "Dark Mode UI")
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard9.png "Dark Mode UI") 
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark_vid_spec_v2_2_20190416-8.jpg "Dark Mode UI")
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt-2.png "Dark Mode UI")
+
+<br>
+
+### Illustrations 
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "Dark Theme Guidlines")
+###### Illustrated background adjusted for Dark and Light background.
+
+![Dark Theme UI](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_emptydata_accounts_allapps.jpg "Dark Theme Guidlines")
+
+![Dark Theme UI](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_emptydata_mock.jpg "Dark Theme Guidlines")
+
+<br>
+
+[See more Onboarding screens & Illusrrtations](/empty-data)
+
+_____________
+
+
+### Final Products 
 
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
@@ -259,50 +328,6 @@ Creating an inclusive experience requires careful consideration of color explora
 ###### Illustrations for Light Thene - BlackBerry Hub+ Services 
 
 <br>
-
-________________________________________
-
-<br>
-
-
-### Design System Breakdown
-
-<br>
-
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Theme Guidlines")
-###### Dark Theme Guidelines [Designed for BlackBerry Products]  
-
-
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt-3.png "Dark Theme Guidlines")
-###### Dark Theme Guidelines [Designed for BlackBerry Products]  
-
-
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt3.png "Dark Theme Guidlines")
-###### BlackBery Dark Theme Color Spec by App
-
-<br>
-
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt4.png "Dark Theme Guidlines")
-
-<br>
-
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "Dark Theme Guidlines")
-###### Illustrated background adjusted for Dark and Light background.
-
-<br>
-
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard7.png "Dark Theme Guidlines")
-
-![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard8.png "Dark Mode Code")
-
-![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard9.png "Dark Mode UI") 
-
-![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark_vid_spec_v2_2_20190416-8.jpg "Dark Mode UI")
-
-![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt-2.png "Dark Mode UI")
-
-<br>
-
 
 ### Summary
 
