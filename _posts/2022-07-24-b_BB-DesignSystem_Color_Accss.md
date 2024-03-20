@@ -257,10 +257,16 @@ ________________________________________
 
 
 ![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-exploration1.png "Dark Theme Guidlines")
-
+###### Dark Theme Top Bar Color Explorations
 
 ![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-explore2.png "Dark Theme Guidlines")
-###### Dark Theme Guidelines [Designed for BlackBerry Products]  
+###### Dark Theme Action Bar Color Explorations
+
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-dt-coloe-exp1.png "Dark Theme Guidlines")
+###### Dark Theme Action Bar Color Explorations
+
+
 
 <br>
 
@@ -271,36 +277,48 @@ ________________________________________
 
 <br>
 
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/DArkThemMockup.jpg "Dark Theme Guidlines")
-###### Dark Theme Guidelines [Designed for BlackBerry Products]  
+##### Color Spec
 
-
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt3.png "Dark Theme Guidlines")
-###### BlackBery Dark Theme Color Spec by App
-
-<br>
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/BB-darkth-color.png "Dark Theme Guidlines")
+ 
 
 ![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt4.png "Dark Theme Guidlines")
 
-![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dfts.png "Dark Theme Guidlines")
+<br> 
 
-<br>
+##### UI Spec
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard5.png "Dark Theme Guidlines")
+
+<br> 
+
+##### Layout General Template
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/artboard15.png "Dark Theme Guidlines")
+
+![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/artboard14.png "Dark Theme Guidlines")
+
 
 ![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard7.png "Dark Theme Guidlines")
 
 ![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard8.png "Dark Mode Code")
 
+![Dark Mode Code](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard10.png "Dark Mode Code")
+
+
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt9.png "Dark Mode UI")
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard9.png "Dark Mode UI") 
 
-![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark_vid_spec_v2_2_20190416-8.jpg "Dark Mode UI")
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt8.png "Dark Mode UI")
 
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt-2.png "Dark Mode UI")
 
+
+
 <br>
 
-### Illustrations 
+##### Illustrations 
 
 ![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "Dark Theme Guidlines")
 ###### Illustrated background adjusted for Dark and Light background.
@@ -324,10 +342,11 @@ _____________
 
 <br>
 
-![EmptyData](assets/posts/2021-01-01-b_EmptyData Illustrations/bb_emptydata_accounts_allapps.jpg "EmptyData")
-###### Illustrations for Light Thene - BlackBerry Hub+ Services 
+##### Light vs Dark Example
 
-<br>
+![Light Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-lt-contacts.png "Light Mode UI")
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-dt-contacts.png "Dark Mode UI")
+
 
 ### Summary
 
