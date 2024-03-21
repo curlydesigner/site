@@ -10,10 +10,10 @@ categories:
     - portfolio
     - portfolio-featured
 permalink: /design-guidelines
-featured_image: /assets/posts/2021-06-29-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png
+featured_image: /assets/posts/2021-06-29-p_bsims_web_guideline/fp_ph_bberry_bsimsportal.png
 ---
 
-![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/Mock-place-website-laptop_1a.png "mockup")<br>
+![mockup](/assets/posts/2021-06-29-p_bsims_web_guideline/fp_ph_bberry_bsimsportal.png "mockup")<br>
 ###### Design System and UI Guidelines for BlackBerry Security Web Portal. 
 <br>
 
@@ -87,22 +87,33 @@ _______________________________________________
 
  <br>
 
-![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/fp_ph_bberry_bsimsportal.png "mockup")<br>
-
-
-![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/webbsims_guidlines.png "icons")<br>
-<br>
-
-![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/Desktop2_bsimsscreen.jpg "icons")<br>
-![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/bsims-menu.png "mockup")
-
-![mockup](/assets/posts/2021-06-29-p_bsims_web guidelines/bsims-allicons.png "mockup")
-
-
+![Login](/assets/posts/2021-06-29-p_bsims_web_guideline/webbsims_guidlines.png "Login")<br>
 
 <br>
 
-![Icons](/assets/posts/2021-06-29-p_bsims_web guidelines/Mock-place-website-laptop_1a.png "icons")<br>
+________________
+
+
+![Icons](/assets/posts/2021-06-29-p_bsims_web_guideline/Desktop2_bsimsscreen.jpg "icons")
+<br>
+
+![mockup](/assets/posts/2021-06-29-p_bsims_web_guideline/bsims-sideweb.png "mockup")
+
+![mockup](/assets/posts/2021-06-29-p_bsims_web_guideline/bsims-menu.png "mockup")
+
+
+
+
+
+![mockup](/assets/posts/2021-06-29-p_bsims_web_guideline/bsims-allicons.png "mockup")
+
+
+
+<br>
+
+
+
+![Icons](/assets/posts/2021-06-29-p_bsims_web_guideline/Mock-place-website-laptop_1a.png "icons")<br>
 
 ____________________________________________
 
