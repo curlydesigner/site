@@ -17,7 +17,6 @@ permalink: /colour-accessibility
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 ---
 
-![color](/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_248573161.jpeg "color")
 <br>
 
 ### Color and Accessibility | Design System        
@@ -66,7 +65,23 @@ _______________________________________________
 </div>
 
 _______________________________________________
+<br>
 
+### Overview
+
+<br>
+
+Even when Dark Mode wasn’t yet a thing, it still existed on the BlackBerry Devices. The concept of dark mode isn’t entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in “dark mode.”
+
+Later on, it gained significant traction when major tech giants Apple and Google officially integrated Dark mode themes for their OS. Since then, dark mode options have become increasingly popular, with many apps adopting this Design.
+
+In my role, I led a comprehensive dark theme design system for all products within BlackBerry HUB+. This involved conducting a detailed case study and research to understand challenges related to dark theme usage. And developing design system guidelines to ensure accessibility and visual aesthetics were optimized for both dark and light backgrounds.
+
+<br>
+
+__________________________
+
+<br>
 
 ### Final Product 
 
@@ -82,18 +97,6 @@ _______________________________________________
 <br>
 
 ________________________________________
-
-<br>
-
-### Overview
-
-<br>
-
-Even when Dark Mode wasn’t yet a thing, it still existed on the BlackBerry Devices. The concept of dark mode isn’t entirely new, as it traces its roots back to the early days of computing when the first computer screens were already in “dark mode.”
-
-Later on, it gained significant traction when major tech giants Apple and Google officially integrated Dark mode themes for their OS. Since then, dark mode options have become increasingly popular, with many apps adopting this Design.
-
-In my role, I led a comprehensive dark theme design system for all products within BlackBerry HUB+. This involved conducting a detailed case study and research to understand challenges related to dark theme usage. And developing design system guidelines to ensure accessibility and visual aesthetics were optimized for both dark and light backgrounds.
 
 <br> 
 
@@ -216,33 +219,7 @@ From my extensive collaboration with developers and asking their preferences, it
 
 <br>
 
-________________________________________
 
-<br>
-
-### Accessibilty
-
-<br>
-Creating an inclusive experience requires careful consideration of color exploration and an understanding of various design principles that prioritize accessibility and diminish the reliance on color as the sole conveyor of critical information.
-
-<br>
-
-- **Visual Hierarchy** 
-  Exploring card-based Design in dark themes, I learned that maintaining visual Hierarchy becomes essential. For example, shadows cannot be perceived the same as with the light theme background. Shadows play a significant role in conveying depth in UI, but their perception differs in dark backgrounds. I have been experimenting with different shades between Blacks and Greys to strike a balance and communicate an effective hierarchy emphasizing elements based on their importance.
-
-- **High Contrast Design:**
-  Color contrast and tones used on a dark theme are vital for all users, but especially for people with poor vision or color blindness and disabilities. Users must be able to perceive content. This is why opting for a high contrast design, especially in critical areas like text and icons. Careful use of gradients, semi-transparent colors, textures and background images. 
-
-- **Avoiding Relying Solely on Color:**
-  One valuable approach I’ve embraced when designing for colorblind individuals is to begin with a monochrome black-and-white layout as the foundation. This deliberate choice ensures that essential information is clear, regardless of color perception. I used additional visual cues, such as labels, patterns, or icons, to provide context or differentiate elements. This ensures that users with color blindness can still comprehend content.
-
-- **WCAG Checker**
-  To ensure a sufficient contrast between the text background and elements is visible at the right proportion, I checked the ratio requirements with [WEBAIM](https://webaim.org/resources/contrastchecker/){:target="_blank"} and [Contrast Checker](https://contrastchecker.com/){:target="_blank"} contrast ratio for text and graphic objects.
-
-- **Testing Internaly with Users:**
-  I was conducting simple usability testing to get valuable insights into the user experience that can help identify areas that may need improvement.
-
-<br>
 
 ________________________________________
 
@@ -267,6 +244,27 @@ ________________________________________
 ###### Dark Theme Action Bar Color Explorations
 
 
+<br>
+Creating an inclusive experience requires careful consideration of color exploration and an understanding of various design principles that prioritize accessibility and diminish the reliance on color as the sole conveyor of critical information.
+
+<br>
+
+- **Visual Hierarchy** 
+  Exploring card-based Design in dark themes, I learned that maintaining visual Hierarchy becomes essential. For example, shadows cannot be perceived the same as with the light theme background. Shadows play a significant role in conveying depth in UI, but their perception differs in dark backgrounds. I have been experimenting with different shades between Blacks and Greys to strike a balance and communicate an effective hierarchy emphasizing elements based on their importance.
+
+- **High Contrast Design:**
+  Color contrast and tones used on a dark theme are vital for all users, but especially for people with poor vision or color blindness and disabilities. Users must be able to perceive content. This is why opting for a high contrast design, especially in critical areas like text and icons. Careful use of gradients, semi-transparent colors, textures and background images. 
+
+- **Avoiding Relying Solely on Color:**
+  One valuable approach I’ve embraced when designing for colorblind individuals is to begin with a monochrome black-and-white layout as the foundation. This deliberate choice ensures that essential information is clear, regardless of color perception. I used additional visual cues, such as labels, patterns, or icons, to provide context or differentiate elements. This ensures that users with color blindness can still comprehend content.
+
+- **WCAG Checker**
+  To ensure a sufficient contrast between the text background and elements is visible at the right proportion, I checked the ratio requirements with [WEBAIM](https://webaim.org/resources/contrastchecker/){:target="_blank"} and [Contrast Checker](https://contrastchecker.com/){:target="_blank"} contrast ratio for text and graphic objects.
+
+- **Testing Internaly with Users:**
+  I was conducting simple usability testing to get valuable insights into the user experience that can help identify areas that may need improvement.
+
+<br>
 
 <br>
 
@@ -318,10 +316,11 @@ ________________________________________
 
 <br>
 
-##### Illustrations 
+### Illustrations 
 
 ![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png "Dark Theme Guidlines")
 ###### Illustrated background adjusted for Dark and Light background.
+
 
 ![Dark Theme UI](assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_accounts_allapps.jpg "Dark Theme Guidlines")
 
@@ -329,23 +328,21 @@ ________________________________________
 
 <br>
 
-[See more Onboarding screens & Illusrrtations](/empty-data)
+[Explore here](/empty-data) more Illusrrtations & Onboarding screens
 
 _____________
-
-
-### Final Products 
-
-
-![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
-###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps. 
-
-<br>
 
 ##### Light vs Dark Example
 
 ![Light Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-lt-contacts.png "Light Mode UI")
 ![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-dt-contacts.png "Dark Mode UI")
+
+<br>
+
+![Dark Mode UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png "Dark Mode UI")
+###### Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps. 
+
+<br>
 
 
 ### Summary
