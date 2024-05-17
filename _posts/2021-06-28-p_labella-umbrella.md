@@ -18,7 +18,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_labellaumbr
 
 <br>
  
-This small family boutique for umbrellas can brighten up rainy days with its beautiful, cheerful designs. La Bella Umbrella wanted to design an online store that can be simple to use but at the same time reflect their unique designs. Their store offers fashionable umbrellas that match different personalities and outfits to suit any sense of style.
+[This small family boutique](https://www.labella-umbrella.com/us/about-us/) for umbrellas can brighten up rainy days with its beautiful, cheerful designs. La Bella Umbrella wanted to design an online store that can be simple to use but at the same time reflect their unique designs. Their store offers fashionable umbrellas that match different personalities and outfits to suit any sense of style.
 Their goal is for people to leave their boring black umbrellas at home and choose to go with a style umbrella. Having an online store will make it easier to discover and purchase their designed umbrellas from anywhere in the world.
 
 
