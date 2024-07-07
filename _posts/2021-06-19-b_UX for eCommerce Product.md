@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: portfolio-post
 title: Aesthetics and Usability
 published: true
 tags: 

@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: portfolio-post
 title: UX for Fashion eCommerce 
 published: true
 tags: 
@@ -7,7 +7,7 @@ tags:
   - UX/UI Design
   - Human Behaviour
 categories:
-  - blog
+  - portfolio
 permalink: /e-commerce-fashion
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_ecommerce3.png
 ---

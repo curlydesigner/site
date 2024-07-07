@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: portfolio-post
 title: Design for Brand Marketing
 published: true
 tags: 

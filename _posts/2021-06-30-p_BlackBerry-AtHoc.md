@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: UX AtHoc 
-published: false
+published: true
 tags: 
     - UX/UI Design
     - Human Behaviour
