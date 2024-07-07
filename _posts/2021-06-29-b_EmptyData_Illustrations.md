@@ -1,5 +1,5 @@
 ---
-layout: blog-post
+layout: portfolio-post
 title: Data Illustrations
 published: true
 tags: 
