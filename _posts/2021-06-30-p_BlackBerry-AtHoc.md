@@ -13,7 +13,25 @@ permalink: /athoc
 featured_image: /assets/posts/2021-06-31-p_bb-AtHoc/fp_bb-athoc.png
 
 ---
+<style>
+  .flex-container {
+    display: flex;              /* Enables flexbox */
+    justify-content: space-between; /* Positions items on opposite ends */
+    align-items: stretch;       /* Stretches items to fill the container */
+  }
+  .flex-box {
+    width: 50%;                 /* Sets width for each box */
+    background-color: #f7f7f7;
+    border: 0px solid black;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    text-align: center; 
+  }
+</style>
 
+_________________________________
 
 ### BLACKBERRY ATHOC ALERT SYSTEM
 
@@ -22,15 +40,72 @@ featured_image: /assets/posts/2021-06-31-p_bb-AtHoc/fp_bb-athoc.png
 
 <br>
 
-#### OVERVIEW
+![screenshot](assets/posts/2021-06-31-p_bb-AtHoc/bb-athoc-web1.png "screenshot")
 
 <br>
 
-AtHoc® is part of BlackBerry Security systems for critical event management. It gets timely information to teams and the public and helps government agencies prepare for, respond to and recover from critical events and emergencies. I was leading the UX re-design for AtHoc, creating wireframes, user flows, illustrating icons and designing guidelines that can be used across the team. Involved throughout the entire product life-cycle, understanding human factors, functionality and focusing on usability and friendly interactions. 
+
+<div class= "flex-container">
+  <div class="flex-box" markdown="1">
+
+#### My Role
+
+ Senior UX UI Designer at BlackBerry. 
+   
+
+
+  </div>
+
+   <div class="flex-box" markdown="1">
+   
+#### Product
+
+   AtHoc 
+   
+   BlackBerry Security System - for critical event management
+   
+   
+
+  </div>
+</div>
+
+_______________________________________________
+
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+#### Overview:
+
+
+ 
+ AtHoc® is part of BlackBerry Security systems for critical event management. It gets timely information to teams and the public and helps government agencies prepare for, respond to and recover from critical events and emergencies. I was leading the UX re-design for AtHoc, creating wireframes, user flows, illustrating icons and designing guidelines that can be used across the team. Involved throughout the entire product life-cycle, understanding human factors, functionality and focusing on usability and friendly interactions. 
+
+ 
+ 
+<br>
+
+  </div>
+  <div class="col-sm-6" markdown="1">
+
+#### Research | Testing | Competitive Analysis and Brainstorming
+
+  I gathered feedback to pinpoint the target audience's needs and collaborated with my stakeholders to understand the features & analyze performance. I was testing the product, focusing on user interactions, usability errors, accessibility, and visual clarity through heuristic evaluation. Identifying improvement areas and proposing actionable recommendations to improve user flow, functionality, UI & visual design elements that enhance user experience and business objectives.
+
+  </div>
+</div>
+
+
+![screenshot](assets/posts/2021-06-31-p_bb-AtHoc/BLackBerryAtHoc.webp "screenshot")
+
 
 <br>
 
-#### Before re-design
+_________________________
+
+<br>
+
+### Before re-design
 
 
 ![screenshot](assets/posts/2021-06-31-p_bb-AtHoc/athoc1A.png "screenshot")
@@ -43,7 +118,7 @@ __________________________
 
 <br>
 
-#### UX GOALS
+#### UX Goals
 
 <br>
 
@@ -66,7 +141,7 @@ __________________________
 
 
 
-![ixd user flow](assets/posts/2021-06-31-p_bb-AtHoc/athoc-3.png "ixd user flow")
+![ixd user flow](assets/posts/2021-06-31-p_bb-AtHoc/fp_bb-athoc.png "ixd user flow")
 
 <br>
 

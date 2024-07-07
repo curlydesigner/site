@@ -31,19 +31,22 @@ featured_image: /assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-feaut-img.png
     text-align: center; 
   }
 </style>
+______________________
 
 
-### BLACKBERRY SECUSUITE
+![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/P_BB-secusuit_Illust.png "screenshot")
+
 
 <br>
 
-##### [OVERVIEW](#UX GOALS) | [RESEARCHD](#Research) | [MOODBOARD](#ux-goals-and-challenges) | [TESTING ANDROID/IOS](#user-flow) | [UX GOALS](#wireframes--prototype) | [UX REQUIREMENTS](#figma---components-and-design-system) | [INFO-ARCHITECTURE](#accessibility)  | [WIREFRAMES] | [MOBILE] | [DESKTOP] | 
+##### [OVERVIEW](#UX GOALS) | [RESEARCHD](#Research) | [MOODBOARD](#ux-goals-and-challenges) | [TESTING ANDROID/IOS](#user-flow) | [UX GOALS](#wireframes--prototype) | [UX REQUIREMENTS](#figma---components-and-design-system) | [INFO-ARCHITECTURE](#accessibility)  | [WIREFRAMES] | [MOBILE] | [DESKTOP]  
 
 <br>
 
 _______________________________________________
 
 ![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ss-bb-logos.png "screenshot")
+
 
 ______________________________________________
 
@@ -96,13 +99,18 @@ _______________________________________________
 
   </div>
 </div>
-
 _______________________________________________
 
 
-![logos](assets/posts/2021-06-31-p_bb-SecuSuite/logos.png "logos")
+![logos](assets/posts/2021-06-31-p_bb-SecuSuite/Moodboard02.webp "logos")
+
+###### moodboard
+_____________________________________
 
 
+![logos](assets/posts/2021-06-31-p_bb-SecuSuite/logosWCAG.png "logos")
+
+###### Dark and light themes logos for BlackBerry SecuSuite 
 _____________________________________
 
 <br>
