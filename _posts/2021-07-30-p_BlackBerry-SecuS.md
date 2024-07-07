@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: BlackBerry SecuSuite 
-published: false
+published: true
 
 tags: 
     - UX/UI Design
@@ -102,7 +102,7 @@ _______________________________________________
 _______________________________________________
 
 
-![logos](assets/posts/2021-06-31-p_bb-SecuSuite/Moodboard02.webp "logos")
+![moodboard](assets/posts/2021-06-31-p_bb-SecuSuite/Moodboard02.webp "moodboard")
 
 ###### moodboard
 _____________________________________
@@ -113,9 +113,14 @@ _____________________________________
 ###### Dark and light themes logos for BlackBerry SecuSuite 
 _____________________________________
 
-<br>
+![uxgoals]( assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-product.png "uxgoals")  
 
-![goals](assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-goals.png "goals")
+![business](assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-product.png "business")
+
+
+ _______________________________________________
+
+
 
 
 <br>
