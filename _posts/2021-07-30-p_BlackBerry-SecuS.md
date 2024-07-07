@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: BlackBerry SecuSuite 
-published: true
+published: false
 
 tags: 
     - UX/UI Design
