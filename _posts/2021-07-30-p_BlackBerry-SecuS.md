@@ -115,7 +115,7 @@ _____________________________________
 
 ![uxgoals]( assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-product.png "uxgoals")  
 
-![business](assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-product.png "business")
+![business](assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-business.png "business")
 
 
  _______________________________________________
@@ -167,18 +167,24 @@ __________________________
 <br>
 
 
-#### SecuGATE Architecture
-
-![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ss-bb-architecture1.png "screenshot")
-![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ss-bb-architecture3.png "screenshot")
-
-<br>
-
 #### Website
 
 ![screenshot](assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot-website.png "screenshot")
 ![wireframe](assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot2021.png "wireframe")
 
+
+
+#### SecuGATE Architecture
+
+      Password protected 
+
+<br>
+
+
+#### Other Prodcut Features and Design
+
+
+      Password protected 
 
 __________________________________
 
