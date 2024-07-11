@@ -41,6 +41,8 @@ Customer feedback can be important in all fields but especially in hospitality b
 
 I observed how customers interact in the cafeteria space, asking questions and gathering their feedback to learn how the company can satisfy their needs during their interest in peaked moments. When are those moments, and how could consumer needs be satisfied when they want something but are limited in their ability.
 
+![persona](assets/posts/2018-05-02-customer-satisfaction-kiosk/CompassGroup-PersonaCard.png "persona")
+
 <br>
 
 
