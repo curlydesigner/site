@@ -61,3 +61,85 @@ The challenge of designing a website that will be usable and functional, but at 
 
 
 [Visit Labella-Umbrella](https://www.labella-umbrella.com/){:target="_blank"}
+
+_________________________________________________
+
+#### Other Pages
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Link</title>
+    <style>
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://curlydesigner.com/about" class="oval-link">About Me</a>
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Link</title>
+    <style>
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://curlydesigner.com/category/portfolio" class="oval-link">Portfolio</a>
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Link</title>
+    <style>
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://curlydesigner.com/#testimonials" class="oval-link">Testimonials</a>
+</body>
+</html>
