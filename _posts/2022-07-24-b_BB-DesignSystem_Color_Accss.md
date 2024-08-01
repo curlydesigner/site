@@ -8,6 +8,7 @@ tags:
     - Gaming & IxD
     - Illustrations
     - Design System
+    - Data Visualization
 categories:
     - blog
     - portfolio

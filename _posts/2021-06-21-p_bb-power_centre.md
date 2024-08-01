@@ -6,6 +6,7 @@ tags:
     - UX/UI Design
     - Human Behaviour
     - Illustrations
+    - Data Visualization
 categories:
     - portfolio
     - portfolio-featured

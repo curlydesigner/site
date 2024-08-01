@@ -5,6 +5,7 @@ published: true
 tags: 
     - Illustrations
     - UX/UI Design
+    - Data Visualization
 categories:
     - portfolio
     - portfolio-featured

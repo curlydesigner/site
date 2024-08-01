@@ -6,6 +6,7 @@ tags:
     - UX/UI Design
     - Design System
     - Illustrations
+    - Data Visualization
 categories:
     - portfolio
     - portfolio-featured
