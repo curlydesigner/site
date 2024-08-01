@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: WB 4X Game - Main HUD Navigation
-published: true
+published: false
 tags: 
   - UX/UI Product Design
   - Human Behaviour
@@ -71,6 +71,7 @@ _______________________________________________
 
    Design for a mobile Strategy 4X Game. 
    "Game of Thrones"
+   "House of Dragon"
    
    
 
@@ -152,7 +153,7 @@ _______________________________________________
 ### IXD - Features & Screens
 <br>
 
-![information-architecture](/assets/posts/2023-06-31-p_wb-4x/WB-FeaturesScreens.jpg "information-architecture")
+![information-architecture](/assets/posts/2023-06-31-p_wb-4x/TileMap_Hud.png "information-architecture")
 
 <br>
 - **Main HUD and Navigation**
@@ -306,32 +307,75 @@ _______________________________________________
 <br>
 
 ### User Flow 
-
-###### Image has been intentionally blurred to protect the confidentiality of the content.
-
 <a id="user-flow"></a>
 
 <br>
 
-![user-flow](/assets/posts/2023-06-31-p_wb-4x/userflow-small-quality.jpg "user-flow") 
+![user-flow](/assets/posts/2023-06-31-p_wb-4x/User-Flow-Map.png "user-flow") 
 
 <br> 
 
-_____________________________________________
 
-
-<br>
-
-### Wireframes & Prototypeps 
-
-....coming soon..... 
-
-_____________________________________________
-
+![information-architecture](/assets/posts/2023-06-31-p_wb-4x/flow.png "information-architecture")
 
 <br>
 
-### Example of the Design System Breakdown
+_____________________________________________
+
+<br>
+
+
+### Wireframes & Prototype
+
+
+<p><video id="scenario-1" class="video-js vjs-default-skin vjs-big-play-centered" controls
+  preload="auto" width="640" height="480" data-setup='{}'>
+   <source src="assets/posts/2023-06-31-p_wb-4x/wb_hud.mov" type='video/mp4'>
+ </video></p>
+
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+
+![hud wireframe](assets/posts/2023-06-31-p_wb-4x/TileMap_Hud.png "hud wireframe")
+###### UX - Wireframes proposal for 4X Main HUD Navigation
+
+<br>
+
+  </div>
+  <div class="col-sm-6" markdown="1">
+
+![hud wireframe](assets/posts/2023-06-31-p_wb-4x/TileMap_Hud-KeepA.png "hud wireframe")
+###### UX - Wireframes proposal for Sub-Section
+
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-sm-6" markdown="1">
+
+![hud wireframe](assets/posts/2023-06-31-p_wb-4x/TileMap_Hud3.png "hud wireframe")
+###### UX - Wireframes proposal for Dragon Collection
+
+<br>
+
+  </div>
+  <div class="col-sm-6" markdown="1">
+
+![hud wireframe](assets/posts/2023-06-31-p_wb-4x/TileMap_Hud-KeepB.png "hud wireframe")
+###### UX - Wireframes proposal for Sub-Section
+
+  </div>
+</div>
+
+_____________________________________________
+
+<br>
+
+### Breakdown
 #### Main Header Navigation - Top Bar
 <br>
 
@@ -398,8 +442,7 @@ Players can see a preview of the latest active chat.
 Players can open a full slider screen to interact with the chat.
 Players can hide the chat preview if they do not like to see running text reminders.
 
-
-    .....More coming soon.....
+![info panel](assets/posts/2023-06-31-p_wb-4x/chat.png "info panel")
 
 <br>
 
@@ -410,7 +453,7 @@ _______________________________
 ### Figma - Components and Design System 
 
 
-    .....Coming soon.....
+![component](assets/posts/2015-07-26-wizits/All_DesignSystem.jpg "component") 
 
 <br>
 
