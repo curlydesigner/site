@@ -10,328 +10,270 @@ has_intro: false
 <!-- end Top bar -->
 
 
+<!-- resume -->
 
-<!-- Main container -->
-<section class="section position-relative">
-    <div class="container main-container clearfix">
-        <div class="col-md-6">
-            <img src="assets/img/homepage/readmore_research-book.svg" class="img-responsive" alt="" />
-        </div>
-        <div class="col-md-6">
-            <h4>'DESIGNER' is not just my title - it is who I am!</h4><br>
 
-            <div class="h-32"></div>
-            <p>            
-                Immersed in a rich palette of creativity & a deep understanding of design principles & human-centered design thinking. 
-                
-                My design journey has been enriched not only by exploration and discovery but also through teaching and hands-on, holistic experience across the entire product lifecycle from concept, research to launch, working in both B2B and B2C sectors.
-                
-                My philosophy is the core of creating better products for humanity and our ability to contribute to making technology more inclusive and user-friendly. My problem-solving skills and a desire for excellence allow me to break down complex design challenges into intuitive experiences. Ensuring the result is highly functional, visually appealing, accessible, and meets product objectives.
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        font-size: 15px;
+        background-color: #f8f9fa;
+        padding: 10px;
+    }
 
-            <br>
-            
-                Let's connect 
-            </p>
+    h4 {
+        text-transform: uppercase;
+    }
 
-            <br>
-            <div class="h-14"></div>
-            <ul class="social-ul">
-                <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
-                        <ion-icon name="logo-behance"></ion-icon>
-                    </a></li>
+    .print-size {
+        width: 800px;
+    }
 
-                <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </a></li>
-            </ul>
+    .section {
+        padding: 15px 20px;
+        margin: 10px 0px;
+    }
 
-        </div>
+    .card {
+        border-radius: 15px;
+        background-color: white;
+        border-color: white;
+    }
 
+    .header .sub-logo-text {
+        font-size: 0.8em;
+    }
+
+    .header .contact-details ul {
+        display: inline-block;
+    }
+
+    .description .title {
+        text-decoration: underline;
+    }
+
+    .experience ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .experience ul li {
+        margin: 10px -16px;
+    }
+
+    .experience .job-title {}
+
+    .experience .job-details {
+        font-size: 0.8em;
+    }
+
+    .experience .job-dates {}
+
+    .section-skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .section-skills ul li {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        background-color: #f4f4f4;
+    }
+
+    /* Hide elements for printing */
+    @media print {
+
+        .top-bar,
+        .box-header,
+        .box-primary-nav,
+        .no-print {
+            display: none;
+        }
+
+        a[href]:after {
+            content: none !important;
+        }
+    }
+</style>
+<div class="section header row">
+    <div class="col-xs-12 text-right">
+        <button class="no-print btn btn-secondary" onclick="window.print()"><span class="glyphicon glyphicon-print"
+                aria-hidden="true"></span></button>
     </div>
-</section>
-
-
-<!-- end Main container -->
-
-<!-- ./experience -->
-
-     <section class="section position-relative highlighted-section text-center">
-
- 
-    <img src="assets/img/about/cv_experiance.png" class="img-responsive" alt="" />
-
-   
-    <div class="text-center">
-        <a href="https://www.linkedin.com/in/curlydesigner/"
-            target="_blank">View more on my LinkedIn</a>
-    </div>
-
-</section>
-
-
-
-
-<!-- experience -->
-<section class="section position-relative text-center design-tools">
-
-    <div class="container main-container">
-        <div class="col-md-12">
-            <h3 class="uppercase">Design Tools</h3>
-        </div>
-    </div>
-
-    <div class="container main-container">
-        <div class="row justify-content-around">
-
-            <div class="col-lg-1 col-md-0"></div>
-
-            <div class="col-lg-2 col-md-4 text-center">
-                <ion-icon src="/assets/img/about/about_tools_ux.svg"></ion-icon>
-                <div>
-                    <div class="text-wrapper">
-                        <p class="mb-0">2016-today</p>
-                        <h6 class="text-light">UX/UI Design</h6>
-                        <h4>Adobe XD
-                            <br>Figma
-                            <br>Sketch
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 text-center">
-                <ion-icon src="/assets/img/about/about_tools_adobe.svg"></ion-icon>
-                <div>
-                    <div class="text-wrapper">
-                        <p class="mb-0">2002 - today</p>
-                        <h6 class="text-light">Illustrations & Graphics</h6>
-                        <h4>Adobe Illustrator
-                            <br>Adobe Photoshop
-                            <br>Adobe InDesign
-                            <br>Adobe Lightroom
-                        
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 text-center">
-                <ion-icon src="/assets/img/about/about_tools_3d.svg"></ion-icon>
-                <div>
-                    <div class="text-wrapper">
-                        <p class="mb-0">2003 - 2011</p>
-                        <h6 class="text-light">Exhibition & Interior Design</h6>
-                        <h4>Autodesk 3D Max
-                            <br>Cinema 4D
-                            <br>Autodesk Revit
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 text-center">
-                <ion-icon src="/assets/img/about/about_tools_video.svg"></ion-icon>
-                <div>
-                    <div class="text-wrapper">
-                        <p class="mb-0">2009 - 2018</p>
-                        <h6 class="text-light">Game Design & Video Editing</h6>
-                        <h4>After Effects
-                            <br>Premiere Pro
-                            <br>Final Cut Pro
-                            <br>Adobe Animate
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-2 col-md-4 text-center">
-                <ion-icon src="/assets/img/about/about_tools_html.svg"></ion-icon>
-                <div>
-                    <div class="text-wrapper">
-                        <p class="mb-0">2016-today</p>
-                        <h6 class="text-light">Basic</h6>
-                        <h4>GitHub Markdown
-                            <br> Wordpress
-                            <br> HTML CSS
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-1 col-md-0"></div>
-        </div>
-    </div>
-
-</section>
-
-
-<section class="section position-relative highlighted-section text-center">
-
-    <div class="container main-container">
-        <div class="col-md-12">
-            <h3 class="uppercase">WHAT I DO</h3>
-        </div>
-    </div>
-
-    <div class="container main-container">
-
-        <!-- service-box -->
-        <div class="col-md-4 service-box">
-            <ion-icon src="/assets/img/about/about_ux_1.svg"></ion-icon>
-            <i class="ion-android-favorite-outline size-50"></i>
-            <h4>UX PRODUCT DESIGN   
-                <br>USER BEHAVIOR
-            </h4>
-            <div class="h-10"></div>
-            <p class="text-align-left">I have been researching user behavior analyzing competitors' and user-test insights to address UX goals. 
-                Creating info-architecture, user-flows, interactive prototypes, wireframes, design systems & guidelines. </p>
-        </div>
-        <!-- end service-box -->
-
-        <!-- service-box -->
-        <div class="col-md-4 service-box">
-            <ion-icon src="/assets/img/about/about_ux_2.svg"></ion-icon>
-            <i class="ion-android-options size-50"></i>
-            <h4>CREATIVE DESIGN THINKING
-            </h4>
-            <div class="h-10"></div>
-            <p class="text-align-left">My experience includes working from research through final design details. 
-                My focus is on human-centered design thinking, creative problem-solving, and functionality that can help improve people's lives. </p>
-        </div>
-        <!-- end service-box -->
-
-        <!-- service-box -->
-        <div class="col-md-4  service-box">
-            <ion-icon src="/assets/img/about/about_ux_3.svg"></ion-icon>
-            <i class="ion-ios-pulse-strong size-50"></i>
-            <h4>UX UI IxD <br>DESIGN & ILLUSTRATION </h4>
-            <div class="h-10"></div>
-            <p class="text-align-left">With hands-on, comprehensive design experience - both for web and mobile, I create UI components, wireframes, interactive mockups, illustrations, infographics, data visualization, iconography, video editing, and effects. </p>
-        </div>
-        <!-- end service-box -->
-    </div>
-
-</section>
-<!-- /skills -->
-
-<!-- /education -->
-
-
-
-
-
 </div>
-
-
-<!-- skills -->
-<section class="section position-relative">
-
-    <div class="container main-container text-center">
-        <div class="col-md-12">
-            <h3 class="uppercase">Industry Experience</h3>
+<div class="container print-size">
+    <div class="section header row ">
+        <div class="col-xs-6">
+            <img src="/assets/img/logo.png" width="230" alt="Logo">
+            <p class="sub-logo-text">UX UI PRODUCT DESIGNER | RESEARCH | INFO-ARCHITECTURE | DATA VISUALIZATION |
+                ILLUSTRATIONS</p>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                <div class="card shadow text-center">
-                    <ion-icon src="/assets/img/about/about_industries_gaming.svg"></ion-icon>
-                    <div>
-                        <div class="text-wrapper">
-                            <div class="card-footer bg-white">
-                                <h6 class="text-light text-center">4y</h6>
-                                <p class="card-title">
-                                    Gaming
-                                    <br>Entertainment
-                                    <br> TV and Media
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                <div class="card shadow text-center">
-                    <ion-icon src="/assets/img/about/about_industries_ecommerce.svg"></ion-icon>
-                    <div>
-                        <div class="text-wrapper">
-                            <div class="card-footer bg-white">
-                                <h6 class="text-light text-center">4y</h6>
-                                <p class="card-title">
-                                    eCommerce
-                                    <br>eLearning
-                                    <br>Brand Marketing
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                <div class="card shadow text-center">
-                    <ion-icon src="/assets/img/about/about_industries_cyber.svg"></ion-icon>
-                    <div>
-                        <div class="text-wrapper">
-                            <div class="card-footer bg-white">
-                                <h6 class="text-light text-center">5y</h6>
-                                <p class="card-title">
-                                    <br> Cyber Security
-                                    <br>Productivity and Privacy
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-                <div class="card shadow text-center">
-                    <ion-icon src="/assets/img/about/about_industries_exhibitions.svg"></ion-icon>
-                    <div>
-                        <div class="text-wrapper">
-                            <div class="card-footer bg-white">
-                                <h6 class="text-light text-center">1y</h6>
-                                <p class="card-title">
-                                    Architecture & Exhibitions
-                                    <br>Design Agencies
-                                    <br>Event Management
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-<!-- /skills -->
-
-<!-- get in touch -->
-<section class="section position-relative highlighted-section" id="get-in-touch">
-    <div class="container main-container clearfix get-in-touch">
-        <div class="col-xs-4 col-xs-offset-1">
-            <img src="assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="" />
-        </div>
-        <div class="col-xs-5">
-            <ul class="social-ul">
-                <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
-                        <ion-icon name="logo-behance"></ion-icon>
-                    </a></li>
-
-                <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </a></li>
+        <div class="col-xs-6 contact-details text-right">
+            <ul class="list-unstyled text-left">
+                <li>Email: <a href="mailto:victoria@curlydesigner.com">victoria@curlydesigner.com</a></li>
+                <li>Phone: +1 3154394226</li>
+                <li>Location: New Jersey, USA</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/curlydesigner"
+                        target="_blank">https://www.linkedin.com/in/curlydesigner</a></li>
+                <li>Website: <a href="https://curlydesigner.com" target="_blank">https://curlydesigner.com</a>
+                </li>
             </ul>
         </div>
     </div>
-</section>
-<!-- /get in touch -->
 
+    <div class="section description card">
+        <p class="text-center title"> Designer is not just my title - it is who I am!</p>
+        <p>
+            Immersed in a rich palette of creativity & deep understanding of design principles & human-centered
+            design. I have been breaking down complex design challenges into intuitive experiences - ensuring the
+            result is highly functional, visually appealing, accessible, and meets product objectives. My design
+            journey has been enriched not only by exploration and discovery but also through teaching and hands-on,
+            holistic experience across the entire product life-cycle from concept to launch, working in both B2B and
+            B2C sectors.
+        </p>
+    </div>
 
+    <div class="row">
+        <div class="col-xs-8">
+            <div class="section card experience">
+                <h4>Experience</h4>
+                <ul>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Senior UX/UI Product Designer & Visual</div>
+                        <div class="col-xs-4 job-dates">| 01/2017 - 10/2021</div>
+                        <div class="col-xs-12 job-details">BlackBerry Cyber Security | Fulltime</div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Sr UX/UI Product Designer</div>
+                        <div class="col-xs-4 job-dates">| 08/2022 - 11/2023</div>
+                        <div class="col-xs-12 job-details">Warner Bros Discovery | Contract</div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Research UX/UI Design | Instructional | eLearning</div>
+                        <div class="col-xs-4 job-dates">| 02/2024 - 05/2024</div>
+                        <div class="col-xs-12 job-details">Pasv Online Education | Freelance </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Senior UX/UI | Visual Designer | eLearning</div>
+                        <div class="col-xs-4 job-dates">| 04/2022 - 07/2022</div>
+                        <div class="col-xs-12 job-details">Hatch Early Child Education | Freelance </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">UX/UI Product Design & Architecture</div>
+                        <div class="col-xs-4 job-dates">| 10/2016 - 12/2016</div>
+                        <div class="col-xs-12 job-details">Scotia Bank | Contract </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">UX/UI Research | Visual Design & Video Editing</div>
+                        <div class="col-xs-4 job-dates">| 01/2016 - 04/2016</div>
+                        <div class="col-xs-12 job-details">Compass Group | Contract </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">UI Interactive Designer & Illustrator</div>
+                        <div class="col-xs-4 job-dates">| 01/2014 - 07/2014</div>
+                        <div class="col-xs-12 job-details">Wizits Ltd Game Studio | Contract </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Interactive Digital Designer & Illustrator</div>
+                        <div class="col-xs-4 job-dates">| 09/2012 - 03/2013</div>
+                        <div class="col-xs-12 job-details">BWIN Party Digital Media and Entertainment | Contract </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section card tools">
+                <h4>Design Tools</h4>
+                <p>Figma | Sketch | Adobe XD | Illustrator | Photoshop | InDesign | After Effects | Premiere Pro |
+                    Miro |
+                    Canva | Zeplin | Confluence | GitHub | Autedsk 3D Max Revit & More...</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="section card volunteering">
+                        <h4>Volunteering</h4>
+                        <ul>
+                            <li>Art Teacher Assistant, GRTW Academy, NJ, US</li>
+                            <li>Photography & Videography, Tamarak, NJ, US</li>
+                            <li>Instructional Designer, UX/UI Course Development, Sheridon College, ON, CA</li>
+                            <li>Professor Assistant, Teaching Design Tools, London Middlesex University, London, UK
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-8">
+                    <div class="section card section-skills">
+                        <h4>Design Skills</h4>
+                        <ul>
+                            <li>Creative Solutions</li>
+                            <li>Design Thinking</li>
+                            <li>Design Principles</li>
+                            <li>Design Systems</li>
+                            <li>Typography</li>
+                            <li>Infographics</li>
+                            <li>Color Theory</li>
+                            <li>Visual Communication</li>
+                            <li>Data Visualization</li>
+                            <li>Mobile IOS / Android</li>
+                            <li>Responsive Web</li>
+                            <li>Design Materials</li>
+                            <li>UX Research</li>
+                            <li>UX UED UI</li>
+                            <li>Product Architecture</li>
+                            <li>User Experience Design</li>
+                            <li>Human Interaction</li>
+                            <li>Human-Centered Design</li>
+                            <li>User Interface</li>
+                            <li>Creative Problem Solving</li>
+                            <li>Design Guidelines</li>
+                            <li>Motion Graphics</li>
+                            <li>Video Editing</li>
+                            <li>Prototyping</li>
+                            <li>Usability Testing</li>
+                            <li>Accessibility</li>
+                            <li>Print & Publishing</li>
+                            <li>HTML/CSS</li>
+                            <li>Markdown</li>
+                            <li>User Research</li>
+                            <li>Web Design</li>
+                            <li>User Behavior</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+
+            <div class="section card education">
+                <h4>Education</h4>
+                <ul>
+                    <li>MA DESIGN FOR INTERACTIVE MEDIA, London Middlesex University</li>
+                    <li>B.DESIGN INTERIOR ARCHITECTURE & 3D ENVIRONMENTS, The College of Management - School of
+                        Design</li>
+                    <li>FINE ARTS AND DESIGN, Wizo France Design School</li>
+                </ul>
+            </div>
+
+            <div class="section card courses">
+                <h4>Courses & Training</h4>
+                <ul>
+                    <li>AI for UX</li>
+                    <li>Product Management for AI</li>
+                    <li>Cyber Security (Udemy)</li>
+                    <li>Animation and Effects</li>
+                    <li>Foundation of code HTML/CSS</li>
+                    <li>Markdown | CMS</li>
+                    <li>Human interaction & Psychology</li>
+                    <li>Consumer and Social Behavior</li>
+                    <li>History of Architecture and Design, The College of Management School of Design</li>
+                    <li>Narratives | Game Design</li>
+                    <li>Cinema & Animation, London Middlesex University</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
