@@ -3,7 +3,7 @@ layout: portfolio-post
 title: Financial Mobile App
 published: false
 tags:
-    - UX/UI Design
+    - UX/UI Product Design
     - Illustrations
 categories:
     - portfolio

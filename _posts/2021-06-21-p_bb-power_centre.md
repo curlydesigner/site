@@ -3,10 +3,11 @@ layout: portfolio-post
 title: BlackBerry Battery App IXD
 published: true
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
     - Illustrations
     - Data Visualization
+    - Info Architecture
 categories:
     - portfolio
     - portfolio-featured

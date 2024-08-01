@@ -1,4 +1,4 @@
 ---
 layout: tag
-tag: UX/UI Design
+tag: UX Research
 ---

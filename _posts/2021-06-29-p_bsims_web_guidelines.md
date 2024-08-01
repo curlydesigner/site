@@ -3,10 +3,11 @@ layout: portfolio-post
 title: Web UI Design System
 published: true
 tags:
-    - UX/UI Design
+    - UX/UI Product Design
     - Design System
     - Illustrations
     - Data Visualization
+    - Info Architecture
 categories:
     - portfolio
     - portfolio-featured

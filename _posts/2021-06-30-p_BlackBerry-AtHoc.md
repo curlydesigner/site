@@ -3,8 +3,10 @@ layout: portfolio-post
 title: UX AtHoc 
 published: true
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
+    - Info Architecture
+    - UX Research
 categories:
   - portfolio
   - portfolio-featured

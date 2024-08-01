@@ -3,9 +3,10 @@ layout: portfolio-post
 title: Responsive Online Store
 published: true
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Brand Marketing
     - Illustrations
+    - Info Architecture
 categories:
     - portfolio
     - portfolio-featured

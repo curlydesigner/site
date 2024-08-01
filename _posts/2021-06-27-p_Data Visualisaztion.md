@@ -3,7 +3,7 @@ layout: blog-post
 title: Data Visualisaztion
 published: false
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Illustrations
 categories:
     - blog

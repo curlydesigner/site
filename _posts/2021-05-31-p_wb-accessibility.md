@@ -3,7 +3,7 @@ layout: portfolio-post
 title: Accessibility Size Guide
 published: false
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
     - Gaming & IxD
 categories:

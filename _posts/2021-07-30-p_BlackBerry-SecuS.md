@@ -4,9 +4,11 @@ title: BlackBerry SecuSuite
 published: true
 
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
     - Design System
+    - Info Architecture
+    - UX Research
 categories:
     - portfolio
     - portfolio-featured

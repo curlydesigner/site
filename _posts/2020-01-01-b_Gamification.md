@@ -5,7 +5,7 @@ published: false
 tags: 
     - Illustrations
     - Gaming & IxD
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
 categories:
     - blog

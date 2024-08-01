@@ -3,12 +3,13 @@ layout: portfolio-post
 title: Design System 
 published: true
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
     - Gaming & IxD
     - Illustrations
     - Design System
     - Data Visualization
+    - UX Research
 categories:
     - blog
     - portfolio

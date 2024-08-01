@@ -3,7 +3,7 @@ layout: blog-post
 title: Dark Mode Guidlines
 published: false
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
     - Illustrations
 categories:

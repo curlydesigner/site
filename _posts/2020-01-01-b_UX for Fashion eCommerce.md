@@ -4,7 +4,6 @@ title: UX for Fashion eCommerce
 published: true
 tags: 
   - Brand Marketing
-  - UX/UI Design
   - Human Behaviour
 categories:
   - portfolio

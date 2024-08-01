@@ -3,9 +3,12 @@ layout: portfolio-post
 title: CUSTOMER EXPERIENCE & SATISFACTION
 published: true
 tags:
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
     - Illustrations
+    - Info Architecture
+    - UX Research
+    - Data Visualization
 
 categories:
     - blog

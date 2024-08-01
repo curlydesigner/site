@@ -4,7 +4,7 @@ title: Data Illustrations
 published: true
 tags: 
     - Illustrations
-    - UX/UI Design
+    - UX/UI Product Design
     - Data Visualization
 categories:
     - portfolio

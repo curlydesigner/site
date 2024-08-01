@@ -3,7 +3,7 @@ layout: portfolio-post
 title: Aesthetics and Usability
 published: true
 tags: 
-    - UX/UI Design
+    - UX/UI Product Design
     - Brand Marketing
     - Human Behaviour
 categories:

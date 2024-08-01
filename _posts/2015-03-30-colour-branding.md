@@ -4,7 +4,6 @@ title: Psychology of Colour in Branding
 published: false
 tags: 
     - Brand Marketing
-    - UX/UI Design
     - Human Behaviour
 categories:
     - blog

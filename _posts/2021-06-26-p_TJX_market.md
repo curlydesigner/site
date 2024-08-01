@@ -4,7 +4,7 @@ title: TJX Market App
 published: true
 tags:
     - Illustrations
-    - UX/UI Design
+    - UX/UI Product Design
     - Human Behaviour
 categories:
     - portfolio
