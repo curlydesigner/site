@@ -309,6 +309,7 @@ _______________________________________________
 ### User Flow 
 <a id="user-flow"></a>
 
+###### Image has been intentionally blurred to protect the confidentiality of the content.
 <br>
 
 ![user-flow](/assets/posts/2023-06-31-p_wb-4x/User-Flow-Map.png "user-flow") 
