@@ -98,3 +98,10 @@ ____
 - [ ] Update the website
 - [ ] Contact the media
 
+Links
+
+<li>Email <a href="mailto:victoria@curlydesigner.com">victoria@curlydesigner.com</a></li>
+<li>LinkedIn <a href="https://www.linkedin.com/in/curlydesigner"
+        target="_blank">in/curlydesigner</a></li>
+<li>Portfolio <a href="https://curlydesigner.com" target="_blank">https://curlydesigner.com</a>
+</li>
