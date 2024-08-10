@@ -4,7 +4,7 @@ title: Dark Mode Guidlines
 published: false
 tags: 
     - UX/UI Product Design
-    - Human Behaviour
+    - UX Research
     - Illustrations
 categories:
     - blog

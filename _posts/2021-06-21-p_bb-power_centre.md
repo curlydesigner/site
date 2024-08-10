@@ -4,7 +4,6 @@ title: BlackBerry Battery App IXD
 published: true
 tags: 
     - UX/UI Product Design
-    - Human Behaviour
     - Illustrations
     - Data Visualization
     - Info Architecture

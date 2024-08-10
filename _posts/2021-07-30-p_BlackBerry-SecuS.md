@@ -5,7 +5,6 @@ published: true
 
 tags: 
     - UX/UI Product Design
-    - Human Behaviour
     - Design System
     - Info Architecture
     - UX Research

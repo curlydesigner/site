@@ -4,7 +4,6 @@ title: Design System
 published: true
 tags: 
     - UX/UI Product Design
-    - Human Behaviour
     - Gaming & IxD
     - Illustrations
     - Design System

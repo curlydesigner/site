@@ -5,7 +5,7 @@ published: true
 tags: 
     - UX/UI Product Design
     - Brand Marketing
-    - Human Behaviour
+    - UX Research
 categories:
     - blog
     - portfolio

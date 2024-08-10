@@ -4,7 +4,6 @@ title: WB 4X Game - Main HUD Navigation
 published: false
 tags: 
   - UX/UI Product Design
-  - Human Behaviour
   - Gaming & IxD
   - Design System
   - Data Visualization

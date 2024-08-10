@@ -5,7 +5,6 @@ published: true
 tags:
     - Illustrations
     - UX/UI Product Design
-    - Human Behaviour
 categories:
     - portfolio
     - portfolio-featured

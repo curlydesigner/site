@@ -15,12 +15,14 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_labellaumbr
 ---
 <br>
 
-### LaBella Umbrella 
+### Labella Umbrella Online Store 
 
 <br>
- 
-[This small family boutique](https://www.labella-umbrella.com/us/about-us/) for umbrellas can brighten up rainy days with its beautiful, cheerful designs. La Bella Umbrella wanted to design an online store that can be simple to use but at the same time reflect their unique designs. Their store offers fashionable umbrellas that match different personalities and outfits to suit any sense of style.
+
+A small family boutique [Labella Umbrella](https://www.labella-umbrella.com/us/about-us/) seeling unique personally designed umbrellas that can brighten up rainy days with its beautiful, cheerful designs. La Bella Umbrella wanted to design an online store that can be simple to use but at the same time reflect their unique designs. Their store offers fashionable umbrellas that match different personalities and outfits to suit any sense of style.
 Their goal is for people to leave their boring black umbrellas at home and choose to go with a style umbrella. Having an online store will make it easier to discover and purchase their designed umbrellas from anywhere in the world.
+ 
+ 
 
 
 <br>
@@ -34,7 +36,7 @@ Their goal is for people to leave their boring black umbrellas at home and choos
 #### Simple but not Simplest  
 
 
-My focus was on designing a simple online store layout with high-quality product photography where Umbrellas are the center of the focus. On the home page a large rotation banner with a romantic photo of a couple enjoying a unique surprise gift. Other banners focus on beautiful nature views of rainy weather with cheerful colours and water drops. 
+Wall decal applied to a kitchen set, featuring the vase, bottles, glasses, and dessert bowl design. The decal blends seamlessly with the modern kitchen, rooted in a blend of aesthetic appeal & functionality, adding a decorative touch to the space. 
 
 
 <br>

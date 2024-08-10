@@ -4,7 +4,6 @@ title: UX AtHoc
 published: true
 tags: 
     - UX/UI Product Design
-    - Human Behaviour
     - Info Architecture
     - UX Research
 categories:

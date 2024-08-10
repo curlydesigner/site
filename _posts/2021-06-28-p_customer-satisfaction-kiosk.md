@@ -4,7 +4,6 @@ title: CUSTOMER EXPERIENCE & SATISFACTION
 published: true
 tags:
     - UX/UI Product Design
-    - Human Behaviour
     - Illustrations
     - Info Architecture
     - UX Research

@@ -3,7 +3,7 @@ layout: blog-post
 title: Data Protection
 published: false
 tags: 
-    - Human Behaviour
+    - UX Research
 categories:
     - blog
     - portfolio

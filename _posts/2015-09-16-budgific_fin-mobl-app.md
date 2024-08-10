@@ -5,6 +5,7 @@ published: false
 tags:
     - UX/UI Product Design
     - Illustrations
+    
 categories:
     - portfolio
 permalink: /fin-mobile-app

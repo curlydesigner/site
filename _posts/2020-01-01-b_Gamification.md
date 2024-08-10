@@ -6,7 +6,7 @@ tags:
     - Illustrations
     - Gaming & IxD
     - UX/UI Product Design
-    - Human Behaviour
+    - UX Research
 categories:
     - blog
     - portfolio

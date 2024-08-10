@@ -4,7 +4,6 @@ title: ScotiaBank iPad App
 published: true
 tags: 
     - UX/UI Product Design
-    - Human Behaviour
     - Info Architecture
 categories:
     - portfolio

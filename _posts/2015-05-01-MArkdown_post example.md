@@ -3,6 +3,12 @@ layout: blog-post
 title: markdown post example
 published: false
 tags: 
+  - UX/UI Product Design
+  - Gaming & IxD
+  - Design System
+  - Data Visualization
+  - Info Architecture
+  - UX Research
 categories:
     - blog
 permalink: /markdown
