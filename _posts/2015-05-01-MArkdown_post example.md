@@ -104,3 +104,20 @@ ____
 - [ ] Update the website
 - [ ] Contact the media
 
+
+<div class="col-lg-2 col-md-4 text-center">
+                <ion-icon src="/assets/img/about/about_tools_ux.svg"></ion-icon>
+                <div>
+                    <div class="text-wrapper">
+                        <p class="mb-0">2016-today</p>
+                        <h6 class="text-light">UX/UI Design</h6>
+                        <h4>Adobe XD
+                            <br>Figma
+                            <br>Sketch
+                            <br>Zeplin
+                            <br>Miro 
+                            <br>Confluence 
+                        </h4>
+                    </div>
+                </div>
+            </div>

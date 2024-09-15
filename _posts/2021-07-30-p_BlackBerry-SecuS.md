@@ -104,15 +104,15 @@ _______________________________________________
 _______________________________________________
 
 
-![moodboard](assets/posts/2021-06-31-p_bb-SecuSuite/Moodboard02.webp "moodboard")
+![moodboard](assets/posts/2021-06-31-p_bb-SecuSuite/SS-SS-PersonaCard.png "moodboard")
 
-###### moodboard
+###### Persona
 _____________________________________
 
 
 ![logos](assets/posts/2021-06-31-p_bb-SecuSuite/logosWCAG.png "logos")
 
-###### Dark and light themes logos for BlackBerry SecuSuite 
+###### Dark and light themes Brand Guidelines for BlackBerry SecuSuite 
 _____________________________________
 
 ![uxgoals]( assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-product.png "uxgoals")  
