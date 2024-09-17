@@ -10,233 +10,760 @@ has_intro: false
 <!-- end Top bar -->
 
 
+<!-- resume -->
 
-<!-- Main container -->
-<section class="section position-relative">
-    <div class="container main-container clearfix">
-        <div class="col-md-6">
-            <img src="assets/img/homepage/readmore_research-book.svg" class="img-responsive" alt="" />
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        background-color: #f8f9fa;
+        padding: 10px;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .print-size {
+        width: 950px;
+    }
+
+    .section {
+        padding: 30px 30px;
+        /* Adjust Spacing Padding from righ and left*/
+        margin: 15px 0px;
+        /* Adjust Spacing Padding between cards top and bottom */
+    }
+
+    .card {
+        border-radius: 15px;
+        background-color: white;
+        border-color: white;
+    }
+
+    .header .sub-logo-text {
+        font-size: 0.9em;
+        /* Adjust Font size for title */
+    }
+
+    .header .contact-details ul {
+        display: inline-block;
+    }
+
+    .contact-icon {
+        margin-right: 9px;
+        /* Adjust Spacing */
+        font-size: 18px;
+
+    }
+
+    .bio-header .title {
+        font-family: 'Great Vibes', sans-serif;
+        /* font for the text "designer is not just..." */
+        text-decoration: none;
+        font-size: 28px;
+    }
+
+    .education .name {
+        color: black
+    }
+
+    .education .location {
+        font-size: 14px;
+    }
+
+    .volunteering .name {
+        color: black
+    }
+
+    .experience ul {
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    .experience ul li {
+        margin: 10px -16px;
+    }
+
+    .experience .job-title {
+        color: black
+    }
+
+    .experience .job-details {
+        font-size: 0.9em;
+    }
+
+    .experience .job-dates {}
+
+    .design-tools ion-icon {
+        font-size: 70px;
+        /* Adjust Sizing for the Design Tools icons */
+    }
+
+    .design-tools .tools-description {
+        color: black;
+    }
+
+    .courses .course-type {
+        color: black;
+        font-size: 15px;
+    }
+
+    .section.card.courses h4 {
+        text-align: center;
+    }
+
+    .section-skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .section-skills ul li {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        background-color: #f4f4f4;
+        font-size: 0.8em;
+    }
+
+
+    /* Hide elements for printing */
+    @media print {
+
+        .top-bar,
+        .box-header,
+        .box-primary-nav,
+        .no-print {
+            display: none;
+        }
+
+        .section {
+            padding: 0 30px;
+        }
+
+        /* Force a page break before the element */
+        .page-break {
+            break-before: page;
+        }
+
+        /* Avoid a page break inside the element */
+        .no-page-break {
+            break-inside: avoid;
+        }
+
+        a[href]:after {
+            content: none !important;
+        }
+    }
+</style>
+
+<!-- Logo Header -->
+<div class="section header row no-print">
+    <div class="col-xs-12 text-right">
+        <button class="btn btn-secondary" onclick="window.print()"><span class="glyphicon glyphicon-print"
+                aria-hidden="true"></span></button>
+    </div>
+</div>
+<div class="container print-size">
+    <div class="section header row ">
+        <div class="col-xs-6">
+            <img src="/assets/img/logo.png" width="230" alt="Logo">
+            <p class="sub-logo-text">UX UI PRODUCT DESIGNER <br>RESEARCH |
+                INFO-ARCHITECTURE <br> DATA VISUALIZATION | ILLUSTRATIONS</p>
         </div>
-        <div class="col-md-6">
-            <h4>'DESIGNER' is not just my title - it is who I am!</h4><br>
 
-            <div class="h-32"></div>
-            <p>            
-                Immersed in a rich palette of creativity & a deep understanding of design principles & human-centered design thinking. 
-                
-                My design journey has been enriched not only by exploration and discovery but also through teaching and hands-on, holistic experience across the entire product lifecycle from concept, research to launch, working in both B2B and B2C sectors.
-                
-                My philosophy is the core of creating better products for humanity and our ability to contribute to making technology more inclusive and user-friendly. My problem-solving skills and a desire for excellence allow me to break down complex design challenges into intuitive experiences. Ensuring the result is highly functional, visually appealing, accessible, and meets product objectives.
+        <div class="col-xs-6 contact-details text-right">
+            <ul class="list-unstyled text-left">
 
-            <br>
-            
-                Let's connect 
-            </p>
+                <br><br>
 
-            <br>
-            <div class="h-14"></div>
-            <ul class="social-ul">
-                <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
-                        <ion-icon name="logo-behance"></ion-icon>
-                    </a></li>
+                <li><ion-icon name="mail-outline" class="contact-icon"></ion-icon> <a
+                        href="mailto:victoria@curlydesigner.com">victoria@curlydesigner.com</a></li>
+                <li><ion-icon name="logo-linkedin" class="contact-icon"></ion-icon> <a
+                        href="https://www.linkedin.com/in/curlydesigner" target="_blank">in/curlydesigner</a>
+                </li>
+                <li><ion-icon name="code-slash-outline" class="contact-icon"></ion-icon> <a
+                        href="https://curlydesigner.com" target="_blank">https://curlydesigner.com</a>
+                </li>
+        </div>
+    </div>
 
-                <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </a></li>
+    <!-- Bio -->
+
+    <div class="section bio-header card">
+        <p class="text-center title"> Designer is not just my title - it is who I am!</p>
+
+        <p> Immersed in a rich palette of creativity & deep understanding of design principles & human-centered design.
+            I have been breaking down complex design challenges into intuitive experiences - ensuring the result is
+            highly functional,
+            visually appealing, accessible, and meets product objectives. My design journey has been enriched not only
+            by exploration and discovery but also
+            through teaching and hands-on, holistic experience across the entire product life-cycle from concept to
+            launch, working in both
+            B2B and B2C sectors.
+        </p>
+    </div>
+
+
+    <div class="row">
+        <!-- Experiance -->
+        <div class="col-xs-8">
+            <div class="section card experience">
+                <h4>Experience</h4>
+
+                <br>
+
+                <ul>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Research UX/UI Design | Instructional | eLearning</div>
+                        <div class="col-xs-4 job-dates">| 02/2024 - 08/2024</div>
+                        <div class="col-xs-12 job-details">Online Education & Webinars</div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Sr UX/UI Product Designer</div>
+                        <div class="col-xs-4 job-dates">| 08/2022 - 10/2023</div>
+                        <div class="col-xs-12 job-details">Warner Bros Discovery</div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Senior UX/UI | Visual Designer | eLearning</div>
+                        <div class="col-xs-4 job-dates">| 04/2022 - 07/2022</div>
+                        <div class="col-xs-12 job-details">Hatch Early Child Education |</div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Senior UX/UI Product Designer & Visual</div>
+                        <div class="col-xs-4 job-dates">| 01/2017 - 10/2021</div>
+                        <div class="col-xs-12 job-details">BalckBerry </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">UX/UI Product Design & Architecture</div>
+                        <div class="col-xs-4 job-dates">| 10/2016 - 12/2016</div>
+                        <div class="col-xs-12 job-details">Scotia Bank </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">UX/UI Research | Visual Design & Video Editing</div>
+                        <div class="col-xs-4 job-dates">| 01/2016 - 04/2016</div>
+                        <div class="col-xs-12 job-details">Compass Group </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">UI Interactive Designer & Illustrator</div>
+                        <div class="col-xs-4 job-dates">| 01/2014 - 07/2014</div>
+                        <div class="col-xs-12 job-details">Wizits Ltd Game Studio </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Interactive Digital Designer & Illustrator</div>
+                        <div class="col-xs-4 job-dates">| 09/2012 - 03/2013</div>
+                        <div class="col-xs-12 job-details">BWIN Party Digital Media and Entertainment </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Digital Designer</div>
+                        <div class="col-xs-4 job-dates">| 08/2011 - 09/2012</div>
+                        <div class="col-xs-12 job-details">Tesco - Publishing </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">Digital Designer</div>
+                        <div class="col-xs-4 job-dates">| 02/2011 - 07/2011</div>
+                        <div class="col-xs-12 job-details">Venus TV Global</div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-8 job-title">2D/ 3D Exhibition Designer | Illustrator & Print</div>
+                        <div class="col-xs-4 job-dates">| 01/2009 - 12/2009</div>
+                        <div class="col-xs-12 job-details">Barzilai Design Agency</div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Education & voulantiring -->
+        <div class="col-xs-4">
+            <div class="section card education">
+                <h4>Education</h4>
+
+                <br>
+
+                <ul>
+                    <li>
+                        <div class="name">MA DESIGN FOR INTERACTIVE MEDIA</div>
+                        <div class="location">London MDX University</div>
+                    </li>
+                    <li>
+                        <div class="name">B.DESIGN INTERIOR ARCHITECTURE & 3D ENVIRONMENTS</div>
+                        <div class="location">The College of Management </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- volunteering -->
+            <div class="section card volunteering">
+                <h4>Volunteering</h4>
+
+                <br>
+
+                <ul>
+                    <li>
+                        <div class="name">Art Teacher Assistant</div>
+                        <div class="location">GRTW Academy, NJ, US</div>
+                    </li>
+
+                    <li>
+                        <div class="name">Photographer & Video</div>
+                        <div class="location">Tamarak, NJ, US</div>
+                    </li>
+                    <li>
+                        <div class="name">Instructional Designer, UX-UI Design Course Development</div>
+                        <div class="location">Sheridon College, ON, CA</div>
+                    </li>
+                    <li>
+                        <div class="name">Professor Assistant, Design</div>
+                        <div class="location"> London MDX University, England</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- card - design-courses -->
+
+    <div class="section card courses page-break">
+        <h4>Courses & Training</h4>
+
+        <br>
+
+        <!-- Leadership Course Type -->
+
+        <div class="course-column">
+            <h5 class="course-type">Leadership Courses:</h5>
+            <ul class="courses-list">
+                <li>UX Management (EDX-HECMontrealX)</li>
+                <li>Product Leadership (EDX-USMx)</li>
+                <li>Design Leadership (College of Management)</li>
+
             </ul>
 
         </div>
 
-    </div>
-</section>
+        <!-- Design Course Type -->
+        <div class="course-column">
+            <h5 class="course-type"> Art - Design - Architecture - Product:</h5>
+            <ul class="courses-list">
 
+                <li>Human Interaction (College of Management + MDX University)</li>
+                <li>Research & Design Thinking (College of Management + MDX University)</li>
+                <li>Narrative, Cinema and Game Set Design (College of Management + MDX University)</li>
+                <li>3D Design Architecture, Interiors & Interactive Environmnets (College of Management + MDX
+                    University)</li>
+                <li>Phylosophy - History of Art Design & Architecture (Art & Design School + College of Management)
+                </li>
+                <li>Consumer Behavior & Social Pscychology (College of Management + MDX University)</li>
+                <li>Data-Driven Product Research & Design Thinking (Linkedin Learning)</li>
+                <li>Cyber Security (Udemy)</li>
+            </ul>
 
-<!-- end Main container -->
+            <br>
 
-<!-- ./experience -->
+        </div>
 
-     <section class="section position-relative highlighted-section text-center">
-
- 
-    <img src="assets/img/about/cv_experiance.png" class="img-responsive" alt="" />
-
-   
-    <div class="text-center">
-        <a href="https://www.linkedin.com/in/curlydesigner/"
-            target="_blank">View more on my LinkedIn</a>
-    </div>
-
-</section>
-
-
-
-
-<!-- experience -->
-<section class="section position-relative text-center design-tools">
-
-    <div class="container main-container">
-        <div class="col-md-12">
-            <h3 class="uppercase">Design Tools</h3>
+        <!-- Design Course Type -->
+        <div class="course-column">
+            <h5 class="course-type">Technical Courses:</h5>
+            <ul class="courses-list">
+                <li>Animation (College of Management + MDX University)</li>
+                <li>Video Editing, Sound and Effects (College of Management + MDX University)</li>
+                <li>Foundation of code HTML/CSS, Markdown, CMS (MDX University)</li>
+                <li>3D Design Modeling & Rendering (Art & Design School / College of Management + MDX
+                    University)</li>
+                <li>Generative AI (Linkedin Learning)</li>
+            </ul>
         </div>
     </div>
 
-    <div class="container main-container">
+    <!-- end card - design-courses -->
+
+    <!-- Design Tools Graphic-->
+    <div class="section card text-center design-tools">
+
+        <h4 class="uppercase">Design Tools</h4>
+
+        <br>
+
         <div class="row justify-content-around">
 
-            <div class="col-lg-1 col-md-0"></div>
-
-            <div class="col-lg-2 col-md-4 text-center">
+            <div class="col-lg-1 col-sm-0"></div>
+            <div class="col-lg-2 col-sm-4 text-center">
                 <ion-icon src="/assets/img/about/about_tools_ux.svg"></ion-icon>
                 <div>
                     <div class="text-wrapper">
-                        <p class="mb-0">2016-today</p>
-                        <h6 class="text-light">UX/UI Design</h6>
-                        <h4>Adobe XD
+
+                        <p class="text-light">Product Design</p>
+                        <p class="tools-description">Adobe XD
                             <br>Figma
                             <br>Sketch
-                        </h4>
+                            <br> Zeplin
+                            <br> Miro
+
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-4 text-center">
+            <div class="col-lg-2 col-sm-4 text-center">
                 <ion-icon src="/assets/img/about/about_tools_adobe.svg"></ion-icon>
                 <div>
                     <div class="text-wrapper">
-                        <p class="mb-0">2002 - today</p>
-                        <h6 class="text-light">Illustrations & Graphics</h6>
-                        <h4>Adobe Illustrator
-                            <br>Adobe Photoshop
-                            <br>Adobe InDesign
-                            <br>Adobe Lightroom
-                        
-                        </h4>
+
+                        <p class="text-light">Illustrations & Graphics</p>
+                        <p class="tools-description">Illustrator
+                            <br>Photoshop
+                            <br>InDesign
+                            <br>Afinity Designer
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-4 text-center">
+            <div class="col-lg-2 col-sm-4 text-center">
                 <ion-icon src="/assets/img/about/about_tools_3d.svg"></ion-icon>
                 <div>
                     <div class="text-wrapper">
-                        <p class="mb-0">2003 - 2011</p>
-                        <h6 class="text-light">Exhibition & Interior Design</h6>
-                        <h4>Autodesk 3D Max
+
+                        <p class="text-light">3D Design</p>
+                        <p class="tools-description"> Autodesk 3D Max
                             <br>Cinema 4D
                             <br>Autodesk Revit
-                        </h4>
+                            <br>Blender
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-4 text-center">
+            <div class="col-lg-2 col-sm-4 text-center">
                 <ion-icon src="/assets/img/about/about_tools_video.svg"></ion-icon>
                 <div>
                     <div class="text-wrapper">
-                        <p class="mb-0">2009 - 2018</p>
-                        <h6 class="text-light">Game Design & Video Editing</h6>
-                        <h4>After Effects
+
+                        <p class="text-light">Video, Sound & Animation</p>
+                        <p class="tools-description">After Effects
                             <br>Premiere Pro
                             <br>Final Cut Pro
                             <br>Adobe Animate
-                        </h4>
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-4 text-center">
+            <div class="col-lg-2 col-sm-4 text-center">
                 <ion-icon src="/assets/img/about/about_tools_html.svg"></ion-icon>
                 <div>
                     <div class="text-wrapper">
-                        <p class="mb-0">2016-today</p>
-                        <h6 class="text-light">Basic</h6>
-                        <h4>GitHub Markdown
-                            <br> Wordpress
-                            <br> HTML CSS
-                        </h4>
+                        <p class="text-light">Web</p>
+                        <p class="tools-description"> GitHub/ Code
+                            <br>Markdown
+                            <br>Wordpress
+                            <br>HTML CSS
+                            <br>Confluence
+                        </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-1 col-md-0"></div>
+            <div class="col-lg-1 col-sm-0"></div>
+        </div>
+
+    </div>
+    <!-- /Design Tools Graphic-->
+
+    <!-- design skills -->
+
+    <div class="section card section-skills">
+        <h4>Skills</h4>
+        <ul>
+            <li>Creative Solutions</li>
+            <li>Design Thinking</li>
+            <li>Design Principles</li>
+            <li>Design Systems</li>
+            <li>Typography</li>
+            <li>Infographics</li>
+            <li>Color Theory</li>
+            <li>Visual Communication</li>
+            <li>Data Visualization</li>
+            <li>Mobile IOS / Android</li>
+            <li>Responsive Web</li>
+            <li>Design Materials</li>
+            <li>UX Research</li>
+            <li>UX UED UI</li>
+            <li>Product Architecture</li>
+            <li>User Experience Design</li>
+            <li>Human Interaction</li>
+            <li>Human-Centered Design</li>
+            <li>User Interface</li>
+            <li>Creative Problem Solving</li>
+            <li>Design Guidelines</li>
+            <li>Motion Graphics</li>
+            <li>Video Editing</li>
+            <li>Prototyping</li>
+            <li>Usability Testing</li>
+            <li>Accessibility</li>
+            <li>Print & Publishing</li>
+            <li>HTML/CSS</li>
+            <li>Markdown</li>
+            <li>User Research</li>
+            <li>Web Design</li>
+            <li>User Behavior</li>
+        </ul>
+    </div>
+    <!-- design skills end -->
+
+    <!-- Experience Description -->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="section card full experience">
+                <h4>Experience Description</h4>
+                <ul>
+                    <li class="row">
+                        <div class="col-xs-9 job-title">Research UX/UI Design | Instructional | eLearning
+                        </div>
+                        <div class="col-xs-3 job-dates">| 02/2024 - 05/2024</div>
+                        <div class="col-xs-12 job-details">Online Education & Webinars</div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            • Design and implement materials for comprehensive lesson plans and instructional materials
+                            tailored to accommodate learners from diverse backgrounds and varying levels of expertise.
+                            <br>
+                            • Taking part in a webinar to Introduce a course that involves the theory of Design
+                            principles, UX research methodologies & user-centered design solutions.
+
+                            <br>
+                            • Mentor students at different levels of their creative journey. Guiding ideation, design
+                            thinking processes, visual communication,
+                            design systems, typography, color theory, and layout.
+                        </div>
+                    </li>
+                    <br>
+                    <li class="row">
+                        <div class="col-xs-9 job-title">Sr UX/UI Product Designer</div>
+                        <div class="col-xs-3 job-dates">| 08/2022 - 11/2023</div>
+                        <div class="col-xs-12 job-details">Warner Bros Discovery</div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            • Collaborate with cross-functional team members to gather information, conduct competitor
+                            research & analyze user behavior.
+                            Understand the customers/stakeholders, business requirements, and technologies. Use my
+                            design thinking to consider company
+                            values and find creative solutions that work, both for the product and the brand.
+                            <br>
+                            • Applying human-centered design implementation to focus on intuitive functionality and
+                            developing a unified Design System. Create
+                            components to ensure a cohesive & user-friendly experience throughout the product ecosystem.
+                            Produce user flows, info-architecture,
+                            wireframes, mockups, and prototypes to enhance overall user experience. Design user-friendly
+                            and visually appealing features and
+                            components that contribute to the product's improvement.
+                            <br>
+                            • Document core functionality and guidelines recommendations in Figma, Miro & Confluence for
+                            team reference. Establishing a shared
+                            understanding of design principles and guidelines, fostering an organized workflow for
+                            seamless integration across diverse teams.
+                            <br>
+                            • Support the Engineering team & test the implemented designs while ensuring user
+                            accessibility is maintained. Coordinate between
+                            teams, effectively bridging communication gaps and enhancing collaboration.
+                            <br>
+                            • Participate in user testing sessions to gather insights and leverage user feedback to
+                            enhance the design.
+                            <br>
+                        </div>
+                    </li>
+                    <br>
+
+                    <li class="row">
+                        <div class="col-xs-9 job-title">Senior UX/UI | Visual Designer | eLearning</div>
+                        <div class="col-xs-3 job-dates">| 04/2022 - 07/2022</div>
+                        <div class="col-xs-12 job-details">Hatch Early Child Education |</div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            • Supporting the ongoing evolution and merger of multiple e-learning products into one
+                            Brand. Creating a Brand Identity & enhancing the
+                            user experience across all products to help create friendly interactions and intuitive
+                            experiences.
+                            <br>
+                            • Maintaining design system components to ensure consistency. Support discussions with
+                            engineering to ensure a common understanding
+                            of the outcomes. Sharing feedback and design recommendations to help create friendly
+                            interactions and intuitive experiences.
+                            <br>
+                        </div>
+                    </li>
+
+                    <br>
+
+                    <li class="row">
+                        <div class="col-xs-9 job-title">Senior UX/UI Product Designer & Visual</div>
+                        <div class="col-xs-3 job-dates">| 01/2017 - 10/2021</div>
+                        <div class="col-xs-12 job-details">BalckBerry </div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            • Multichannel Collaboration - Worked across different channels in the company: designing
+                            for IoT, Cybersecurity
+                            Privacy, Productivity, and Gamification. <br>
+                            • Holistic Considerations for human factors, user research/ usability, and accessibility
+                            throughout the design process.
+                            Creating user-centered and intuitive Design solutions to simplify complex data structures &
+                            optimize user workflows.
+                            Including responsive web & mobile (IOS/ Android) and accessibility across various devices
+                            and platforms.
+                            • Ensuring a consistent & delightful user experience while considering platform-specific
+                            design guidelines and
+                            maintaining a unified brand identity. <br>
+                            • Comprehensive Design considerations from information architecture, user flows, wireframes,
+                            UI components,
+                            infographics, and data visualizations. <br>
+                            • Leading a Design System for a comprehensive dark vs light theme background across all
+                            products. Conducting case
+                            studies & research to address challenges related to dark & light theme usage. Developed
+                            design system guidelines
+                            for accessibility and visual aesthetics in both dark and light backgrounds. <br>
+                            • Crafted a tailored experience for first-time users, including intro screens, empty-data
+                            visualization, infographics &
+                            iconography with a tutorial and helpful tool-tip system. <br>
+                            • Conceptual Prototyping - Collaborated with the innovation team to generate conceptual
+                            prototypes for new features
+                            and products. <br>
+                            • Supporting the Engineering team and ensuring effective implementation. <br>
+                            • Visual Data Representation: Collaborate with cybersecurity teams to translate data
+                            insights into visually compelling
+                            graphics. Design engaging and informative infographics and data visualizations to simplify
+                            complex concepts. <br>
+                            • Brand Guidelines - provided occasional support to the Brand team by contributing to
+                            product design guidelines and company branding materials. <br>
+                            • Mentorship and Guidance for junior colleagues - by understanding the design problems that
+                            need solving and
+                            offering Guidance and feedback to support their work.
+                        </div>
+                    </li>
+
+                    <br>
+
+                    <li class="row">
+                        <div class="col-xs-9 job-title">UX/UI Product Design & Architecture</div>
+                        <div class="col-xs-3 job-dates">| 10/2016 - 12/2016</div>
+                        <div class="col-xs-12 job-details">Scotia Bank </div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            Working part of the Universal Lab team - supporting Scotiabank’s mobile App. Designing
+                            wireframes & interactive prototypes for a
+                            facing iPad application that redefines the future of banking for self-service.
+                        </div>
+                    </li>
+
+                    <br>
+
+                    <li class="row">
+                        <div class="col-xs-9 job-title">UX/UI Research | Visual Design & Video Editing</div>
+                        <div class="col-xs-3 job-dates">| 01/2016 - 04/2016</div>
+                        <div class="col-xs-12 job-details">Compass Group </div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            Collaborate with business team members to define requirements and establish user goals,
+                            objectives, and success metrics to ensure product success. Design user-centered experiences
+                            through usability research and design
+                            thinking for mobile, tablet, web, and kiosk platforms. Include journey maps, personas,
+                            wireframes, UI elements, illustrations,
+                            iconography, and interactive kiosks.
+                            Occasionally assisting with video and sound editing for promos. Collaboration with
+                            engineering teams to understand the technical constraints.
+                            Exposure to Agile methodologies.
+                        </div>
+                    </li>
+
+                    <br>
+
+                    <li class="row">
+                        <div class="col-xs-9 job-title">UI Interactive Designer & Illustrator</div>
+                        <div class="col-xs-3 job-dates">| 01/2014 - 07/2014</div>
+                        <div class="col-xs-12 job-details">Wizits Ltd Game Studio </div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            Illustrating UI and iconography for game elements and story themes. Creating animations and
+                            video for publishing. Designing for a game that runs both on the web and mobile.
+                        </div>
+                    </li>
+
+                    <br>
+
+                    <li class="row">
+                        <div class="col-xs-9 job-title">Interactive Digital Designer & Illustrator</div>
+                        <div class="col-xs-3 job-dates">| 09/2012 - 03/2013</div>
+                        <div class="col-xs-12 job-details">BWIN Party Digital Media and Entertainment </div>
+                    </li>
+
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            Producing conceptual designs for all Brand elements in the business.
+                            Considering localization for a copy that was translated and published in more than 22
+                            languages worldwide.
+                            Choosing the appropriate style to agreed standards & time frames; ensuring that the creative
+                            produced of high quality and supports the Brand’s guidelines.
+                        </div>
+                    </li>
+
+                    <br>
+
+                    <li class="row">
+                        <div class="col-xs-9 job-title">Digital Designer</div>
+                        <div class="col-xs-3 job-dates">| 08/2011 - 09/2012</div>
+                        <div class="col-xs-12 job-details">Tesco - Publishing </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-xs-11 job-title">
+                            Working part of a major business transformation and re-launch, within the Web Publishing and
+                            Merchandising team. Designing web pages,
+                            banners, newsletters, icons, visual navigation and other online graphics and illustrations.
+                            Responsible for creating visual appeal for the new website,
+                            in departments such as Clothing, Beauty, Home, Technology, Gaming, Sports and more. Finding
+                            creative and innovative visual solutions, with
+                            designs that identifies with the target audience, supporting costumer journeys and meeting
+                            the Brand`s guidelines.
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+
         </div>
     </div>
 
-</section>
 
 
-<section class="section position-relative highlighted-section text-center">
+    <!-- Industry Experiance-->
+    <section class="section card no-print">
 
-    <div class="container main-container">
-        <div class="col-md-12">
-            <h3 class="uppercase">WHAT I DO</h3>
+        <div class="main-container text-center">
+            <div class="col-md-12">
+                <h3 class="uppercase">Industry Experience</h3>
+            </div>
         </div>
-    </div>
-
-    <div class="container main-container">
-
-        <!-- service-box -->
-        <div class="col-md-4 service-box">
-            <ion-icon src="/assets/img/about/about_ux_1.svg"></ion-icon>
-            <i class="ion-android-favorite-outline size-50"></i>
-            <h4>UX PRODUCT DESIGN   
-                <br>USER BEHAVIOR
-            </h4>
-            <div class="h-10"></div>
-            <p class="text-align-left">I have been researching user behavior analyzing competitors' and user-test insights to address UX goals. 
-                Creating info-architecture, user-flows, interactive prototypes, wireframes, design systems & guidelines. </p>
-        </div>
-        <!-- end service-box -->
-
-        <!-- service-box -->
-        <div class="col-md-4 service-box">
-            <ion-icon src="/assets/img/about/about_ux_2.svg"></ion-icon>
-            <i class="ion-android-options size-50"></i>
-            <h4>CREATIVE DESIGN THINKING
-            </h4>
-            <div class="h-10"></div>
-            <p class="text-align-left">My experience includes working from research through final design details. 
-                My focus is on human-centered design thinking, creative problem-solving, and functionality that can help improve people's lives. </p>
-        </div>
-        <!-- end service-box -->
-
-        <!-- service-box -->
-        <div class="col-md-4  service-box">
-            <ion-icon src="/assets/img/about/about_ux_3.svg"></ion-icon>
-            <i class="ion-ios-pulse-strong size-50"></i>
-            <h4>UX UI IxD <br>DESIGN & ILLUSTRATION </h4>
-            <div class="h-10"></div>
-            <p class="text-align-left">With hands-on, comprehensive design experience - both for web and mobile, I create UI components, wireframes, interactive mockups, illustrations, infographics, data visualization, iconography, video editing, and effects. </p>
-        </div>
-        <!-- end service-box -->
-    </div>
-
-</section>
-<!-- /skills -->
-
-<!-- /education -->
-
-
-
-
-
-</div>
-
-
-<!-- skills -->
-<section class="section position-relative">
-
-    <div class="container main-container text-center">
-        <div class="col-md-12">
-            <h3 class="uppercase">Industry Experience</h3>
-        </div>
-    </div>
-    <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="card shadow text-center">
                     <ion-icon src="/assets/img/about/about_industries_gaming.svg"></ion-icon>
                     <div>
@@ -253,7 +780,7 @@ has_intro: false
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="card shadow text-center">
                     <ion-icon src="/assets/img/about/about_industries_ecommerce.svg"></ion-icon>
                     <div>
@@ -271,13 +798,13 @@ has_intro: false
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="card shadow text-center">
                     <ion-icon src="/assets/img/about/about_industries_cyber.svg"></ion-icon>
                     <div>
                         <div class="text-wrapper">
                             <div class="card-footer bg-white">
-                                <h6 class="text-light text-center">5y</h6>
+                                <p class="text-light text-center">5y</p>
                                 <p class="card-title">
                                     <br> Cyber Security
                                     <br>Productivity and Privacy
@@ -287,7 +814,7 @@ has_intro: false
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+            <div class="col-lg-6 mb-4 mb-lg-0">
                 <div class="card shadow text-center">
                     <ion-icon src="/assets/img/about/about_industries_exhibitions.svg"></ion-icon>
                     <div>
@@ -305,33 +832,33 @@ has_intro: false
                 </div>
             </div>
         </div>
-    </div>
-
-</section>
-<!-- /skills -->
-
-<!-- get in touch -->
-<section class="section position-relative highlighted-section" id="get-in-touch">
-    <div class="container main-container clearfix get-in-touch">
-        <div class="col-xs-4 col-xs-offset-1">
-            <img src="assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="" />
+        <div class="text-center">
+            <a href="https://www.linkedin.com/in/curlydesigner/" target="_blank">View more on my
+                LinkedIn</a>
         </div>
-        <div class="col-xs-5">
-            <ul class="social-ul">
-                <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
-                        <ion-icon name="logo-behance"></ion-icon>
-                    </a></li>
+    </section>
+    <!-- /Industry Experiance -->
 
-                <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </a></li>
-            </ul>
+    <!-- get in touch -->
+    <section class="section position-relative highlighted-section no-print" id="get-in-touch">
+        <div class="container main-container clearfix get-in-touch">
+            <div class="col-xs-5 col-xs-offset-1">
+                <img src="assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="" />
+            </div>
+            <div class="col-xs-5">
+                <ul class="social-ul">
+                    <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a></li>
+                    <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
+                            <ion-icon name="logo-behance"></ion-icon>
+                        </a></li>
+
+                    <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</section>
-<!-- /get in touch -->
-
-
+    </section>
+    <!-- /get in touch -->
