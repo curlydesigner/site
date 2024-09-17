@@ -105,3 +105,63 @@ Links
         target="_blank">in/curlydesigner</a></li>
 <li>Portfolio <a href="https://curlydesigner.com" target="_blank">https://curlydesigner.com</a>
 </li>
+
+
+
+
+
+ <!-- ./education-training courses -->
+<section class="section position-relative highlighted-section text-center">
+
+ <div class="container main-container">
+            <div class="col-md-12">
+                <h4 class="uppercase">Education and Training</h4>
+            </div>
+        </div>
+
+   <div class="container main-container">
+
+   <!-- Leadership -->
+ <div class="col-md-6 service-box text-align-left">
+                <h5 class="course-type">
+                    </h5class>Ledership Courses</h5>
+                <p>UX Management (EDX-HECMontrealX)</p>
+                <p>Product Leadership (EDX-USMx)</p>
+            </div>
+            <!-- end Leadership -->
+                    </div>
+        <div class="container main-container text-center">
+
+   <!-- Art Design & Architecture -->
+   <div class="col-md-6  service-box text-align-left">
+                <h5>Art | Design | Architecture | Product</h5>
+                <div class="h-10"></div>
+                <p>Consumer Behavior & Social Pscychology (College of Management/MDX University)</p>
+                <p>Phylosophy - History of Art Design & Architecture (Art & Design School/ College of Management) </p>
+                <p>3D Design Architecture, Interiors & Interactive Environmnets (College of Management/ MDX University)
+                </p>
+                <p>Narrative, Cinema and Game Set Design (MDX University)</p>
+                <p>Research & Design Thinking (College of Management / MDX University)</p>
+                <p>Cyber Security (Udemy)</p>
+                <p>Data-Driven Product Research & Design Thinking (Linkedin Learning)</p>
+                <p>Human Interaction (College of Management/MDX University)</p>
+
+   </div>
+            <!-- end Art Design & Architecture -->
+
+
+ <!-- technical courses -->
+   <div class="col-md-6  service-box text-align-left">
+                <h5>Technical</h5>
+                <div class="h-10"></div>
+                <p>Animation (College of Management/MDX University)</p>
+                <p>Video Editing, Sound and Effects (College of Management/MDX University)</p>
+                <p>3D Design Modeling & Rendering (Art & Design SChool / College of Management/MDX University)</p>
+                <p>Foundation of code HTML/CSS, Markdown, CMS (MDX University)</p>
+                <p>Generative AI for Business Leaders (Linkedin Learning)</p>
+            </div>
+            <!-- end technical courses -->
+        </div>
+
+   </section>
+    <!-- /education-training courses -->
