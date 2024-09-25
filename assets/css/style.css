@@ -762,7 +762,7 @@ b i:last-child {
     transform: translate(-50%, -50%);
     padding: 10px;
     width: 100%;
-    font-weight: medium;
+    font-weight: light;
 }
 
 .portfolio_item .portfolio_item_hover .item_info span {
@@ -777,7 +777,7 @@ b i:last-child {
 }
 
 .portfolio_item .portfolio_item_hover .item_info em {
-    font-style: italic;
+    font-style: normal;
     display: inline-block;
     background-color: #fce49b;
     padding: 5px 20px;
