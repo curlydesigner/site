@@ -14,6 +14,21 @@ categories:
 permalink: /markdown
 featured_image: /assets/posts/2020-01-01-bp_Data Visualisaztion/AdobeStock_170802929.jpeg
 ---
+
+<!-- Top bar -->
+<div class="top-bar">
+    <h3 class="about-header"> Company: Warner Bros Discovery <br> Project: HUD Navigation Architecture <br> Design System | Accessibility</h3>
+</div>
+<!-- end Top bar -->
+
+<!-- Top bar -->
+<div class="top-bar">
+    <h1 class="about-header">Resume</h1>
+    <p><a href="#">Home</a> / Resume</p>
+</div>
+<!-- end Top bar -->
+
+
 ### Data Visualisaztion, does it matters ?
 
 Link to open in a new window - 

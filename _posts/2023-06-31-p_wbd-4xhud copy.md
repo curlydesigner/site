@@ -9,6 +9,7 @@ tags:
   - Data Visualization
   - Info Architecture
   - UX Research
+  
 categories:
   - blog
   - portfolio
