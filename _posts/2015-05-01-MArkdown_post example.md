@@ -29,6 +29,24 @@ featured_image: /assets/posts/2020-01-01-bp_Data Visualisaztion/AdobeStock_17080
 <!-- end Top bar -->
 
 
+   <!-- Bio -->
+
+
+   <div class="section bio-header card">
+        <p class="text-center title"> Designer is not just my title - it is who I am!</p>     <p> Immersed in a rich palette of creativity & deep understanding of design principles & human-centered design.
+            I have been breaking down complex design challenges into intuitive experiences - ensuring the result is
+            highly functional,
+            visually appealing, accessible, and meets product objectives. My design journey has been enriched not only
+            by exploration and discovery but also
+            through teaching and hands-on, holistic experience across the entire product life-cycle from concept to
+            launch, working in both
+            B2B and B2C sectors.
+        </p>
+    </div>
+
+   <!-- /End Bio -->
+
+
 ### Data Visualisaztion, does it matters ?
 
 Link to open in a new window - 
