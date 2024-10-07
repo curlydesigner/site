@@ -846,6 +846,11 @@ footer img {
     margin: 0 auto;
 }
 
+@media print {
+    .no-print {
+        display: none;
+    }
+}
 /* backto top
 ==================================================*/
 
