@@ -24,7 +24,8 @@ has_intro: false
     .print-size {
         width: 900px;
     }
-     /* width of the resume */
+
+    /* width of the resume */
 
     .section {
         padding: 30px 30px;
@@ -39,8 +40,8 @@ has_intro: false
 
     .card {
         border-radius: 15px;
-        background-color: white;
-        border-color: white;
+        background-color: white !important;
+        border-color: white !important;
     }
 
     .header .sub-logo-text {
@@ -74,8 +75,18 @@ has_intro: false
         font-size: 14px;
     }
 
+    .education ul {
+        margin: 0 0px 0 15px;
+        padding: 0;
+    }
+
     .volunteering .name {
         color: black
+    }
+
+    .volunteering ul {
+        margin: 0 0px 0 15px;
+        padding: 0;
     }
 
     .experience ul {
@@ -117,6 +128,11 @@ has_intro: false
         padding: 0px;
     }
 
+    .section-skills ul {
+        margin: 0;
+        padding: 0;
+    }
+
     .section-skills ul li {
         display: inline-block;
         margin: 5px;
@@ -132,6 +148,15 @@ has_intro: false
     /* Hide elements for printing */
     @media print {
 
+        body {
+            -webkit-print-color-adjust: exact;
+            /* Chrome, Safari */
+            print-color-adjust: exact;
+            /* Firefox */
+            background-color: #f8f9fa !important;
+            /* Ensure background is white for visibility */
+        }
+
         .top-bar,
         .box-header,
         .box-primary-nav,
@@ -140,7 +165,7 @@ has_intro: false
         }
 
         .section {
-            padding: 0 30px;
+            padding: 10px 10px;
         }
 
         /* Force a page break before the element */
@@ -162,8 +187,7 @@ has_intro: false
 <!-- Logo Header -->
 <div class="section header row no-print print-btn">
     <div class="col-xs-12 text-right">
-        <a class="btn btn-secondary" target="_blank"
-            href="assets/VictoriaP-Resume1024.pdf"><span
+        <a class="btn btn-secondary" target="_blank" href="assets/VictoriaP-Resume1024.pdf"><span
                 class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download as PDF</a>
     </div>
 </div>
