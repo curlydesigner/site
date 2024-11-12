@@ -464,21 +464,21 @@ b i:last-child {
     line-height: 1.7;
     font-size: 18px;
     font-weight: 500;
+    width: 1235px;
+    margin: auto;
 }
 /*  hello i'm victoria */
 .box-greeting {
     color: #27244C;
 }
 .box-greeting h3{
-    font-weight: 100;
-    margin: auto;
-    width: 1235px;
-}
-.box-greeting .title{
     font-size: 30px;
     font-weight: 100;
     margin: auto;
     width: 1235px;
+}
+.box-greeting h5{
+    font-weight: 100;
 }
 /* mouse effect */
 

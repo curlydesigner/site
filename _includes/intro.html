@@ -2,9 +2,10 @@
 <section class="box-intro">
     <div class="table-cell">
         <div class="box-greeting">
-            <h3 class="text-align-left title">Hello, I'm Victoria :-)</h3>
-            <h3 class="text-align-left">Passionate Designer - Professional of crafting ideas to life.</h3>
+            <h3 class="text-align-left">Hello, I'm Victoria :-)</h3>
+            <h5 class="text-align-left">Passionate Designer - Professional of crafting ideas to life.</h5>
         </div>
+        <h5 class="text-align-left">{{ site.intro.title }}</h5>
         <h1 class="box-headline letters rotate-2">
             <span class="box-words-wrapper">
                 {% for word in site.intro.words %}
@@ -16,7 +17,6 @@
                 {% endfor %}
             </span>
         </h1>
-        <h5>{{ site.intro.title }}</h5>
     </div>
 
     <div class="mouse">
