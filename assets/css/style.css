@@ -476,9 +476,14 @@ b i:last-child {
     font-weight: 100;
     margin: auto;
     width: 1235px;
+    margin-bottom:20px;
 }
+/*  end hello i'm victoria */
+
+
+/*  Passionate Designer */
 .box-greeting h5{
-    font-weight: 100;
+    margin-bottom: 8px;
 }
 /* mouse effect */
 
