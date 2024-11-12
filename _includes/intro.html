@@ -1,14 +1,18 @@
 <!-- box-intro -->
 <section class="box-intro">
     <div class="table-cell">
+        <div class="box-greeting">
+            <h3 class="text-align-left title">Hello, I'm Victoria :-)</h3>
+            <h3 class="text-align-left">Passionate Designer - Professional of crafting ideas to life.</h3>
+        </div>
         <h1 class="box-headline letters rotate-2">
             <span class="box-words-wrapper">
                 {% for word in site.intro.words %}
-                    {% if forloop.first %}
-                        <b class="is-visible">{{ word }}</b>
-                    {% else %}
-                        <b>{{ word }}</b>
-                    {% endif %}
+                {% if forloop.first %}
+                <b class="is-visible">{{ word }}</b>
+                {% else %}
+                <b>{{ word }}</b>
+                {% endif %}
                 {% endfor %}
             </span>
         </h1>
