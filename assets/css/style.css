@@ -207,7 +207,7 @@ h6 {
 }
 
 .box-header {
-    height: 80px;
+    height: 94px;
     background: transparent;
     box-shadow: none;
 }
@@ -223,7 +223,7 @@ h6 {
 
 .box-header.is-fixed {
     position: fixed;
-    top: -80px;
+    top: -94px;
     background-color: rgba(255, 255, 255, 0.96);
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
