@@ -503,16 +503,16 @@ h6 {
 }
 
 .box-intro h3 {
-    margin: 15px 0px;
+    margin: 25px 0px;
     font-size: 0.8em;
     color: #665266;
     font-weight: 700;
 }
 
 .box-intro h4 {
-    margin-top: 28px;
+    margin-top: 35px;
     font-family: 'Great Vibes';
-    font-size: 1.71em;
+    font-size: 1.60em;
     color: #35357a;
     font-weight: 700;
 }
@@ -522,9 +522,9 @@ h6 {
     text-transform: uppercase;
     color: #999;
     line-height: 1.2;
-    font-size: 0.74em;
+    font-size: 0.71em;
     font-weight: 500;
-    margin: auto;
+    margin: 8px;
 }
 
 /* mouse effect */
