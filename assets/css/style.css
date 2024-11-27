@@ -471,7 +471,7 @@ h6 {
     width: 100%;
     background-image: url('../img/intro-img.png'); /* Replace with your image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: right center; /* Align background to the right middle */
+    background-position: 550px center; /* Align background to the right middle */
     background-size: contain; /* Adjust size as needed (e.g., cover, contain, or specific values) */  
 }
 
@@ -531,7 +531,7 @@ h6 {
 }
 
 .box-intro h1.box-headline{
-    margin: 30px 0px;
+    margin: 40px 0px;
 }
 /* mouse effect */
 
@@ -1228,6 +1228,7 @@ input:focus, textarea:focus {
 @media (max-width: 991px) {
     .box-intro {
         font-size: 20px;
+        background-position: 480px center; /* Align background to the right middle */
     }
 
     .portfolio .categories-grid span {
@@ -1256,6 +1257,7 @@ input:focus, textarea:focus {
 
     .box-intro {
         font-size: 16px;
+        background-position: 430px center; /* Align background to the right middle */
     }
 
     .box-primary-nav a {
@@ -1281,13 +1283,14 @@ input:focus, textarea:focus {
     }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 430px) {
     .box-headline {
         font-size: 80px;
     }
 
     .box-intro h5 {
         font-size: 12px;
+        background-position: 450px center; /* Align background to the right middle */
     }
 
     .main-container {
