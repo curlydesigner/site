@@ -464,6 +464,7 @@ h6 {
 ==================================================*/
 
 .box-intro {
+    padding-top: 94px;
     font-size: 25px;
     text-align: center;
     display: table;
@@ -476,8 +477,7 @@ h6 {
 }
 
 .box-intro .table-cell {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
     width: 1235px;
     margin: auto;
 }
