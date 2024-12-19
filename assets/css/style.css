@@ -470,16 +470,20 @@ h6 {
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url('../img/intro-img.png'); /* Replace with your image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: 550px center; /* Align background to the right middle */
-    background-size: contain; /* Adjust size as needed (e.g., cover, contain, or specific values) */  
+    background-image: url('../img/intro-img.png');
+    /* Replace with your image */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-position: 1050px center;
+    /* Align background to the right middle */
+    background-size: contain;
+    /* Adjust size as needed (e.g., cover, contain, or specific values) */
 }
 
 .box-intro .table-cell {
-    display: block;
-    width: 1235px;
-    margin: auto;
+    xdisplay: block;
+    xwidth: 1235px;
+    xmargin: auto;
 }
 
 .box-intro em {
@@ -530,9 +534,10 @@ h6 {
     margin: 8px;
 }
 
-.box-intro h1.box-headline{
+.box-intro h1.box-headline {
     margin: 40px 0px;
 }
+
 /* mouse effect */
 
 .mouse {
@@ -1225,10 +1230,22 @@ input:focus, textarea:focus {
 /* Responsive media queries
 ==================================================*/
 
+@media (max-width: 1200px) {
+    .box-intro {
+        font-size: 20px;
+        background-position: 480px center;
+        /* Align background to the right middle */
+    }
+    .box-intro .table-cell {
+        xwidth: 1170px;
+    }
+
+}
 @media (max-width: 991px) {
     .box-intro {
         font-size: 20px;
-        background-position: 480px center; /* Align background to the right middle */
+        background-position: 480px center;
+        /* Align background to the right middle */
     }
 
     .portfolio .categories-grid span {
@@ -1257,7 +1274,8 @@ input:focus, textarea:focus {
 
     .box-intro {
         font-size: 16px;
-        background-position: 430px center; /* Align background to the right middle */
+        background-position: 430px center;
+        /* Align background to the right middle */
     }
 
     .box-primary-nav a {
@@ -1284,13 +1302,23 @@ input:focus, textarea:focus {
 }
 
 @media only screen and (max-width: 430px) {
+    .box-intro {
+        font-size: 16px;
+        background-position: 430px center;
+        /* Align background to the right middle */
+    }
+    .box-intro .table-cell {
+        xwidth: 100%;
+    }
+    
     .box-headline {
         font-size: 80px;
     }
 
     .box-intro h5 {
         font-size: 12px;
-        background-position: 450px center; /* Align background to the right middle */
+        background-position: 450px center;
+        /* Align background to the right middle */
     }
 
     .main-container {
