@@ -481,9 +481,8 @@ h6 {
 }
 
 .box-intro .table-cell {
-    xdisplay: block;
-    xwidth: 1235px;
-    xmargin: auto;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .box-intro em {
@@ -536,6 +535,7 @@ h6 {
 
 .box-intro h1.box-headline {
     margin: 40px 0px;
+    font-size: 1.4em;
 }
 
 /* mouse effect */
@@ -1236,11 +1236,9 @@ input:focus, textarea:focus {
         background-position: 480px center;
         /* Align background to the right middle */
     }
-    .box-intro .table-cell {
-        xwidth: 1170px;
-    }
 
 }
+
 @media (max-width: 991px) {
     .box-intro {
         font-size: 20px;
@@ -1307,10 +1305,7 @@ input:focus, textarea:focus {
         background-position: 430px center;
         /* Align background to the right middle */
     }
-    .box-intro .table-cell {
-        xwidth: 100%;
-    }
-    
+
     .box-headline {
         font-size: 80px;
     }
