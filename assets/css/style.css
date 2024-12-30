@@ -470,7 +470,7 @@ h6 {
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url('../img/intro-img.png');
+    /* background-image: url('../img/intro-img.png'); */
     /* Replace with your image */
     background-repeat: no-repeat;
     /* Prevent the image from repeating */
@@ -516,13 +516,6 @@ h6 {
     font-weight: 700;
 }
 
-.box-intro h4 {
-    margin-top: 35px;
-    font-family: 'Great Vibes';
-    font-size: 1.60em;
-    color: #35357a;
-}
-
 .box-intro h5 {
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -535,8 +528,16 @@ h6 {
 
 .box-intro h1.box-headline {
     margin: 40px 0px;
-    font-size: 1.4em;
+    font-size: 4em;
 }
+
+.box-intro h4 {
+    margin-top: 35px;
+    font-family: 'Great Vibes';
+    font-size: 1.60em;
+    color: #35357a;
+}
+
 
 /* mouse effect */
 
