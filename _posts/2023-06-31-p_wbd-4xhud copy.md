@@ -525,6 +525,23 @@ But of course, it is also all about being smart about the implementation of code
 </div>
 
 <br>
+______________________________________________
+
+#### My Reflection as a Mentor and What This Taught Me 
+
+Being a designer is more than solving problems—it’s about how I approach them, who I collaborate with, and how I bring people together along the journey.
+My work is always rooted in strategy and empathy to deliver solutions that feel intuitive and meaningful. While I am deep in user research and prototyping, something equally important happening in parallel 
+
+- a technical collaboration with engineers for testing 
+- a creative collaboration with game artists for storytelling. 
+
+Every visual and interactive element is part of a bigger narrative, crafted with intent. Whether it’s mapping a complex system, simplifying flows, or designing micro-interactions that reduce friction. I approach each project with a systems mindset and a collaborative spirit. I’m often the bridge between business objectives, user needs, and creative execution.
+
+From large-scale mobile applications to admin platforms and internal tools, I’ve worked across disciplines to build experiences that are not only visually engaging but strategically aligned and accessible.
+
+If you’re building a product that demands clarity, creativity, and thoughtful execution—and looking for someone who brings structure to ambiguity and energy to collaboration—I’d love to connect.
+
+______________________________________________
 
 #### Tools Used 
    - Figma 
