@@ -16,7 +16,7 @@ categories:
   - portfolio-featured
     
 permalink: /wbd-4xhud
-featured_image: /assets/posts/2023-06-31-p_wb-4x/wb-feaut-img.png
+featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-journey.png
 ---
 
 

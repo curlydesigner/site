@@ -9,7 +9,6 @@ tags:
 categories:
     - blog
     - portfolio
-    - portfolio-featured
 permalink: /e-commerce-product
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_concept.png
 ---
