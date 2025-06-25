@@ -40,9 +40,11 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-jo
 
 
 
-![ixd user flow](/assets/posts/2023-06-31-p_wb-4x/P_WB-hGOT.png "ixd user flow") 
+![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/casestudybanner.png "ixd user flow") 
 
-### Teaching Through Case Studies - My Presentation at IxDF Session on Strategic UX & Design Thinking
+### Teaching Through Case Studies 
+### My Presentation at IxDF Session
+### on Strategic UX & Design Thinking
 
 <br>
 
