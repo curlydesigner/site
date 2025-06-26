@@ -543,6 +543,15 @@ If you’re building a product that demands clarity, creativity, and thoughtful 
 
 ______________________________________________
 
+### My Reflection 
+
+In this project, I needed to consider how the entire system should behave. Collaborating closely with engineers to align on data structures and interactions, while advocating for accessibility and inclusive design.
+
+For me, design begins with curiosity and empathy - understanding the people behind the data, their challenges, and what clarity means to them. I believe great design happens through collaboration, iteration, and a shared vision. My work is rooted in strategy and empathy to deliver solutions that feel intuitive and meaningful. 
+
+ 
+_______________________________________________
+
 #### Tools Used 
    - Figma 
    - Adobe Illustrator

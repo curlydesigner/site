@@ -42,9 +42,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-jo
 
 ![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/casestudybanner.png "ixd user flow") 
 
-### Teaching Through Case Studies 
-### My Presentation at IxDF Session
-### on Strategic UX & Design Thinking
+### Presentation at IxDF on Strategic UX & Design Thinking
 
 <br>
 
@@ -81,7 +79,7 @@ _______________________________________________
 #### Overview:
 
  
-  Recently, I had the opportunity to present as part of the IxDF community—sharing a case study on how we approached UX strategy, visual design, and accessibility in a complex mobile strategy game.
+  I had the opportunity to present as part of the IxDF Organisation — sharing the core elements of a strong UX Case Study and how to approache UX strategy, visual design, and accessibility in complex data loaded products. 
 
   I believes that design is not just about pixels—but about people, systems, and clarity. As part of the IxDF Jersey City chapter, I led a session on Strategic UX and Design Thinking through the lens of case studies. This presentation unpacked how storytelling, research, and user empathy shape impactful digital products.
 <br>
