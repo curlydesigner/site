@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: ScotiaBank iPad App
-published: true
+published: false
 tags: 
     - UX/UI Product Design
     - Info Architecture
