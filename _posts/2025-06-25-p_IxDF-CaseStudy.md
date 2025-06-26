@@ -15,7 +15,7 @@ categories:
   - portfolio
   - portfolio-featured
     
-permalink: /wbd-4xhud
+permalink: /ixdf-study
 featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-journey.png
 ---
 
