@@ -5,15 +5,16 @@ permalink: /:title:output_ext
 excerpt_separator: <!--more-->
 intro:
 
+
   words:
-    - "Gen.AI."
-    - "Design Thinking."
-    - "IxD&nbsp;Design."
-    - "Product&nbsp;Design."
-    - "Data&nbsp;Visualization."
-    - "UX/UI&nbsp;Design."
-    - "Research."
-    
+  - "Gen&nbsp;AI."
+  - "Design&nbsp;Thinking."
+  - "Product&nbsp;Design."
+  - "Data&nbsp;Visualization."
+  - "UX/UI&nbsp;Design."
+  - "UX&nbsp;Research."
+  - "Information&nbsp;Architecture."
+  - "IxD&nbsp;Design."
     
 
   title: "MA. Design | B. Design | Data Visualization | UX UI Human-Centered Design | IxD"
