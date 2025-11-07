@@ -526,7 +526,7 @@ h6 {
 
 .box-intro h5 {
     letter-spacing: 4px;
-    text-transform: uppercase;
+    text-transform: none;
     color: #999;
     line-height: 1.2;
     font-size: 0.71em;
