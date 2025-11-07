@@ -491,6 +491,11 @@ h6 {
 .box-intro .table-cell {
     display: table-cell;
     vertical-align: middle;
+    
+}
+
+.box-intro .container {
+    padding-left: 5px;   /* Move text to the left */
 }
 
 .box-intro em {
@@ -501,14 +506,17 @@ h6 {
 .box-intro b i:last-child {
     color: #f7931e !important;
 }
+ /* colour of the dot */
 
 .box-intro h1 {
     margin: 15px 0px;
-    font-size: 1.9em;
+    font-size: 2em;
     color: #2c2854;
     font-weight: 700;
     text-transform: none;
 }
+ /* Hello txt */
+
 
 .box-intro h2 {
     margin: 15px 0px;
@@ -516,13 +524,16 @@ h6 {
     color: #f7931e;
     font-weight: 700;
 }
+ /* txt - I'm Victoria  */
+
 
 .box-intro h3 {
     margin: 25px 0px;
-    font-size: 0.8em;
+    font-size: 1em;
     color: #665266;
-    font-weight: 700;
+    font-weight: 600;
 }
+ /* txt - MBA AI.... */
 
 .box-intro h5 {
     letter-spacing: 4px;
@@ -530,25 +541,27 @@ h6 {
     color: #999;
     line-height: 1.2;
     font-size: 0.71em;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 8px;
     margin-top: 8px;
     margin-left: 0px;
 }
+ /* txt - Passionate Designer - Crafting human Centered Experiances..... */
 
 .box-intro h1.box-headline {
     margin: 40px 0px;
-    font-size: 4em;
+    font-size: 3em;
 }
+/* txt - Rotation dynamic  */
 
 .box-intro h4 {
     margin-top: 35px;
     font-family: 'Great Vibes';
-    font-size: 1.60em;
+    font-size: 1.5em;
     color: #35357a;
 }
+/* txt - Get in Touch   */
 
-/* mouse effect */
 
 .mouse {
     position: absolute;
@@ -562,7 +575,7 @@ h6 {
     -webkit-animation: intro 1s;
     animation: intro 1s;
 }
-
+/* mouse effect */
 .scroll {
     display: block;
     width: 3px;
