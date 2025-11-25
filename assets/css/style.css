@@ -1010,6 +1010,43 @@ footer img {
     color: #fff;
 }
 
+/* About preview on home page
+==================================================*/
+/* About section – center image & align columns */
+.about-intro .main-container {
+  display: flex;
+  align-items: center;       /* vertically center image & text */
+  flex-wrap: wrap;           /* keeps it responsive */
+}
+
+/* Center the image horizontally and make it nice and big */
+.about-intro .about-intro-image {
+  display: flex;
+  justify-content: center;
+}
+
+.about-intro .about-intro-image img {
+  max-width: 100%;
+  width: 100%;               /* makes it larger inside its column */
+}
+
+/* Optional: add some vertical breathing room */
+.about-intro {
+  padding: 60px 0;
+}
+
+/* Mobile: stack normally */
+@media (max-width: 767px) {
+  .about-intro .main-container {
+    display: block;
+  }
+
+  .about-intro .about-intro-image {
+    margin-bottom: 30px;
+  }
+}
+
+
 /* About page
 ==================================================*/
 
