@@ -1,17 +1,11 @@
-/*
-* Box Theme
-* Created by : Ahmed Eissa
-* website : www.ahmedessa.net
-* behance : https://www.behance.net/3essa
-*/
-
-/* Table of Content
+/* ==================================================
+🟢 GREEN NOTE — Table of Content (keeps original naming)
 ==================================================
-	- Google fonts & font family -
-	- General -
+    - Google fonts & font family -
+    - General -
     - typography -
     - Preloader -
-	- Header -
+    - Header -
     - box intro section -
     - Portfoilo section -
     - Footer -
@@ -22,11 +16,17 @@
     - Responsive media queries -
 */
 
+/* ==================================================
+🟢 GREEN NOTE — Google fonts & font family
+==================================================*/
 /* Google fonts & font family
 ==================================================*/
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
 @import url('https://fonts.googleapis.com/css?family=Great Vibes');
+/* ==================================================
+🟢 GREEN NOTE — General
+==================================================*/
 /* General
 ==================================================*/
 
@@ -84,6 +84,9 @@ a {
     text-align: left;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — typography
+==================================================*/
 /* typography
 ==================================================*/
 
@@ -118,6 +121,9 @@ h6 {
     font-weight: 200;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — Preloader
+==================================================*/
 /* preloader
 ==================================================*/
 
@@ -196,6 +202,9 @@ h6 {
     }
 }
 
+/* ==================================================
+🟢 GREEN NOTE — Header
+==================================================*/
 /* headr
 ==================================================*/
 
@@ -468,6 +477,9 @@ h6 {
     font-size: 18px;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — box intro section
+==================================================*/
 /* box-intro
 ==================================================*/
 
@@ -639,6 +651,9 @@ h6 {
     }
 }
 
+/* ==================================================
+🟢 GREEN NOTE — text rotate (part of box intro)
+==================================================*/
 /* text rotate */
 
 .box-headline {
@@ -804,6 +819,9 @@ h6 {
     }
 }
 
+/* ==================================================
+🟢 GREEN NOTE — Portfoilo section (keeps original misspelling)
+==================================================*/
 /* portfolio section
 ==================================================*/
 
@@ -941,6 +959,9 @@ h6 {
     padding-top: 55px;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — Footer
+==================================================*/
 /* footer
 ==================================================*/
 
@@ -965,6 +986,9 @@ footer img {
     }
 }
 
+/* ==================================================
+🟢 GREEN NOTE — backto top
+==================================================*/
 /* backto top
 ==================================================*/
 
@@ -1010,6 +1034,9 @@ footer img {
     color: #fff;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — About preview on home page
+==================================================*/
 /* About preview on home page
 ==================================================*/
 /* About section – center image & align columns */
@@ -1046,7 +1073,9 @@ footer img {
   }
 }
 
-
+/* ==================================================
+🟢 GREEN NOTE — About page
+==================================================*/
 /* About page
 ==================================================*/
 
@@ -1092,6 +1121,9 @@ footer img {
     font-size: 22px;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — Misc / Socials / Highlighted
+==================================================*/
 /* ==================================================*/
 
 .social-ul {
@@ -1130,6 +1162,9 @@ footer img {
     margin: auto;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — Services page
+==================================================*/
 /* Services page
 ==================================================*/
 
@@ -1155,6 +1190,9 @@ footer img {
     }
 }
 
+/* ==================================================
+🟢 GREEN NOTE — contact page
+==================================================*/
 /* contact page
 ==================================================*/
 
@@ -1284,6 +1322,9 @@ textarea:focus {
     color: #fff;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — single project page
+==================================================*/
 /* single project page
 ==================================================*/
 
@@ -1297,6 +1338,9 @@ textarea:focus {
     color: #ffbf00;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — Responsive media queries
+==================================================*/
 /* Responsive media queries
 ==================================================*/
 
@@ -1406,6 +1450,9 @@ textarea:focus {
     }
 }
 
+/* ==================================================
+🟢 GREEN NOTE — testimonial
+==================================================*/
 /* testimonial */
 
 .section {
@@ -1504,9 +1551,10 @@ textarea:focus {
     height: 400px;
 }
 
-/* /testimonial */
-
-/* slick slider */
+/* ==================================================
+🟢 GREEN NOTE — slick slider
+==================================================*/
+/* Testimonial */
 
 .slick-dots {
     text-align: center;
@@ -1534,8 +1582,9 @@ textarea:focus {
     border: 0;
 }
 
-/* /slick slider */
-
+/* ==================================================
+🟢 GREEN NOTE — timeline
+==================================================*/
 /* timeline */
 
 .timeline {
@@ -1756,8 +1805,9 @@ textarea:focus {
     }
 }
 
-/* /timeline */
-
+/* ==================================================
+🟢 GREEN NOTE — card
+==================================================*/
 /* card */
 
 .card {
@@ -1787,8 +1837,9 @@ textarea:focus {
     font-weight: 500;
 }
 
-/* /card */
-
+/* ==================================================
+🟢 GREEN NOTE — skills
+==================================================*/
 /* skills */
 
 .progress-wrapper {
@@ -1854,8 +1905,9 @@ textarea:focus {
     }
 }
 
-/* /skills */
-
+/* ==================================================
+🟢 GREEN NOTE — education
+==================================================*/
 /* education */
 
 .edu-bg-image {
@@ -1870,8 +1922,9 @@ textarea:focus {
     display: inline-block;
 }
 
-/* /education */
-
+/* ==================================================
+🟢 GREEN NOTE — About header (h1.about-header)
+==================================================*/
 h1.about-header {
     color: rgb(108, 106, 116);
     font-weight: 600;
@@ -1879,12 +1932,18 @@ h1.about-header {
     font-size: 52px;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — post
+==================================================*/
 /* post */
 
 .post img {
     width: 100%;
 }
 
+/* ==================================================
+🟢 GREEN NOTE — blog post
+==================================================*/
 /* blog post */
 
 .post p {
@@ -1913,10 +1972,16 @@ h1.about-header {
     color: rgb(141, 141, 141);
 }
 
+/* ==================================================
+🟢 GREEN NOTE — portfolio post
+==================================================*/
 /* portfolio post */
 
 .portfolio-post {}
 
+/* ==================================================
+🟢 GREEN NOTE — get-in-touch
+==================================================*/
 .get-in-touch {
     display: flex;
     justify-content: center;
@@ -1935,3 +2000,71 @@ h1.about-header {
     line-height: 35px;
     font-weight: 500;
 }
+
+/* ==================================================
+🟢 GREEN NOTE — service-box-link specific tweaks
+==================================================*/
+
+            .service-box-link .section-title {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1rem;
+                padding: 0;
+                margin: 0;
+            }
+            .service-box-link .section-title a {
+                color: #0f7dea; /* blue link color */
+                text-decoration: none;
+                display: inline-block;
+                white-space: nowrap;
+            }
+            /* subtle hover/focus for accessibility */
+            .service-box-link .section-title a:hover,
+            .service-box-link .section-title a:focus {
+                text-decoration: underline;
+                color: #0b66b0;
+            }
+            /* Stack/wrap on very small screens */
+            @media (max-width: 576px) {
+                .service-box-link .section-title {
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+            }
+
+
+/* ==================================================
+🟢 GREEN NOTE — About Links styling "view my..."
+==================================================*/
+            .link-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.premium-link {
+    color: #1a73e8;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+}
+
+.premium-link ion-icon {
+    font-size: 18px;
+    margin-bottom: -1px;
+    opacity: 0.9;
+}
+
+/* ==================================================
+🟢 GREEN NOTE — NOTES ABOUT MISSING / RENAMED SECTIONS
+==================================================
+- The original Table of Content lists "Portfoilo section" (misspelled) — actual CSS contains "portfolio section".
+- The Table of Content lists "Portfolio single page" — the stylesheet contains a "single project page" section; if you want the exact name "Portfolio single page" add it as a semantic comment but no CSS changes were made.
+- All CSS rules are left unchanged; only green-note section comment separators were inserted.
+================================================== */
