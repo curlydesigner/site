@@ -1122,9 +1122,9 @@ footer img {
 }
 
 /* ==================================================
-🟢 GREEN NOTE — Misc / Socials / Highlighted
-==================================================*/
-/* ==================================================*/
+🟢  Socials / Highlighted Icons on About Me Page  (Linkedin / Behance / Email)
+=================================================*/
+
 
 .social-ul {
     list-style: none;
@@ -1138,14 +1138,14 @@ footer img {
 }
 
 .social-ul li a {
-    font-size: 25px;
+    font-size: 36px;
     color: #555;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
 
 .social-ul li a:hover {
-    color: #888;
+    color: #4387d0;
 }
 
 .highlighted-section {
