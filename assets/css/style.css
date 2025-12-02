@@ -2062,9 +2062,10 @@ h1.about-header {
 }
 
 /* ==================================================
-🟢 GREEN NOTE — About page: Beyond Work / Background
+🟢 About page: 
 ==================================================*/
-
+/* About / Background section
+   (used elsewhere – keep as-is) */
 .about-background-section {
     background: #F5F6F7; /* match "what I do" section grey */
     width: 100%;
@@ -2133,254 +2134,299 @@ h1.about-header {
         padding: 0 10px;
     }
 }
+
+
+/* WHAT I DO section (3 cards with 3D images)
+   ========================================= */
+
+/* each column/card */
+.section.highlighted-section .service-box {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* images – same size and aligned */
+.section.highlighted-section .service-icon {
+    display: block;
+    margin: 0 auto 24px;
+    width: 100%;
+    max-width: 320px;      /* tweak this to make all images bigger/smaller */
+    aspect-ratio: 1 / 1;   /* forces all images to be square */
+    object-fit: cover;     /* fills the square consistently */
+}
+
+/* headings – same starting height across columns */
+.section.highlighted-section .service-box h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0 auto 12px;
+    max-width: 280px;
+    min-height: 60px;      /* ensures each title row uses same vertical space */
+}
+
+/* paragraphs – centered & aligned */
+.section.highlighted-section .service-box p {
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #777;
+}
+
+
 /* ==================================================
 🟢 Horizontal Experience Timeline – Updated
-    Circle → short solid line → dashed line → dot → label
+   Circle → short solid line → dashed line → dot → label
 ==================================================*/
 
 .horizontal-timeline {
-     position: relative;
-     padding: 40px 0 30px;
-     overflow-x: auto;
-     -webkit-overflow-scrolling: touch;
+    position: relative;
+    padding: 40px 0 30px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 
-     max-width: 1100px;
-     margin-left: auto;
-     margin-right: auto;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 
-     /* base circle size (changes in media query) */
-     --circle-size: 100px;
+    /* base circle size (changes in media query) */
+    --circle-size: 140px;
 
-     /* connector segment sizes */
-     --solid-len: 20px;   /* solid part under circle */
-     --dash-len: 40px;    /* dashed part below solid */
+    /* connector segment sizes */
+    --solid-len: 20px;   /* solid part under circle */
+    --dash-len: 40px;    /* dashed part below solid */
 }
 
 /* Flex container of circles */
 .horizontal-timeline .items {
-     display: flex;
-     gap: 48px;
-     align-items: flex-start;
-     position: relative;
-     z-index: 0;
-     white-space: nowrap;
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+    position: relative;
+    z-index: 0;
+    white-space: nowrap;
 }
 
 /* Single item */
 .horizontal-timeline .item {
-     position: relative;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width: var(--circle-size);
-     flex: 0 0 auto;
-     text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--circle-size);
+    flex: 0 0 auto;
+    text-align: center;
 }
 
 /* Extra spacing before the last (LinkedIn) circle */
 .horizontal-timeline .item:last-child {
-     margin-left: 110px;
+    margin-left: 0px;
 }
 
 /* =========================================
-    CIRCLE + IMAGE
+   CIRCLE + IMAGE
 =========================================*/
 
 .horizontal-timeline .circle {
-     position: relative;
-     z-index: 1; /* above connectors */
-     width: var(--circle-size);
-     height: var(--circle-size);
-     border-radius: 50%;
-     background: #fff;
-     border: none; /* removed grey border */
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     box-shadow: 0 6px 18px rgba(12, 12, 12, 0.04);
-     overflow: hidden;
+    position: relative;
+    z-index: 1; /* above connectors */
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid rgba(38, 40, 106, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(12, 12, 12, 0.04);
+    overflow: hidden;
 }
 
 .horizontal-timeline .circle img {
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-     border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /* =========================================
-    CONNECTOR LINES
-    (solid from circle, dashed, then dot at bottom)
+   CONNECTOR LINES
+   (solid from circle, dashed, then dot at bottom)
 =========================================*/
 
 /* solid line directly under the circle */
 .horizontal-timeline .circle::after {
-     content: "";
-     position: absolute;
-     left: 50%;
-     top: 100%; /* touches bottom of circle */
-     transform: translateX(-50%);
-     width: 1px;
-     height: var(--solid-len);
-     background: rgba(38, 40, 106, 0.22);
-     z-index: 0;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%; /* touches bottom of circle */
+    transform: translateX(-50%);
+    width: 1px;
+    height: var(--solid-len);
+    background: rgba(38, 40, 106, 0.22);
+    z-index: 0;
 }
 
 /* dashed line below the solid part */
 .horizontal-timeline .item::after {
-     content: "";
-     position: absolute;
-     left: 50%;
-     transform: translateX(-50%);
-     /* start just below the solid segment */
-     top: calc(var(--circle-size) + var(--solid-len));
-     height: var(--dash-len);
-     border-left: 1px dashed rgba(38, 40, 106, 0.20);
-     z-index: 0;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* start just below the solid segment */
+    top: calc(var(--circle-size) + var(--solid-len));
+    height: var(--dash-len);
+    border-left: 1px dashed rgba(38, 40, 106, 0.20);
+    z-index: 0;
 }
 
 /* dot at the BOTTOM of the whole connector (solid + dashed) */
 .horizontal-timeline .item::before {
-     content: "";
-     position: absolute;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 10px;
-     height: 10px;
-     /* circle bottom + solid + dashed − radius of dot */
-     top: calc(var(--circle-size) + var(--solid-len) + var(--dash-len) - 5px);
-     background: #26286a;
-     border-radius: 50%;
-     z-index: 0;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    /* circle bottom + solid + dashed − radius of dot */
+    top: calc(var(--circle-size) + var(--solid-len) + var(--dash-len) - 5px);
+    background: #26286a;
+    border-radius: 50%;
+    z-index: 0;
 }
 
 /* hide dot for LinkedIn item but keep connector */
 .horizontal-timeline .item:last-child::before {
-     display: none;
+    display: none;
 }
 
 /* slightly shorter dashed line for LinkedIn so it feels balanced */
 .horizontal-timeline .item:last-child::after {
-     height: calc(var(--dash-len) - 6px);
+    height: calc(var(--dash-len) - 6px);
 }
 
 /* =========================================
-    LABEL TEXT
+   LABEL TEXT
 =========================================*/
 
 /* =========================================
-    LABEL TEXT – match MBA AI style
+   LABEL TEXT – match MBA AI style
 =========================================*/
 
 .horizontal-timeline .label {
-     /* distance from dot to text */
-     margin-top: calc(var(--solid-len) + var(--dash-len) + 12px);
+    /* distance from dot to text */
+    margin-top: calc(var(--solid-len) + var(--dash-len) + 12px);
 
-     /* typography */
-     font-size: 16px;        /* same size as MBA AI */
-     font-weight: 400;       /* normal weight */
-     color: #4A4A4A;         /* similar grey to MBA AI */
-     line-height: 1.4;
-     letter-spacing: 0;
-     text-align: center;
-     max-width: 100%;
+    /* typography */
+    font-size: 16px;        /* same size as MBA AI */
+    font-weight: 400;       /* normal weight */
+    color: #4A4A4A;         /* similar grey to MBA AI */
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 100%;
 }
 
 /* =========================================
-    LINKEDIN – LARGER CIRCLE
+  LARGER CIRCLE
 =========================================*/
 
-/* Larger virtual circle size for LinkedIn item
-    so connectors are calculated from its real size */
+/* Larger virtual circle size for Product Design
+   so connectors are calculated from its real size */
 .horizontal-timeline .item:last-child {
-     --circle-size: 140px;
+    --circle-size: 180px;
 }
 
 .horizontal-timeline .item:last-child .circle {
-     width: var(--circle-size);
-     height: var(--circle-size);
-     border: none; /* usually a solid LinkedIn blue circle */
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border: none; /* usually a solid Larger circle */
 }
 
 .horizontal-timeline .item:last-child .circle img {
-     width: 100%;
-     height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 /* =========================================
-    HOVER ANIMATION FOR SMALL CIRCLES
-    (LinkedIn stays static)
+   HOVER ANIMATION FOR SMALL CIRCLES
+   (LinkedIn stays static)
 =========================================*/
 
 .horizontal-timeline .item:not(:last-child) .circle {
-     transition:
-          transform 0.45s cubic-bezier(0.25, 0.1, 0.25, 1),
-          box-shadow 0.45s cubic-bezier(0.25, 0.1, 0.25, 1);
-     transform-origin: center center;
+    transition:
+        transform 0.45s cubic-bezier(0.25, 0.1, 0.25, 1),
+        box-shadow 0.45s cubic-bezier(0.25, 0.1, 0.25, 1),
+        border-color 0.45s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transform-origin: center center;
 }
 
 .horizontal-timeline .item:not(:last-child):hover .circle {
-     transform: scale(1.5);
-     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    transform: scale(1.5);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    border-color: rgba(38, 40, 106, 0.45);
 }
 
 /* ensure last LinkedIn circle never animates */
 .horizontal-timeline .item:last-child:hover .circle {
-     transform: none;
-     box-shadow: 0 6px 18px rgba(12, 12, 12, 0.04);
+    transform: none;
+    box-shadow: 0 6px 18px rgba(12, 12, 12, 0.04);
 }
 
 /* =========================================
-    SCROLLBAR STYLING
+   SCROLLBAR STYLING
 =========================================*/
 
 .horizontal-timeline::-webkit-scrollbar {
-     height: 8px;
+    height: 8px;
 }
 .horizontal-timeline::-webkit-scrollbar-thumb {
-     background: rgba(0, 0, 0, 0.06);
-     border-radius: 4px;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
 }
 
 /* ==============================
-     MOBILE RESPONSIVE
+    MOBILE RESPONSIVE
 ============================== */
 @media (max-width: 640px) {
 
-     .horizontal-timeline {
-          padding: 24px 0 20px;
+    .horizontal-timeline {
+        padding: 24px 0 20px;
 
-          /* smaller circles & slightly shorter connectors on mobile */
-          --circle-size: 72px;
-          --solid-len: 16px;
-          --dash-len: 32px;
-     }
+        /* smaller circles & slightly shorter connectors on mobile */
+        --circle-size: 72px;
+        --solid-len: 16px;
+        --dash-len: 32px;
+    }
 
-     .horizontal-timeline .items {
-          gap: 36px;
-     }
+    .horizontal-timeline .items {
+        gap: 36px;
+    }
 
-     .horizontal-timeline .item {
-          width: var(--circle-size);
-     }
+    .horizontal-timeline .item {
+        width: var(--circle-size);
+    }
 
-     /* keep LinkedIn big even on mobile */
-     .horizontal-timeline .item:last-child {
-          margin-left: 60px;
-          --circle-size: 140px;
-          --solid-len: 20px;
-          --dash-len: 36px;
-     }
+    /* keep LinkedIn big even on mobile */
+    .horizontal-timeline .item:last-child {
+        margin-left: 60px;
+        --circle-size: 100px;
+        --solid-len: 20px;
+        --dash-len: 36px;
+    }
 
-     /* LABEL TEXT – mobile version (same style as MBA AI) */
-     .horizontal-timeline .label {
-          font-size: 16px;       /* same as MBA AI */
-          font-weight: 400;
-          color: #4A4A4A;
-          line-height: 1.4;
-          text-align: center;
-     }
+    /* LABEL TEXT – mobile version (same style as MBA AI) */
+    .horizontal-timeline .label {
+        font-size: 16px;       /* same as MBA AI */
+        font-weight: 400;
+        color: #4A4A4A;
+        line-height: 1.4;
+        text-align: center;
+    }
 }
+
 
 
 
