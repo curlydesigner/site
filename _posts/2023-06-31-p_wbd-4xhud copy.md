@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: HUD Navigation Architecture | Design System | Accessibility - for WB Game
-published: True
+published: False
 tags: 
   - UX/UI Product Design
   - Gaming & IxD
@@ -20,60 +20,36 @@ featured_image: /assets/posts/2023-06-31-p_wb-4x/wb-feaut-img.png
 ---
 
 
-<style>
-  .flex-container {
-    display: flex;              /* Enables flexbox */
-    justify-content: space-between; /* Positions items on opposite ends */
-    align-items: stretch;       /* Stretches items to fill the container */
-  }
-  .flex-box {
-    width: 50%;                 /* Sets width for each box */
-    background-color: #f7f7f7;
-    border: 0px solid black;
-    padding: 15px;
-    margin: 5px;
-    border-radius: 5px;
-    color: black;
-    text-align: center; 
-  }
-</style>
-
-
-
 ![ixd user flow](/assets/posts/2023-06-31-p_wb-4x/P_WB-hGOT.png "ixd user flow") 
 
-### 🎮 Warner Bros Discovery — Game HUD Navigation Redesign
+### WARNER BROS 4X GAME - MAIN HUD NAVIGATION 
 
 <br>
 
 
-[Overview](#overview) • 
-[My Role](#my-role) • 
-[Industry](#industry) • 
-[Research](#research) • 
-[IA / HUD Structure](#hud-information-architecture) • 
-[UX Challenges](#ux-challenges) • 
-[User Flow](#user-flow) • 
-[Prototype](#prototype) • 
-[Design System](#design-system) • 
-[Accessibility](#accessibility)
+##### [IXD](#ixd---features--screens-i-was-involved-in) | [INFO-ARCHITECTURE](#information-architecture) | [UX CHALLANGES](#ux-goals-and-challenges) | [USER FLOW](#user-flow) | [PROTOTYPING](#wireframes--prototype) | [DESIGN SYSTEM](#figma---components-and-design-system) | [ACCESSIBILITY](#accessibility)  
 
 <br>
 
 _______________________________________________
 
- <div class="info-cards">
+<div class="info-cards">
 
-  <div class="info-card">
+<div class="info-card">
   <h3>My Role</h3>
   Senior UX/UI Designer — Systems UX, Game HUD, Information Architecture<br>
   Led UX strategy, IA, flows, and prototypes for a large-scale 4X strategy title at Warner Bros Discovery.
 </div>
 
-  <div class="info-card">
-  <h3>Indutry</h3>
-  Game UX in the universe of Game of Thrones / House of the Dragons.
+  <div class="info-card" markdown="1">
+<h3>Industry</h3>
+Game UX  
+4X Strategy Game set in the universe of *Game of Thrones / House of the Dragon*.
+  </div>
+
 </div>
+
+_______________________________________________
 
 
 <div class="row">
