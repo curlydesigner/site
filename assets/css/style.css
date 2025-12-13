@@ -2362,22 +2362,10 @@ h1.about-header {
     z-index: 0;
 }
 
-/* hide dot for LinkedIn item but keep connector */
-.horizontal-timeline .item:last-child::before {
-    display: none;
-}
 
-/* slightly shorter dashed line for LinkedIn so it feels balanced */
-.horizontal-timeline .item:last-child::after {
-    height: calc(var(--dash-len) - 6px);
-}
 
 /* =========================================
-   LABEL TEXT
-=========================================*/
-
-/* =========================================
-   LABEL TEXT – match MBA AI style
+   LABEL TEXT 
 =========================================*/
 
 .horizontal-timeline .label {
@@ -2385,7 +2373,7 @@ h1.about-header {
     margin-top: calc(var(--solid-len) + var(--dash-len) + 12px);
 
     /* typography */
-    font-size: 16px;        /* same size as MBA AI */
+    font-size: 16px;        
     font-weight: 400;       /* normal weight */
     color: #4A4A4A;         /* similar grey to MBA AI */
     line-height: 1.4;
@@ -2434,11 +2422,6 @@ h1.about-header {
     border-color: rgba(38, 40, 106, 0.45);
 }
 
-/* ensure last LinkedIn circle never animates */
-.horizontal-timeline .item:last-child:hover .circle {
-    transform: none;
-    box-shadow: 0 6px 18px rgba(12, 12, 12, 0.04);
-}
 
 /* =========================================
    SCROLLBAR STYLING
@@ -2568,7 +2551,7 @@ h1.about-header {
 .timeline-row.row-1 { background: #e5f3fb; }
 .timeline-row.row-2 { background: #edf4dd; }
 .timeline-row.row-3 { background: #f8f0dd; }
-.timeline-row.row-4 { background: #fbe4e0; }
+.timeline-row.row-4 { background: #f9e2dd; }
 .timeline-row.row-5 { background: #fde8f0; }
 .timeline-row.row-6 { background: #f3e9ff; } 
 
@@ -2659,33 +2642,34 @@ h1.about-header {
 
 /* Individual bar colors */
 
+
 .bar-1 {
-  background: #14a6d8;
+  background: #2f5f9e;     /* End to End Product Design */
   color: #ffffff;
 }
 
 .bar-2 {
-  background: #a8c539;
-  color: #233000;
+  background: #007fbe;     /* UX UI Design */ 
+  color: #ffffff;
 }
 
 .bar-3 {
-  background: #f2a131;
+  background: #d5600c;      /* Research */
   color: #ffffff;
 }
 
 .bar-4 {
-  background: #f26f4f;
+  background: #a23786;       /* Motion Design */
   color: #ffffff;
 }
 
 .bar-5 {
-  background: #e64c5f;
+  background: #96225a;    /* graphic Design*/
   color: #ffffff;
 }
 
-.bar-6 {                     /* NEW bar for line 06 */
-  background: #8b67d4;
+.bar-6 {                     /* Design Thinking */
+  background: #4c3776;
   color: #ffffff;
 }
 
@@ -2704,6 +2688,8 @@ h1.about-header {
   border-radius: 12px;
   border: 1px solid #e4e4e8;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  border-left: 4px solid #c8bbff; /* purple accent */
+  padding-left: 24px;
 }
 
 .info-card h3 {
@@ -2723,7 +2709,13 @@ h1.about-header {
   color: #1a1a1f;
 }
 
-@media (max-width: 600px) {
+@media (max-/* ==================================================
+🟢 GREEN NOTE — NOTES ABOUT MISSING / RENAMED SECTIONS
+==================================================
+- The original Table of Content lists "Portfoilo section" (misspelled) — actual CSS contains "portfolio section".
+- The Table of Content lists "Portfolio single page" — the stylesheet contains a "single project page" section; if you want the exact name "Portfolio single page" add it as a semantic comment but no CSS changes were made.
+- All CSS rules are left unchanged; only green-note section comment separators were inserted.
+================================================== */width: 600px) {
   .info-cards {
     flex-direction: column;
   }
@@ -2742,40 +2734,7 @@ h1.about-header {
 .info-card {
   flex: 1 1 290px;
   padding: 24px 28px;
-  background: #ffffff;
-  border-radius: 14px;
-  border: 1px solid #e5e5ec;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.55;
-  color: #1a1a20;
-}
-
-/* Headings inside cards */
-.info-card h3 {
-  margin: 0 0 14px 0;
-  font-size: 1rem;
-  font-weight: 700;           /* restores bold */
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #3a3a46;
-}
-
-/* Body text */
-.info-card p,
-.info-card {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #1a1a20;
-}
-
-/* Optional: improved italic text */
-.info-card em {
-  font-style: italic;
-  color: #3d3d45;
-}
-
-/* Optional: elegant left accent bar */
+  background: #ffffff Optional: elegant left accent bar */
 .info-card {
   border-left: 4px solid #c8bbff; /* soft premium lavender accent */
   padding-left: 24px;
@@ -2797,10 +2756,4 @@ h1.about-header {
   color: #3a3a46;
 }
 
-/* ==================================================
-🟢 GREEN NOTE — NOTES ABOUT MISSING / RENAMED SECTIONS
-==================================================
-- The original Table of Content lists "Portfoilo section" (misspelled) — actual CSS contains "portfolio section".
-- The Table of Content lists "Portfolio single page" — the stylesheet contains a "single project page" section; if you want the exact name "Portfolio single page" add it as a semantic comment but no CSS changes were made.
-- All CSS rules are left unchanged; only green-note section comment separators were inserted.
-================================================== */
+

@@ -39,7 +39,6 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-jo
 </style>
 
 
-
 ![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/casestudybanner.png "ixd user flow") 
 
 ### Presentation at IxDF on Strategic UX & Design Thinking
