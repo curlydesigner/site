@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: BlackBerry SecuSuite 
+title: BlackBerry SecuSuite - Secure Communication
 published: true
 
 tags: 

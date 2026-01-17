@@ -8,7 +8,6 @@ tags:
     - 3D Design
 categories:
     - portfolio
-    - portfolio-featured
 permalink: /Interior-Illustrations
 featured_image: /assets/posts/2021-06-28-p_Interior-Illustrations/Image3-kitchen.webp
 ---
