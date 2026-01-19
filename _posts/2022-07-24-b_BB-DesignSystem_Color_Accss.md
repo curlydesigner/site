@@ -107,15 +107,15 @@ ________________________________________
 
 <br> 
 
-### Design Impact & Insights
-
-<br>
-Designing for dark versus light modes introduced different visual and accessibility constraints that could not be solved by simple color inversion.
-
-- Established theme-aware contrast and color rules that improved readability across dark and light modes. 
-- Replaced traditional white space with spacing, elevation, and surface contrast in dark interfaces. 
-- Preserved semantic meaning and hierarchy across themes to support fast scanning and decision-making. 
-- Designed for extended, real-world usage across varied lighting conditions and devices
+  <div class="info-card">
+    <h3>Design Impact & Insights</h3>
+    <ul>
+      <li>Established theme-aware contrast and color rules that improved readability across dark and light modes. </li>
+      <li>Replaced traditional white space with spacing, elevation, and surface contrast in dark interfaces. </li>
+      <li>Preserved semantic meaning and hierarchy across themes to support fast scanning and decision-making. </li>
+      <li>Designed for extended, real-world usage across varied lighting conditions and devices</li>
+    </ul>
+  </div>
 
 <br>
 
@@ -128,19 +128,37 @@ Designing for dark versus light modes introduced different visual and accessibil
 
 <br>
 
-### Design & System Constraints
+Creating an inclusive experience with careful consideration of color exploration and an understanding of various design principles that prioritize accessibility and diminish the reliance on color as the sole conveyor of critical information.
 
-- Built a theme system that supports dark and light modes without relying on color inversion
+<div class="info-cards">  
 
-- Defined scalable contrast, spacing, and hierarchy rules to replace traditional white space in dark UI
+  <div class="info-card">
+    <h3>Design Principles Validation</h3>
+  
+  <ul>
+      <li><b>Visual Hierarchy in Dark Mode</b> defined using surface contrast and tonal layers rather than shadows</li>
+      <li><b>High-contrast text and icons</b> established to support readability across lighting conditions </li>
+      <li>Mobile layouts ignored ergonomic reach and scanning patterns</li>
+      <li><b>Avoiding relying solely on Color</b>Color-independent UI states designed using labels, icons, and structural cues</li>
+      <li><b>Accessibility validation</b> through WCAG contrast and internal usability testing </li>
+      <li><b>Testing with users</b> Conducting usability testing to get valuable insights into the user experience that can help identify areas that may need improvement. </li>
+    </ul>
+  </div>
 
-- Established theme-aware color semantics to preserve brand meaning across modes
+  <div class="info-card">
+    <h3>Design & System Constraints</h3>
+     <ul>
+      <li><b>Design System</b>Built a theme system that supports dark and light modes without relying on color inversions</li>
+      <li><b>Hierarchy</b> Defined scalable contrast, spacing, and hierarchy rules to replace traditional white space in dark UI </li>
+      <li><b>Branding</b>Established theme-aware color semantics to preserve brand meaning across modes</li>
+      <li><b>Accessibility for low-light use</b> Balanced accessibility requirements with visual comfort for extended, c</li>
+      <li><b>Consistency</b> Enabled consistent theming across multiple productivity apps and device sizes </li>
+    </ul>
+  </div>
 
-- Balanced accessibility requirements with visual comfort for extended, low-light use
+</div>
 
-- Enabled consistent theming across multiple productivity apps and device sizes
-
-
+<br>
 
 ________________________________________
 
@@ -163,31 +181,6 @@ ________________________________________
 
 ![Dark Theme UI](assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-dt-coloe-exp1.png "Dark Theme Guidlines")
 ###### Dark Theme Action Bar Color Explorations
-
-
-<br>
-Creating an inclusive experience requires careful consideration of color exploration and an understanding of various design principles that prioritize accessibility and diminish the reliance on color as the sole conveyor of critical information.
-
-<br>
-
-### Design Principles & Validation
-
-- **Visual Hierarchy in Dark Mode** 
-  defined using surface contrast and tonal layers rather than shadows
-
-- **High-contrast text and icons**
-  established to support readability across lighting conditions 
-
-- **Avoiding Relying Solely on Color:**
-  Color-independent UI states designed using labels, icons, and structural cues
-
-- **Accessibility validation**
-  Performed through WCAG contrast checks and internal usability testing
-
-- **Testing Internaly with Users:**
-  I was conducting simple usability testing to get valuable insights into the user experience that can help identify areas that may need improvement.
-
-<br>
 
 ________________________________________
 
