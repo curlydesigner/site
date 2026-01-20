@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
-title: Case Studies - Presentation at IxDF on Strategic UX & Design Thinking
-published: true
+title: Presentation at IxDF on Strategic UX & Design Thinking
+published: false
 tags: 
   - UX/UI Product Design
   - Gaming & IxD
@@ -41,7 +41,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_customer-jo
 
 ![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/casestudybanner.png "ixd user flow") 
 
-### Presentation at IxDF on Strategic UX & Design Thinking
+### Design Leadership & Community Impact Presentation at IxDF on Strategic UX & Design Thinking
 
 <br>
 
@@ -51,7 +51,8 @@ ______________________________________________
 
 #### My Role
 
- Co-Leader of IxDF Jersey City
+ Co-Lead, Interaction Design Foundation (IxDF). 
+ <br> I led and delivered design talks and learning sessions focused on real-world interaction design challenges.
    
 
 

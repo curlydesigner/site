@@ -21,7 +21,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png
 
 <br>
 
-### Color and Accessibility | Design System        
+# Color and Accessibility         
 ### Dark & Light Themes for BlackBerry HUB+ 
 
 <br> 
