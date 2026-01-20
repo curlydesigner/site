@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: Samsung Smart TV - Case Study
+title: Samsung Smart TV · Interaction Systems · Cross-Device UX
 published: true
 tags: 
   - UX/UI Product Design
@@ -8,7 +8,6 @@ tags:
   - Data Visualization
   - Info Architecture
   - UX Research
-  - Gaming & IxD
   
 categories:
   - blog
