@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: Samsung Smart TV - Case Study
-published: false
+published: true
 tags: 
   - UX/UI Product Design
   - Design System
@@ -38,137 +38,77 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_tv-samsung.png
   }
 </style>
 
+___________________________________________________________
 
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/casestudybanner.png "ixd user flow") 
+# Samsung Smart TV <br> Re-Engaging the Multitasker 
+<br> 
 
-### Presentation at IxDF on Strategic UX & Design Thinking
+### Interactive TV System · Visual-First UX · Cross-Device Experiences
 
-<br>
+<div class="info-cards">
 
-______________________________________________
-<div class= "flex-container">
-  <div class="flex-box" markdown="1">
-
-#### My Role
-
- Co-Leader of IxDF Jersey City
-   
-
-
+  <div class="info-card">
+    <h3>Role & Scope </h3>
+    <p>Senior Interaction Designer for a visual-first, system-level re-engagement concept for Samsung Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.</p>
   </div>
 
-   <div class="flex-box" markdown="1">
-   
-#### Industry
-
-   
- IxDF - Interaction Design Foundation
-   
-   
-
+  <div class="info-card">
+    <h3>Industry Context</h3>
+    <p>Multitasking is now the default TV behavior.
+    Over 70% of viewers use a second device while watching TV — creating moments of distraction, but also new opportunities for re-engagement.</p>
   </div>
-</div>
 
-_______________________________________________
+  <div class="info-card">
+    <h3>Project Overview</h3>
+    <p>This project explores how Smart TV can design a scalable re-engagement system that:
+     <br>
+     <ul>
+      <li>Lives natively within the TV UI </li>
+      <li>Feels supportive, not interruptive</li>
+      <li>Rewards attention with context, interaction, or optional participation</li>
+    </ul>
+    </p>  
 
-
-<div class="row">
-  <div class="col-sm-6" markdown="1">
-
-#### Overview:
-
- 
-  I had the opportunity to present as part of the IxDF Organisation — sharing the core elements of a strong UX Case Study and how to approache UX strategy, visual design, and accessibility in complex data loaded products. 
-
-  I believes that design is not just about pixels—but about people, systems, and clarity. As part of the IxDF Jersey City chapter, I led a session on Strategic UX and Design Thinking through the lens of case studies. This presentation unpacked how storytelling, research, and user empathy shape impactful digital products.
-<br>
-
-
-  </div>
-  <div class="col-sm-6" markdown="1">
-
-#### Content
-
-  - What is a UX Case Study?
-  - Why Case Studies Matter for Designers?
-  - The Core Elements of a Strong UX Case Study.
-  - Challenge - What problem this case study solving? 
-  - Research Ideation & Strategy - What Design approach to take ? 
-  - User Journey Insight - When Excitement Meets a Dead End!
-  - UX Architecture & Prototyping.
-  - UI & Visual Design.
-  - Results & Feedback - What Changed!?
-  - Key Takeaways & Learnings.
-
-
-
-
+  <h3>What I Explored -> Design Focus Areas</h3>  
+  <ul>
+      <li>How people really watch TV today ? </li>
+      <li>What does the research reveal?</li>
+      <li>What shapes the design space & guide the experience ?</li>
+      <li>Where does re-engagement feel most natural?</li>
+      <li>System Design Experience</li>
+      <li>What happens after content pauses, ends, or is missed </Li>
+    </ul>
 
   </div>
 </div>
 
-_______________________________________________
+____________________________________
 
 
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-1.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-2.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-3.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-4.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-5.png "ixd user flow")
-
-_________________________________________________
-
-![ixd user flow](/assets/posts/2023-06-31-p_wb-4x/WB-PersonaCard.png "ixd user flow")
-
-__________________________________________________
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-f.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-g.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-h.png "ixd user flow")
-
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-i.png "ixd user flow")
-
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-j.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-k.png "ixd user flow")
-
-![ixd user flow](/assets/posts/2025-06-25-p_IxDF-CaseStudy/IxDF_CaseStudy_062025-l.png "ixd user flow")
-
-
-<br>
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p1.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p2.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p3.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p4.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p5.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p6.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p7-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p8-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p9-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p10-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p11-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p12-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p13-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p14-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p15-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p16-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p17-visual.png "smart-tv") 
+![smart-tv](/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p18-summary.png "smart-tv") 
 
 _______________________________________________
-
-
-#### My Reflection as a Mentor and What This Taught Me 
-
-Being a designer is more than solving problems—it’s about how I approach them, who I collaborate with, and how I bring people together along the journey.
-My work is always rooted in strategy and empathy to deliver solutions that feel intuitive and meaningful. While I am deep in user research and prototyping, something equally important happening in parallel 
-
-- a technical collaboration with engineers for testing 
-- a creative collaboration with game artists for storytelling. 
-
-Every visual and interactive element is part of a bigger narrative, crafted with intent. Whether it’s mapping a complex system, simplifying flows, or designing micro-interactions that reduce friction. I approach each project with a systems mindset and a collaborative spirit. I’m often the bridge between business objectives, user needs, and creative execution.
-
-From large-scale mobile applications to admin platforms and internal tools, I’ve worked across disciplines to build experiences that are not only visually engaging but strategically aligned and accessible.
-
-If you’re building a product that demands clarity, creativity, and thoughtful execution—and looking for someone who brings structure to ambiguity and energy to collaboration—I’d love to connect.
-
-
-_________________________________________________
-
 
 #### Other projects:
 
+- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
 - [SecuSuite Design System and UI Guidelines](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 

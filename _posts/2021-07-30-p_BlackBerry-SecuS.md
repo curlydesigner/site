@@ -205,6 +205,8 @@ ______________________________________________________
 #### Other projects I was leading for BlackBerry Products:
 
 
+- [Samsung Smart TV](/smart-tv)
+- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
 - [Web Design System and UI Guidelines](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
