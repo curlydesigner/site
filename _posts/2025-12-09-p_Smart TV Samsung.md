@@ -1,6 +1,6 @@
 ---
 layout: portfolio-post
-title: Samsung Smart TV · Interaction Systems · Cross-Device UX
+title: Smart TV · Interaction Systems · Cross-Device UX
 published: true
 tags: 
   - UX/UI Product Design
@@ -39,7 +39,7 @@ featured_image: /assets/posts/FeaturedPortfolio- photos/fp_ph_tv-samsung.png
 
 ___________________________________________________________
 
-# Samsung Smart TV <br> Re-Engaging the Multitasker 
+# Smart TV <br> Re-Engaging the Multitasker 
 <br> 
 
 ### Interactive TV System · Visual-First UX · Cross-Device Experiences
@@ -48,7 +48,7 @@ ___________________________________________________________
 
   <div class="info-card">
     <h3>Role & Scope </h3>
-    <p>Senior Interaction Designer for a visual-first, system-level re-engagement concept for Samsung Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.</p>
+    <p>Senior Interaction Designer for a visual-first, system-level re-engagement concept for Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.</p>
   </div>
 
   <div class="info-card">
