@@ -83,7 +83,7 @@ Separately, I focused on examples for front packaging design that demonstrates v
 
 View some of the other Design Guidlines I was leadign for
 
-- [Samsung Smart TV](/smart-tv)
+- [Smart TV](/smart-tv)
 - [WBD 4X Game Design System and Architecture](/wbd-4xhud)
 - [SecuSuite Design System and UI Guidelines](/design-guidelines)
 - [BlackBerry Onboarding screens](/empty-data)
