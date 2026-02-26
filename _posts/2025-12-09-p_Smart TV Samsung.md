@@ -1,7 +1,7 @@
 ---
 layout: portfolio-post
 title: Smart TV · Interaction Systems · Cross-Device UX
-published: false
+published: True
 tags: 
   - UX/UI Product Design
   - Design System
