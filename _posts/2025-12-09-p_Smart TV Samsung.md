@@ -107,7 +107,7 @@ _______________________________________________
 
 #### Other projects:
 
-- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
+- [WBD 4X Game Design System and Architecture](/wbd-hud)
 - [SecuSuite Design System and UI Guidelines](/design-guidelines)
 - [Onboarding screens](/empty-data)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
