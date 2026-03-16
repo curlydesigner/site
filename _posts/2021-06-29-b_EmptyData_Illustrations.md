@@ -230,7 +230,7 @@ The BlackBerry® Keyboard was available long ago before Android and IOS existed.
 
 View more:
 
-- [WBD 4X Game Design System and Architecture](/wbd-4xhud)
+- [WBD 4X Game Design System and Architecture](/wbd-hud)
 - [SecuSuite Design System and UI Guidelines](/design-guidelines)
 - [BlackBerry Brand Packaging Guidelines](/bb-brand) 
 - [BlackBerry Dark Theme Guidelines and Accessibility](/colour-accessibility) 
