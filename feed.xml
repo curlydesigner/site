@@ -1,0 +1,2185 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-04-14T13:21:58-04:00</updated><id>/feed.xml</id><title type="html">Curly Designer - UX/UI Interactive Designer &amp;amp; Illustrator</title><entry><title type="html">Smart TV · Interaction Systems · Cross-Device UX</title><link href="/smart-tv" rel="alternate" type="text/html" title="Smart TV · Interaction Systems · Cross-Device UX" /><published>2025-12-09T00:00:00-05:00</published><updated>2025-12-09T00:00:00-05:00</updated><id>/p_Smart%20TV%20Samsung</id><content type="html" xml:base="/smart-tv">&lt;style&gt;
+  .flex-container {
+    display: flex;              /* Enables flexbox */
+    justify-content: space-between; /* Positions items on opposite ends */
+    align-items: stretch;       /* Stretches items to fill the container */
+  }
+  .flex-box {
+    width: 50%;                 /* Sets width for each box */
+    background-color: #f7f7f7;
+    border: 0px solid black;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    text-align: center; 
+  }
+&lt;/style&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;smart-tv--re-engaging-the-multitasker&quot;&gt;Smart TV &lt;br /&gt; Re-Engaging the Multitasker&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;interactive-tv-system--visual-first-ux--cross-device-experiences&quot;&gt;Interactive TV System · Visual-First UX · Cross-Device Experiences&lt;/h3&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Role &amp;amp; Scope &lt;/h3&gt;
+    &lt;p&gt;Senior Interaction Designer for a visual-first, system-level re-engagement concept for Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Industry Context&lt;/h3&gt;
+    &lt;p&gt;Multitasking is now the default TV behavior.
+    Over 70% of viewers use a second device while watching TV — creating moments of distraction, but also new opportunities for re-engagement.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Project Overview&lt;/h3&gt;
+    &lt;p&gt;This project explores how Smart TV can design a scalable re-engagement system that:
+     &lt;br /&gt;
+     &lt;ul&gt;
+      &lt;li&gt;Lives natively within the TV UI &lt;/li&gt;
+      &lt;li&gt;Feels supportive, not interruptive&lt;/li&gt;
+      &lt;li&gt;Rewards attention with context, interaction, or optional participation&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/p&gt;  
+
+  &lt;h3&gt;What I Explored -&amp;gt; Design Focus Areas&lt;/h3&gt;  
+  &lt;ul&gt;
+      &lt;li&gt;How people really watch TV today ? &lt;/li&gt;
+      &lt;li&gt;What does the research reveal?&lt;/li&gt;
+      &lt;li&gt;What shapes the design space &amp;amp; guide the experience ?&lt;/li&gt;
+      &lt;li&gt;Where does re-engagement feel most natural?&lt;/li&gt;
+      &lt;li&gt;System Design Experience&lt;/li&gt;
+      &lt;li&gt;What happens after content pauses, ends, or is missed &lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p1.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p2.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p3.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p4.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p5.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p6.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p7-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p8-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p9-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p10-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p11-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p12-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p13-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p14-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p15-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p16-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p17-visual.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt; 
+&lt;img src=&quot;/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p18-summary.png&quot; alt=&quot;smart-tv&quot; title=&quot;smart-tv&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-projects&quot;&gt;Other projects:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/wbd-hud&quot;&gt;WBD 4X Game Design System and Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;SecuSuite Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/empty-data&quot;&gt;Onboarding screens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;BlackBerry Dark Theme Guidelines and Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="blog" /><category term="portfolio" /><category term="portfolio-featured" /><category term="UX/UI Product Design" /><category term="Design System" /><category term="Data Visualization" /><category term="Info Architecture" /><category term="UX Research" /><summary type="html">Smart TV Re-Engaging the Multitasker Interactive TV System · Visual-First UX · Cross-Device Experiences Role &amp;amp; Scope Senior Interaction Designer for a visual-first, system-level re-engagement concept for Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention. Industry Context Multitasking is now the default TV behavior. Over 70% of viewers use a second device while watching TV — creating moments of distraction, but also new opportunities for re-engagement. Project Overview This project explores how Smart TV can design a scalable re-engagement system that: Lives natively within the TV UI Feels supportive, not interruptive Rewards attention with context, interaction, or optional participation What I Explored -&amp;gt; Design Focus Areas How people really watch TV today ? What does the research reveal? What shapes the design space &amp;amp; guide the experience ? Where does re-engagement feel most natural? System Design Experience What happens after content pauses, ends, or is missed Other projects: WBD 4X Game Design System and Architecture SecuSuite Design System and UI Guidelines Onboarding screens BlackBerry Brand Packaging Guidelines BlackBerry Dark Theme Guidelines and Accessibility Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">HUD Navigation Architecture | Design System | Accessibility - for WB Game</title><link href="/wbd-hud" rel="alternate" type="text/html" title="HUD Navigation Architecture | Design System | Accessibility - for WB Game" /><published>2025-12-09T00:00:00-05:00</published><updated>2025-12-09T00:00:00-05:00</updated><id>/p_wbd-4xhud</id><content type="html" xml:base="/wbd-hud">&lt;style&gt;
+  .flex-container {
+    display: flex;              /* Enables flexbox */
+    justify-content: space-between; /* Positions items on opposite ends */
+    align-items: stretch;       /* Stretches items to fill the container */
+  }
+  .flex-box {
+    width: 50%;                 /* Sets width for each box */
+    background-color: #f7f7f7;
+    border: 0px solid black;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    text-align: center; 
+  }
+&lt;/style&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/P_WB-hGOT.png&quot; alt=&quot;ixd user flow&quot; title=&quot;ixd user flow&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-warner-bros-discovery--game-hud-navigation-redesign&quot;&gt;🎮 Warner Bros Discovery &lt;br /&gt; Game HUD Navigation Redesign&lt;/h3&gt;
+
+&lt;p class=&quot;case-subtitle&quot;&gt;
+Systems UX · Strategy · HUD Architecture · Interaction Design
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt; • 
+&lt;a href=&quot;#players-and-research&quot;&gt;Players &amp;amp; Research&lt;/a&gt; • 
+&lt;a href=&quot;#hud-and-information-architecture&quot;&gt;HUD &amp;amp; IA&lt;/a&gt; • 
+&lt;a href=&quot;#ux-challenges&quot;&gt;UX Challenges&lt;/a&gt; • 
+&lt;a href=&quot;#flows-and-prototype&quot;&gt;Flows &amp;amp; Prototype&lt;/a&gt; • 
+&lt;a href=&quot;#design-system&quot;&gt;Design System&lt;/a&gt; • 
+&lt;a href=&quot;#accessibility&quot;&gt;Accessibility&lt;/a&gt; • 
+&lt;a href=&quot;#impact-and-reflection&quot;&gt;Impact &amp;amp; Reflection&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- 4 Cards  --&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;My Role&lt;/h3&gt;
+  Senior UX/UI Product Designer specializing in systems design, complex HUDs, and scalable information architecture. 
+  Defined UX strategy, structure, and interaction patterns for a multi-layer strategy game.
+&lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Industry Experience&lt;/h3&gt;
+  AAA Game UX &amp;amp; Systems Design.
+  &lt;br /&gt;Building high-density interfaces and decision-support tools within the Game of Thrones / House of the Dragon strategy ecosystem.
+&lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Project Overview&lt;/h3&gt;
+  Designed onboarding, navigation and core interaction model for a large-scale mobile, tablet and desktop screens. 
+  Delivered user flows, IA frameworks, wireframes, prototypes, and UX patterns to support fast, strategic player decision-making.
+&lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Research &amp;amp; Insights&lt;/h3&gt;
+  Analyzed interaction patterns, and assessed complexity challenges. 
+  Partnered with Game Design, UI Art, and Production to validate concepts, refine usability, and align the HUD with player needs and gameplay depth.
+ &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;moodboard&quot;&gt;Moodboard&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/MoodBoard.png&quot; alt=&quot;moodboard&quot; title=&quot;moodboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Collaborated with Art to build a mood board that established visual direction through fantasy storytelling, medieval references, and character iconography. Synthesized textures, maps, and motifs into a cohesive system that balances immersion, clarity, and scalable UI patterns.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;who-are-the-players--how-they-behave-where-they-struggle-&quot;&gt;Who are the players? &lt;br /&gt; How They Behave? Where They Struggle ?&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;persona&quot;&gt;Persona&lt;/h4&gt;
+&lt;p&gt;These are examples of  two  different types of players. 
+My challenge as a designer was to balance these very different expectations: making the experience intuitive and inviting for the narrative lover, while still keeping the rich puzzle quest for the strategy expert.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/Persona.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;journey-map&quot;&gt;Journey Map&lt;/h4&gt;
+
+&lt;p&gt;These are User research insights from playtest sessions
+To better understand how players evolve through the game, I mapped their journey using five distinct phases — Explore, Expand, Exploit, Exterminate, and Endgame.
+Each phase reflects a different player mindset, goal, and emotional state.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/Journey.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;when-excitement-meets-a-dead-end&quot;&gt;When Excitement Meets a Dead End&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/journeymapa.png&quot; alt=&quot;moodboard&quot; title=&quot;moodboard&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+
+
+&lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Core UX Challenges&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Dense, multi-layer HUD with no clear prioritization of information.&lt;/li&gt;
+      &lt;li&gt;Navigation patterns lacked consistency across map, missions, and management screens.&lt;/li&gt;
+      &lt;li&gt;Important actions buried in inconsistent interaction patterns.&lt;/li&gt;
+      &lt;li&gt;Players overwhelmed by high-density data and competing priorities.&lt;/li&gt;
+      &lt;li&gt;Friction moving between map states, missions, and resource management.&lt;/li&gt;
+      &lt;li&gt;System did not scale for different player types or skill levels.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Visual &amp;amp; Accessibility Challenges&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Visual clutter obscured key gameplay signals.&lt;/li&gt;
+      &lt;li&gt;Poor contrast reduced readability and slowed decision-making.&lt;/li&gt;
+      &lt;li&gt;Layouts ignored ergonomic reach zones, especially on mobile.&lt;/li&gt;
+      &lt;li&gt;Missing labels reduced learnability and onboarding success.&lt;/li&gt;
+      &lt;li&gt;Color-dependent indicators failed color-blind accessibility.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/LOR2-videopl.gif&quot; alt=&quot;ixd user-test&quot; title=&quot;ixd user-test&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+
+ &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Testing &lt;/h3&gt;
+  The common challenges in such complex games is the need to present a vast amount of information.
+  Making it difficult for players to find the specific data they need getting lost in irrelevant details. 
+ &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Accessability Issues &lt;/h3&gt;
+  As part of the accessibility review, I discovered many issues like touch targets that were too small, buttons placed too close together, or critical actions pushed to screen edges where they were harder to reach. 
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/G_tilemap_dont2.png&quot; alt=&quot;ixd user-test&quot; title=&quot;ixd user-test&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/touch.png&quot; alt=&quot;ixd user-test&quot; title=&quot;ixd user-test&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;scalable-template-that-defined-safe-touch-zones-margins-and-spacing-rules-for-both-thumb-reach-and-visibility&quot;&gt;Scalable template that defined safe touch zones, margins, and spacing rules for both thumb reach and visibility.&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/accessabilty.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;simplified-information-architecture---mapping-systems-into-clear-hud-zones&quot;&gt;Simplified Information Architecture - Mapping systems into clear HUD zones.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/IA.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+&lt;h5 id=&quot;intuitive-ia-for-players&quot;&gt;Intuitive IA for players&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/TileMap_Hud.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;map-info-panel-analysis--common-patterns&quot;&gt;Map Info Panel Analysis &amp;amp; Common Patterns&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/ResearchAna.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;layout-consistency-of-info-panels&quot;&gt;Layout Consistency of Info Panels&lt;/h4&gt;
+&lt;p&gt;Creating Consistent HUD Panel Patterns
+&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/tiletype.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;
+&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/wb-tile-ownership.gif&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/tiles.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+ &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Tile Map Optimization&lt;/h3&gt;
+  I audited all map info panels and standardized layout rules to ensure every panel communicated hierarchy, ownership, and action state in a predictable way.
+ &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;What I improved&lt;/h3&gt;
+  &lt;ul&gt;
+      &lt;li&gt;Established consistent header, stats, and action placement.&lt;/li&gt;
+      &lt;li&gt;Unified iconography and labeling for instant recognition.&lt;/li&gt;
+      &lt;li&gt;Reduced cognitive load by removing duplicated or irrelevant data.&lt;/li&gt;
+      &lt;li&gt;Created a scalable pattern library for new panel types.&lt;/li&gt;
+      &lt;li&gt;Color-blind accessibility considirations.&lt;/li&gt;
+    &lt;/ul&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Clarity, Hierarchy &amp;amp; Readability&lt;/h3&gt;
+  Building on the analysis, I created a unified visual framework for all tile types to improve clarity, accessibility, and instant recognition. However, color alone isn’t always accessible — particularly for players with color vision deficiencies. To support color-blind accessibility, every state also includes unique icons and border shapes. The system scales across both map and detail views to maintain orientation and reduce decision time. 
+ &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Tile Ownership - My City&lt;/h3&gt;
+  Layout for the player’s own city — While most tiles  follow a generic structure - ‘My City’ requires a distinct  pattern
+The idea is the player can see relevant info one at a time 
+. This area serves as the player’s home base — the center of strategic decisions, upgrades, and management actions. 
+ &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/Tileown.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Grayscale Design System &lt;/h3&gt;
+  A small glimpse of the larger design system. Most of the  screens were built in grayscale  to focus purely on structure, clarity, and interaction. As the experience evolved, I started building consistency &amp;amp; reusable components in parallel, so engineers &amp;amp; the team could test &amp;amp; iterate quickly. The system had to be flexible, scalable, and easy to adapt as new ideas emerged.
+&lt;br /&gt;
+A living system that evolved with the product - balancing speed, clarity, and collaboration.
+ &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/designsystem.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Texture &amp;amp; Visual Balance&lt;/h3&gt;
+  As the design system started to take shape and the engineering team began developing the core game architecture, I moved into exploring textures, visual balance, and environmental context. Testing how textures, icons, labels, and transparency interact together without cluttering the screen.
+ &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/texturesd.png&quot; alt=&quot;textures&quot; title=&quot;textures&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Textures with the right visual contrast&lt;/h3&gt;
+  When designing for Map territories, Textures can indeed play a crucial role in accessibility and easy identification, especially when it comes to color blindness. Using textures with the right visual contrast, patterns, or gradients can provide tactile feedback to users with visual impairments. On a map, it can help identify different territories or regions.
+ &lt;/div&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Labels&lt;/h3&gt;
+  Labels improve clarity, reduce errors, and help users understand actions without guessing. They support screen-readers, assist accessibility needs, and ensure icons and controls are immediately understandable. I evaluated where labels were missing or unclear and how that affected player comprehension. I created a consistent labeling system for core actions, icons, and navigation elements to improve learnability, reduce mis-taps, and support accessibility. I learned that incorporating labels is an essential aspect of accessible design, regardless of the user’s abilities or disabilities. Labels contribute to a more inclusive and user-friendly experience, making it easier for everyone to access and engage with digital interfaces and information.
+ &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;summary---my-contribution&quot;&gt;Summary - My Contribution&lt;/h3&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Complexity Challenges Impact&lt;/h3&gt;
+    &lt;p&gt;Tackled the demands of highly dense, multi-layered HUD systems across the game.&lt;/p&gt;
+&lt;br /&gt;
+
+   &lt;ul&gt;
+      &lt;li&gt;Reframed the HUD structure into a clear, layered information hierarchy.&lt;/li&gt;
+      &lt;li&gt;Defined navigation principles that reduced cognitive load across all map states.&lt;/li&gt;
+      &lt;li&gt;Consolidated fragmented workflows into predictable, scalable interaction patterns.&lt;/li&gt;
+      &lt;li&gt;Improving information hierarchy without sacrificing game depth&lt;/li&gt;
+      &lt;li&gt;Translated a high-density system into a more readable, decision-ready interface.&lt;/li&gt;
+      &lt;li&gt;Improved player orientation through consistent surface layouts and UX patterns.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Visual &amp;amp; Accessibility Enhancements&lt;/h3&gt;
+    &lt;p&gt;Assessed where visual noise and unclear hierarchy created unnecessary friction.&lt;/p&gt;
+    &lt;br /&gt; 
+    
+  &lt;ul&gt;
+      &lt;li&gt;Reduced visual noise by introducing a unified spacing, labeling, and grouping system.&lt;/li&gt;
+      &lt;li&gt;Strengthening hierarchy for quicker visual parsing&lt;/li&gt;
+      &lt;li&gt;Improving clarity across icons, labels, and map elements&lt;/li&gt;
+      &lt;li&gt;Reducing visual overload in high-density UI zones&lt;/li&gt;
+      &lt;li&gt;Introducing accessibility-compliant patterns and spacing rules. Defined accessibility-compliant touch zones, margins, and target sizes.&lt;/li&gt;
+      &lt;li&gt;Reduced visual noise by introducing a unified spacing, labeling, and grouping system.&lt;/li&gt;
+      &lt;li&gt;Designed a color-independent system using shapes, icons, and texture cues to meet WCAG-aligned accessibility needs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;business-outcomes--product-performance&quot;&gt;Business Outcomes &amp;amp; Product Performance&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-12-09-p_wbd-4xhud/G-Play.png&quot; alt=&quot;observation&quot; title=&quot;observation&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;My Design Process&lt;/h3&gt;
+    &lt;p&gt;
+      As a systems-focused designer, my role extends beyond screens—I align teams,
+      clarify problem spaces, and make sure every decision ties back to player needs
+      and product goals. I collaborate closely with engineers to validate interactions
+      early and partner with artists to shape a cohesive visual narrative.
+    &lt;/p&gt;
+   &lt;br /&gt;
+   &lt;ul&gt;
+      &lt;li&gt;Drive alignment across design, engineering, and art&lt;/li&gt;
+      &lt;li&gt;Simplify complexity through structure and clear patterns&lt;/li&gt;
+      &lt;li&gt;Craft intuitive flows for a dense strategy ecosystem&lt;/li&gt;
+      &lt;li&gt;Enable faster decision-making through clarity and hierarchy&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;My Reflection&lt;/h3&gt;
+    &lt;p&gt;
+      This work deepened my understanding of designing for scale, accessibility,
+      and diverse player behaviors. I learned how to shape systems that flex for
+      both beginners and experts while preserving clarity in high-density environments.
+    &lt;/p&gt;
+   &lt;br /&gt;
+   &lt;ul&gt;
+      &lt;li&gt;Design must adapt to different cognitive loads and play styles&lt;/li&gt;
+      &lt;li&gt;Clarity and accessibility are strategic advantages, not add-ons&lt;/li&gt;
+      &lt;li&gt;Early collaboration improves both creativity and feasibility&lt;/li&gt;
+      &lt;li&gt;Consistent patterns reduce friction across a complex HUD&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;tools-used&quot;&gt;Tools Used&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Figma&lt;/li&gt;
+  &lt;li&gt;Adobe Illustrator&lt;/li&gt;
+  &lt;li&gt;QuickTime Player&lt;/li&gt;
+  &lt;li&gt;Confluence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-projects&quot;&gt;Other projects:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/smart-tv&quot;&gt;Smart TV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;SecuSuite Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/empty-data&quot;&gt;Onboarding screens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;BlackBerry Dark Theme Guidelines and Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="blog" /><category term="portfolio" /><category term="portfolio-featured" /><category term="UX/UI Product Design" /><category term="Gaming &amp; IxD" /><category term="Design System" /><category term="Data Visualization" /><category term="Info Architecture" /><category term="UX Research" /><summary type="html">🎮 Warner Bros Discovery Game HUD Navigation Redesign Systems UX · Strategy · HUD Architecture · Interaction Design Overview • Players &amp;amp; Research • HUD &amp;amp; IA • UX Challenges • Flows &amp;amp; Prototype • Design System • Accessibility • Impact &amp;amp; Reflection My Role Senior UX/UI Product Designer specializing in systems design, complex HUDs, and scalable information architecture. Defined UX strategy, structure, and interaction patterns for a multi-layer strategy game. Industry Experience AAA Game UX &amp;amp; Systems Design. Building high-density interfaces and decision-support tools within the Game of Thrones / House of the Dragon strategy ecosystem. Project Overview Designed onboarding, navigation and core interaction model for a large-scale mobile, tablet and desktop screens. Delivered user flows, IA frameworks, wireframes, prototypes, and UX patterns to support fast, strategic player decision-making. Research &amp;amp; Insights Analyzed interaction patterns, and assessed complexity challenges. Partnered with Game Design, UI Art, and Production to validate concepts, refine usability, and align the HUD with player needs and gameplay depth. Moodboard Collaborated with Art to build a mood board that established visual direction through fantasy storytelling, medieval references, and character iconography. Synthesized textures, maps, and motifs into a cohesive system that balances immersion, clarity, and scalable UI patterns. Who are the players? How They Behave? Where They Struggle ? Persona These are examples of two different types of players. My challenge as a designer was to balance these very different expectations: making the experience intuitive and inviting for the narrative lover, while still keeping the rich puzzle quest for the strategy expert. Journey Map These are User research insights from playtest sessions To better understand how players evolve through the game, I mapped their journey using five distinct phases — Explore, Expand, Exploit, Exterminate, and Endgame. Each phase reflects a different player mindset, goal, and emotional state. When Excitement Meets a Dead End Core UX Challenges Dense, multi-layer HUD with no clear prioritization of information. Navigation patterns lacked consistency across map, missions, and management screens. Important actions buried in inconsistent interaction patterns. Players overwhelmed by high-density data and competing priorities. Friction moving between map states, missions, and resource management. System did not scale for different player types or skill levels. Visual &amp;amp; Accessibility Challenges Visual clutter obscured key gameplay signals. Poor contrast reduced readability and slowed decision-making. Layouts ignored ergonomic reach zones, especially on mobile. Missing labels reduced learnability and onboarding success. Color-dependent indicators failed color-blind accessibility. Testing The common challenges in such complex games is the need to present a vast amount of information. Making it difficult for players to find the specific data they need getting lost in irrelevant details. Accessability Issues As part of the accessibility review, I discovered many issues like touch targets that were too small, buttons placed too close together, or critical actions pushed to screen edges where they were harder to reach. Scalable template that defined safe touch zones, margins, and spacing rules for both thumb reach and visibility. Simplified Information Architecture - Mapping systems into clear HUD zones. Intuitive IA for players Map Info Panel Analysis &amp;amp; Common Patterns Layout Consistency of Info Panels Creating Consistent HUD Panel Patterns Tile Map Optimization I audited all map info panels and standardized layout rules to ensure every panel communicated hierarchy, ownership, and action state in a predictable way. What I improved Established consistent header, stats, and action placement. Unified iconography and labeling for instant recognition. Reduced cognitive load by removing duplicated or irrelevant data. Created a scalable pattern library for new panel types. Color-blind accessibility considirations. Clarity, Hierarchy &amp;amp; Readability Building on the analysis, I created a unified visual framework for all tile types to improve clarity, accessibility, and instant recognition. However, color alone isn’t always accessible — particularly for players with color vision deficiencies. To support color-blind accessibility, every state also includes unique icons and border shapes. The system scales across both map and detail views to maintain orientation and reduce decision time. Tile Ownership - My City Layout for the player’s own city — While most tiles follow a generic structure - ‘My City’ requires a distinct pattern The idea is the player can see relevant info one at a time . This area serves as the player’s home base — the center of strategic decisions, upgrades, and management actions. Grayscale Design System A small glimpse of the larger design system. Most of the screens were built in grayscale to focus purely on structure, clarity, and interaction. As the experience evolved, I started building consistency &amp;amp; reusable components in parallel, so engineers &amp;amp; the team could test &amp;amp; iterate quickly. The system had to be flexible, scalable, and easy to adapt as new ideas emerged. A living system that evolved with the product - balancing speed, clarity, and collaboration. Texture &amp;amp; Visual Balance As the design system started to take shape and the engineering team began developing the core game architecture, I moved into exploring textures, visual balance, and environmental context. Testing how textures, icons, labels, and transparency interact together without cluttering the screen. Textures with the right visual contrast When designing for Map territories, Textures can indeed play a crucial role in accessibility and easy identification, especially when it comes to color blindness. Using textures with the right visual contrast, patterns, or gradients can provide tactile feedback to users with visual impairments. On a map, it can help identify different territories or regions. Labels Labels improve clarity, reduce errors, and help users understand actions without guessing. They support screen-readers, assist accessibility needs, and ensure icons and controls are immediately understandable. I evaluated where labels were missing or unclear and how that affected player comprehension. I created a consistent labeling system for core actions, icons, and navigation elements to improve learnability, reduce mis-taps, and support accessibility. I learned that incorporating labels is an essential aspect of accessible design, regardless of the user’s abilities or disabilities. Labels contribute to a more inclusive and user-friendly experience, making it easier for everyone to access and engage with digital interfaces and information. Summary - My Contribution Complexity Challenges Impact Tackled the demands of highly dense, multi-layered HUD systems across the game. Reframed the HUD structure into a clear, layered information hierarchy. Defined navigation principles that reduced cognitive load across all map states. Consolidated fragmented workflows into predictable, scalable interaction patterns. Improving information hierarchy without sacrificing game depth Translated a high-density system into a more readable, decision-ready interface. Improved player orientation through consistent surface layouts and UX patterns. Visual &amp;amp; Accessibility Enhancements Assessed where visual noise and unclear hierarchy created unnecessary friction. Reduced visual noise by introducing a unified spacing, labeling, and grouping system. Strengthening hierarchy for quicker visual parsing Improving clarity across icons, labels, and map elements Reducing visual overload in high-density UI zones Introducing accessibility-compliant patterns and spacing rules. Defined accessibility-compliant touch zones, margins, and target sizes. Reduced visual noise by introducing a unified spacing, labeling, and grouping system. Designed a color-independent system using shapes, icons, and texture cues to meet WCAG-aligned accessibility needs. Business Outcomes &amp;amp; Product Performance My Design Process As a systems-focused designer, my role extends beyond screens—I align teams, clarify problem spaces, and make sure every decision ties back to player needs and product goals. I collaborate closely with engineers to validate interactions early and partner with artists to shape a cohesive visual narrative. Drive alignment across design, engineering, and art Simplify complexity through structure and clear patterns Craft intuitive flows for a dense strategy ecosystem Enable faster decision-making through clarity and hierarchy My Reflection This work deepened my understanding of designing for scale, accessibility, and diverse player behaviors. I learned how to shape systems that flex for both beginners and experts while preserving clarity in high-density environments. Design must adapt to different cognitive loads and play styles Clarity and accessibility are strategic advantages, not add-ons Early collaboration improves both creativity and feasibility Consistent patterns reduce friction across a complex HUD Tools Used Figma Adobe Illustrator QuickTime Player Confluence Other projects: Smart TV SecuSuite Design System and UI Guidelines Onboarding screens BlackBerry Brand Packaging Guidelines BlackBerry Dark Theme Guidelines and Accessibility Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">Dark vs Lights Design System BlackBerry</title><link href="/colour-accessibility" rel="alternate" type="text/html" title="Dark vs Lights Design System BlackBerry" /><published>2022-07-24T00:00:00-04:00</published><updated>2022-07-24T00:00:00-04:00</updated><id>/b_BB-DesignSystem_Color_Accss</id><content type="html" xml:base="/colour-accessibility">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;color-and-accessibility&quot;&gt;Color and Accessibility&lt;/h1&gt;
+&lt;h3 id=&quot;dark--light-themes-for-blackberry-hub&quot;&gt;Dark &amp;amp; Light Themes for BlackBerry HUB+&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;overview--learnings--challenges--accessibility--design-system&quot;&gt;&lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt; | &lt;a href=&quot;#learnings&quot;&gt;Learnings&lt;/a&gt; | &lt;a href=&quot;#dark-theme-challenges&quot;&gt;Challenges&lt;/a&gt; | &lt;a href=&quot;#accessibilty&quot;&gt;Accessibility&lt;/a&gt; | &lt;a href=&quot;#design-system-breakdown&quot;&gt;Design System&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Light-mode-vs-dark-mode.png&quot; alt=&quot;dark-vs-light&quot; title=&quot;dark-vs-light&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;style&gt;
+  .flex-container {
+    display: flex;              /* Enables flexbox */
+    justify-content: space-between; /* Positions items on opposite ends */
+    align-items: stretch;       /* Stretches items to fill the container */
+  }
+  .flex-box {
+    width: 50%;                 /* Sets width for each box */
+    background-color: #f7f7f7;
+    border: 0px solid black;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    text-align: center; 
+  }
+&lt;/style&gt;
+
+&lt;!-- 4 Cards  --&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;My Role&lt;/h3&gt;
+  Senior UX/UI Product Designer at BlackBerry Security, leading system design and scalable IA for secure HUB+ apps across mobile, tablet, and desktop. 
+&lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+  &lt;h3&gt;Research &amp;amp; Analysis&lt;/h3&gt;
+  Evaluated interaction patterns, usability friction, and accessibility differences between dark and light modes to inform design decisions.
+&lt;/div&gt;
+
+  
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;System Design / Project Overview&lt;/h3&gt;
+    Created a unified dark and light theme system for BlackBerry HUB+, improving readability, accessibility, and cross-platform consistency.
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Accessibility &amp;amp; Visual Challenges&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Color and contrast inconsistencies reduced readability across themes&lt;/li&gt;
+      &lt;li&gt;Dense layouts and limited spacing increased cognitive load in dark mode&lt;/li&gt;
+      &lt;li&gt;Mobile layouts ignored ergonomic reach and scanning patterns&lt;/li&gt;
+      &lt;li&gt;Creating meaningful white space in dark mode without relying on brightness&lt;/li&gt;
+      &lt;li&gt;Color-dependent indicators failed accessibility requirements&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;dark-mode-design-for-blackberry-hub---including-secure-inbox-app-calendar-contacts-notes-tasks-passwords-keeper-power-battery-center-and-other-security-focused-apps&quot;&gt;Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps.&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_accounts_allapps.jpg&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;illustrations-for-light-thene---blackberry-hub-services&quot;&gt;Illustrations for Light Thene - BlackBerry Hub+ Services&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Design Impact &amp;amp; Insights&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Established theme-aware contrast and color rules that improved readability across dark and light modes. &lt;/li&gt;
+      &lt;li&gt;Replaced traditional white space with spacing, elevation, and surface contrast in dark interfaces. &lt;/li&gt;
+      &lt;li&gt;Preserved semantic meaning and hierarchy across themes to support fast scanning and decision-making. &lt;/li&gt;
+      &lt;li&gt;Designed for extended, real-world usage across varied lighting conditions and devices&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_170801444.jpeg&quot; alt=&quot;code&quot; title=&quot;code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dark-mode_challenges20215.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Creating an inclusive experience with careful consideration of color exploration and an understanding of various design principles that prioritize accessibility and diminish the reliance on color as the sole conveyor of critical information.&lt;/p&gt;
+
+&lt;div class=&quot;info-cards&quot;&gt;  
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Design Principles Validation&lt;/h3&gt;
+  
+  &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Visual Hierarchy in Dark Mode&lt;/b&gt; defined using surface contrast and tonal layers rather than shadows&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;High-contrast text and icons&lt;/b&gt; established to support readability across lighting conditions &lt;/li&gt;
+      &lt;li&gt;Mobile layouts ignored ergonomic reach and scanning patterns&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Avoiding relying solely on Color&lt;/b&gt;Color-independent UI states designed using labels, icons, and structural cues&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Accessibility validation&lt;/b&gt; through WCAG contrast and internal usability testing &lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Testing with users&lt;/b&gt; Conducting usability testing to get valuable insights into the user experience that can help identify areas that may need improvement. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;h3&gt;Design &amp;amp; System Constraints&lt;/h3&gt;
+     &lt;ul&gt;
+      &lt;li&gt;&lt;b&gt;Design System&lt;/b&gt;Built a theme system that supports dark and light modes without relying on color inversions&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Hierarchy&lt;/b&gt; Defined scalable contrast, spacing, and hierarchy rules to replace traditional white space in dark UI &lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Branding&lt;/b&gt;Established theme-aware color semantics to preserve brand meaning across modes&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Accessibility for low-light use&lt;/b&gt; Balanced accessibility requirements with visual comfort for extended, c&lt;/li&gt;
+      &lt;li&gt;&lt;b&gt;Consistency&lt;/b&gt; Enabled consistent theming across multiple productivity apps and device sizes &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;accessibility-and-colour-exploration&quot;&gt;Accessibility and Colour Exploration&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/AdobeStock_darkTheme_mocks.png&quot; alt=&quot;dark theme guidlines&quot; title=&quot;dark theme guidlines&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;dark-theme-testing-colour-variations&quot;&gt;Dark Theme testing colour variations&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt-3.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-exploration1.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;dark-theme-top-bar-color-explorations&quot;&gt;Dark Theme Top Bar Color Explorations&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-explore2.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;dark-theme-action-bar-color-explorations&quot;&gt;Dark Theme Action Bar Color Explorations&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-dt-coloe-exp1.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;dark-theme-action-bar-color-explorations-1&quot;&gt;Dark Theme Action Bar Color Explorations&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;design-system-breakdown&quot;&gt;Design System Breakdown&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;color-spec&quot;&gt;Color Spec&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/BB-darkth-color.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt4.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;ui-spec&quot;&gt;UI Spec&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard5.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;layout-general-template&quot;&gt;Layout General Template&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/artboard15.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/artboard14.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard7.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard8.png&quot; alt=&quot;Dark Mode Code&quot; title=&quot;Dark Mode Code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard10.png&quot; alt=&quot;Dark Mode Code&quot; title=&quot;Dark Mode Code&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt9.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Artboard9.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt8.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/dt-2.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;illustrations&quot;&gt;Illustrations&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;illustrated-background-adjusted-for-dark-and-light-background&quot;&gt;Illustrated background adjusted for Dark and Light background.&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_accounts_allapps.jpg&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_mock.jpg&quot; alt=&quot;Dark Theme UI&quot; title=&quot;Dark Theme Guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/empty-data&quot;&gt;Explore here&lt;/a&gt; more Illusrrtations &amp;amp; Onboarding screens&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&quot;light-vs-dark-example&quot;&gt;Light vs Dark Example&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-lt-contacts.png&quot; alt=&quot;Light Mode UI&quot; title=&quot;Light Mode UI&quot; /&gt;
+&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/bb-dt-contacts.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/allapss_darkmode_mock.png&quot; alt=&quot;Dark Mode UI&quot; title=&quot;Dark Mode UI&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;dark-mode-design-for-blackberry-hub---including-secure-inbox-app-calendar-contacts-notes-tasks-passwords-keeper-power-battery-center-and-other-security-focused-apps-1&quot;&gt;Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps.&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Designing accessible products requires balancing brand expression, usability, and real-world constraints across diverse users and environments. While leading the Dark Theme Guidelines for BlackBerry products, I researched industry standards and accessibility requirements to address challenges unique to dark and light interfaces—particularly around contrast, color perception, and long-duration use.&lt;/p&gt;
+
+&lt;p&gt;Rather than treating dark mode as a visual preference, this work focused on building a flexible, standards-compliant theming system that supports both dark and light modes, allowing users to choose what works best for them. The outcome was a more inclusive, scalable design approach that improved accessibility, preserved brand integrity, and reinforced user trust across BlackBerry’s productivity ecosystem.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;More Works:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/smart-tv&quot;&gt;Smart TV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/wbd-hud&quot;&gt;WBD 4X Game Design System and Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;SecuSuite Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/empty-data&quot;&gt;BlackBerry Onboarding screens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="blog" /><category term="portfolio" /><category term="portfolio-featured" /><category term="UX/UI Product Design" /><category term="Gaming &amp; IxD" /><category term="Illustrations" /><category term="Design System" /><category term="Data Visualization" /><category term="UX Research" /><summary type="html">Color and Accessibility Dark &amp;amp; Light Themes for BlackBerry HUB+ Overview | Learnings | Challenges | Accessibility | Design System My Role Senior UX/UI Product Designer at BlackBerry Security, leading system design and scalable IA for secure HUB+ apps across mobile, tablet, and desktop. Research &amp;amp; Analysis Evaluated interaction patterns, usability friction, and accessibility differences between dark and light modes to inform design decisions. System Design / Project Overview Created a unified dark and light theme system for BlackBerry HUB+, improving readability, accessibility, and cross-platform consistency. Accessibility &amp;amp; Visual Challenges Color and contrast inconsistencies reduced readability across themes Dense layouts and limited spacing increased cognitive load in dark mode Mobile layouts ignored ergonomic reach and scanning patterns Creating meaningful white space in dark mode without relying on brightness Color-dependent indicators failed accessibility requirements Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps. Illustrations for Light Thene - BlackBerry Hub+ Services Design Impact &amp;amp; Insights Established theme-aware contrast and color rules that improved readability across dark and light modes. Replaced traditional white space with spacing, elevation, and surface contrast in dark interfaces. Preserved semantic meaning and hierarchy across themes to support fast scanning and decision-making. Designed for extended, real-world usage across varied lighting conditions and devices Creating an inclusive experience with careful consideration of color exploration and an understanding of various design principles that prioritize accessibility and diminish the reliance on color as the sole conveyor of critical information. Design Principles Validation Visual Hierarchy in Dark Mode defined using surface contrast and tonal layers rather than shadows High-contrast text and icons established to support readability across lighting conditions Mobile layouts ignored ergonomic reach and scanning patterns Avoiding relying solely on ColorColor-independent UI states designed using labels, icons, and structural cues Accessibility validation through WCAG contrast and internal usability testing Testing with users Conducting usability testing to get valuable insights into the user experience that can help identify areas that may need improvement. Design &amp;amp; System Constraints Design SystemBuilt a theme system that supports dark and light modes without relying on color inversions Hierarchy Defined scalable contrast, spacing, and hierarchy rules to replace traditional white space in dark UI BrandingEstablished theme-aware color semantics to preserve brand meaning across modes Accessibility for low-light use Balanced accessibility requirements with visual comfort for extended, c Consistency Enabled consistent theming across multiple productivity apps and device sizes Accessibility and Colour Exploration Dark Theme testing colour variations Dark Theme Top Bar Color Explorations Dark Theme Action Bar Color Explorations Dark Theme Action Bar Color Explorations Design System Breakdown Color Spec UI Spec Layout General Template Illustrations Illustrated background adjusted for Dark and Light background. Explore here more Illusrrtations &amp;amp; Onboarding screens Light vs Dark Example Dark Mode Design for BlackBerry HUB+ - Including Secure Inbox App, Calendar, Contacts, Notes, Tasks, Passwords Keeper, Power Battery Center and other security-focused apps. Summary Designing accessible products requires balancing brand expression, usability, and real-world constraints across diverse users and environments. While leading the Dark Theme Guidelines for BlackBerry products, I researched industry standards and accessibility requirements to address challenges unique to dark and light interfaces—particularly around contrast, color perception, and long-duration use. Rather than treating dark mode as a visual preference, this work focused on building a flexible, standards-compliant theming system that supports both dark and light modes, allowing users to choose what works best for them. The outcome was a more inclusive, scalable design approach that improved accessibility, preserved brand integrity, and reinforced user trust across BlackBerry’s productivity ecosystem. More Works: Smart TV WBD 4X Game Design System and Architecture SecuSuite Design System and UI Guidelines BlackBerry Onboarding screens BlackBerry Brand Packaging Guidelines Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">BlackBerry SecuSuite - Secure Communication</title><link href="/secusuite" rel="alternate" type="text/html" title="BlackBerry SecuSuite - Secure Communication" /><published>2021-07-30T00:00:00-04:00</published><updated>2021-07-30T00:00:00-04:00</updated><id>/p_BlackBerry-SecuS</id><content type="html" xml:base="/secusuite">&lt;style&gt;
+  .flex-container {
+    display: flex;              /* Enables flexbox */
+    justify-content: space-between; /* Positions items on opposite ends */
+    align-items: stretch;       /* Stretches items to fill the container */
+  }
+  .flex-box {
+    width: 50%;                 /* Sets width for each box */
+    background-color: #f7f7f7;
+    border: 0px solid black;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    text-align: center; 
+  }
+&lt;/style&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/P_BB-secusuit_Illust.png&quot; alt=&quot;screenshot&quot; title=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;overview--researchd--moodboard--testing-androidios--ux-goals--ux-requirements--info-architecture---wireframes--mobile--desktop&quot;&gt;&lt;a href=&quot;#UX GOALS&quot;&gt;OVERVIEW&lt;/a&gt; | &lt;a href=&quot;#Research&quot;&gt;RESEARCHD&lt;/a&gt; | &lt;a href=&quot;#ux-goals-and-challenges&quot;&gt;MOODBOARD&lt;/a&gt; | &lt;a href=&quot;#user-flow&quot;&gt;TESTING ANDROID/IOS&lt;/a&gt; | &lt;a href=&quot;#wireframes--prototype&quot;&gt;UX GOALS&lt;/a&gt; | &lt;a href=&quot;#figma---components-and-design-system&quot;&gt;UX REQUIREMENTS&lt;/a&gt; | &lt;a href=&quot;#accessibility&quot;&gt;INFO-ARCHITECTURE&lt;/a&gt;  | [WIREFRAMES] | [MOBILE] | [DESKTOP]&lt;/h5&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/ss-bb-logos.png&quot; alt=&quot;screenshot&quot; title=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;flex-container&quot;&gt;
+  &lt;div class=&quot;flex-box&quot;&gt;
+
+    &lt;h4 id=&quot;my-role&quot;&gt;My Role&lt;/h4&gt;
+
+    &lt;p&gt;Senior UX UI Designer - BlackBerry.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+   &lt;div class=&quot;flex-box&quot;&gt;
+
+    &lt;h4 id=&quot;industry&quot;&gt;Industry&lt;/h4&gt;
+
+    &lt;p&gt;SecuSUITE&lt;/p&gt;
+
+    &lt;p&gt;Secure Messaging &amp;amp; Phone Calls app&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h4 id=&quot;overview&quot;&gt;Overview:&lt;/h4&gt;
+
+    &lt;p&gt;SecuSUITE is part of BlackBerry Security; it’s a high-security Voice and Messaging app for iOS and Android. Available for government and Enterprise use. I was involved from start to finish, from redesigning a logo aligned with the Blackberry brand to enhancing the info-architecture based on research insights. Creating wireframes tailored to various platforms&lt;/p&gt;
+
+    &lt;p&gt;And expanding the &lt;a href=&quot;/colour-accessibility&quot;&gt;Design System&lt;/a&gt; I had created to ensure a unified brand experience across all products.&lt;/p&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h4 id=&quot;research--testing--competitive-analysis-and-brainstorming&quot;&gt;Research | Testing | Competitive Analysis and Brainstorming&lt;/h4&gt;
+
+    &lt;p&gt;I gathered feedback to pinpoint the target audience’s needs and collaborated with my team to brainstorm solutions. I tested the app, focusing on user interactions, usability, errors, and visual clarity through heuristic evaluation. My role involved analyzing performance, identifying improvement areas, and proposing actionable recommendations. I explored various communication and messaging apps to understand their features, interactions, UI, and visual design elements, aiming to enhance our app’s user experience.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/SS-SS-PersonaCard.png&quot; alt=&quot;moodboard&quot; title=&quot;moodboard&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;persona&quot;&gt;Persona&lt;/h6&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/logosWCAG.png&quot; alt=&quot;logos&quot; title=&quot;logos&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;dark-and-light-themes-brand-guidelines-for-blackberry-secusuite&quot;&gt;Dark and light themes Brand Guidelines for BlackBerry SecuSuite&lt;/h6&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-product.png&quot; alt=&quot;uxgoals&quot; title=&quot;uxgoals&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/uxgoals-business.png&quot; alt=&quot;business&quot; title=&quot;business&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-requirment.png&quot; alt=&quot;req&quot; title=&quot;req&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/1-SecuSuite-Review.png&quot; alt=&quot;improvements&quot; title=&quot;improvements&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-Mobile-contacts.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-screens.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/2-SecuSuite-Mobile-spec.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;replying-to-single-message&quot;&gt;Replying to Single Message&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-reply-singleAndroid.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;replying-to-group-message&quot;&gt;Replying to Group Message&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-reply-group.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;replying-to-a-message-that-was-deleted&quot;&gt;Replying to a message that was deleted&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-reply-messageDeleted-Android.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/3-SecuSuite-Desktop.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;website&quot;&gt;Website&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot-website.png&quot; alt=&quot;screenshot&quot; title=&quot;screenshot&quot; /&gt;
+&lt;img src=&quot;assets/posts/2021-06-31-p_bb-SecuSuite/ScreenShot2021.png&quot; alt=&quot;wireframe&quot; title=&quot;wireframe&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;secugate-architecture&quot;&gt;SecuGATE Architecture&lt;/h4&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  Password protected 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;other-prodcut-features-and-design&quot;&gt;Other Prodcut Features and Design&lt;/h4&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  Password protected 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;tools-used&quot;&gt;Tools Used&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adobe XD&lt;/li&gt;
+  &lt;li&gt;Adobe Photoshop&lt;/li&gt;
+  &lt;li&gt;Adobe Illustrator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-projects-i-was-leading-for-blackberry-products&quot;&gt;Other projects I was leading for BlackBerry Products:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/smart-tv&quot;&gt;Smart TV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/wbd-hud&quot;&gt;WBD 4X Game Design System and Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;Web Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/empty-data&quot;&gt;Onboarding screens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;BlackBerry Dark Theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="portfolio" /><category term="portfolio-featured" /><category term="UX/UI Product Design" /><category term="Design System" /><category term="Info Architecture" /><category term="UX Research" /><summary type="html">OVERVIEW | RESEARCHD | MOODBOARD | TESTING ANDROID/IOS | UX GOALS | UX REQUIREMENTS | INFO-ARCHITECTURE | [WIREFRAMES] | [MOBILE] | [DESKTOP] My Role Senior UX UI Designer - BlackBerry. Industry SecuSUITE Secure Messaging &amp;amp; Phone Calls app Overview: SecuSUITE is part of BlackBerry Security; it’s a high-security Voice and Messaging app for iOS and Android. Available for government and Enterprise use. I was involved from start to finish, from redesigning a logo aligned with the Blackberry brand to enhancing the info-architecture based on research insights. Creating wireframes tailored to various platforms And expanding the Design System I had created to ensure a unified brand experience across all products. Research | Testing | Competitive Analysis and Brainstorming I gathered feedback to pinpoint the target audience’s needs and collaborated with my team to brainstorm solutions. I tested the app, focusing on user interactions, usability, errors, and visual clarity through heuristic evaluation. My role involved analyzing performance, identifying improvement areas, and proposing actionable recommendations. I explored various communication and messaging apps to understand their features, interactions, UI, and visual design elements, aiming to enhance our app’s user experience. Persona Dark and light themes Brand Guidelines for BlackBerry SecuSuite Replying to Single Message Replying to Group Message Replying to a message that was deleted Website SecuGATE Architecture Password protected Other Prodcut Features and Design Password protected Tools Used Adobe XD Adobe Photoshop Adobe Illustrator Other projects I was leading for BlackBerry Products: Smart TV WBD 4X Game Design System and Architecture Web Design System and UI Guidelines Onboarding screens BlackBerry Brand Packaging Guidelines BlackBerry Dark Theme Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">Design for Brand Marketing</title><link href="/bb-brand" rel="alternate" type="text/html" title="Design for Brand Marketing" /><published>2021-06-30T00:00:00-04:00</published><updated>2021-06-30T00:00:00-04:00</updated><id>/p_BlackBerry_BrandMarketing</id><content type="html" xml:base="/bb-brand">&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/Box_Packaging_Mockup.png&quot; alt=&quot;packaging guidlines&quot; title=&quot;packaging guidlines&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;brand-packaging-guidlines&quot;&gt;Brand packaging guidlines&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;packaging-identity--industry-standards&quot;&gt;PACKAGING IDENTITY &amp;amp; INDUSTRY STANDARDS&lt;/h5&gt;
+&lt;p&gt;&lt;br /&gt;
+While working in BlackBerry, I had the opportunity to work across different channels in the company, both on the UX side and the Brand side. I was involved in working on Brand identity, layout and industry Standards. One of the examples is the Packaging Design Guidelines I was designing for partners and suppliers.&lt;/p&gt;
+
+&lt;p&gt;BlackBerry logo Format consists of two elements with a unique piece of artwork. I was considering color pallete for both light and dark backgrounds, specifying the proportion and arrangement of the EMBLEM design and the Word Mark specification determined. Considering all the aspects that can impact the Brand power. Elements like; logo size, colors, minimum size and critical spacing for Trademark and Copymark. Industry certifications trademark rights and Copyrights. Leaving placeholders for Logo and partners’ product name, header, size, and format description.   &lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;packaging-layout&quot;&gt;PACKAGING LAYOUT&lt;/h5&gt;
+&lt;p&gt;&lt;br /&gt;
+Partners can have different needs and requirements and might use a diverse range of packaging types and sizes. 
+I needed to solve a problem creating design guidelines for multiple options and layouts that partners can use for any packaging size. 
+I was creating a simple layout with all the elements and examples 
+that demonstrate visual scalability and placement.
+In the Design guidelines booklet, I was considering on both the fixed elements, Brand consistency and Typography. Together with what and how can be used, on the flexible areas, and how elements can be placed on the top, bottom and sides of the packaging.  With demonstrating examples for placement of Barcode and package LOGO.
+Separately, I focused on examples for front packaging design that demonstrates visual scalability and placements. Sizing and ratio for fixed elements like the Logo format, product name, header text and Image placement. Presenting examples for both dark and light backgrounds.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/BlackBerry_BrandPackaging1.png&quot; alt=&quot;packaging guidlines&quot; title=&quot;packaging guidlines&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/BlackBerry_BrandPackaging3B.png&quot; alt=&quot;packaging guidlines&quot; title=&quot;packaging guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/bb_pack_mock_dark.png&quot; alt=&quot;packaging guidlines&quot; title=&quot;packaging guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/bb_pack_mock_light.png&quot; alt=&quot;packaging guidlines&quot; title=&quot;packaging guidlines&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Other examples include Posters and Wallpaper designed for Office use and Marketing purposes.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/OfficePoster.jpg&quot; alt=&quot;poster&quot; title=&quot;poster&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-01-p_BlackBerry_BrandMarketing/OfficeWallpaper.jpg&quot; alt=&quot;wallpaper&quot; title=&quot;wallpaper&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;View some of the other Design Guidlines I was leadign for&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/smart-tv&quot;&gt;Smart TV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/wbd-hud&quot;&gt;WBD 4X Game Design System and Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;SecuSuite Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/empty-data&quot;&gt;BlackBerry Onboarding screens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;BlackBerry Dark Theme Guidelines and Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="portfolio" /><category term="portfolio-featured" /><category term="Brand Marketing" /><category term="Illustrations" /><category term="Design System" /><summary type="html">Brand packaging guidlines PACKAGING IDENTITY &amp;amp; INDUSTRY STANDARDS While working in BlackBerry, I had the opportunity to work across different channels in the company, both on the UX side and the Brand side. I was involved in working on Brand identity, layout and industry Standards. One of the examples is the Packaging Design Guidelines I was designing for partners and suppliers. BlackBerry logo Format consists of two elements with a unique piece of artwork. I was considering color pallete for both light and dark backgrounds, specifying the proportion and arrangement of the EMBLEM design and the Word Mark specification determined. Considering all the aspects that can impact the Brand power. Elements like; logo size, colors, minimum size and critical spacing for Trademark and Copymark. Industry certifications trademark rights and Copyrights. Leaving placeholders for Logo and partners’ product name, header, size, and format description. PACKAGING LAYOUT Partners can have different needs and requirements and might use a diverse range of packaging types and sizes. I needed to solve a problem creating design guidelines for multiple options and layouts that partners can use for any packaging size. I was creating a simple layout with all the elements and examples that demonstrate visual scalability and placement. In the Design guidelines booklet, I was considering on both the fixed elements, Brand consistency and Typography. Together with what and how can be used, on the flexible areas, and how elements can be placed on the top, bottom and sides of the packaging. With demonstrating examples for placement of Barcode and package LOGO. Separately, I focused on examples for front packaging design that demonstrates visual scalability and placements. Sizing and ratio for fixed elements like the Logo format, product name, header text and Image placement. Presenting examples for both dark and light backgrounds. Other examples include Posters and Wallpaper designed for Office use and Marketing purposes. View some of the other Design Guidlines I was leadign for Smart TV WBD 4X Game Design System and Architecture SecuSuite Design System and UI Guidelines BlackBerry Onboarding screens BlackBerry Brand Packaging Guidelines BlackBerry Dark Theme Guidelines and Accessibility Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">Web UI Design System</title><link href="/design-guidelines" rel="alternate" type="text/html" title="Web UI Design System" /><published>2021-06-29T00:00:00-04:00</published><updated>2021-06-29T00:00:00-04:00</updated><id>/p_bsims_web_guidelines</id><content type="html" xml:base="/design-guidelines">&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-29-p_bsims_web_guideline/fp_ph_bberry_bsimsportal.png&quot; alt=&quot;mockup&quot; title=&quot;mockup&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;design-system-and-ui-guidelines-for-blackberry-security-web-portal&quot;&gt;Design System and UI Guidelines for BlackBerry Security Web Portal.&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h3 id=&quot;my-role&quot;&gt;My Role&lt;/h3&gt;
+
+    &lt;p&gt;Web UI Design for a BlackBerry Security Portal&lt;/p&gt;
+
+    &lt;p&gt;Tools:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Adobe XD / Figma&lt;/li&gt;
+      &lt;li&gt;Adobe Illustrator&lt;/li&gt;
+      &lt;li&gt;Adobe photoshop&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h3 id=&quot;industry&quot;&gt;Industry&lt;/h3&gt;
+
+    &lt;p&gt;Cyber Security Portal, primarily serving Government and Enterprise clients.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h3 id=&quot;challenges&quot;&gt;Challenges&lt;/h3&gt;
+
+    &lt;p&gt;I navigated numerous usability challenges in an environment where security is paramount and great focus and attention to detail are required. With a strong emphasis on simplifying complexity and designing a more intuitive navigation &amp;amp; user-friendly experience.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Declutter the interface and information density without losing essential features.&lt;/li&gt;
+      &lt;li&gt;Create a visual hierarchy, better focus, and easy navigation that simplifies the dozens of menu items but keeps functionality and performance.&lt;/li&gt;
+      &lt;li&gt;Consistency in Branding &amp;amp; company’s values.&lt;/li&gt;
+      &lt;li&gt;Clear Error and Communication Messages.&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h3 id=&quot;approach&quot;&gt;Approach&lt;/h3&gt;
+
+    &lt;p&gt;While I was the lead UX UI Designer on the portal - I worked closely with a Developer and Product owner to optimize the creation of the Design System for best performance.
+ My approach involved creating info architecture, wireframe and iconography.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Implementing a minimalist design, balancing the use of colors with personalized iconiconography for each menu item so it is easily identifiable. Establishing a clear visual hierarchy to guide users naturally towards the most important elements and actions, while ensuring that all necessary information and functions are accessible.&lt;/li&gt;
+      &lt;li&gt;Effective Navigation - ensuring the left-hand navigation panel allows users to see the full content and actions and organizing the menu items in a way that is intuitive and user-friendly.&lt;/li&gt;
+      &lt;li&gt;Integrating BlackBerry’s brand values and color palette to resonate with the brand’s identity and ethos.&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-29-p_bsims_web_guideline/webbsims_guidlines.png&quot; alt=&quot;Login&quot; title=&quot;Login&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-29-p_bsims_web_guideline/Desktop2_bsimsscreen.jpg&quot; alt=&quot;Icons&quot; title=&quot;icons&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-29-p_bsims_web_guideline/bsims-sideweb.png&quot; alt=&quot;mockup&quot; title=&quot;mockup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-29-p_bsims_web_guideline/bsims-menu.png&quot; alt=&quot;mockup&quot; title=&quot;mockup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-29-p_bsims_web_guideline/bsims-allicons.png&quot; alt=&quot;mockup&quot; title=&quot;mockup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06-29-p_bsims_web_guideline/Mock-place-website-laptop_1a.png&quot; alt=&quot;Icons&quot; title=&quot;icons&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;View more&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/smart-tv&quot;&gt;Smart TV&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/wbd-hud&quot;&gt;WBD 4X Game Design System and Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;SecuSuite Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/empty-data&quot;&gt;BlackBerry Onboarding screens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;BlackBerry Dark Theme Guidelines and Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="portfolio" /><category term="portfolio-featured" /><category term="UX/UI Product Design" /><category term="Design System" /><category term="Illustrations" /><category term="Data Visualization" /><category term="Info Architecture" /><summary type="html">Design System and UI Guidelines for BlackBerry Security Web Portal. My Role Web UI Design for a BlackBerry Security Portal Tools: Adobe XD / Figma Adobe Illustrator Adobe photoshop Industry Cyber Security Portal, primarily serving Government and Enterprise clients. Challenges I navigated numerous usability challenges in an environment where security is paramount and great focus and attention to detail are required. With a strong emphasis on simplifying complexity and designing a more intuitive navigation &amp;amp; user-friendly experience. Declutter the interface and information density without losing essential features. Create a visual hierarchy, better focus, and easy navigation that simplifies the dozens of menu items but keeps functionality and performance. Consistency in Branding &amp;amp; company’s values. Clear Error and Communication Messages. Approach While I was the lead UX UI Designer on the portal - I worked closely with a Developer and Product owner to optimize the creation of the Design System for best performance. My approach involved creating info architecture, wireframe and iconography. Implementing a minimalist design, balancing the use of colors with personalized iconiconography for each menu item so it is easily identifiable. Establishing a clear visual hierarchy to guide users naturally towards the most important elements and actions, while ensuring that all necessary information and functions are accessible. Effective Navigation - ensuring the left-hand navigation panel allows users to see the full content and actions and organizing the menu items in a way that is intuitive and user-friendly. Integrating BlackBerry’s brand values and color palette to resonate with the brand’s identity and ethos. View more Smart TV WBD 4X Game Design System and Architecture SecuSuite Design System and UI Guidelines BlackBerry Onboarding screens BlackBerry Brand Packaging Guidelines BlackBerry Dark Theme Guidelines and Accessibility Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">Data Illustrations</title><link href="/empty-data" rel="alternate" type="text/html" title="Data Illustrations" /><published>2021-06-29T00:00:00-04:00</published><updated>2021-06-29T00:00:00-04:00</updated><id>/b_EmptyData_Illustrations</id><content type="html" xml:base="/empty-data">&lt;h3 id=&quot;onboarding-screens-and-empty-data-illustrations&quot;&gt;Onboarding Screens and Empty Data Illustrations&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;overview--design-goals--challenges--accessibility--design-system&quot;&gt;&lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt; | &lt;a href=&quot;#Design&quot;&gt;Design Goals&lt;/a&gt; | &lt;a href=&quot;#dark-theme-challenges&quot;&gt;Challenges&lt;/a&gt; | &lt;a href=&quot;/colour-accessibility&quot;&gt;Accessibility&lt;/a&gt; | &lt;a href=&quot;/colour-accessibility&quot;&gt;Design System&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/intro.jpg&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h3 id=&quot;my-role&quot;&gt;My Role&lt;/h3&gt;
+
+    &lt;p&gt;UX UI Designer - BlackBerry Security&lt;/p&gt;
+
+    &lt;p&gt;Tools Used&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Adobe XD&lt;/li&gt;
+      &lt;li&gt;Adobe Illustrator&lt;/li&gt;
+      &lt;li&gt;Adobe photoshop&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+
+    &lt;h3 id=&quot;industry&quot;&gt;Industry&lt;/h3&gt;
+
+    &lt;p&gt;Design for Blackberry Onboarding Screens and Empty Data Illustrations&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Unified Illustrations for all apps&lt;/li&gt;
+      &lt;li&gt;Consistent layout for onboarding screens&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Both for Dark vs Light Themes&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;Part of a Design System - Light vs Dark&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Many requests for Design typically focus on designing screens that contain large amounts of data, pages and elements that users use most. However, empty data states and onboarding screens are often overlooked aspects of UX.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;you-may-not-have-a-second-chance-to-make-an-excellent-first-impression&quot;&gt;&lt;em&gt;“You may not have a second chance to make an excellent first impression!”&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;design-goals&quot;&gt;Design Goals&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Communicate proper feedback and visuals for new users and those who just installed the app for the first time.&lt;/li&gt;
+  &lt;li&gt;Create a moment of charm with relevant illustrations and a great first impression that lasts.&lt;/li&gt;
+  &lt;li&gt;Working across different channels in the company, both for web and mobile. In this project I had the opportunity to solve a design challenge for proper feedback and visuals to communicate for new users when no data appear and users land inside of an empty state with zero data. Considering the different elements, best features and essential factors to include in the onboarding process. 
+Design illustrations that creates “moments of charm” for great first impression and introduction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;sketches&quot;&gt;Sketches&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illust-sketches.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;exploration&quot;&gt;Exploration&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-empty-data-sketches1.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-empty-data-sketches3.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-empty-data-sketches4.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/Mockup-Illustrations.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;chosen-style&quot;&gt;Chosen Style&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_mock.jpg&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;empty-data-illustrations-for-blackberry-hub-services-availble-on-google-play&quot;&gt;Empty Data Illustrations for BlackBerry Hub+ Services &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.blackberry.infrastructure&quot; target=&quot;_blank&quot;&gt;Availble on Google Play&lt;/a&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_emptydata_accounts_allapps.jpg&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;blackberry-hub-apps&quot;&gt;BlackBerry Hub+ Apps&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustratlight.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;blackberry-hub-apps-1&quot;&gt;BlackBerry Hub+ Apps&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/light_dark.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;light-and-dark-theme-visuals&quot;&gt;Light and Dark theme visuals&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr-dark.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;empty-data-illustrations-for-dark-theme&quot;&gt;Empty Data Illustrations for Dark Theme&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr-light.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;empty-data-illustration-for-light-theme&quot;&gt;Empty Data Illustration for Light Theme&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr3-light.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;empty-data-illustrations-for-dark-theme-1&quot;&gt;Empty Data Illustrations for Dark Theme&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr5-light.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;empty-data-illustrations-for-dark-theme-2&quot;&gt;Empty Data Illustrations for Dark Theme&lt;/h6&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-illustr4-light.png&quot; alt=&quot;EmptyData&quot; title=&quot;EmptyData&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;empty-data-illustrations-for-dark-theme-3&quot;&gt;Empty Data Illustrations for Dark Theme&lt;/h6&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;onboarding-screens-layout&quot;&gt;Onboarding Screens Layout&lt;/h3&gt;
+
+&lt;p&gt;I was creating designs and illustrations for Intro, Onboarding screens and Empty state data for new users. Designing screen layout, sizing guidelines for development and design. 
+Considering, both Dark and Light modes, preparing templates and files that can be used across the team for layout consistency.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;before&quot;&gt;Before&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-onb-0.png&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;consistentcy-recommendations&quot;&gt;Consistentcy Recommendations&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-onb-1.png&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-onb-2.png&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-onb-3.png&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-onb-4.png&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb-onb7.png&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;blackberry-productivity-tab&quot;&gt;BlackBerry® Productivity Tab&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_ptab_mock.jpg&quot; alt=&quot;Ptab&quot; title=&quot;Ptab&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;blackberry-productivity-tab-screen-mocks-blackberry-hub-products-suit-availble-on-google-play&quot;&gt;BlackBerry Productivity Tab screen mocks. BlackBerry HUB+ Products Suit. &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.blackberry.productivityedge&amp;amp;hl=en_CA&amp;amp;gl=US&quot; target=&quot;_blank&quot;&gt;Availble on Google Play&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_intro_p-tab_mock.jpg&quot; alt=&quot;Onboarding&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;onboarding-screens-designed-for-blackberry-productivity-tab-availble-on-google-play&quot;&gt;Onboarding Screens, designed for BlackBerry Productivity Tab &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.blackberry.productivityedge&amp;amp;hl=en_CA&amp;amp;gl=US&quot; target=&quot;_blank&quot;&gt;Availble on Google Play&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The BlackBerry Productivity Tab availble on BlackBerry devices and provides quick access to Inbox, Calendar, Tasks and Contacts.
+The way it works, users can side swipe from any screen in any app to quickly view latest messages, reach out to favourite contacts, look over daily schedule or view personal widgets. It allows to access quickly by swiping sideways from anywhere on the device and tapping any of the icons within the tab to glance at the most important info for Hub, Calendar, Tasks and Contacts. In this widget I was involved Designing the difrernt elements and layout based on the design created within the team. 
+Creating a series of onboarding screens which direct users through the widget interface. To educate new users about the functions and feautres of the app, showing easy guide through. 
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;blackberry-keyboard&quot;&gt;BlackBerry® Keyboard&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2021-01-01-b_EmptyData_Illustrations/bb_intro_keayboard_mock.jpg&quot; alt=&quot;Intro Screens&quot; title=&quot;Intro Screens&quot; /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;onboarding-screens-designed-for-blackberry-keyboard-availble-on-google-play&quot;&gt;Onboarding Screens, designed for BlackBerry Keyboard &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.blackberry.keyboard&amp;amp;hl=en_CA&amp;amp;gl=US&quot; target=&quot;_blank&quot;&gt;Availble on Google Play&lt;/a&gt;&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The BlackBerry® Keyboard was available long ago before Android and IOS existed. The screen version of BlackBerry Keyboard includes several components like predictions and suggestions that can autocorrect typos, multi-language and customizable quick phrases. I was involved in designing content for the BlackBerry HUB+ UX refresh and other products for Security and Productivity sectors. The mockup shows Keyboard Intro screens for new users to help them learn about new features and quick modes that let users easily access productivity features such as voice input, emojis, fine cursor control, clipboard and settings. Type by swiping a finger from letter to letter to form words and sentences without having to remove your finger from the keyboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;View more:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/wbd-hud&quot;&gt;WBD 4X Game Design System and Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;SecuSuite Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;BlackBerry Dark Theme Guidelines and Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="portfolio" /><category term="portfolio-featured" /><category term="Illustrations" /><category term="UX/UI Product Design" /><category term="Data Visualization" /><summary type="html">Onboarding Screens and Empty Data Illustrations Overview | Design Goals | Challenges | Accessibility | Design System My Role UX UI Designer - BlackBerry Security Tools Used Adobe XD Adobe Illustrator Adobe photoshop Industry Design for Blackberry Onboarding Screens and Empty Data Illustrations Unified Illustrations for all apps Consistent layout for onboarding screens Both for Dark vs Light Themes Part of a Design System - Light vs Dark Many requests for Design typically focus on designing screens that contain large amounts of data, pages and elements that users use most. However, empty data states and onboarding screens are often overlooked aspects of UX. “You may not have a second chance to make an excellent first impression!” Design Goals Communicate proper feedback and visuals for new users and those who just installed the app for the first time. Create a moment of charm with relevant illustrations and a great first impression that lasts. Working across different channels in the company, both for web and mobile. In this project I had the opportunity to solve a design challenge for proper feedback and visuals to communicate for new users when no data appear and users land inside of an empty state with zero data. Considering the different elements, best features and essential factors to include in the onboarding process. Design illustrations that creates “moments of charm” for great first impression and introduction. Sketches Exploration Chosen Style Empty Data Illustrations for BlackBerry Hub+ Services Availble on Google Play BlackBerry Hub+ Apps BlackBerry Hub+ Apps Light and Dark theme visuals Empty Data Illustrations for Dark Theme Empty Data Illustration for Light Theme Empty Data Illustrations for Dark Theme Empty Data Illustrations for Dark Theme Empty Data Illustrations for Dark Theme Onboarding Screens Layout I was creating designs and illustrations for Intro, Onboarding screens and Empty state data for new users. Designing screen layout, sizing guidelines for development and design. Considering, both Dark and Light modes, preparing templates and files that can be used across the team for layout consistency. Before Consistentcy Recommendations BlackBerry® Productivity Tab BlackBerry Productivity Tab screen mocks. BlackBerry HUB+ Products Suit. Availble on Google Play Onboarding Screens, designed for BlackBerry Productivity Tab Availble on Google Play The BlackBerry Productivity Tab availble on BlackBerry devices and provides quick access to Inbox, Calendar, Tasks and Contacts. The way it works, users can side swipe from any screen in any app to quickly view latest messages, reach out to favourite contacts, look over daily schedule or view personal widgets. It allows to access quickly by swiping sideways from anywhere on the device and tapping any of the icons within the tab to glance at the most important info for Hub, Calendar, Tasks and Contacts. In this widget I was involved Designing the difrernt elements and layout based on the design created within the team. Creating a series of onboarding screens which direct users through the widget interface. To educate new users about the functions and feautres of the app, showing easy guide through. BlackBerry® Keyboard Onboarding Screens, designed for BlackBerry Keyboard Availble on Google Play The BlackBerry® Keyboard was available long ago before Android and IOS existed. The screen version of BlackBerry Keyboard includes several components like predictions and suggestions that can autocorrect typos, multi-language and customizable quick phrases. I was involved in designing content for the BlackBerry HUB+ UX refresh and other products for Security and Productivity sectors. The mockup shows Keyboard Intro screens for new users to help them learn about new features and quick modes that let users easily access productivity features such as voice input, emojis, fine cursor control, clipboard and settings. Type by swiping a finger from letter to letter to form words and sentences without having to remove your finger from the keyboard. View more: WBD 4X Game Design System and Architecture SecuSuite Design System and UI Guidelines BlackBerry Brand Packaging Guidelines BlackBerry Dark Theme Guidelines and Accessibility Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">Responsive Online Store</title><link href="/labella-umbrella" rel="alternate" type="text/html" title="Responsive Online Store" /><published>2021-06-28T00:00:00-04:00</published><updated>2021-06-28T00:00:00-04:00</updated><id>/p_labella-umbrella</id><content type="html" xml:base="/labella-umbrella">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;labella-umbrella-online-store&quot;&gt;Labella Umbrella Online Store&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;A small family boutique &lt;a href=&quot;https://www.labella-umbrella.com/us/about-us/&quot;&gt;Labella Umbrella&lt;/a&gt; seeling unique personally designed umbrellas that can brighten up rainy days with its beautiful, cheerful designs. La Bella Umbrella wanted to design an online store that can be simple to use but at the same time reflect their unique designs. Their store offers fashionable umbrellas that match different personalities and outfits to suit any sense of style.
+Their goal is for people to leave their boring black umbrellas at home and choose to go with a style umbrella. Having an online store will make it easier to discover and purchase their designed umbrellas from anywhere in the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2016-09-27-labella-umbrella/LBU_Mockup-768x1586.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;simple-but-not-simplest&quot;&gt;Simple but not Simplest&lt;/h4&gt;
+
+&lt;p&gt;Wall decal applied to a kitchen set, featuring the vase, bottles, glasses, and dessert bowl design. The decal blends seamlessly with the modern kitchen, rooted in a blend of aesthetic appeal &amp;amp; functionality, adding a decorative touch to the space.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;typography-and-backgrounds&quot;&gt;Typography and Backgrounds&lt;/h4&gt;
+
+&lt;p&gt;Typography got special attention with a combination of a cursive font for headers and italic font for meaningful highlighted quotes. The client wanted to emphasize the blog page with a first letter in a large font like in printed books/ like their personalized printed umbrellas.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;challenges&quot;&gt;Challenges&lt;/h4&gt;
+
+&lt;p&gt;The challenge of designing a website that will be usable and functional, but at the same time fulfill client’s requests. I was as flexible as possible, working collaboratively, sharing the work in progress. Creating a user-focused product that answers both, client’s needs and satisfaction.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2016-09-27-labella-umbrella/Screen-Shot-2016-07-12-at-21.48.40.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2016-09-27-labella-umbrella/Screen-Shot-2016-06-08-at-14.41.08.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2016-09-27-labella-umbrella/Screen-Shot-2016-07-12-at-21.51.16.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2016-09-27-labella-umbrella/5-BlogArticlePage2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.labella-umbrella.com/&quot; target=&quot;_blank&quot;&gt;Visit Labella-Umbrella&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="portfolio" /><category term="portfolio-featured" /><category term="UX/UI Product Design" /><category term="Brand Marketing" /><category term="Illustrations" /><category term="Info Architecture" /><summary type="html">Labella Umbrella Online Store A small family boutique Labella Umbrella seeling unique personally designed umbrellas that can brighten up rainy days with its beautiful, cheerful designs. La Bella Umbrella wanted to design an online store that can be simple to use but at the same time reflect their unique designs. Their store offers fashionable umbrellas that match different personalities and outfits to suit any sense of style. Their goal is for people to leave their boring black umbrellas at home and choose to go with a style umbrella. Having an online store will make it easier to discover and purchase their designed umbrellas from anywhere in the world. Simple but not Simplest Wall decal applied to a kitchen set, featuring the vase, bottles, glasses, and dessert bowl design. The decal blends seamlessly with the modern kitchen, rooted in a blend of aesthetic appeal &amp;amp; functionality, adding a decorative touch to the space. Typography and Backgrounds Typography got special attention with a combination of a cursive font for headers and italic font for meaningful highlighted quotes. The client wanted to emphasize the blog page with a first letter in a large font like in printed books/ like their personalized printed umbrellas. Challenges The challenge of designing a website that will be usable and functional, but at the same time fulfill client’s requests. I was as flexible as possible, working collaboratively, sharing the work in progress. Creating a user-focused product that answers both, client’s needs and satisfaction. Visit Labella-Umbrella Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">CUSTOMER EXPERIENCE &amp;amp; SATISFACTION</title><link href="/customer-satisfaction-kiosk" rel="alternate" type="text/html" title="CUSTOMER EXPERIENCE &amp;amp; SATISFACTION" /><published>2021-06-28T00:00:00-04:00</published><updated>2021-06-28T00:00:00-04:00</updated><id>/p_customer-satisfaction-kiosk</id><content type="html" xml:base="/customer-satisfaction-kiosk">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/FullSizeRender (1).jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;how-to-design-a-customer-feedback-experience-and-turn-casual-customers-into-lifelong-consumers-&quot;&gt;&lt;em&gt;How to design a customer feedback experience and turn casual customers into lifelong consumers ?!&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;overview&quot;&gt;Overview&lt;/h4&gt;
+
+&lt;p&gt;This case study was part of my experience while working in Compass Digital Labs. One of the largest companies at the intersection of hospitality and technology.&lt;/p&gt;
+
+&lt;p&gt;Customer feedback can be important in all fields but especially in hospitality because it provides marketers and business owners with insight that they can use to improve their products and their overall customer experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;persona-and-customer-feedback-gathering&quot;&gt;Persona and Customer Feedback Gathering&lt;/h4&gt;
+
+&lt;p&gt;I observed how customers interact in the cafeteria space, asking questions and gathering their feedback to learn how the company can satisfy their needs during their interest in peaked moments. When are those moments, and how could consumer needs be satisfied when they want something but are limited in their ability.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/posts/2018-05-02-customer-satisfaction-kiosk/CompassGroup-PersonaCard.png&quot; alt=&quot;persona&quot; title=&quot;persona&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;challenges&quot;&gt;Challenges&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;How does a business make sure customers have a satisfying experience the moment they walk into a coffee shop or a restaurant?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;And how to make sure the satisfaction doesn’t drop?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How to keep the experience positive, so the customer has a good impression throughout their stay from start to after they leave?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The experience will influence whether customers will come back or not, based on their interaction (or lack of it).&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;journey-map&quot;&gt;Journey Map&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerSatisfaction_JourneyMap.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feedback is one of the ways how to guarantee the company can create a product or service that customers want to buy.&lt;/p&gt;
+
+&lt;p&gt;After taking time and observing the interaction within the space, creating the Journey map, it becomes evident that a good place for Customer Feedback would be at a Kiosk station, part of the check-out process, or during mobile payment purchase.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;low--mid-fidelity-wireframes--design-proposal&quot;&gt;Low &amp;amp; Mid-Fidelity Wireframes &amp;amp; Design Proposal&lt;/h4&gt;
+
+&lt;p&gt;I explored two design wireframes proposals, considering the different platforms options and screen sizing. One proposal with a design for a tablet screen and another for a mobile App.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/sketch_customer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/cg_mobile_mock-customer.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/CustomerExperiance_Mock.gif&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/CleaningReport_Mockup2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;View More:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/wbd-hud&quot;&gt;WBD 4X Game Design System and Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/design-guidelines&quot;&gt;SecuSuite Design System and UI Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/empty-data&quot;&gt;BlackBerry Onboarding screens&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/bb-brand&quot;&gt;BlackBerry Brand Packaging Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/colour-accessibility&quot;&gt;BlackBerry Dark Theme Guidelines and Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="blog" /><category term="portfolio" /><category term="portfolio-featured" /><category term="UX/UI Product Design" /><category term="Illustrations" /><category term="Info Architecture" /><category term="UX Research" /><category term="Data Visualization" /><summary type="html">How to design a customer feedback experience and turn casual customers into lifelong consumers ?! Overview This case study was part of my experience while working in Compass Digital Labs. One of the largest companies at the intersection of hospitality and technology. Customer feedback can be important in all fields but especially in hospitality because it provides marketers and business owners with insight that they can use to improve their products and their overall customer experience. Persona and Customer Feedback Gathering I observed how customers interact in the cafeteria space, asking questions and gathering their feedback to learn how the company can satisfy their needs during their interest in peaked moments. When are those moments, and how could consumer needs be satisfied when they want something but are limited in their ability. Challenges How does a business make sure customers have a satisfying experience the moment they walk into a coffee shop or a restaurant? And how to make sure the satisfaction doesn’t drop? How to keep the experience positive, so the customer has a good impression throughout their stay from start to after they leave? The experience will influence whether customers will come back or not, based on their interaction (or lack of it). Journey Map Feedback is one of the ways how to guarantee the company can create a product or service that customers want to buy. After taking time and observing the interaction within the space, creating the Journey map, it becomes evident that a good place for Customer Feedback would be at a Kiosk station, part of the check-out process, or during mobile payment purchase. Low &amp;amp; Mid-Fidelity Wireframes &amp;amp; Design Proposal I explored two design wireframes proposals, considering the different platforms options and screen sizing. One proposal with a design for a tablet screen and another for a mobile App. View More: WBD 4X Game Design System and Architecture SecuSuite Design System and UI Guidelines BlackBerry Onboarding screens BlackBerry Brand Packaging Guidelines BlackBerry Dark Theme Guidelines and Accessibility Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry><entry><title type="html">TJX Market App</title><link href="/tjx-market" rel="alternate" type="text/html" title="TJX Market App" /><published>2021-06-26T00:00:00-04:00</published><updated>2021-06-26T00:00:00-04:00</updated><id>/p_TJX_market</id><content type="html" xml:base="/tjx-market">&lt;h4 id=&quot;how-to-combine-the-different-brands-of-tjx-into-one-app-&quot;&gt;How to combine the different Brands of TJX into one app ?!&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The TJX Company is one of the leading apparel and home fashions retailer in the U.S. and worldwide.  TJ-Max, Marshalls, Home Sense, Winners, Sierra and more are all part of TJX Companies.&lt;br /&gt;
+I was involved in designing their internal App for in-company restaurant and food market orders. 
+Based on the TJX website, I pulled out all their primary Brands’ colors with their secondary colors palette. 
+The colorful logo represents the combination of their different Brands under one. 
+In the App icon, I used the TJX shades of red colors with - X- lines that cross the background. 
+The Intro screens and the main page menu use each one of the TJX Brand colors. 
+Still, even by using the different colors, all the backgrounds are consistent repeat with the X gently on the background and I was keeping the design simple, readable and accessible.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/TJX_Brand.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;/assets/posts/2018-05-02-customer-satisfaction-kiosk/mtMRKT_AppMockup.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;other-pages&quot;&gt;Other Pages&lt;/h4&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/about&quot; class=&quot;oval-link&quot;&gt;About Me&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/category/portfolio&quot; class=&quot;oval-link&quot;&gt;Portfolio&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+    &lt;title&gt;Styled Link&lt;/title&gt;
+    &lt;style&gt;
+        .oval-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: 2px solid #4CAF50; /* Border color */
+            border-radius: 30px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+             }
+  .oval-link:hover {
+            background-color: white; /* Hover background color */
+            color: #4CAF50; /* Hover text color */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;a href=&quot;https://curlydesigner.com/#testimonials&quot; class=&quot;oval-link&quot;&gt;Testimonials&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><category term="portfolio" /><category term="portfolio-featured" /><category term="Illustrations" /><category term="UX/UI Product Design" /><summary type="html">How to combine the different Brands of TJX into one app ?! The TJX Company is one of the leading apparel and home fashions retailer in the U.S. and worldwide. TJ-Max, Marshalls, Home Sense, Winners, Sierra and more are all part of TJX Companies. I was involved in designing their internal App for in-company restaurant and food market orders. Based on the TJX website, I pulled out all their primary Brands’ colors with their secondary colors palette. The colorful logo represents the combination of their different Brands under one. In the App icon, I used the TJX shades of red colors with - X- lines that cross the background. The Intro screens and the main page menu use each one of the TJX Brand colors. Still, even by using the different colors, all the backgrounds are consistent repeat with the X gently on the background and I was keeping the design simple, readable and accessible. Other Pages Styled Link About Me Styled Link Portfolio Styled Link Testimonials</summary></entry></feed>
