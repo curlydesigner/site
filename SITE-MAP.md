@@ -105,7 +105,6 @@ Examples:
 - [tag/design-system.html](/Users/victoriapanshin/Design/Curlydesigner/site/tag/design-system.html)
 - [tag/illustrations.html](/Users/victoriapanshin/Design/Curlydesigner/site/tag/illustrations.html)
 - [tag/ux-research.html](/Users/victoriapanshin/Design/Curlydesigner/site/tag/ux-research.html)
-- [tag/video-sound-editing.html](/Users/victoriapanshin/Design/Curlydesigner/site/tag/video-sound-editing.html)
 - [tag/brand-marketing.html](/Users/victoriapanshin/Design/Curlydesigner/site/tag/brand-marketing.html)
 - [tag/3d-design.html](/Users/victoriapanshin/Design/Curlydesigner/site/tag/3d-design.html)
 
