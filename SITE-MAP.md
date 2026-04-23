@@ -76,24 +76,30 @@ Main editable sections:
 
 ## Portfolio Case Studies
 
+Open portfolio case studies from the [portfolio-posts](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts) folder in VS Code.
+
+Those files are shortcuts to the real case-study pages, added only to make the Explorer easier to scan.
+
+The root case-study files are hidden in the VS Code Explorer on purpose so this section stays clean.
+
 Each case study is edited in its root `.html` file:
 
-- [wbd-hud.html](/Users/victoriapanshin/Design/Curlydesigner/site/wbd-hud.html)
-- [smart-tv.html](/Users/victoriapanshin/Design/Curlydesigner/site/smart-tv.html)
-- [colour-accessibility.html](/Users/victoriapanshin/Design/Curlydesigner/site/colour-accessibility.html)
-- [secusuite.html](/Users/victoriapanshin/Design/Curlydesigner/site/secusuite.html)
-- [bb-brand.html](/Users/victoriapanshin/Design/Curlydesigner/site/bb-brand.html)
-- [design-guidelines.html](/Users/victoriapanshin/Design/Curlydesigner/site/design-guidelines.html)
-- [empty-data.html](/Users/victoriapanshin/Design/Curlydesigner/site/empty-data.html)
-- [labella-umbrella.html](/Users/victoriapanshin/Design/Curlydesigner/site/labella-umbrella.html)
-- [customer-satisfaction-kiosk.html](/Users/victoriapanshin/Design/Curlydesigner/site/customer-satisfaction-kiosk.html)
-- [wizits.html](/Users/victoriapanshin/Design/Curlydesigner/site/wizits.html)
-- [tjx-market.html](/Users/victoriapanshin/Design/Curlydesigner/site/tjx-market.html)
-- [sharplight.html](/Users/victoriapanshin/Design/Curlydesigner/site/sharplight.html)
-- [bwin.html](/Users/victoriapanshin/Design/Curlydesigner/site/bwin.html)
-- [power-center.html](/Users/victoriapanshin/Design/Curlydesigner/site/power-center.html)
-- [Interior-Illustrations.html](/Users/victoriapanshin/Design/Curlydesigner/site/Interior-Illustrations.html)
-- [3d-exhibition.html](/Users/victoriapanshin/Design/Curlydesigner/site/3d-exhibition.html)
+- [portfolio-posts/wbd-hud.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/wbd-hud.html)
+- [portfolio-posts/smart-tv.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/smart-tv.html)
+- [portfolio-posts/colour-accessibility.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/colour-accessibility.html)
+- [portfolio-posts/secusuite.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/secusuite.html)
+- [portfolio-posts/bb-brand.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/bb-brand.html)
+- [portfolio-posts/design-guidelines.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/design-guidelines.html)
+- [portfolio-posts/empty-data.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/empty-data.html)
+- [portfolio-posts/labella-umbrella.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/labella-umbrella.html)
+- [portfolio-posts/customer-satisfaction-kiosk.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/customer-satisfaction-kiosk.html)
+- [portfolio-posts/wizits.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/wizits.html)
+- [portfolio-posts/tjx-market.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/tjx-market.html)
+- [portfolio-posts/sharplight.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/sharplight.html)
+- [portfolio-posts/bwin.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/bwin.html)
+- [portfolio-posts/power-center.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/power-center.html)
+- [portfolio-posts/Interior-Illustrations.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/Interior-Illustrations.html)
+- [portfolio-posts/3d-exhibition.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/3d-exhibition.html)
 
 ## Portfolio Tags
 
