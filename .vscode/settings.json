@@ -1,0 +1,24 @@
+{
+  "explorer.compactFolders": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    ".jekyll-cache": true,
+    "3d-exhibition": true,
+    "Interior-Illustrations": true,
+    "bb-brand": true,
+    "bwin": true,
+    "colour-accessibility": true,
+    "customer-satisfaction-kiosk": true,
+    "design-guidelines": true,
+    "empty-data": true,
+    "labella-umbrella": true,
+    "power-center": true,
+    "secusuite": true,
+    "sharplight": true,
+    "smart-tv": true,
+    "tjx-market": true,
+    "wbd-4xhud": true,
+    "wbd-hud": true,
+    "wizits": true
+  }
+}
