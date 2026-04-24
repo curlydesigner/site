@@ -17,24 +17,14 @@
 
     function applyVars(value) {
       var split = clamp(value, 6, 94);
-      var bias = (split - 50) / 18;
-      var leftGlow = clamp(0.5 + bias, 0.2, 1);
-      var rightGlow = clamp(0.5 - bias, 0.2, 1);
-
       hero.style.setProperty('--hero-split', split.toFixed(2) + '%');
-      hero.style.setProperty('--hero-left-glow', leftGlow.toFixed(3));
-      hero.style.setProperty('--hero-right-glow', rightGlow.toFixed(3));
+      hero.style.setProperty('--reveal-x', split.toFixed(2) + '%');
     }
 
     function updateVars() {
       current += (target - current) * 0.12;
-      var bias = (current - 50) / 18;
-      var leftGlow = clamp(0.5 + bias, 0.2, 1);
-      var rightGlow = clamp(0.5 - bias, 0.2, 1);
-
       hero.style.setProperty('--hero-split', current.toFixed(2) + '%');
-      hero.style.setProperty('--hero-left-glow', leftGlow.toFixed(3));
-      hero.style.setProperty('--hero-right-glow', rightGlow.toFixed(3));
+      hero.style.setProperty('--reveal-x', current.toFixed(2) + '%');
 
       if (Math.abs(target - current) > 0.02) {
         rafId = window.requestAnimationFrame(updateVars);

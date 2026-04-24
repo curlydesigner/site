@@ -483,18 +483,45 @@ h6 {
 /* box-intro
 ==================================================*/
 
+/* CHANGE FULL HERO BACKGROUND COLORS HERE */
+:root {
+    --hero-bg-left-1: #f9f3fa;
+    --hero-bg-left-2: #fff8e8;
+    --hero-bg-left-3: #fdfcf0;
+    --hero-bg-center: #ffffff;
+    --hero-bg-right-1: #f9fafe;
+    --hero-bg-right-2: #ffffff;
+
+    /* CONTROL LEFT/RIGHT IMAGE EDGE FEATHER HERE */
+    --feather-left: 0%;
+    --feather-right: 0%;
+
+    /* CONTROL TOP/BOTTOM IMAGE EDGE FEATHER HERE */
+    --feather-top: 0%;
+    --feather-bottom: 0%;
+
+    /* CONTROL HOW FAR THE LEFT FEATHER GOES TOWARD CENTER HERE */
+    --edge-left-opacity: 0.75;
+
+    /* CONTROL HOW FAR THE RIGHT FEATHER GOES TOWARD CENTER HERE */
+    --edge-right-opacity: 0.25;
+    --edge-top-opacity: 0.45;
+    --edge-bottom-opacity: 0.55;
+
+    /* CONTROL HOVER REVEAL STRENGTH HERE */
+    --reveal-x: 100%;
+    --reveal-softness: 50%;
+}
+
 .box-intro {
     --hero-split: 50%;
-    --hero-left-glow: 0.5;
-    --hero-right-glow: 0.5;
     padding-top: 94px;
     min-height: 100vh;
     width: 100%;
     position: relative;
     z-index: 0;
     isolation: isolate;
-    background:
-        linear-gradient(90deg, rgba(255, 251, 247, 0.97) 0%, rgba(255, 248, 241, 0.96) 47%, rgba(248, 249, 253, 0.98) 53%, rgba(252, 253, 255, 0.99) 100%);
+    background: linear-gradient(90deg, var(--hero-bg-center) 0%, var(--hero-bg-center) 100%);
 }
 
 .box-intro:before {
@@ -502,9 +529,51 @@ h6 {
     position: absolute;
     inset: 0;
     background:
-        radial-gradient(circle at 22% 28%, rgba(247, 147, 30, 0.14) 0, rgba(247, 147, 30, 0) 28%),
-        radial-gradient(circle at 77% 32%, rgba(44, 40, 84, 0.1) 0, rgba(44, 40, 84, 0) 24%),
-        linear-gradient(90deg, rgba(247, 147, 30, 0.05) 0%, rgba(247, 147, 30, 0) 24%, rgba(255, 255, 255, 0.4) 48%, rgba(255, 255, 255, 0.4) 52%, rgba(44, 40, 84, 0) 76%, rgba(44, 40, 84, 0.03) 100%);
+        radial-gradient(circle at 14% 18%, var(--hero-bg-left-1) 0, transparent 32%),
+        radial-gradient(circle at 22% 78%, color-mix(in srgb, var(--hero-bg-left-3) 72%, white 28%) 0, transparent 28%),
+        radial-gradient(circle at 34% 40%, color-mix(in srgb, var(--hero-bg-left-2) 66%, white 34%) 0, transparent 30%),
+        linear-gradient(90deg, var(--hero-bg-left-1) 0%, var(--hero-bg-left-2) 34%, var(--hero-bg-left-3) 52%, transparent calc(var(--reveal-x) + var(--reveal-softness)));
+    -webkit-mask-image: linear-gradient(
+        to right,
+        #000 0%,
+        #000 calc(var(--reveal-x) - var(--reveal-softness)),
+        rgba(0, 0, 0, 0.85) var(--reveal-x),
+        transparent calc(var(--reveal-x) + var(--reveal-softness))
+    );
+    mask-image: linear-gradient(
+        to right,
+        #000 0%,
+        #000 calc(var(--reveal-x) - var(--reveal-softness)),
+        rgba(0, 0, 0, 0.85) var(--reveal-x),
+        transparent calc(var(--reveal-x) + var(--reveal-softness))
+    );
+    z-index: 0;
+}
+
+.box-intro:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(rgba(99, 104, 138, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99, 104, 138, 0.045) 1px, transparent 1px),
+        radial-gradient(circle at 80% 28%, rgba(236, 239, 246, 0.95) 0, transparent 24%),
+        linear-gradient(90deg, transparent calc(var(--reveal-x) - var(--reveal-softness)), var(--hero-bg-right-1) calc(var(--reveal-x) + var(--reveal-softness)), var(--hero-bg-right-2) 100%);
+    background-size: 40px 40px, 40px 40px, auto, auto;
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent calc(var(--reveal-x) - var(--reveal-softness)),
+        rgba(0, 0, 0, 0.85) var(--reveal-x),
+        #000 calc(var(--reveal-x) + var(--reveal-softness)),
+        #000 100%
+    );
+    mask-image: linear-gradient(
+        to right,
+        transparent calc(var(--reveal-x) - var(--reveal-softness)),
+        rgba(0, 0, 0, 0.85) var(--reveal-x),
+        #000 calc(var(--reveal-x) + var(--reveal-softness)),
+        #000 100%
+    );
     z-index: 0;
 }
 
@@ -606,42 +675,93 @@ h6 {
     position: absolute;
     left: 50%;
     top: calc(50% + 8px);
-    width: min(80vw, 1240px);
+    width: min(100vw, 1800px);
     aspect-ratio: 3 / 2;
     transform: translate(-50%, -50%);
     z-index: 1;
     pointer-events: none;
+    overflow: visible;
 }
 
 .hero-image-stage:before {
-    content: "";
-    position: absolute;
-    inset: 14% 12% 18%;
-    border-radius: 50%;
-    background:
-        radial-gradient(circle at 36% 40%, rgba(247, 147, 30, calc(0.2 + (var(--hero-left-glow) * 0.18))) 0, rgba(247, 147, 30, 0.08) 26%, rgba(247, 147, 30, 0) 66%),
-        radial-gradient(circle at 68% 42%, rgba(77, 87, 118, calc(0.14 + (var(--hero-right-glow) * 0.14))) 0, rgba(77, 87, 118, 0.06) 24%, rgba(77, 87, 118, 0) 68%),
-        radial-gradient(circle at 50% 65%, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0) 72%);
-    filter: blur(38px);
+    content: none;
 }
 
 .hero-image-stage:after {
-    content: "";
-    position: absolute;
-    inset: 8% 10% 10%;
-    border-radius: 50%;
-    background:
-        radial-gradient(circle at center, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.28) 62%, rgba(255, 255, 255, 0) 74%);
-    filter: blur(10px);
-    opacity: 0.9;
+    content: none;
 }
 
 .hero-avatar-layers {
     position: absolute;
     inset: 0;
-    -webkit-mask-image: radial-gradient(ellipse at center, #000 30%, rgba(0,0,0,0.98) 48%, rgba(0,0,0,0.88) 61%, rgba(0,0,0,0.45) 76%, transparent 92%);
-    mask-image: radial-gradient(ellipse at center, #000 30%, rgba(0,0,0,0.98) 48%, rgba(0,0,0,0.88) 61%, rgba(0,0,0,0.45) 76%, transparent 92%);
-    filter: drop-shadow(0 18px 42px rgba(82, 76, 93, 0.14));
+    z-index: 1;
+}
+
+/* CONTROL LEFT/RIGHT EDGE FEATHER HERE */
+/* CONTROL TOP/BOTTOM EDGE FEATHER HERE */
+.hero-edge-feather,
+.hero-edge-feather span {
+    position: absolute;
+    pointer-events: none;
+}
+
+.hero-edge-feather {
+    inset: 0;
+    z-index: 2;
+}
+
+/* CONTROL HOW FAR THE LEFT FEATHER GOES TOWARD CENTER HERE */
+.hero-edge-feather-left {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--feather-left);
+    background: linear-gradient(
+        to right,
+        color-mix(in srgb, var(--hero-bg-center) calc(var(--edge-left-opacity) * 100%), transparent) 0%,
+        color-mix(in srgb, var(--hero-bg-left-1) calc(var(--edge-left-opacity) * 78%), transparent) 42%,
+        transparent 100%
+    );
+}
+
+/* CONTROL HOW FAR THE RIGHT FEATHER GOES TOWARD CENTER HERE */
+.hero-edge-feather-right {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: var(--feather-right);
+    background: linear-gradient(
+        to left,
+        color-mix(in srgb, var(--hero-bg-right-2) calc(var(--edge-right-opacity) * 100%), transparent) 0%,
+        color-mix(in srgb, var(--hero-bg-right-1) calc(var(--edge-right-opacity) * 72%), transparent) 48%,
+        transparent 100%
+    );
+}
+
+.hero-edge-feather-top {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--feather-top);
+    background: linear-gradient(
+        to bottom,
+        color-mix(in srgb, white calc(var(--edge-top-opacity) * 100%), transparent) 0%,
+        color-mix(in srgb, var(--hero-bg-center) calc(var(--edge-top-opacity) * 70%), transparent) 42%,
+        transparent 100%
+    );
+}
+
+.hero-edge-feather-bottom {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: var(--feather-bottom);
+    background: linear-gradient(
+        to top,
+        color-mix(in srgb, white calc(var(--edge-bottom-opacity) * 100%), transparent) 0%,
+        color-mix(in srgb, var(--hero-bg-right-2) calc(var(--edge-bottom-opacity) * 72%), transparent) 42%,
+        transparent 100%
+    );
 }
 
 .hero-avatar {
@@ -663,16 +783,16 @@ h6 {
 .hero-avatar-designer {
     position: relative;
     z-index: 1;
-    filter: saturate(1.08) contrast(1.01) brightness(1.01);
-    -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 calc(var(--hero-split) - 6%), rgba(0,0,0,0.92) calc(var(--hero-split) + 3%), transparent calc(var(--hero-split) + 18%));
-    mask-image: linear-gradient(90deg, #000 0%, #000 calc(var(--hero-split) - 6%), rgba(0,0,0,0.92) calc(var(--hero-split) + 3%), transparent calc(var(--hero-split) + 18%));
+    filter: saturate(0.94) contrast(0.99) brightness(1.015);
+    -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 calc(var(--hero-split) - 7%), rgba(0,0,0,0.94) calc(var(--hero-split) + 2%), transparent calc(var(--hero-split) + 18%));
+    mask-image: linear-gradient(90deg, #000 0%, #000 calc(var(--hero-split) - 7%), rgba(0,0,0,0.94) calc(var(--hero-split) + 2%), transparent calc(var(--hero-split) + 18%));
 }
 
 .hero-avatar-owner {
     z-index: 2;
-    filter: saturate(0.96) contrast(1.01) brightness(1.03);
-    -webkit-mask-image: linear-gradient(90deg, transparent calc(var(--hero-split) - 18%), rgba(0,0,0,0.92) calc(var(--hero-split) - 3%), #000 calc(var(--hero-split) + 6%), #000 100%);
-    mask-image: linear-gradient(90deg, transparent calc(var(--hero-split) - 18%), rgba(0,0,0,0.92) calc(var(--hero-split) - 3%), #000 calc(var(--hero-split) + 6%), #000 100%);
+    filter: saturate(0.92) contrast(1) brightness(1.025);
+    -webkit-mask-image: linear-gradient(90deg, transparent calc(var(--hero-split) - 18%), rgba(0,0,0,0.94) calc(var(--hero-split) - 2%), #000 calc(var(--hero-split) + 7%), #000 100%);
+    mask-image: linear-gradient(90deg, transparent calc(var(--hero-split) - 18%), rgba(0,0,0,0.94) calc(var(--hero-split) - 2%), #000 calc(var(--hero-split) + 7%), #000 100%);
 }
 
 .hero-avatar-divider {
