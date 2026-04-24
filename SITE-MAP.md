@@ -2,6 +2,44 @@
 
 This file is the quick guide for editing the portfolio in VS Code.
 
+## FIND: LOCAL PREVIEW
+
+Use this any time you want to see your edits in the browser without asking for a link.
+
+Start the local server:
+
+```bash
+cd /Users/victoriapanshin/Design/Curlydesigner/site
+python3 -m http.server 8000
+```
+
+Open:
+
+```text
+http://localhost:8000/
+```
+
+How to preview any page:
+
+- homepage = `http://localhost:8000/`
+- about = `http://localhost:8000/about.html`
+- portfolio = `http://localhost:8000/category/portfolio`
+- case study example = `http://localhost:8000/wbd-hud`
+
+Rule:
+
+- if the live page is `https://curlydesigner.com/some-page`
+- the local preview is `http://localhost:8000/some-page`
+
+After you save a file in VS Code:
+
+- refresh the browser tab to see the change
+
+Search tip in VS Code:
+
+- search for `FIND: LOCAL PREVIEW`
+- or search for `localhost:8000`
+
 ## Important Rule
 
 Edit the root `.html` files.
