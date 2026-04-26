@@ -266,6 +266,11 @@ h6 {
     padding: 20px;
 }
 
+.box-logo img {
+    width: 170px;
+    height: auto;
+}
+
 .box-logo .menu-logo {
     display: none;
 }
