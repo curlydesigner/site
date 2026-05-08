@@ -1,32 +1,46 @@
 jQuery(document).ready(function($){
-	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
-	var MQL = 1170;
+	function ensureContactBanner() {
+		if ($('#get-in-touch').length) return;
 
-	//primary navigation slide-in effect
-	if($(window).width() > MQL) {
-		var headerHeight = $('.box-header').height();
-		$(window).on('scroll',
-		{
-	        previousTop: 0
-	    }, 
-	    function () {
-		    var currentTop = $(window).scrollTop();
-		    //check if user is scrolling up
-		    if (currentTop < this.previousTop ) {
-		    	//if scrolling up...
-		    	if (currentTop > 0 && $('.box-header').hasClass('is-fixed')) {
-		    		$('.box-header').addClass('is-visible');
-		    	} else {
-		    		$('.box-header').removeClass('is-visible is-fixed');
-		    	}
-		    } else {
-		    	//if scrolling down...
-		    	$('.box-header').removeClass('is-visible');
-		    	if( currentTop > headerHeight && !$('.box-header').hasClass('is-fixed')) $('.box-header').addClass('is-fixed');
-		    }
-		    this.previousTop = currentTop;
-		});
+		var bannerHtml = [
+			'<section class="section position-relative highlighted-section universal-contact-wrap" id="get-in-touch">',
+			'    <div class="container main-container clearfix get-in-touch">',
+			'        <div class="col-xs-5 col-xs-offset-1">',
+			'            <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="Let\\'s get in touch" />',
+			'        </div>',
+			'        <div class="col-xs-5">',
+			'            <ul class="social-ul">',
+			'                <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">',
+			'                        <ion-icon name="logo-linkedin"></ion-icon>',
+			'                    </a></li>',
+			'                <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">',
+			'                        <ion-icon name="logo-behance"></ion-icon>',
+			'                    </a></li>',
+			'                <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">',
+			'                        <ion-icon name="mail-outline"></ion-icon>',
+			'                    </a></li>',
+			'            </ul>',
+			'        </div>',
+			'    </div>',
+			'</section>'
+		].join('\n');
+
+		var $footer = $('footer').first();
+		if ($footer.length) {
+			$footer.before(bannerHtml);
+		} else {
+			$('body').append(bannerHtml);
+		}
 	}
+
+	function closePrimaryNav() {
+		$('.box-menu-icon').removeClass('is-clicked');
+		$('.box-header').removeClass('menu-is-open');
+		$('.box-primary-nav').removeClass('is-visible');
+		$('body').removeClass('overflow-hidden');
+	}
+
+	ensureContactBanner();
 
 	//open/close primary navigation
 	$('.box-primary-nav-trigger,.nav-trigger').on('click', function(){
@@ -43,5 +57,19 @@ jQuery(document).ready(function($){
 				$('body').addClass('overflow-hidden');
 			});	
 		}
+	});
+
+	$('.box-primary-nav a[href="#get-in-touch"]').on('click', function(e){
+		var $target = $('#get-in-touch');
+		if (!$target.length) return;
+
+		e.preventDefault();
+		e.stopPropagation();
+		closePrimaryNav();
+
+		var headerOffset = $('.box-header').outerHeight() + 16;
+		$('html, body').stop().animate({
+			scrollTop: Math.max(0, $target.offset().top - headerOffset)
+		}, 450);
 	});
 });

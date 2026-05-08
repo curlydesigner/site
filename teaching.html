@@ -21,7 +21,7 @@
 
     <meta property="og:title" content="Teaching &amp; Workshops | CurlyDesigner">
     <meta property="og:description" content="Creative learning experiences in design, storytelling, community engagement, and hands-on exploration.">
-    <meta property="og:image" content="https://curlydesigner.com/assets/img/logo.png">
+    <meta property="og:image" content="https://curlydesigner.com/assets/img/logo-light.svg">
     <meta property="og:url" content="https://curlydesigner.com/teaching.html">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -48,8 +48,8 @@
     <div class="container-fluid">
         <header class="box-header">
             <div class="box-logo">
-                <a href="/" class="page-logo"><img src="/assets/img/logo.png" width="230" alt="Curly Designer logo"></a>
-                <a href="/" class="menu-logo"><img src="/assets/img/curly-designer-logo.svg" width="150" alt="Curly Designer logo"></a>
+                <a href="/" class="page-logo"><img src="/assets/img/logo-dark.svg" width="132" alt="Curly Designer logo"></a>
+                <a href="/" class="menu-logo"><img src="/assets/img/logo-dark.svg" width="132" alt="Curly Designer logo"></a>
             </div>
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
@@ -62,13 +62,13 @@
                 <div class="col-xs-6">
                     <ul>
                         <li class="box-label">Menu</li>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about.html">About Me</a></li>
-                        <li><a href="/resume.html">Resume</a></li>
-                        <li><a href="/category/portfolio.html">Portfolio</a></li>
-                        <li><a href="/teaching.html">Teaching &amp; Workshops</a> <i class="ion-ios-circle-filled color"></i></li>
-                        <li class="nav-trigger"><a href="/#testimonials">Testimonials</a></li>
-                        <li class="nav-trigger"><a href="/#get-in-touch">Get in touch</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/category/portfolio.html">Portfolio</a></li>
+                <li><a href="/teaching.html">Teaching &amp; Workshops</a></li>
+                <li class="nav-trigger"><a href="/#testimonials">Testimonials</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/resume.html">Resume</a></li>
+                <li class="nav-trigger"><a href="#get-in-touch">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -130,19 +130,69 @@
 
     <section class="teaching-featured teaching-dark-section">
         <div class="container main-container">
-            <h2 class="teaching-section-heading">Teaching Across Communities</h2>
+            <h2 class="teaching-section-heading">"I believe teaching is about helping people recognize what they already carry, trust their curiosity, think creatively, and discover new ideas."</h2>
             <p class="teaching-section-intro">
-                My teaching practice spans community workshops, adult learning, creative programs, interdisciplinary collaborations,
-                and online sessions.
+                My workshops create supportive spaces where people of all levels can explore, ask questions, build confidence, and develop their own creative thinking process.
             </p>
 
             </div>
         </div>
     </section>
 
-    
 
-    <section class="section position-relative highlighted-section teaching-contact-wrap" id="teaching-contact">
+
+
+    <section class="teaching-invite-section">
+        <div class="container main-container">
+            <div class="teaching-invite-panel">
+                <h2>Share Your Experience</h2>
+                <p>
+                    If you have attended a workshop, collaborated on a learning program, or invited me to facilitate a session,
+                    you are welcome to send a reflection here.
+                </p>
+                <form class="teaching-form" id="teaching-review-form">
+                    <div class="teaching-form-row">
+                        <div class="teaching-form-field">
+                            <label for="review-name">Name</label>
+                            <input id="review-name" name="name" type="text">
+                        </div>
+                        <div class="teaching-form-field">
+                            <label for="review-email">Email</label>
+                            <input id="review-email" name="email" type="email">
+                        </div>
+                    </div>
+
+                    <div class="teaching-form-row">
+                        <div class="teaching-form-field">
+                            <label for="review-role">Role or participation</label>
+                            <input id="review-role" name="role" type="text">
+                        </div>
+                        <div class="teaching-form-field">
+                            <label for="review-context">Program or workshop name</label>
+                            <input id="review-context" name="context" type="text">
+                        </div>
+                    </div>
+
+                    <div class="teaching-form-field">
+                        <label for="review-message">Review / reflection</label>
+                        <textarea id="review-message" name="message" required></textarea>
+                    </div>
+
+                    <label class="teaching-permission" for="review-anonymous">
+                        <input id="review-anonymous" name="anonymous" type="checkbox">
+                        <span>I would like my review to stay anonymous.</span>
+                    </label>
+
+                    <button type="submit">Send Reflection</button>
+                    <p class="teaching-form-success" id="teaching-form-success" hidden aria-live="polite">
+                        Thank you for sharing your experience. Your reflection has been sent.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section position-relative highlighted-section teaching-contact-wrap" id="get-in-touch">
         <div class="container main-container clearfix get-in-touch">
             <div class="col-xs-5 col-xs-offset-1">
                 <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="Get in touch">
