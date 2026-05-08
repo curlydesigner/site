@@ -52,7 +52,7 @@
 
 </head>
 
-<body>
+<body class="portfolio-page">
 
     <!-- Preloader -->
 <div id="preloader">
@@ -91,6 +91,7 @@
                 <li><a href="/about.html">About Me</a></li>
                 <li><a href="/resume.html">Resume</a></li>
                 <li><a href="/category/portfolio.html">Portfolio</a></li>
+                <li><a href="/teaching.html">Teaching &amp; Workshops</a></li>
                 <li class="nav-trigger"><a href="/#testimonials">Testimonials</a></li>
                 <li class="nav-trigger"><a href="/#get-in-touch">Get in touch</a></li>
             </ul>
@@ -105,7 +106,45 @@
     <!-- top bar -->
 <div class="top-bar">
     <h1>portfolio</h1>
-    <p><a href="/">Home</a> / Portfolio</p>
+    <p class="portfolio-breadcrumb">
+        <a href="/">Home</a> /
+        <a href="/category/portfolio.html" id="portfolio-home-link">Portfolio</a>
+        <span id="portfolio-breadcrumb-filter" hidden> / <span id="portfolio-breadcrumb-filter-label"></span></span>
+    </p>
+
+    <div class="portfolio-filter-groups">
+        <div class="portfolio-filter-group wow fadeInLeft">
+            <p class="portfolio-filter-group-label">Design Filters</p>
+            <nav class="categories" aria-label="Design Filters">
+                <ul class="portfolio_filter">
+                    <li><a href="/category/portfolio.html" data-filter="all">All</a></li>
+                    <li><a href="/category/portfolio.html?filter=product-design" data-filter="product-design">Product Design</a></li>
+                    <li><a href="/category/portfolio.html?filter=ux-research" data-filter="ux-research">UX Research</a></li>
+                    <li><a href="/category/portfolio.html?filter=interaction-design" data-filter="interaction-design">Interaction Design</a></li>
+                    <li><a href="/category/portfolio.html?filter=design-systems" data-filter="design-systems">Design Systems</a></li>
+                    <li><a href="/category/portfolio.html?filter=information-architecture" data-filter="information-architecture">Information Architecture</a></li>
+                    <li><a href="/category/portfolio.html?filter=data-visualization" data-filter="data-visualization">Data Visualization</a></li>
+                    <li><a href="/category/portfolio.html?filter=responsive-web-design" data-filter="responsive-web-design">Responsive Web Design</a></li>
+                    <li><a href="/category/portfolio.html?filter=brand-strategy" data-filter="brand-strategy">Brand &amp; Strategy</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="portfolio-filter-group wow fadeInLeft">
+            <p class="portfolio-filter-group-label">Industry Filters</p>
+            <nav class="categories" aria-label="Industry Filters">
+                <ul class="portfolio_filter">
+                    <li><a href="/category/portfolio.html?filter=gaming" data-filter="gaming">Gaming</a></li>
+                    <li><a href="/category/portfolio.html?filter=media-entertainment" data-filter="media-entertainment">Media &amp; Entertainment</a></li>
+                    <li><a href="/category/portfolio.html?filter=secure-communication" data-filter="secure-communication">Secure Communication</a></li>
+                    <li><a href="/category/portfolio.html?filter=productivity" data-filter="productivity">Productivity</a></li>
+                    <li><a href="/category/portfolio.html?filter=ecommerce" data-filter="ecommerce">eCommerce</a></li>
+                    <li><a href="/category/portfolio.html?filter=architecture-interiors" data-filter="architecture-interiors">Architecture &amp; Interiors</a></li>
+                    <li><a href="/category/portfolio.html?filter=exhibitions" data-filter="exhibitions">Exhibitions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </div>
 <!-- end top bar -->
 
@@ -114,53 +153,6 @@
     <!-- portfolio div -->
     <div class="portfolio-div">
         <div class="portfolio">
-
-            <!-- portfolio_filter -->
-<div class="categories-grid wow fadeInLeft">
-    <nav class="categories text-center">
-        <ul class="portfolio_filter">
-            <li><a href="/category/portfolio" class="">All</a></li>
-            
-                
-                <li><a href="/tag/3d-design"
-                        class="">3D Design</a></li>
-            
-                
-                <li><a href="/tag/brand-marketing"
-                        class="">Brand Marketing</a></li>
-            
-                
-                <li><a href="/tag/illustrations"
-                        class="">Illustrations</a></li>
-            
-                
-                <li><a href="/tag/ux-ui-product-design"
-                        class="">UX/UI Product Design</a></li>
-            
-                
-                <li><a href="/tag/data-visualization"
-                        class="">Data Visualization</a></li>
-            
-                
-                <li><a href="/tag/info-architecture"
-                        class="">Info Architecture</a></li>
-            
-                
-                <li><a href="/tag/gaming-ixd"
-                        class="">Gaming & IxD</a></li>
-            
-                
-                <li><a href="/tag/ux-research"
-                        class="">UX Research</a></li>
-            
-                
-                <li><a href="/tag/design-system"
-                        class="">Design System</a></li>
-            
-        </ul>
-    </nav>
-</div>
-<!-- portfolio_filter -->
 
             <div class="no-padding portfolio_container">
                 
@@ -816,6 +808,160 @@
 <script src="/assets/js/custom.js"></script>
 <!--  ionicons script -->
 <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+<script>
+    (function () {
+        var cards = Array.prototype.slice.call(document.querySelectorAll('.portfolio_container > [class*="col-"]'));
+        if (!cards.length) return;
+
+        var breadcrumbFilter = document.getElementById('portfolio-breadcrumb-filter');
+        var breadcrumbFilterLabel = document.getElementById('portfolio-breadcrumb-filter-label');
+        var filterLinks = Array.prototype.slice.call(document.querySelectorAll('.portfolio_filter a[data-filter]'));
+
+        var filterConfig = {
+            all: { label: 'All Projects' },
+            'product-design': { label: 'Product Design' },
+            'ux-research': { label: 'UX Research' },
+            'interaction-design': { label: 'Interaction Design' },
+            'design-systems': { label: 'Design Systems' },
+            'information-architecture': { label: 'Information Architecture' },
+            'data-visualization': { label: 'Data Visualization' },
+            'responsive-web-design': { label: 'Responsive Web Design' },
+            'brand-strategy': { label: 'Brand & Strategy' },
+            gaming: { label: 'Gaming' },
+            'media-entertainment': { label: 'Media & Entertainment' },
+            'secure-communication': { label: 'Secure Communication' },
+            productivity: { label: 'Productivity' },
+            ecommerce: { label: 'eCommerce' },
+            'architecture-interiors': { label: 'Architecture & Interiors' },
+            exhibitions: { label: 'Exhibitions' }
+        };
+
+        var industryBySlug = {
+            'wbd-hud': ['gaming', 'media-entertainment'],
+            'smart-tv': ['media-entertainment', 'responsive-web-design'],
+            'colour-accessibility': ['gaming', 'secure-communication'],
+            'secusuite': ['secure-communication'],
+            'bb-brand': ['media-entertainment'],
+            'design-guidelines': ['secure-communication', 'responsive-web-design'],
+            'empty-data': ['secure-communication', 'productivity'],
+            'labella-umbrella': ['ecommerce', 'responsive-web-design'],
+            'customer-satisfaction-kiosk': ['productivity'],
+            'wizits': ['gaming'],
+            'tjx-market': ['productivity'],
+            'sharplight': ['architecture-interiors'],
+            'bwin': ['gaming', 'media-entertainment'],
+            'power-center': ['secure-communication', 'productivity', 'interaction-design'],
+            'Interior-Illustrations': ['architecture-interiors'],
+            '3d-exhibition': ['exhibitions', 'media-entertainment']
+        };
+
+        cards.forEach(function (card) {
+            var link = card.querySelector('.portfolio_item');
+            var meta = card.querySelector('.item_info em');
+            var title = card.querySelector('.item_info span');
+            var href = link ? (link.getAttribute('href') || '').replace(/^\//, '') : '';
+            var metaText = meta ? meta.textContent.replace(/\s+/g, ' ').trim() : '';
+            var titleText = title ? title.textContent.replace(/\s+/g, ' ').trim() : '';
+
+            card.dataset.slug = href;
+            card.dataset.meta = metaText;
+            card.dataset.title = titleText;
+        });
+
+        function matchesFilter(card, filterKey) {
+            if (!filterKey || filterKey === 'all') return true;
+
+            var meta = card.dataset.meta || '';
+            var slug = card.dataset.slug || '';
+            var industryTags = industryBySlug[slug] || [];
+
+            switch (filterKey) {
+                case 'product-design':
+                    return meta.indexOf('UX/UI Product Design') !== -1;
+                case 'ux-research':
+                    return meta.indexOf('UX Research') !== -1;
+                case 'interaction-design':
+                    return meta.indexOf('Gaming & IxD') !== -1 || industryTags.indexOf('interaction-design') !== -1 || slug === 'smart-tv';
+                case 'design-systems':
+                    return meta.indexOf('Design System') !== -1;
+                case 'information-architecture':
+                    return meta.indexOf('Info Architecture') !== -1;
+                case 'data-visualization':
+                    return meta.indexOf('Data Visualization') !== -1;
+                case 'responsive-web-design':
+                    return industryTags.indexOf('responsive-web-design') !== -1;
+                case 'brand-strategy':
+                    return meta.indexOf('Brand Marketing') !== -1;
+                default:
+                    return industryTags.indexOf(filterKey) !== -1;
+            }
+        }
+
+        function setActiveFilterLink(filterKey) {
+            filterLinks.forEach(function (link) {
+                var isActive = link.getAttribute('data-filter') === filterKey;
+                link.classList.toggle('active', isActive);
+                if (isActive) {
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    link.removeAttribute('aria-current');
+                }
+            });
+        }
+
+        function updateHeader(filterKey) {
+            var config = filterConfig[filterKey];
+            if (!config || filterKey === 'all') {
+                if (breadcrumbFilter) breadcrumbFilter.hidden = true;
+                return;
+            }
+
+            if (breadcrumbFilter && breadcrumbFilterLabel) {
+                breadcrumbFilterLabel.textContent = config.label;
+                breadcrumbFilter.hidden = false;
+            }
+        }
+
+        function updateUrl(filterKey) {
+            var url = new URL(window.location.href);
+            if (!filterKey || filterKey === 'all') {
+                url.searchParams.delete('filter');
+            } else {
+                url.searchParams.set('filter', filterKey);
+            }
+            window.history.pushState({}, '', url.toString());
+        }
+
+        function applyFilter(filterKey, shouldPush) {
+            var selectedKey = filterConfig[filterKey] ? filterKey : 'all';
+
+            cards.forEach(function (card) {
+                card.style.display = matchesFilter(card, selectedKey) ? '' : 'none';
+            });
+
+            setActiveFilterLink(selectedKey);
+            updateHeader(selectedKey);
+
+            if (shouldPush) {
+                updateUrl(selectedKey);
+            }
+        }
+
+        filterLinks.forEach(function (link) {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                applyFilter(link.getAttribute('data-filter') || 'all', true);
+            });
+        });
+
+        window.addEventListener('popstate', function () {
+            var params = new URLSearchParams(window.location.search);
+            applyFilter(params.get('filter') || 'all', false);
+        });
+
+        applyFilter(new URLSearchParams(window.location.search).get('filter') || 'all', false);
+    })();
+</script>
 
 </body>
 
