@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
 			'<section class="section position-relative highlighted-section universal-contact-wrap" id="get-in-touch">',
 			'    <div class="container main-container clearfix get-in-touch">',
 			'        <div class="col-xs-5 col-xs-offset-1">',
-			'            <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="Let\\'s get in touch" />',
+			'            <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="Let&apos;s get in touch" />',
 			'        </div>',
 			'        <div class="col-xs-5">',
 			'            <ul class="social-ul">',
