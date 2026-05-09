@@ -43,7 +43,8 @@ jQuery(document).ready(function($){
 	ensureContactBanner();
 
 	//open/close primary navigation
-	$('.box-primary-nav-trigger,.nav-trigger').on('click', function(){
+	$('.box-primary-nav-trigger').on('click', function(e){
+		e.preventDefault();
 		$('.box-menu-icon').toggleClass('is-clicked'); 
 		$('.box-header').toggleClass('menu-is-open');
 		
@@ -72,4 +73,8 @@ jQuery(document).ready(function($){
 			scrollTop: Math.max(0, $target.offset().top - headerOffset)
 		}, 450);
 	});
-});
+
+	$('.box-primary-nav a').not('[href="#get-in-touch"]').on('click', function(){
+		closePrimaryNav();
+	});
+	});
