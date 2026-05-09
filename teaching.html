@@ -11,6 +11,194 @@
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/js/plugins/slick/slick.css">
     <link href="/assets/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <style>
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        .teaching-quote-showcase {
+            position: relative;
+            overflow: hidden;
+            padding: 118px 0 122px;
+            background:
+                radial-gradient(circle at 16% 18%, rgba(203, 164, 219, 0.18), transparent 18%),
+                radial-gradient(circle at 82% 20%, rgba(120, 91, 198, 0.14), transparent 22%),
+                radial-gradient(circle at 68% 74%, rgba(92, 74, 182, 0.18), transparent 26%),
+                linear-gradient(140deg, #111124 0%, #1e1b44 54%, #18112d 100%);
+        }
+
+        .teaching-quote-showcase::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.03), transparent 56%),
+                linear-gradient(115deg, rgba(255, 255, 255, 0.04), transparent 30%, rgba(255, 255, 255, 0.02) 58%, transparent 82%);
+            mix-blend-mode: screen;
+            pointer-events: none;
+        }
+
+        .teaching-quote-showcase::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+            background-size: 160px 160px;
+            opacity: 0.22;
+            pointer-events: none;
+        }
+
+        .teaching-quote-stage {
+            position: relative;
+            z-index: 1;
+            max-width: 980px;
+            margin-left: clamp(24px, 6vw, 84px);
+            padding: clamp(16px, 3vw, 30px) 0;
+        }
+
+        .teaching-quote-panel {
+            position: relative;
+            padding: clamp(36px, 5vw, 62px) clamp(26px, 4vw, 44px) clamp(30px, 4vw, 38px);
+        }
+
+        .teaching-quote-mark-large {
+            position: absolute;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-style: italic;
+            font-weight: 800;
+            line-height: 0.72;
+            color: rgba(228, 197, 217, 0.19);
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .teaching-quote-mark-large--open {
+            top: -10px;
+            left: -40px;
+            font-size: clamp(30rem, 17vw, 25rem);
+        }
+
+        .teaching-quote-mark-large--close {
+            right: 40px;
+            bottom: -90px;
+            font-size: clamp(30rem, 16vw, 25rem);
+        }
+
+        .teaching-editorial-quote {
+            position: relative;
+            margin: 0;
+            max-width: 980px;
+            padding-left: 0;
+            border-left: 0;
+        }
+
+        .teaching-editorial-quote-text {
+            margin: 0;
+            color: #f7f1eb;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(2.7rem, 4.8vw, 5rem);
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.08;
+            letter-spacing: -0.02em;
+            text-wrap: balance;
+            text-shadow: 0 10px 30px rgba(10, 7, 20, 0.24);
+        }
+
+        .teaching-editorial-quote-text::before,
+        .teaching-editorial-quote-text::after {
+            position: relative;
+            color: #f2eadf;
+            font-size: 0.9em;
+        }
+
+        .teaching-editorial-quote-text::before {
+            content: "\201C";
+            margin-right: 0.04em;
+        }
+
+        .teaching-editorial-quote-text::after {
+            content: "\201D";
+            margin-left: 0.03em;
+        }
+
+        .teaching-editorial-support {
+            max-width: 760px;
+            margin: clamp(28px, 3vw, 34px) 0 0;
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.85;
+            font-family: "Poppins", sans-serif;
+        }
+
+        @media (max-width: 991px) {
+            .teaching-quote-showcase {
+                padding: 96px 0 104px;
+            }
+
+            .teaching-quote-stage {
+                max-width: 100%;
+                margin-left: clamp(18px, 4vw, 36px);
+                margin-right: clamp(18px, 4vw, 36px);
+            }
+
+            .teaching-quote-panel {
+                padding-right: clamp(18px, 3vw, 28px);
+            }
+
+            .teaching-quote-mark-large--open {
+                top: 10px;
+                left: 8px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .teaching-quote-showcase {
+                padding: 78px 0 84px;
+            }
+
+            .teaching-quote-panel {
+                padding: 30px 10px 16px 14px;
+            }
+
+            .teaching-editorial-quote-text {
+                font-size: clamp(2.35rem, 8vw, 3.9rem);
+                line-height: 1.12;
+                text-wrap: pretty;
+            }
+
+            .teaching-editorial-support {
+                font-size: 18px;
+                line-height: 1.85;
+            }
+
+            .teaching-quote-mark-large--open {
+                top: 8px;
+                left: 2px;
+                font-size: 9.5rem;
+            }
+
+            .teaching-quote-mark-large--close {
+                right: 20px;
+                bottom: 18px;
+                font-size: 8.8rem;
+            }
+        }
+    </style>
 
     <script src="/assets/js/modernizr.js"></script>
 
@@ -89,9 +277,6 @@
                     <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
             </div>
-
-          
-            </div>
         </div>
     </section>
 
@@ -128,18 +313,24 @@
         </div>
     </section>
 
-    <section class="teaching-featured teaching-dark-section">
+    <section class="teaching-featured teaching-dark-section teaching-quote-showcase" aria-labelledby="teaching-quote-title">
         <div class="container main-container">
-            <h2 class="teaching-section-heading">"Teaching is about helping people think creatively, follow their curiosity, and discover new ideas."</h2>
-            <p class="teaching-section-intro">
-                My workshops create supportive spaces where people of all levels can explore, ask questions, build confidence, and develop their own creative thinking process.
-            </p>
-
+            <h2 id="teaching-quote-title" class="visually-hidden">Teaching philosophy</h2>
+            <div class="teaching-quote-stage">
+                <div class="teaching-quote-panel">
+                    <span class="teaching-quote-mark-large teaching-quote-mark-large--open" aria-hidden="true">&ldquo;</span>
+                    <blockquote class="teaching-editorial-quote">
+                        <p class="teaching-editorial-quote-text">Teaching is about helping people follow curiosity, think creatively, and discover ideas.</p>
+                    </blockquote>
+                    <p class="teaching-editorial-support">
+                        My workshops create supportive spaces where people of all levels can explore, ask questions, build confidence, and develop their own creative thinking process.
+                    </p>
+                    <span class="teaching-quote-mark-large teaching-quote-mark-large--close" aria-hidden="true">&rdquo;</span>
+                </div>
             </div>
         </div>
     </section>
 
-   
 
     <section class="teaching-invite-section">
         <div class="container main-container">
