@@ -2072,6 +2072,50 @@ footer img {
     font-size: 22px;
 }
 
+.case-study-page-links {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    margin: 20px 0 8px;
+    padding: 10px 0 0;
+}
+
+nav.case-study-page-links a,
+.case-study-page-links a,
+.case-layout-text .case-study-page-links a {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 54px;
+    padding: 12px 24px;
+    border: 1.5px solid #c9daf6 !important;
+    border-radius: 999px;
+    background: #ffffff !important;
+    color: #0b4e96 !important;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    box-shadow: 0 1px 0 rgba(11, 78, 150, 0.02);
+    transition: border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+nav.case-study-page-links a:hover,
+nav.case-study-page-links a:focus,
+.case-study-page-links a:hover,
+.case-study-page-links a:focus,
+.case-layout-text .case-study-page-links a:hover,
+.case-layout-text .case-study-page-links a:focus {
+    color: #083a72 !important;
+    border-color: #8db2e8 !important;
+    background: #f9fbff !important;
+    box-shadow: 0 10px 24px rgba(11, 78, 150, 0.12);
+    text-decoration: none !important;
+    transform: translateY(-1px);
+}
+
 /* ==================================================
 🟢 GREEN NOTE — Portfolio page hero override
 ==================================================*/
