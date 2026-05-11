@@ -88,13 +88,13 @@
 
         .teaching-quote-mark-large--open {
             top: -10px;
-            left: -40px;
+            left: -100px;
             font-size: clamp(30rem, 17vw, 25rem);
         }
 
         .teaching-quote-mark-large--close {
-            right: 40px;
-            bottom: -90px;
+            right: 150px;
+            bottom: 50px;
             font-size: clamp(30rem, 16vw, 25rem);
         }
 
@@ -145,7 +145,77 @@
             font-family: "Poppins", sans-serif;
         }
 
+        .teaching-hero.teaching-quote-showcase {
+            padding: 120px 0 0px;
+            background:
+                radial-gradient(circle at 16% 18%, rgba(203, 164, 219, 0.18), transparent 18%),
+                radial-gradient(circle at 82% 20%, rgba(120, 91, 198, 0.14), transparent 22%),
+                radial-gradient(circle at 68% 74%, rgba(92, 74, 182, 0.18), transparent 26%),
+                linear-gradient(140deg, #111124 0%, #1e1b44 54%, #18112d 100%);
+        }
+
+        .teaching-hero.teaching-quote-showcase::before {
+            display: none;
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-eyebrow {
+            display: block;
+            margin: 0 0 clamp(28px, 4vw, 42px);
+            padding-left: clamp(24px, 6vw, 128px);
+            position: relative;
+            z-index: 1;
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-quote-stage {
+            max-width: 1120px;
+            margin-left: clamp(24px, 6vw, 84px);
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-quote-panel {
+            display: flex;
+            flex-direction: column;
+            min-height: clamp(440px, 58vw, 620px);
+            padding-bottom: clamp(34px, 6vw, 56px);
+        }
+
+        .teaching-hero-copy {
+            max-width: 980px;
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-editorial-support {
+            color: rgba(255, 255, 255, 0.78);
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-hero-actions {
+            margin-top: clamp(34px, 5vw, 56px);
+            align-self: flex-start;
+            justify-content: flex-start;
+        }
+
         @media (max-width: 991px) {
+            .teaching-hero.teaching-quote-showcase {
+                padding: 150px 0 104px;
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-eyebrow {
+                padding-left: clamp(18px, 4vw, 36px);
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-quote-stage {
+                max-width: 100%;
+                margin-left: clamp(18px, 4vw, 36px);
+                margin-right: clamp(18px, 4vw, 36px);
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-quote-panel {
+                min-height: 0;
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-hero-actions {
+                align-self: flex-start;
+                justify-content: flex-start;
+            }
+
             .teaching-quote-showcase {
                 padding: 96px 0 104px;
             }
@@ -167,6 +237,32 @@
         }
 
         @media (max-width: 767px) {
+            .teaching-hero.teaching-quote-showcase {
+                padding: 132px 0 84px;
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-eyebrow {
+                margin-bottom: 24px;
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-quote-stage {
+                margin-left: 14px;
+                margin-right: 14px;
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-quote-panel {
+                padding: 30px 10px 16px 14px;
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-hero-actions {
+                width: 100%;
+                gap: 14px;
+                align-self: flex-start;
+                justify-content: flex-start;
+            }
+
             .teaching-quote-showcase {
                 padding: 78px 0 84px;
             }
@@ -263,23 +359,35 @@
         </nav>
     </div>
 
-    <section class="teaching-hero">
+    <!-- Hero Banner Start -->
+    <section class="teaching-hero teaching-quote-showcase">
         <div class="container main-container">
-            <span class="teaching-eyebrow">Teaching & Creative Workshops</span>
-            <h1 class="teaching-title">Creative Learning Experiences</h1>
-            <p class="teaching-intro">
-             I design and lead creative learning experiences that bring together design, storytelling, community connection, and visual hands-on exploration. 
-             My workshops are shaped for adults, students, organizations, and interdisciplinary groups both online and in person. 
-            </p>
-            <div class="teaching-hero-actions">
-                <a class="teaching-button" href="mailto:victoria@curlydesigner.com">Let&rsquo;s Connect</a>
-                <a class="teaching-social-link" href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
+            <span class="teaching-eyebrow">Teaching &amp; Creative Workshops</span>
+            <div class="teaching-quote-stage">
+                <div class="teaching-quote-panel">
+                    <span class="teaching-quote-mark-large teaching-quote-mark-large--open" aria-hidden="true">&ldquo;</span>
+                    <div class="teaching-hero-copy">
+                        <blockquote class="teaching-editorial-quote">
+                            <p class="teaching-editorial-quote-text">Teaching is about helping people follow curiosity, think creatively, and discover ideas.</p>
+                        </blockquote>
+                        <p class="teaching-editorial-support">
+                            My workshops create supportive spaces where people of all levels can explore, ask questions, build confidence, and develop their own creative thinking process.
+                        </p>
+                    </div>
+                    <div class="teaching-hero-actions">
+                        <a class="teaching-button" href="mailto:victoria@curlydesigner.com">Let&rsquo;s Connect</a>
+                        <a class="teaching-social-link" href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </div>
+                    <span class="teaching-quote-mark-large teaching-quote-mark-large--close" aria-hidden="true">&rdquo;</span>
+                </div>
             </div>
         </div>
     </section>
+    <!-- Hero Banner End -->
 
+    <!-- What I Teach Start -->
     <section class="section teaching-light-section">
         <div class="container main-container">
             <h2 class="teaching-section-heading">What I Teach</h2>
@@ -312,28 +420,11 @@
             </div>
         </div>
     </section>
-
-    <section class="teaching-featured teaching-dark-section teaching-quote-showcase" aria-labelledby="teaching-quote-title">
-        <div class="container main-container">
-            <h2 id="teaching-quote-title" class="visually-hidden">Teaching philosophy</h2>
-            <div class="teaching-quote-stage">
-                <div class="teaching-quote-panel">
-                    <span class="teaching-quote-mark-large teaching-quote-mark-large--open" aria-hidden="true">&ldquo;</span>
-                    <blockquote class="teaching-editorial-quote">
-                        <p class="teaching-editorial-quote-text">Teaching is about helping people follow curiosity, think creatively, and discover ideas.</p>
-                    </blockquote>
-                    <p class="teaching-editorial-support">
-                        My workshops create supportive spaces where people of all levels can explore, ask questions, build confidence, and develop their own creative thinking process.
-                    </p>
-                    <span class="teaching-quote-mark-large teaching-quote-mark-large--close" aria-hidden="true">&rdquo;</span>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- What I Teach End -->
 
 
-   
 
+    <!-- Share Your Experience Start -->
     <section class="teaching-invite-section">
         <div class="container main-container">
             <div class="teaching-invite-panel">
@@ -356,7 +447,7 @@
 
                     <div class="teaching-form-row">
                         <div class="teaching-form-field">
-                            <label for="review-role">Role or participation</label>
+                            <label for="review-role">Linkedin or Role / Participation</label>
                             <input id="review-role" name="role" type="text">
                         </div>
                         <div class="teaching-form-field">
@@ -366,7 +457,7 @@
                     </div>
 
                     <div class="teaching-form-field">
-                        <label for="review-message">Review / reflection</label>
+                        <label for="review-message">Review / Reflection</label>
                         <textarea id="review-message" name="message" required></textarea>
                     </div>
 
@@ -383,7 +474,9 @@
             </div>
         </div>
     </section>
+    <!-- Share Your Experience End -->
 
+    <!-- Contact Start -->
     <section class="section position-relative highlighted-section teaching-contact-wrap" id="get-in-touch">
         <div class="container main-container clearfix get-in-touch">
             <div class="col-xs-5 col-xs-offset-1">
@@ -404,6 +497,7 @@
             </div>
         </div>
     </section>
+    <!-- Contact End -->
 
     <footer class="no-print">
         <div class="container-fluid">
