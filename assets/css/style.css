@@ -871,6 +871,51 @@ h6 {
     padding: 0 10px;
 }
 
+.hero-social-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.hero-social-linkedin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 148px;
+    padding: 12px 18px;
+    border: 1px solid rgba(47, 43, 54, 0.12);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.86);
+    color: #243b67;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    box-shadow: 0 14px 28px rgba(36, 59, 103, 0.14);
+    backdrop-filter: blur(10px);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.hero-social-linkedin ion-icon {
+    font-size: 20px;
+}
+
+.hero-social-linkedin:hover,
+.hero-social-linkedin:focus {
+    color: #fff;
+    background: linear-gradient(135deg, #2d6cdf 0%, #1847a4 100%);
+    border-color: rgba(24, 71, 164, 0.72);
+    text-decoration: none;
+    box-shadow: 0 18px 34px rgba(24, 71, 164, 0.28);
+    transform: translateY(-2px);
+}
+
+.hero-social-linkedin:focus {
+    outline: 3px solid rgba(45, 108, 223, 0.22);
+    outline-offset: 3px;
+}
+
 .hero-atmosphere {
     position: absolute;
     inset: 0;
@@ -2724,6 +2769,10 @@ textarea:focus {
     .hero-tags {
         font-size: 18px;
         line-height: 1.5;
+    }
+
+    .hero-social-actions {
+        margin-top: 26px;
     }
 
     .portfolio .categories-grid .categories ul li {

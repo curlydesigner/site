@@ -458,11 +458,34 @@
   }
 
   .project-card {
-    display: block;
+    display: grid;
+    grid-template-columns: 112px minmax(0, 1fr);
+    align-items: center;
+    gap: 20px;
     padding: 24px;
     color: #102033;
     text-decoration: none;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .project-preview {
+    display: block;
+    width: 112px;
+    aspect-ratio: 1;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #eef3f8;
+  }
+
+  .project-preview img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .project-card-copy {
+    min-width: 0;
   }
 
   .project-card:hover {
@@ -593,6 +616,17 @@
       border-radius: 18px;
     }
 
+    .project-card {
+      grid-template-columns: 88px minmax(0, 1fr);
+      gap: 16px;
+      padding: 18px;
+    }
+
+    .project-preview {
+      width: 88px;
+      border-radius: 14px;
+    }
+
     .media-frame {
       padding: 10px;
       border-radius: 18px;
@@ -648,7 +682,6 @@
                 <li><a href="/teaching.html">Teaching &amp; Workshops</a></li>
                 <li class="nav-trigger"><a href="/#testimonials">Testimonials</a></li>
                 <li><a href="/about.html">About</a></li>
-                <li><a href="/resume.html">Resume</a></li>
                 <li class="nav-trigger"><a href="#get-in-touch">Contact</a></li>
             </ul>
         </div>
@@ -1075,29 +1108,44 @@
 
             <div class="project-grid case-layout-wide">
                 <a class="project-card" href="/smart-tv">
-                    <span class="project-kicker">AI Samsung Case Study</span>
-                    <h3>Smart TV</h3>
-                    <p>Visual-first UX and system-level re-engagement concepts for connected TV experiences.</p>
+                    <div class="project-preview"><img src="/assets/posts/FeaturedPortfolio- photos/fp_ph_tv-samsung.png" alt="" loading="lazy" /></div>
+                    <div class="project-card-copy">
+                        <span class="project-kicker">AI Samsung Case Study</span>
+                        <h3>Smart TV</h3>
+                        <p>Visual-first UX and system-level re-engagement concepts for connected TV experiences.</p>
+                    </div>
                 </a>
                 <a class="project-card" href="/design-guidelines">
-                    <span class="project-kicker">Design System</span>
-                    <h3>SecuSuite Design System and UI Guidelines</h3>
-                    <p>Scalable UI guidance, reusable patterns, and foundations for enterprise product teams.</p>
+                    <div class="project-preview"><img src="/assets/posts/2021-06-29-p_bsims_web_guideline/fp_ph_bberry_bsimsportal.png" alt="" loading="lazy" /></div>
+                    <div class="project-card-copy">
+                        <span class="project-kicker">Design System</span>
+                        <h3>SecuSuite Design System and UI Guidelines</h3>
+                        <p>Scalable UI guidance, reusable patterns, and foundations for enterprise product teams.</p>
+                    </div>
                 </a>
                 <a class="project-card" href="/empty-data">
-                    <span class="project-kicker">Onboarding</span>
-                    <h3>Onboarding Screens</h3>
-                    <p>Explorations in guidance, activation, and first-use clarity.</p>
+                    <div class="project-preview"><img src="/assets/posts/2021-01-01-b_EmptyData_Illustrations/fp_ph_bberry_emptydata.png" alt="" loading="lazy" /></div>
+                    <div class="project-card-copy">
+                        <span class="project-kicker">Onboarding</span>
+                        <h3>Onboarding Screens</h3>
+                        <p>Explorations in guidance, activation, and first-use clarity.</p>
+                    </div>
                 </a>
                 <a class="project-card" href="/bb-brand">
-                    <span class="project-kicker">Brand</span>
-                    <h3>BlackBerry Brand Packaging Guidelines</h3>
-                    <p>Packaging direction and brand system thinking across visual touchpoints.</p>
+                    <div class="project-preview"><img src="/assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_poster2.png" alt="" loading="lazy" /></div>
+                    <div class="project-card-copy">
+                        <span class="project-kicker">Brand</span>
+                        <h3>BlackBerry Brand Packaging Guidelines</h3>
+                        <p>Packaging direction and brand system thinking across visual touchpoints.</p>
+                    </div>
                 </a>
                 <a class="project-card" href="/colour-accessibility">
-                    <span class="project-kicker">Accessibility</span>
-                    <h3>BlackBerry Dark Theme Guidelines and Accessibility</h3>
-                    <p>Color, contrast, and interface guidelines designed for accessible product experiences.</p>
+                    <div class="project-preview"><img src="/assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png" alt="" loading="lazy" /></div>
+                    <div class="project-card-copy">
+                        <span class="project-kicker">Accessibility</span>
+                        <h3>BlackBerry Dark Theme Guidelines and Accessibility</h3>
+                        <p>Color, contrast, and interface guidelines designed for accessible product experiences.</p>
+                    </div>
                 </a>
             </div>
 

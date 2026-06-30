@@ -75,7 +75,7 @@ Everything on the homepage is in [index.html](/Users/victoriapanshin/Design/Curl
   This is the testimonial slider.
 - Home "About Me" summary:
   `section.about-intro`
-  This is the lower homepage section with your image, short bio, and links to About / LinkedIn / Resume.
+  This is the lower homepage section with your image, short bio, and links to LinkedIn / Portfolio / Teaching.
 - Get in touch:
   `section#get-in-touch`
 
