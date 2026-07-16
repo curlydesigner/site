@@ -40,7 +40,18 @@ jQuery(document).ready(function($){
 		$('body').removeClass('overflow-hidden');
 	}
 
+	function addLocalResumeMenuLink() {
+		var localHosts = ['localhost', '127.0.0.1', '::1', '0.0.0.0'];
+		if (localHosts.indexOf(window.location.hostname) === -1) return;
+
+		var $menu = $('.box-primary-nav ul').first();
+		if (!$menu.length || $menu.find('a[href="/resume.html"]').length) return;
+
+		$menu.append('<li class="local-only-resume"><a href="/resume.html">Resume</a></li>');
+	}
+
 	ensureContactBanner();
+	addLocalResumeMenuLink();
 
 	//open/close primary navigation
 	$('.box-primary-nav-trigger').on('click', function(e){

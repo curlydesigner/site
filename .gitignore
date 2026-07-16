@@ -3,3 +3,13 @@
 _site
 .jekyll-cache
 tmp
+
+# Local-only draft portfolio work. These files can be previewed on localhost
+# but should not be committed to the static production website.
+portfolio/drafts/
+scotiabank-self-service.html
+scotiabank-self-service/
+blackberry-secure-communication-ecosystem.html
+blackberry-secure-communication-ecosystem/
+portfolio-posts/ScotiaBank-self-service.html
+portfolio-posts/blackberry-secure-communication-ecosystem.html

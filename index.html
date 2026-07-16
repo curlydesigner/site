@@ -260,7 +260,7 @@
         <div class="portfolio">
             <div class="row no-padding portfolio_container">
 
-                
+                <!-- Local-only draft case studies are injected on localhost by assets/js/local-draft-portfolio.js. -->
                 
                 <!-- single work -->
 <div
@@ -308,8 +308,6 @@
     </a>
 </div>
 <!-- end single work -->
-                
-                
                 
                 <!-- single work -->
 <div
@@ -1360,6 +1358,15 @@ I design end-to-end products, from research through UX architecture to refined v
 <script src="/assets/js/animated-headline.js"></script>
 <script src="/assets/js/isotope.pkgd.min.js"></script>
 <script src="/assets/js/hero-split.js"></script>
+<script>
+(function () {
+    var localHosts = ['localhost', '127.0.0.1', '::1', '0.0.0.0'];
+    if (localHosts.indexOf(window.location.hostname) === -1) return;
+
+    document.write('<script src="/portfolio/drafts/draft-index.js"><\/script>');
+    document.write('<script src="/assets/js/local-draft-portfolio.js"><\/script>');
+})();
+</script>
 
 <!-- slick slider -->
 <script src="/assets/js/plugins/slick/slick.min.js"></script>

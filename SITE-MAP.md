@@ -50,7 +50,6 @@ Do not edit the same-named folders like `wizits/`, `smart-tv/`, or `wbd-hud/` fo
 
 - Home page: [index.html](/Users/victoriapanshin/Design/Curlydesigner/site/index.html)
 - About Me page: [about.html](/Users/victoriapanshin/Design/Curlydesigner/site/about.html)
-- Resume page: [resume.html](/Users/victoriapanshin/Design/Curlydesigner/site/resume.html)
 - Services page: [services.html](/Users/victoriapanshin/Design/Curlydesigner/site/services.html)
 - Contact page: [contact.html](/Users/victoriapanshin/Design/Curlydesigner/site/contact.html)
 
@@ -114,30 +113,32 @@ Main editable sections:
 
 ## Portfolio Case Studies
 
-Open portfolio case studies from the [portfolio-posts](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts) folder in VS Code.
+Published case studies live in [portfolio/published](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published).
 
-Those files are shortcuts to the real case-study pages, added only to make the Explorer easier to scan.
+Draft case studies live locally in `portfolio/drafts/`. This folder is ignored by Git so draft work can be previewed on localhost without publishing to the static production site.
 
-The root case-study files are hidden in the VS Code Explorer on purpose so this section stays clean.
+The root case-study files such as `wbd-hud.html` are lightweight compatibility wrappers. They keep older clean URLs working, then redirect to the organized case-study files.
 
-Each case study is edited in its root `.html` file:
+Published case studies:
 
-- [portfolio-posts/wbd-hud.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/wbd-hud.html)
-- [portfolio-posts/smart-tv.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/smart-tv.html)
-- [portfolio-posts/colour-accessibility.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/colour-accessibility.html)
-- [portfolio-posts/secusuite.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/secusuite.html)
-- [portfolio-posts/bb-brand.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/bb-brand.html)
-- [portfolio-posts/design-guidelines.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/design-guidelines.html)
-- [portfolio-posts/empty-data.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/empty-data.html)
-- [portfolio-posts/labella-umbrella.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/labella-umbrella.html)
-- [portfolio-posts/customer-satisfaction-kiosk.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/customer-satisfaction-kiosk.html)
-- [portfolio-posts/wizits.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/wizits.html)
-- [portfolio-posts/tjx-market.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/tjx-market.html)
-- [portfolio-posts/sharplight.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/sharplight.html)
-- [portfolio-posts/bwin.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/bwin.html)
-- [portfolio-posts/power-center.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/power-center.html)
-- [portfolio-posts/Interior-Illustrations.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/Interior-Illustrations.html)
-- [portfolio-posts/3d-exhibition.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio-posts/3d-exhibition.html)
+- [portfolio/published/wbd-hud.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/wbd-hud.html)
+- [portfolio/published/smart-tv.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/smart-tv.html)
+- [portfolio/published/colour-accessibility.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/colour-accessibility.html)
+- [portfolio/published/secusuite.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/secusuite.html)
+- [portfolio/published/bb-brand.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/bb-brand.html)
+- [portfolio/published/design-guidelines.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/design-guidelines.html)
+- [portfolio/published/empty-data.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/empty-data.html)
+- [portfolio/published/labella-umbrella.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/labella-umbrella.html)
+- [portfolio/published/customer-satisfaction-kiosk.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/customer-satisfaction-kiosk.html)
+- [portfolio/published/wizits.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/wizits.html)
+- [portfolio/published/tjx-market.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/tjx-market.html)
+- [portfolio/published/sharplight.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/sharplight.html)
+- [portfolio/published/bwin.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/bwin.html)
+- [portfolio/published/power-center.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/power-center.html)
+- [portfolio/published/Interior-Illustrations.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/Interior-Illustrations.html)
+- [portfolio/published/3d-exhibition.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/3d-exhibition.html)
+
+Local draft case studies are listed only in the local-only portfolio script, which is ignored by Git.
 
 ## Portfolio Tags
 

@@ -137,6 +137,7 @@
                     <li><a href="/category/portfolio.html?filter=media-entertainment" data-filter="media-entertainment">Media &amp; Entertainment</a></li>
                     <li><a href="/category/portfolio.html?filter=secure-communication" data-filter="secure-communication">Secure Communication</a></li>
                     <li><a href="/category/portfolio.html?filter=productivity" data-filter="productivity">Productivity</a></li>
+                    <li><a href="/category/portfolio.html?filter=fin" data-filter="fin">Fin</a></li>
                     <li><a href="/category/portfolio.html?filter=ecommerce" data-filter="ecommerce">eCommerce</a></li>
                     <li><a href="/category/portfolio.html?filter=architecture-interiors" data-filter="architecture-interiors">Architecture &amp; Interiors</a></li>
                     <li><a href="/category/portfolio.html?filter=exhibitions" data-filter="exhibitions">Exhibitions</a></li>
@@ -154,7 +155,7 @@
         <div class="portfolio">
 
             <div class="no-padding portfolio_container">
-                
+                <!-- Local-only draft case studies are injected on localhost by assets/js/local-draft-portfolio.js. -->
                 
                     
                         <!-- single work -->
@@ -203,8 +204,6 @@
     </a>
 </div>
 <!-- end single work -->
-                    
-                
                     
                         <!-- single work -->
 <div
@@ -822,6 +821,15 @@
 <script src="/assets/js/menu.js"></script>
 <script src="/assets/js/animated-headline.js"></script>
 <script src="/assets/js/isotope.pkgd.min.js"></script>
+<script>
+(function () {
+    var localHosts = ['localhost', '127.0.0.1', '::1', '0.0.0.0'];
+    if (localHosts.indexOf(window.location.hostname) === -1) return;
+
+    document.write('<script src="/portfolio/drafts/draft-index.js"><\/script>');
+    document.write('<script src="/assets/js/local-draft-portfolio.js"><\/script>');
+})();
+</script>
 
 <!-- slick slider -->
 <script src="/assets/js/plugins/slick/slick.min.js"></script>
@@ -853,6 +861,7 @@
             'media-entertainment': { label: 'Media & Entertainment' },
             'secure-communication': { label: 'Secure Communication' },
             productivity: { label: 'Productivity' },
+            fin: { label: 'Fin' },
             ecommerce: { label: 'eCommerce' },
             'architecture-interiors': { label: 'Architecture & Interiors' },
             exhibitions: { label: 'Exhibitions' }
@@ -881,7 +890,7 @@
             var link = card.querySelector('.portfolio_item');
             var meta = card.querySelector('.item_info em');
             var title = card.querySelector('.item_info span');
-            var href = link ? (link.getAttribute('href') || '').replace(/^\//, '') : '';
+            var href = link ? (link.getAttribute('href') || '').replace(/^\//, '').replace(/\.html$/, '') : '';
             var metaText = meta ? meta.textContent.replace(/\s+/g, ' ').trim() : '';
             var titleText = title ? title.textContent.replace(/\s+/g, ' ').trim() : '';
 
@@ -895,19 +904,20 @@
 
             var meta = card.dataset.meta || '';
             var slug = card.dataset.slug || '';
-            var industryTags = industryBySlug[slug] || [];
+            var localTags = (card.dataset.localTags || '').split(/\s+/).filter(Boolean);
+            var industryTags = (industryBySlug[slug] || []).concat(localTags);
 
             switch (filterKey) {
                 case 'product-design':
-                    return meta.indexOf('UX/UI Product Design') !== -1;
+                    return meta.indexOf('Product Design') !== -1;
                 case 'ux-research':
                     return meta.indexOf('UX Research') !== -1;
                 case 'interaction-design':
-                    return meta.indexOf('Gaming & IxD') !== -1 || industryTags.indexOf('interaction-design') !== -1 || slug === 'smart-tv';
+                    return meta.indexOf('Interaction Design') !== -1 || meta.indexOf('Gaming & IxD') !== -1 || industryTags.indexOf('interaction-design') !== -1 || slug === 'smart-tv';
                 case 'design-systems':
                     return meta.indexOf('Design System') !== -1;
                 case 'information-architecture':
-                    return meta.indexOf('Info Architecture') !== -1;
+                    return meta.indexOf('Information Architecture') !== -1 || meta.indexOf('Info Architecture') !== -1;
                 case 'data-visualization':
                     return meta.indexOf('Data Visualization') !== -1;
                 case 'responsive-web-design':

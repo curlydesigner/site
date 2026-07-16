@@ -74,6 +74,10 @@ http://localhost:8000
 
 ## Notes
 
-- The legacy Jekyll source folders and config files have been removed
+- This is a static HTML site. There is no local Jekyll or package build step.
+- `.nojekyll` is present so GitHub Pages, if used, serves the files as static HTML.
+- Published case studies live in `portfolio/published/`.
+- Draft case studies live in `portfolio/drafts/`, which is ignored by Git and only previewed locally.
+- Root case-study files are compatibility wrappers for older URLs.
 - Public HTML pages were verified against the live website during the refactor review
 - `feed.xml` is kept as a static file, but the current live site does not appear to serve it successfully
