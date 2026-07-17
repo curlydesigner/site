@@ -119,6 +119,8 @@ Draft case studies live locally in `portfolio/drafts/`. This folder is ignored b
 
 The root case-study files such as `wbd-hud.html` are lightweight compatibility wrappers. They keep older clean URLs working, then redirect to the organized case-study files.
 
+The `portfolio-posts/` folder is also only for old URL redirects. Do not edit case-study content there.
+
 Published case studies:
 
 - [portfolio/published/wbd-hud.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/wbd-hud.html)

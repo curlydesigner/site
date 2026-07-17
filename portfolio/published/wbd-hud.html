@@ -253,6 +253,147 @@
     text-align: center;
   }
 
+  .wbd-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .wbd-presentation {
+    margin: 34px auto 42px;
+  }
+
+  .wbd-presentation-frame {
+    padding: clamp(12px, 2vw, 20px);
+    border: 1px solid rgba(16, 32, 51, 0.08);
+    border-radius: 28px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(239, 245, 252, 0.96));
+    box-shadow: 0 24px 62px rgba(14, 30, 54, 0.12);
+  }
+
+  .wbd-slide-stage {
+    aspect-ratio: 16 / 9;
+    border-radius: 18px;
+    background: #09131f;
+    overflow: hidden;
+  }
+
+  .wbd-slide-image-button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 18px;
+    background: #09131f;
+    cursor: zoom-in;
+  }
+
+  .wbd-slide-image-button:focus-visible,
+  .wbd-presentation button:focus-visible,
+  .lightbox button:focus-visible {
+    outline: 3px solid #0d5cba;
+    outline-offset: 3px;
+  }
+
+  .wbd-slide-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    border-radius: 18px;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
+
+  .wbd-slide-img.is-transitioning {
+    opacity: 0;
+    transform: scale(0.995);
+  }
+
+  .wbd-slideshow-controls {
+    display: grid;
+    grid-template-columns: minmax(120px, 1fr) auto minmax(120px, 1fr);
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .wbd-slide-center-controls {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .wbd-slide-btn,
+  .wbd-slide-arrow {
+    min-height: 44px;
+    border: 1px solid rgba(16, 32, 51, 0.12);
+    background: #fff;
+    color: #17314a;
+    box-shadow: 0 10px 22px rgba(14, 30, 54, 0.08);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .wbd-slide-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .wbd-slide-prev {
+    justify-self: start;
+  }
+
+  .wbd-slide-next {
+    justify-self: end;
+  }
+
+  .wbd-slide-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .wbd-slide-counter {
+    min-width: 74px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #355067;
+  }
+
+  .wbd-presentation button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    border-color: rgba(13, 92, 186, 0.35);
+    box-shadow: 0 14px 28px rgba(14, 30, 54, 0.12);
+  }
+
+  .wbd-presentation button:disabled {
+    opacity: 0.52;
+    cursor: not-allowed;
+    filter: grayscale(0.25);
+    box-shadow: none;
+  }
+
   .case-summary-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -570,6 +711,10 @@
       margin-top: 20px;
     }
 
+    .wbd-presentation-frame {
+      border-radius: 22px;
+    }
+
     .summary-card p,
     .content-card p,
     .callout-card p,
@@ -632,8 +777,64 @@
       border-radius: 18px;
     }
 
+    .wbd-presentation {
+      margin: 28px auto 34px;
+    }
+
+    .wbd-presentation-frame {
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .wbd-slide-stage,
+    .wbd-slide-image-button,
+    .wbd-slide-img {
+      border-radius: 12px;
+    }
+
+    .wbd-slideshow-controls {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .wbd-slide-center-controls {
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
+
+    .wbd-slide-prev {
+      grid-column: 1;
+      grid-row: 2;
+      justify-self: stretch;
+    }
+
+    .wbd-slide-next {
+      grid-column: 2;
+      grid-row: 2;
+      justify-self: stretch;
+    }
+
+    .wbd-slide-btn {
+      width: 100%;
+      min-height: 48px;
+      padding: 0 14px;
+    }
+
+    .wbd-slide-arrow {
+      width: 48px;
+      min-height: 48px;
+    }
+
     .lightbox {
       padding: 18px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .wbd-slide-img,
+    .wbd-slide-btn,
+    .wbd-slide-arrow {
+      transition: none;
     }
   }
 </style>
@@ -715,6 +916,35 @@
                 <h1 class="case-study-title">Warner Bros Discovery / Game HUD Navigation Experience Design</h1>
                 <p class="case-subtitle">Product Strategy · UX Architecture · HUD System Design · Cross-Functional Leadership</p>
             </div>
+
+            <section class="wbd-presentation case-layout-wide" aria-labelledby="wbd-presentation-title" data-presentation-slideshow>
+                <h2 id="wbd-presentation-title" class="wbd-sr-only">Warner Bros Discovery HUD presentation slideshow</h2>
+                <div class="wbd-presentation-frame">
+                    <div class="wbd-slide-stage">
+                        <button class="wbd-slide-image-button" type="button" aria-label="Open slide 1 of 13 larger">
+                            <img
+                                class="wbd-slide-img"
+                                src="/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-01.webp"
+                                width="2560"
+                                height="1440"
+                                alt="Cover slide: Designing for a Dense Strategy System by Victoria Panshin, with Warner Bros Discovery, Game of Thrones, and House of the Dragon branding and role highlights."
+                                loading="eager"
+                                fetchpriority="high"
+                                decoding="async"
+                            />
+                        </button>
+                    </div>
+                    <div class="wbd-slideshow-controls" aria-label="Presentation controls">
+                        <button class="wbd-slide-btn wbd-slide-prev" type="button" aria-label="Previous presentation slide" disabled>Previous</button>
+                        <div class="wbd-slide-center-controls">
+                            <button class="wbd-slide-arrow wbd-slide-arrow-prev" type="button" aria-label="Previous slide" disabled><span aria-hidden="true">&larr;</span></button>
+                            <span class="wbd-slide-counter" aria-live="polite" aria-atomic="true">1 / 13</span>
+                            <button class="wbd-slide-arrow wbd-slide-arrow-next" type="button" aria-label="Next slide"><span aria-hidden="true">&rarr;</span></button>
+                        </div>
+                        <button class="wbd-slide-btn wbd-slide-next" type="button" aria-label="Next presentation slide">Next</button>
+                    </div>
+                </div>
+            </section>
 
             <div class="case-summary-grid case-layout-wide">
                 <article class="summary-card">
@@ -1013,11 +1243,7 @@
                 <figcaption>Textures reinforced visual distinction between territories while supporting players with color vision deficiencies. Visual consistency improved the readability of the core gameplay view while keeping strategic information dense</figcaption>
             </figure>
 
-            <figure class="media-frame case-layout-wide">
-                <img src="/assets/posts/2025-12-09-p_wbd-4xhud/G-Play.png" alt="Gameplay system impact view" data-lightbox="true" />
-                <figcaption>.</figcaption>
-            </figure>
-        </section>
+           
 
         <section class="case-section" id="impact">
             <div class="case-layout-text">
@@ -1188,6 +1414,61 @@
 <script src="/assets/js/custom.js"></script>
 <script>
   (function () {
+    var slides = [
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-01.webp",
+        alt: "Cover slide: Designing for a Dense Strategy System by Victoria Panshin, with Warner Bros Discovery, Game of Thrones, and House of the Dragon branding and role highlights."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-02.webp",
+        alt: "Audience journey slide showing two player personas, a five-step journey arc, emotional states, and pain points where excitement meets a dead end."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-03.webp",
+        alt: "Research inputs slide summarizing player interviews, audience framing, research takeaways, competitor analysis, visual system exploration, and screen references."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-04.webp",
+        alt: "UX audit observations slide annotating a dense strategy game HUD with visual clutter, weak hierarchy, small touch targets, overlapping menus, and unclear next steps."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-05.webp",
+        alt: "Pattern analysis slide comparing map interactions, action panel behavior, tooltip movement, bottom navigation, and UI patterns from strategy game references."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-06.webp",
+        alt: "Map interaction pattern slide outlining a flow from selecting map tiles through system reads, contextual panel display, primary action prioritization, and feedback."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-07.webp",
+        alt: "Map interaction pattern slide defining info panel frameworks, including empty land, enemy land, and resource or city panels for ownership states."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-08.webp",
+        alt: "Map interaction pattern slide showing My City interaction, quick stats, radial action controls, and My City subaction hierarchy."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-09.webp",
+        alt: "UX usability slide defining safe touch, reach, and mobile interaction zones for a game HUD layout with ergonomic guidance."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-10.webp",
+        alt: "A/B testing slide comparing main navigation options A, B, and C on mobile HUD mockups."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-11.webp",
+        alt: "Information architecture hierarchy slide organizing navigation around user intent with HUD zones for world map, resources, social, ranking, battle, and support actions."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-12.webp",
+        alt: "Visual design system slide showing HUD components, panels, colors, typography, icons, and states for a scalable game interface system."
+      },
+      {
+        src: "/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-13.webp",
+        alt: "Key learnings slide summarizing role, value delivered, and the outcome flow from select through interpret state, prioritize action, give feedback, and continue."
+      }
+    ];
+
     var navLinks = Array.prototype.slice.call(document.querySelectorAll(".case-sticky-nav a"));
     var sections = navLinks
       .map(function (link) {
@@ -1214,23 +1495,44 @@
 
     var lightbox = document.createElement("div");
     lightbox.className = "lightbox";
+    lightbox.setAttribute("role", "dialog");
+    lightbox.setAttribute("aria-modal", "true");
+    lightbox.setAttribute("aria-label", "Expanded image viewer");
     lightbox.innerHTML = '<button type="button" aria-label="Close image">&times;</button><img alt="" />';
     document.body.appendChild(lightbox);
 
     var lightboxImg = lightbox.querySelector("img");
     var closeButton = lightbox.querySelector("button");
+    var lastFocusedElement = null;
+
+    function openLightboxFromImage(img) {
+      if (!img || !img.src) {
+        return;
+      }
+
+      lastFocusedElement = document.activeElement;
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt || "";
+      lightbox.classList.add("is-open");
+      closeButton.focus();
+    }
 
     function closeLightbox() {
       lightbox.classList.remove("is-open");
       lightboxImg.removeAttribute("src");
       lightboxImg.removeAttribute("alt");
+      if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+        lastFocusedElement.focus();
+      }
     }
 
     document.querySelectorAll("img[data-lightbox='true']").forEach(function (img) {
+      if (img.closest(".wbd-slide-image-button")) {
+        return;
+      }
+
       img.addEventListener("click", function () {
-        lightboxImg.src = img.src;
-        lightboxImg.alt = img.alt || "";
-        lightbox.classList.add("is-open");
+        openLightboxFromImage(img);
       });
     });
 
@@ -1241,9 +1543,206 @@
       }
     });
 
+    var slideshow = document.querySelector("[data-presentation-slideshow]");
+    var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var currentIndex = 0;
+    var renderTimer = null;
+    var preloadCache = {};
+    var showSlide = function () {
+      return false;
+    };
+
+    if (slideshow) {
+      var slideImage = slideshow.querySelector(".wbd-slide-img");
+      var slideImageButton = slideshow.querySelector(".wbd-slide-image-button");
+      var counter = slideshow.querySelector(".wbd-slide-counter");
+      var prevButtons = Array.prototype.slice.call(slideshow.querySelectorAll(".wbd-slide-prev, .wbd-slide-arrow-prev"));
+      var nextButtons = Array.prototype.slice.call(slideshow.querySelectorAll(".wbd-slide-next, .wbd-slide-arrow-next"));
+
+      function setButtonState(buttons, isDisabled) {
+        buttons.forEach(function (button) {
+          button.disabled = isDisabled;
+          button.setAttribute("aria-disabled", isDisabled ? "true" : "false");
+        });
+      }
+
+      function preloadSlide(index) {
+        if (index < 0 || index >= slides.length || preloadCache[index]) {
+          return;
+        }
+
+        preloadCache[index] = new Image();
+        preloadCache[index].src = slides[index].src;
+      }
+
+      function preloadAdjacentSlides() {
+        preloadSlide(currentIndex - 1);
+        preloadSlide(currentIndex + 1);
+      }
+
+      function updateSlideControls() {
+        var slideNumber = currentIndex + 1;
+        counter.textContent = slideNumber + " / " + slides.length;
+        slideImageButton.setAttribute("aria-label", "Open slide " + slideNumber + " of " + slides.length + " larger");
+        setButtonState(prevButtons, currentIndex === 0);
+        setButtonState(nextButtons, currentIndex === slides.length - 1);
+      }
+
+      function finishTransition() {
+        slideImage.classList.remove("is-transitioning");
+        slideImage.removeEventListener("load", finishTransition);
+        slideImage.removeEventListener("error", finishTransition);
+      }
+
+      function applySlide() {
+        var slide = slides[currentIndex];
+        slideImage.addEventListener("load", finishTransition);
+        slideImage.addEventListener("error", finishTransition);
+        slideImage.src = slide.src;
+        slideImage.alt = slide.alt;
+        updateSlideControls();
+        preloadAdjacentSlides();
+
+        if (slideImage.complete) {
+          window.requestAnimationFrame(finishTransition);
+        }
+      }
+
+      showSlide = function (index) {
+        if (index < 0 || index >= slides.length || index === currentIndex) {
+          return false;
+        }
+
+        currentIndex = index;
+        window.clearTimeout(renderTimer);
+
+        if (prefersReducedMotion) {
+          applySlide();
+        } else {
+          slideImage.classList.add("is-transitioning");
+          renderTimer = window.setTimeout(applySlide, 90);
+        }
+
+        return true;
+      };
+
+      prevButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          showSlide(currentIndex - 1);
+        });
+      });
+
+      nextButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          showSlide(currentIndex + 1);
+        });
+      });
+
+      var touchStartX = 0;
+      var touchStartY = 0;
+      var swipeWasHandled = false;
+
+      function beginSwipe(x, y) {
+        touchStartX = x;
+        touchStartY = y;
+        swipeWasHandled = false;
+      }
+
+      function completeSwipe(x, y) {
+        var deltaX = x - touchStartX;
+        var deltaY = y - touchStartY;
+
+        if (Math.abs(deltaX) > 42 && Math.abs(deltaX) > Math.abs(deltaY) * 1.2) {
+          swipeWasHandled = true;
+          if (deltaX < 0) {
+            showSlide(currentIndex + 1);
+          } else {
+            showSlide(currentIndex - 1);
+          }
+        }
+      }
+
+      slideImageButton.addEventListener("click", function (event) {
+        if (swipeWasHandled) {
+          event.preventDefault();
+          swipeWasHandled = false;
+          return;
+        }
+
+        openLightboxFromImage(slideImage);
+      });
+
+      if (window.PointerEvent) {
+        slideImageButton.addEventListener("pointerdown", function (event) {
+          if (event.pointerType === "mouse" && event.button !== 0) {
+            return;
+          }
+
+          beginSwipe(event.clientX, event.clientY);
+          slideImageButton.setPointerCapture(event.pointerId);
+        });
+
+        slideImageButton.addEventListener("pointerup", function (event) {
+          completeSwipe(event.clientX, event.clientY);
+          if (slideImageButton.hasPointerCapture(event.pointerId)) {
+            slideImageButton.releasePointerCapture(event.pointerId);
+          }
+        });
+
+        slideImageButton.addEventListener("pointercancel", function (event) {
+          swipeWasHandled = false;
+          if (slideImageButton.hasPointerCapture(event.pointerId)) {
+            slideImageButton.releasePointerCapture(event.pointerId);
+          }
+        });
+      } else {
+        slideImageButton.addEventListener("touchstart", function (event) {
+          if (!event.touches.length) {
+            return;
+          }
+
+          beginSwipe(event.touches[0].clientX, event.touches[0].clientY);
+        }, { passive: true });
+
+        slideImageButton.addEventListener("touchend", function (event) {
+          if (!event.changedTouches.length) {
+            return;
+          }
+
+          completeSwipe(event.changedTouches[0].clientX, event.changedTouches[0].clientY);
+        }, { passive: true });
+      }
+
+      updateSlideControls();
+      preloadAdjacentSlides();
+    }
+
+    function isEditableTarget(target) {
+      if (!target || !target.tagName) {
+        return false;
+      }
+
+      return target.isContentEditable || /^(input|textarea|select)$/i.test(target.tagName);
+    }
+
     document.addEventListener("keydown", function (event) {
       if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
         closeLightbox();
+        return;
+      }
+
+      if (!slideshow || lightbox.classList.contains("is-open") || isEditableTarget(event.target)) {
+        return;
+      }
+
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        showSlide(currentIndex - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        showSlide(currentIndex + 1);
       }
     });
   })();
