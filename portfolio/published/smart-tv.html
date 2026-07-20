@@ -52,7 +52,7 @@
 
 </head>
 
-<body>
+<body class="smart-tv-case-study">
 
     <!-- Preloader -->
 <div id="preloader">
@@ -130,20 +130,280 @@
     color: black;
     text-align: center; 
   }
+
+  .smart-tv-case-study .smart-tv-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .smart-tv-case-study .smart-tv-presentation {
+    margin: 34px 0 42px;
+  }
+
+  .smart-tv-case-study .smart-tv-presentation-frame {
+    padding: clamp(10px, 2vw, 18px);
+    border: 1px solid rgba(16, 32, 51, 0.1);
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(240, 245, 250, 0.96));
+    box-shadow: 0 24px 56px rgba(14, 30, 54, 0.13);
+  }
+
+  .smart-tv-case-study .smart-tv-slide-stage {
+    aspect-ratio: 16 / 9;
+    border-radius: 16px;
+    background: #050b13;
+    overflow: hidden;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-image-button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 16px;
+    background: #050b13;
+    cursor: zoom-in;
+    touch-action: pan-y;
+    user-select: none;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-image-button:focus-visible,
+  .smart-tv-case-study .smart-tv-presentation button:focus-visible,
+  .smart-tv-case-study .smart-tv-lightbox button:focus-visible {
+    outline: 3px solid #1872ff;
+    outline-offset: 3px;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    border-radius: 16px;
+    background: #050b13;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-img.is-transitioning {
+    opacity: 0;
+    transform: scale(0.995);
+  }
+
+  .smart-tv-case-study .smart-tv-slideshow-controls {
+    display: grid;
+    grid-template-columns: minmax(116px, 1fr) auto minmax(116px, 1fr);
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-center-controls {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-btn,
+  .smart-tv-case-study .smart-tv-slide-arrow {
+    min-height: 44px;
+    border: 1px solid rgba(16, 32, 51, 0.12);
+    background: #fff;
+    color: #17314a;
+    box-shadow: 0 10px 22px rgba(14, 30, 54, 0.08);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-prev {
+    justify-self: start;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-next {
+    justify-self: end;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .smart-tv-case-study .smart-tv-slide-counter {
+    min-width: 78px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #355067;
+  }
+
+  .smart-tv-case-study .smart-tv-presentation button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    border-color: rgba(24, 114, 255, 0.38);
+    box-shadow: 0 14px 28px rgba(14, 30, 54, 0.12);
+  }
+
+  .smart-tv-case-study .smart-tv-presentation button:disabled {
+    opacity: 0.52;
+    cursor: not-allowed;
+    filter: grayscale(0.25);
+    box-shadow: none;
+  }
+
+  .smart-tv-case-study .smart-tv-lightbox {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background: rgba(5, 10, 18, 0.92);
+    z-index: 9999;
+  }
+
+  .smart-tv-case-study .smart-tv-lightbox.is-open {
+    display: flex;
+  }
+
+  .smart-tv-case-study .smart-tv-lightbox img {
+    max-width: min(1400px, 92vw);
+    max-height: 88vh;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  }
+
+  .smart-tv-case-study .smart-tv-lightbox button {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  @media (max-width: 767px) {
+    .smart-tv-case-study .box-primary-nav.row {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .smart-tv-case-study .box-primary-nav img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .smart-tv-case-study .smart-tv-presentation-frame {
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .smart-tv-case-study .smart-tv-slide-stage,
+    .smart-tv-case-study .smart-tv-slide-image-button,
+    .smart-tv-case-study .smart-tv-slide-img {
+      border-radius: 12px;
+    }
+
+    .smart-tv-case-study .smart-tv-slideshow-controls {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .smart-tv-case-study .smart-tv-slide-center-controls {
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
+
+    .smart-tv-case-study .smart-tv-slide-prev {
+      grid-column: 1;
+      grid-row: 2;
+      justify-self: stretch;
+    }
+
+    .smart-tv-case-study .smart-tv-slide-next {
+      grid-column: 2;
+      grid-row: 2;
+      justify-self: stretch;
+    }
+
+    .smart-tv-case-study .smart-tv-slide-btn {
+      width: 100%;
+      min-height: 48px;
+      padding: 0 14px;
+    }
+  }
 </style>
 
 <hr />
 
 <h1 id="smart-tv--re-engaging-the-multitasker">Smart TV <br /> Re-Engaging the Multitasker</h1>
+<h4 id="interactive-tv-system--visual-first-ux--cross-device-experiences">Interactive TV System ·  Cross-Device Experiences</h4>
+
+<section class="smart-tv-presentation" aria-labelledby="smart-tv-presentation-title" data-smart-tv-presentation>
+  <h2 id="smart-tv-presentation-title" class="smart-tv-sr-only">Smart TV presentation slideshow</h2>
+  <div class="smart-tv-presentation-frame">
+    <div class="smart-tv-slide-stage">
+      <button class="smart-tv-slide-image-button" type="button" aria-label="Open slide 1 larger">
+        <img
+          class="smart-tv-slide-img"
+          src="/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p1.png"
+          alt="Smart TV presentation slide 1"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </button>
+    </div>
+    <div class="smart-tv-slideshow-controls" aria-label="Presentation controls">
+      <button class="smart-tv-slide-btn smart-tv-slide-prev" type="button" aria-label="Previous presentation slide" disabled>Previous</button>
+      <div class="smart-tv-slide-center-controls">
+        <button class="smart-tv-slide-arrow smart-tv-slide-arrow-prev" type="button" aria-label="Previous slide" disabled><span aria-hidden="true">&larr;</span></button>
+        <span class="smart-tv-slide-counter" aria-live="polite" aria-atomic="true">1 / 18</span>
+        <button class="smart-tv-slide-arrow smart-tv-slide-arrow-next" type="button" aria-label="Next slide"><span aria-hidden="true">&rarr;</span></button>
+      </div>
+      <button class="smart-tv-slide-btn smart-tv-slide-next" type="button" aria-label="Next presentation slide">Next</button>
+    </div>
+  </div>
+</section>
 <p><br /></p>
 
-<h3 id="interactive-tv-system--visual-first-ux--cross-device-experiences">Interactive TV System · Visual-First UX · Cross-Device Experiences</h3>
+
 
 <div class="info-cards">
 
   <div class="info-card">
     <h3>Role &amp; Scope </h3>
-    <p>Senior Interaction Designer for a visual-first, system-level re-engagement concept for Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.</p>
+    <p>Senior Interaction Designer for a system-level re-engagement concept for Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.</p>
   </div>
 
   <div class="info-card">
@@ -178,7 +438,7 @@
 
 <hr />
 
-<p><img src="/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p1.png" alt="smart-tv" title="smart-tv" /> 
+<p class="smart-tv-source-images"><img src="/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p1.png" alt="smart-tv" title="smart-tv" />
 <img src="/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p2.png" alt="smart-tv" title="smart-tv" /> 
 <img src="/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p3.png" alt="smart-tv" title="smart-tv" /> 
 <img src="/assets/posts/post_smart-tv-Samsung/Samsung-sc-present-p4.png" alt="smart-tv" title="smart-tv" /> 
@@ -283,6 +543,333 @@
 
 <!--  custom script -->
 <script src="/assets/js/custom.js"></script>
+<script>
+  (function () {
+    var sourceImages = Array.prototype.slice.call(document.querySelectorAll(".smart-tv-source-images img"));
+    var slides = sourceImages.map(function (img, index) {
+      return {
+        src: img.getAttribute("src"),
+        alt: "Smart TV presentation slide " + (index + 1)
+      };
+    });
+    var slideshow = document.querySelector("[data-smart-tv-presentation]");
+
+    if (!slideshow || !slides.length) {
+      return;
+    }
+
+    var slideImage = slideshow.querySelector(".smart-tv-slide-img");
+    var slideImageButton = slideshow.querySelector(".smart-tv-slide-image-button");
+    var counter = slideshow.querySelector(".smart-tv-slide-counter");
+    var prevButtons = Array.prototype.slice.call(slideshow.querySelectorAll(".smart-tv-slide-prev, .smart-tv-slide-arrow-prev"));
+    var nextButtons = Array.prototype.slice.call(slideshow.querySelectorAll(".smart-tv-slide-next, .smart-tv-slide-arrow-next"));
+    var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var currentIndex = 0;
+    var renderTimer = null;
+    var preloadCache = {};
+
+    var lightbox = document.createElement("div");
+    lightbox.className = "smart-tv-lightbox";
+    lightbox.setAttribute("role", "dialog");
+    lightbox.setAttribute("aria-modal", "true");
+    lightbox.setAttribute("aria-label", "Expanded image viewer");
+    lightbox.setAttribute("aria-hidden", "true");
+    lightbox.innerHTML = '<button type="button" aria-label="Close image">&times;</button><img alt="">';
+    document.body.appendChild(lightbox);
+
+    var lightboxImage = lightbox.querySelector("img");
+    var closeButton = lightbox.querySelector("button");
+    var lastFocusedElement = null;
+
+    function setButtonState(buttons, isDisabled) {
+      buttons.forEach(function (button) {
+        button.disabled = isDisabled;
+        button.setAttribute("aria-disabled", isDisabled ? "true" : "false");
+      });
+    }
+
+    function openLightbox(img) {
+      if (!img || !img.src) {
+        return;
+      }
+
+      lastFocusedElement = document.activeElement;
+      lightboxImage.src = img.currentSrc || img.src;
+      lightboxImage.alt = img.alt || "";
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      closeButton.focus();
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.removeAttribute("src");
+      lightboxImage.alt = "";
+      if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+        lastFocusedElement.focus();
+      }
+    }
+
+    function preloadSlide(index) {
+      if (index < 0 || index >= slides.length || preloadCache[index]) {
+        return;
+      }
+
+      preloadCache[index] = new Image();
+      preloadCache[index].src = slides[index].src;
+    }
+
+    function preloadAdjacentSlides() {
+      preloadSlide(currentIndex - 1);
+      preloadSlide(currentIndex + 1);
+    }
+
+    function updateSlideControls() {
+      var slideNumber = currentIndex + 1;
+      counter.textContent = slideNumber + " / " + slides.length;
+      slideImageButton.setAttribute("aria-label", "Open slide " + slideNumber + " of " + slides.length + " larger");
+      setButtonState(prevButtons, currentIndex === 0);
+      setButtonState(nextButtons, currentIndex === slides.length - 1);
+    }
+
+    function finishTransition() {
+      slideImage.classList.remove("is-transitioning");
+      slideImage.removeEventListener("load", finishTransition);
+      slideImage.removeEventListener("error", finishTransition);
+    }
+
+    function applySlide() {
+      var slide = slides[currentIndex];
+      slideImage.addEventListener("load", finishTransition);
+      slideImage.addEventListener("error", finishTransition);
+      slideImage.src = slide.src;
+      slideImage.alt = slide.alt;
+      updateSlideControls();
+      preloadAdjacentSlides();
+
+      if (slideImage.complete) {
+        window.requestAnimationFrame(finishTransition);
+      }
+    }
+
+    function showSlide(index) {
+      if (index < 0 || index >= slides.length || index === currentIndex) {
+        return false;
+      }
+
+      currentIndex = index;
+      window.clearTimeout(renderTimer);
+
+      if (prefersReducedMotion) {
+        applySlide();
+      } else {
+        slideImage.classList.add("is-transitioning");
+        renderTimer = window.setTimeout(applySlide, 90);
+      }
+
+      return true;
+    }
+
+    prevButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        showSlide(currentIndex - 1);
+      });
+    });
+
+    nextButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        showSlide(currentIndex + 1);
+      });
+    });
+
+    var touchStartX = 0;
+    var touchStartY = 0;
+    var swipeIsActive = false;
+    var swipeWasHandled = false;
+    var lastSwipeTime = 0;
+
+    function beginSwipe(x, y) {
+      touchStartX = x;
+      touchStartY = y;
+      swipeIsActive = true;
+      swipeWasHandled = false;
+    }
+
+    function updateSwipe(x, y, shouldFinish) {
+      if (!swipeIsActive) {
+        return;
+      }
+
+      var deltaX = x - touchStartX;
+      var deltaY = y - touchStartY;
+      var now = Date.now();
+
+      if (now - lastSwipeTime < 280) {
+        if (shouldFinish) {
+          swipeIsActive = false;
+        }
+        return;
+      }
+
+      if (Math.abs(deltaX) > 42 && Math.abs(deltaX) > Math.abs(deltaY) * 1.2) {
+        swipeWasHandled = true;
+        swipeIsActive = false;
+        lastSwipeTime = now;
+        if (deltaX < 0) {
+          showSlide(currentIndex + 1);
+        } else {
+          showSlide(currentIndex - 1);
+        }
+        return;
+      }
+
+      if (shouldFinish) {
+        swipeIsActive = false;
+      }
+    }
+
+    function trackSwipe(x, y) {
+      updateSwipe(x, y, false);
+    }
+
+    function completeSwipe(x, y) {
+      updateSwipe(x, y, true);
+    }
+
+    slideImageButton.addEventListener("click", function (event) {
+      if (swipeWasHandled) {
+        event.preventDefault();
+        swipeWasHandled = false;
+        return;
+      }
+
+      openLightbox(slideImage);
+    });
+
+    if (window.PointerEvent) {
+      slideImageButton.addEventListener("pointerdown", function (event) {
+        if (event.pointerType === "mouse" && event.button !== 0) {
+          return;
+        }
+
+        beginSwipe(event.clientX, event.clientY);
+        slideImageButton.setPointerCapture(event.pointerId);
+      });
+
+      slideImageButton.addEventListener("pointerup", function (event) {
+        completeSwipe(event.clientX, event.clientY);
+        if (slideImageButton.hasPointerCapture(event.pointerId)) {
+          slideImageButton.releasePointerCapture(event.pointerId);
+        }
+      });
+
+      slideImageButton.addEventListener("pointermove", function (event) {
+        trackSwipe(event.clientX, event.clientY);
+      });
+
+      slideImageButton.addEventListener("pointercancel", function (event) {
+        swipeIsActive = false;
+        swipeWasHandled = false;
+        if (slideImageButton.hasPointerCapture(event.pointerId)) {
+          slideImageButton.releasePointerCapture(event.pointerId);
+        }
+      });
+    }
+
+    slideImageButton.addEventListener("mousedown", function (event) {
+      if (event.button !== 0) {
+        return;
+      }
+
+      beginSwipe(event.clientX, event.clientY);
+    });
+
+    window.addEventListener("mouseup", function (event) {
+      if (event.button !== 0) {
+        return;
+      }
+
+      completeSwipe(event.clientX, event.clientY);
+    });
+
+    window.addEventListener("mousemove", function (event) {
+      trackSwipe(event.clientX, event.clientY);
+    });
+
+    slideImage.addEventListener("dragstart", function (event) {
+      event.preventDefault();
+    });
+
+    slideImageButton.addEventListener("touchstart", function (event) {
+      if (!event.touches.length) {
+        return;
+      }
+
+      beginSwipe(event.touches[0].clientX, event.touches[0].clientY);
+    }, { passive: true });
+
+    slideImageButton.addEventListener("touchmove", function (event) {
+      if (!event.touches.length) {
+        return;
+      }
+
+      trackSwipe(event.touches[0].clientX, event.touches[0].clientY);
+    }, { passive: true });
+
+    slideImageButton.addEventListener("touchend", function (event) {
+      if (!event.changedTouches.length) {
+        return;
+      }
+
+      completeSwipe(event.changedTouches[0].clientX, event.changedTouches[0].clientY);
+    }, { passive: true });
+
+    sourceImages.forEach(function (img) {
+      img.addEventListener("click", function () {
+        openLightbox(img);
+      });
+    });
+
+    closeButton.addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    function isEditableTarget(target) {
+      if (!target || !target.tagName) {
+        return false;
+      }
+
+      return target.isContentEditable || /^(input|textarea|select)$/i.test(target.tagName);
+    }
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+        return;
+      }
+
+      if (lightbox.classList.contains("is-open") || isEditableTarget(event.target)) {
+        return;
+      }
+
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        showSlide(currentIndex - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        showSlide(currentIndex + 1);
+      }
+    });
+
+    applySlide();
+  })();
+</script>
 <!--  ionicons script -->
 <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
 

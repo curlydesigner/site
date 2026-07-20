@@ -48,11 +48,817 @@
   gtag('config', 'G-XEPH1STMM3');
 </script>
 
+<style>
+  body.bsims-case-study {
+    background: #f4f7fb;
+    color: #101827;
+  }
+
+  .bsims-case-study .top-bar.post.override-bg.case-context-bar {
+    background: transparent;
+    min-height: 0;
+    padding: 50px 0 16px;
+    margin-bottom: 36px;
+  }
+
+  .bsims-case-study .case-context-bar .case-context-inner {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .bsims-case-study .case-context-bar h5 {
+    margin: 0 0 6px;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #12253a;
+  }
+
+  .bsims-case-study .case-context-bar p,
+  .bsims-case-study .case-context-bar a {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #55718c;
+    text-decoration: none;
+  }
+
+  .bsims-case-study .context-left {
+    justify-self: start;
+  }
+
+  .bsims-case-study .context-center {
+    justify-self: center;
+    white-space: nowrap;
+  }
+
+  .bsims-case-study .context-right {
+    justify-self: end;
+  }
+
+  .bsims-case-study .main-container.portfolio-post {
+    width: 100%;
+    max-width: none;
+    padding: 0 28px 72px;
+  }
+
+  .bsims-case-study .case-study-shell {
+    width: 100%;
+  }
+
+  .bsims-case-study .case-layout-text,
+  .bsims-case-study .case-layout-wide,
+  .bsims-case-study .case-layout-full {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bsims-case-study .case-layout-text {
+    max-width: 820px;
+  }
+
+  .bsims-case-study .case-layout-wide {
+    max-width: 1180px;
+  }
+
+  .bsims-case-study .case-layout-full {
+    max-width: 1320px;
+  }
+
+  .bsims-case-study .case-hero {
+    margin-bottom: 34px;
+    text-align: center;
+  }
+
+  .bsims-case-study .case-kicker {
+    display: inline-flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 999px;
+    background: rgba(9, 97, 218, 0.1);
+    color: #0b58b8;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .bsims-case-study .case-study-title {
+    max-width: 15ch;
+    margin: 18px auto 14px;
+    font-size: clamp(36px, 5vw, 66px);
+    line-height: 1.04;
+    letter-spacing: -0.03em;
+    color: #081521;
+  }
+
+  .bsims-case-study .case-subtitle {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #526a82;
+  }
+
+  .bsims-case-study .case-hero-media {
+    margin: 28px auto 0;
+    padding: 16px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #ffffff, #ecf2f7);
+    box-shadow: 0 30px 80px rgba(10, 24, 47, 0.16);
+  }
+
+  .bsims-case-study .case-hero-media img,
+  .bsims-case-study .media-frame img,
+  .bsims-case-study .media-frame video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .bsims-case-study .bsims-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .bsims-case-study .bsims-presentation {
+    margin: 34px auto 0;
+    text-align: left;
+  }
+
+  .bsims-case-study .bsims-presentation-frame {
+    padding: clamp(12px, 2vw, 20px);
+    border: 1px solid rgba(16, 32, 51, 0.08);
+    border-radius: 28px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(239, 245, 252, 0.96));
+    box-shadow: 0 24px 62px rgba(14, 30, 54, 0.12);
+  }
+
+  .bsims-case-study .bsims-slide-stage {
+    aspect-ratio: 16 / 9;
+    border-radius: 18px;
+    background: #07101c;
+    overflow: hidden;
+  }
+
+  .bsims-case-study .bsims-slide-image-button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 18px;
+    background: #07101c;
+    cursor: zoom-in;
+  }
+
+  .bsims-case-study .bsims-slide-image-button:focus-visible,
+  .bsims-case-study .bsims-presentation button:focus-visible,
+  .bsims-case-study .lightbox button:focus-visible {
+    outline: 3px solid #0d5cba;
+    outline-offset: 3px;
+  }
+
+  .bsims-case-study .bsims-slide-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    border-radius: 18px;
+    background: #07101c;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+  }
+
+  .bsims-case-study .bsims-slide-img.is-transitioning {
+    opacity: 0;
+    transform: scale(0.995);
+  }
+
+  .bsims-case-study .bsims-slideshow-controls {
+    display: grid;
+    grid-template-columns: minmax(120px, 1fr) auto minmax(120px, 1fr);
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .bsims-case-study .bsims-slide-center-controls {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .bsims-case-study .bsims-slide-btn,
+  .bsims-case-study .bsims-slide-arrow {
+    min-height: 44px;
+    border: 1px solid rgba(16, 32, 51, 0.12);
+    background: #fff;
+    color: #17314a;
+    box-shadow: 0 10px 22px rgba(14, 30, 54, 0.08);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .bsims-case-study .bsims-slide-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .bsims-case-study .bsims-slide-prev {
+    justify-self: start;
+  }
+
+  .bsims-case-study .bsims-slide-next {
+    justify-self: end;
+  }
+
+  .bsims-case-study .bsims-slide-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .bsims-case-study .bsims-slide-counter {
+    min-width: 74px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #355067;
+  }
+
+  .bsims-case-study .bsims-presentation button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    border-color: rgba(13, 92, 186, 0.35);
+    box-shadow: 0 14px 28px rgba(14, 30, 54, 0.12);
+  }
+
+  .bsims-case-study .bsims-presentation button:disabled {
+    opacity: 0.52;
+    cursor: not-allowed;
+    filter: grayscale(0.25);
+    box-shadow: none;
+  }
+
+  .bsims-case-study .case-sticky-nav-wrap {
+    position: sticky;
+    top: 12px;
+    z-index: 15;
+    margin: 18px auto 46px;
+  }
+
+  .bsims-case-study .case-sticky-nav {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 14px;
+    border: 1px solid rgba(16, 32, 51, 0.08);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 18px 44px rgba(14, 30, 54, 0.08);
+  }
+
+  .bsims-case-study .case-sticky-nav a {
+    flex: 0 0 auto;
+    padding: 10px 16px;
+    border-radius: 999px;
+    color: #355067;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .bsims-case-study .case-sticky-nav a:hover,
+  .bsims-case-study .case-sticky-nav a.is-active {
+    background: #0d5cba;
+    color: #fff;
+  }
+
+  .bsims-case-study .case-section {
+    padding: 54px 0;
+    scroll-margin-top: 100px;
+  }
+
+  .bsims-case-study .case-section + .case-section {
+    border-top: 1px solid rgba(16, 32, 51, 0.08);
+  }
+
+  .bsims-case-study .section-band {
+    width: min(1320px, 100%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 42px;
+    border-radius: 34px;
+  }
+
+  .bsims-case-study .section-dark {
+    border: 1px solid rgba(110, 174, 255, 0.2);
+    background: radial-gradient(circle at top left, rgba(13, 92, 186, 0.32), transparent 36%), linear-gradient(135deg, #07101c 0%, #0d1b2b 55%, #07101c 100%);
+    color: #fff;
+    box-shadow: 0 30px 90px rgba(5, 18, 35, 0.28);
+  }
+
+  .bsims-case-study .section-dark .section-eyebrow,
+  .bsims-case-study .section-dark .section-title,
+  .bsims-case-study .section-dark p,
+  .bsims-case-study .section-dark li,
+  .bsims-case-study .section-dark .subsection-title {
+    color: #fff;
+  }
+
+  .bsims-case-study .section-dark .section-intro {
+    color: #d3e2f5;
+  }
+
+  .bsims-case-study .section-eyebrow {
+    margin: 0 0 10px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #0b58b8;
+  }
+
+  .bsims-case-study .section-title {
+    margin: 0 0 16px;
+    font-size: clamp(30px, 4vw, 46px);
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    color: #0d1728;
+  }
+
+  .bsims-case-study .subsection-title {
+    margin: 34px 0 12px;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #12253a;
+  }
+
+  .bsims-case-study .section-intro,
+  .bsims-case-study .case-layout-text p,
+  .bsims-case-study .case-layout-wide p,
+  .bsims-case-study .case-layout-full p,
+  .bsims-case-study .case-layout-text li,
+  .bsims-case-study .case-layout-wide li {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #203448;
+  }
+
+  .bsims-case-study .section-intro {
+    margin-bottom: 26px;
+    font-size: 20px;
+    color: #4b6177;
+  }
+
+  .bsims-case-study .case-layout-text p,
+  .bsims-case-study .case-layout-wide p {
+    margin: 0 0 18px;
+  }
+
+  .bsims-case-study .section-dark .case-layout-text p,
+  .bsims-case-study .section-dark .case-layout-wide p,
+  .bsims-case-study .section-dark .case-layout-full p,
+  .bsims-case-study .section-dark .case-layout-text li,
+  .bsims-case-study .section-dark .case-layout-wide li {
+    color: #d9eaff;
+  }
+
+  .bsims-case-study .outcomes-section {
+    padding: 74px 0;
+    border-top: 0;
+  }
+
+  .bsims-case-study .outcomes-band {
+    position: relative;
+    width: min(1400px, 100%);
+    margin: 0 auto;
+    padding: clamp(34px, 6vw, 70px);
+    border: 1px solid rgba(125, 184, 255, 0.26);
+    border-radius: 38px;
+    overflow: hidden;
+    color: #fff;
+    background:
+      linear-gradient(135deg, rgba(18, 42, 68, 0.82), rgba(4, 10, 19, 0.96) 48%, rgba(6, 12, 23, 1)),
+      repeating-linear-gradient(90deg, rgba(107, 184, 255, 0.06) 0, rgba(107, 184, 255, 0.06) 1px, transparent 1px, transparent 92px);
+    box-shadow: 0 34px 90px rgba(3, 12, 24, 0.32);
+  }
+
+  .bsims-case-study .outcomes-band::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(255, 183, 35, 0.16), transparent 28%, transparent 72%, rgba(86, 174, 255, 0.16)),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.07), transparent 42%);
+  }
+
+  .bsims-case-study .outcomes-copy,
+  .bsims-case-study .outcomes-impact-grid,
+  .bsims-case-study .outcomes-media {
+    position: relative;
+    z-index: 1;
+  }
+
+  .bsims-case-study .outcomes-copy {
+    text-align: center;
+  }
+
+  .bsims-case-study .outcomes-copy .section-eyebrow {
+    color: #ffbd45;
+  }
+
+  .bsims-case-study .outcomes-copy .section-title {
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-wrap: balance;
+  }
+
+  .bsims-case-study .outcomes-copy .section-intro {
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #d9eaff;
+  }
+
+  .bsims-case-study .outcomes-impact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+    margin: 36px auto 14px;
+  }
+
+  .bsims-case-study .outcome-impact-card {
+    padding: 22px;
+    border: 1px solid rgba(125, 184, 255, 0.22);
+    border-radius: 22px;
+    background: rgba(7, 18, 32, 0.76);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+
+  .bsims-case-study .outcome-impact-card:nth-child(2) {
+    border-color: rgba(255, 189, 69, 0.3);
+  }
+
+  .bsims-case-study .outcome-impact-card h3 {
+    margin: 0 0 10px;
+    font-size: 15px;
+    line-height: 1.35;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6bb8ff;
+  }
+
+  .bsims-case-study .outcome-impact-card:nth-child(2) h3 {
+    color: #ffbd45;
+  }
+
+  .bsims-case-study .outcome-impact-card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #d9eaff;
+  }
+
+  .bsims-case-study .outcomes-media {
+    margin-top: 28px;
+    margin-bottom: 0;
+    padding: clamp(10px, 1.8vw, 18px);
+    border-color: rgba(255, 189, 69, 0.22);
+    background: rgba(0, 5, 12, 0.72);
+    box-shadow: 0 26px 72px rgba(0, 0, 0, 0.38);
+  }
+
+  .bsims-case-study .case-grid-2,
+  .bsims-case-study .media-gallery-2 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+  }
+
+  .bsims-case-study .case-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .bsims-case-study .role-card-grid,
+  .bsims-case-study .principle-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .bsims-case-study .principle-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .bsims-case-study .summary-card,
+  .bsims-case-study .content-card,
+  .bsims-case-study .callout-card,
+  .bsims-case-study .role-card,
+  .bsims-case-study .principle-card {
+    border: 1px solid rgba(16, 32, 51, 0.08);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 18px 40px rgba(14, 30, 54, 0.08);
+  }
+
+  .bsims-case-study .summary-card,
+  .bsims-case-study .content-card,
+  .bsims-case-study .callout-card,
+  .bsims-case-study .role-card,
+  .bsims-case-study .principle-card {
+    padding: 24px;
+  }
+
+  .bsims-case-study .section-dark .content-card,
+  .bsims-case-study .section-dark .callout-card,
+  .bsims-case-study .section-dark .role-card,
+  .bsims-case-study .section-dark .principle-card {
+    border-color: rgba(125, 184, 255, 0.22);
+    background: rgba(13, 31, 52, 0.88);
+    box-shadow: none;
+  }
+
+  .bsims-case-study .section-dark .content-card p,
+  .bsims-case-study .section-dark .callout-card p,
+  .bsims-case-study .section-dark .role-card p,
+  .bsims-case-study .section-dark .principle-card p,
+  .bsims-case-study .section-dark .content-card li,
+  .bsims-case-study .section-dark .callout-card li,
+  .bsims-case-study .section-dark .role-card li,
+  .bsims-case-study .section-dark .principle-card li {
+    color: #d9eaff;
+  }
+
+  .bsims-case-study .summary-card h3,
+  .bsims-case-study .content-card h3,
+  .bsims-case-study .callout-card h3,
+  .bsims-case-study .role-card h3,
+  .bsims-case-study .principle-card h3 {
+    margin: 0 0 12px;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #0b58b8;
+  }
+
+  .bsims-case-study .section-dark .content-card h3,
+  .bsims-case-study .section-dark .callout-card h3,
+  .bsims-case-study .section-dark .role-card h3,
+  .bsims-case-study .section-dark .principle-card h3 {
+    color: #6bb8ff;
+  }
+
+  .bsims-case-study .role-label,
+  .bsims-case-study .principle-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    min-height: 42px;
+    margin-bottom: 18px;
+    border-radius: 14px;
+    background: #eaf3ff;
+    color: #0b58b8;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+  }
+
+  .bsims-case-study .section-dark .role-label,
+  .bsims-case-study .section-dark .principle-label {
+    background: rgba(86, 174, 255, 0.12);
+    color: #6bb8ff;
+  }
+
+  .bsims-case-study .media-frame {
+    margin: 28px auto;
+    padding: 18px;
+    border-radius: 28px;
+    background: #fff;
+    box-shadow: 0 18px 48px rgba(12, 30, 55, 0.08);
+  }
+
+  .bsims-case-study .section-dark .media-frame,
+  .bsims-case-study .media-frame.media-frame-dark {
+    border: 1px solid rgba(125, 184, 255, 0.22);
+    background: rgba(5, 14, 26, 0.72);
+    box-shadow: none;
+  }
+
+  .bsims-case-study .media-frame img,
+  .bsims-case-study .media-frame video {
+    cursor: zoom-in;
+  }
+
+  .bsims-case-study .media-frame video {
+    cursor: default;
+    background: #07101c;
+  }
+
+  .bsims-case-study .bridge-note {
+    margin: 34px auto 0;
+    padding: 24px 28px;
+    border-left: 5px solid #0d5cba;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 18px 40px rgba(14, 30, 54, 0.07);
+  }
+
+  .bsims-case-study .comparison-label {
+    margin: 0 0 16px;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #12253a;
+  }
+
+  .bsims-case-study .lightbox {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background: rgba(8, 15, 24, 0.92);
+    z-index: 9999;
+  }
+
+  .bsims-case-study .lightbox.is-open {
+    display: flex;
+  }
+
+  .bsims-case-study .lightbox img {
+    max-width: min(1400px, 92vw);
+    max-height: 88vh;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  }
+
+  .bsims-case-study .lightbox button {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 28px;
+    line-height: 1;
+  }
+
+  @media (max-width: 991px) {
+    .bsims-case-study .case-grid-2,
+    .bsims-case-study .case-grid-3,
+    .bsims-case-study .media-gallery-2,
+    .bsims-case-study .role-card-grid,
+    .bsims-case-study .principle-grid,
+    .bsims-case-study .outcomes-impact-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .bsims-case-study .section-band {
+      padding: 28px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .bsims-case-study .case-context-bar .case-context-inner {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .bsims-case-study .context-left,
+    .bsims-case-study .context-center,
+    .bsims-case-study .context-right {
+      justify-self: center;
+    }
+
+    .bsims-case-study .main-container.portfolio-post {
+      padding: 0 14px 56px;
+    }
+
+    .bsims-case-study .case-study-title {
+      font-size: 38px;
+    }
+
+    .bsims-case-study .case-hero-media,
+    .bsims-case-study .media-frame {
+      padding: 10px;
+      border-radius: 22px;
+    }
+
+    .bsims-case-study .bsims-presentation {
+      margin: 28px auto 0;
+    }
+
+    .bsims-case-study .bsims-presentation-frame {
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .bsims-case-study .bsims-slide-stage,
+    .bsims-case-study .bsims-slide-image-button,
+    .bsims-case-study .bsims-slide-img {
+      border-radius: 12px;
+    }
+
+    .bsims-case-study .bsims-slideshow-controls {
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .bsims-case-study .bsims-slide-center-controls {
+      grid-column: 1 / -1;
+      grid-row: 1;
+    }
+
+    .bsims-case-study .bsims-slide-prev {
+      grid-column: 1;
+      grid-row: 2;
+      justify-self: stretch;
+    }
+
+    .bsims-case-study .bsims-slide-next {
+      grid-column: 2;
+      grid-row: 2;
+      justify-self: stretch;
+    }
+
+    .bsims-case-study .bsims-slide-btn {
+      width: 100%;
+      min-height: 48px;
+      padding: 0 14px;
+    }
+
+    .bsims-case-study .section-band {
+      padding: 22px 16px;
+      border-radius: 24px;
+    }
+
+    .bsims-case-study .outcomes-section {
+      padding: 54px 0;
+    }
+
+    .bsims-case-study .outcomes-band {
+      padding: 28px 16px;
+      border-radius: 26px;
+    }
+
+    .bsims-case-study .outcome-impact-card {
+      padding: 18px;
+      border-radius: 18px;
+    }
+
+    .bsims-case-study .case-sticky-nav {
+      border-radius: 18px;
+    }
+  }
+</style>
+
 
 
 </head>
 
-<body>
+<body class="bsims-case-study">
 
     <!-- Preloader -->
 <div id="preloader">
@@ -104,117 +910,391 @@
 
     
 <!-- top-bar -->
-<div class="top-bar post override-bg">
-    <h5>Web UI Design System</h5>
-    <p><a href="/">Home</a> / <a href="/category/portfolio">Portfolio</a></p>
+<div class="top-bar post override-bg case-context-bar">
+    <div class="container case-context-inner">
+        <div class="context-left">
+            <h5>Web UI Design System</h5>
+            <p>BlackBerry Enterprise UX</p>
+        </div>
+        <p class="context-center"><a href="/">Home</a> / <a href="/category/portfolio">Portfolio</a></p>
+        <p class="context-right"><a href="/category/portfolio.html">Back to portfolio</a></p>
+    </div>
 </div>
 <!-- end top-bar -->
 
 <!-- main-container -->
 <div class="container main-container post portfolio-post">
+    <div class="case-study-shell">
+        <section class="case-hero case-layout-full">
+            <div class="case-layout-text">
+                <span class="case-kicker">BlackBerry Ecosystem</span>
+                <h1 class="case-study-title">Enterprise UX Design System</h1>
+                <p class="case-subtitle">Workflow clarity · Cross-platform systems · Secure enterprise products · Accessibility</p>
+            </div>
 
-    <div class="col-md-9">
-        <p><img src="/assets/posts/2021-06-29-p_bsims_web_guideline/fp_ph_bberry_bsimsportal.png" alt="mockup" title="mockup" /><br /></p>
-<h6 id="design-system-and-ui-guidelines-for-blackberry-security-web-portal">Design System and UI Guidelines for BlackBerry Security Web Portal.</h6>
-<p><br /></p>
-
-
-<div class="row">
-  <div class="col-sm-6">
-
-    <h3 id="challenges">Challenges</h3>
-
-    <p>I navigated numerous usability challenges in an environment where security is paramount and great focus and attention to detail are required. With a strong emphasis on simplifying complexity and designing a more intuitive navigation &amp; user-friendly experience.</p>
-
-    <ul>
-      <li>Declutter the interface and information density without losing essential features.</li>
-      <li>Create a visual hierarchy, better focus, and easy navigation that simplifies the dozens of menu items but keeps functionality and performance.</li>
-      <li>Consistency in Branding &amp; company’s values.</li>
-      <li>Clear Error and Communication Messages.</li>
-    </ul>
-
-  </div>
-
-  <div class="col-sm-6">
-
-    <h3 id="approach">Approach</h3>
-
-    <p>While I was the lead UX UI Designer on the portal - I worked closely with a Developer and Product owner to optimize the creation of the Design System for best performance.
- My approach involved creating info architecture, wireframe and iconography.</p>
-
-    <ul>
-      <li>Implementing a minimalist design, balancing the use of colors with personalized iconiconography for each menu item so it is easily identifiable. Establishing a clear visual hierarchy to guide users naturally towards the most important elements and actions, while ensuring that all necessary information and functions are accessible.</li>
-      <li>Effective Navigation - ensuring the left-hand navigation panel allows users to see the full content and actions and organizing the menu items in a way that is intuitive and user-friendly.</li>
-      <li>Integrating BlackBerry’s brand values and color palette to resonate with the brand’s identity and ethos.</li>
-    </ul>
-
-  </div>
-</div>
-
-<hr />
-
-<p><br /></p>
-
-<p><img src="/assets/posts/2021-06-29-p_bsims_web_guideline/webbsims_guidlines.png" alt="Login" title="Login" /><br /></p>
-
-<p><br /></p>
+            <section class="bsims-presentation case-layout-wide" aria-labelledby="bsims-presentation-title" data-bsims-presentation>
+                <h2 id="bsims-presentation-title" class="bsims-sr-only">BlackBerry BSIMS presentation slideshow</h2>
+                <div class="bsims-presentation-frame">
+                    <div class="bsims-slide-stage">
+                        <button class="bsims-slide-image-button" type="button" aria-label="Open slide 1 of 17 larger">
+                            <img
+                                class="bsims-slide-img"
+                                src="/assets/posts/2021-06-29-p_bsims_web_guideline/presentation/bsims-slide-01.png"
+                                alt="Cover slide: BlackBerry designing clarity for complex enterprise systems with my role cards for workflow clarity, complex systems UX, cross-platform design, and accessible execution."
+                                loading="eager"
+                                fetchpriority="high"
+                                decoding="async"
+                            />
+                        </button>
+                    </div>
+                    <div class="bsims-slideshow-controls" aria-label="Presentation controls">
+                        <button class="bsims-slide-btn bsims-slide-prev" type="button" aria-label="Previous presentation slide" disabled>Previous</button>
+                        <div class="bsims-slide-center-controls">
+                            <button class="bsims-slide-arrow bsims-slide-arrow-prev" type="button" aria-label="Previous slide" disabled><span aria-hidden="true">&larr;</span></button>
+                            <span class="bsims-slide-counter" aria-live="polite" aria-atomic="true">1 / 17</span>
+                            <button class="bsims-slide-arrow bsims-slide-arrow-next" type="button" aria-label="Next slide"><span aria-hidden="true">&rarr;</span></button>
+                        </div>
+                        <button class="bsims-slide-btn bsims-slide-next" type="button" aria-label="Next presentation slide">Next</button>
+                    </div>
+                </div>
+            </section>
+        </section>
 
 
+        <div class="case-sticky-nav-wrap case-layout-wide">
+            <nav class="case-sticky-nav" aria-label="Section navigation">
+                <a href="#my-role">My Role</a>
+                <a href="#ecosystem">Ecosystem</a>
+                <a href="#users">Users</a>
+                <a href="#ux-audit">UX Audit</a>
+                <a href="#findings">Findings</a>
+                <a href="#research">Research</a>
+                <a href="#principles">Principles</a>
+                <a href="#flow">Flow</a>
+                <a href="#outcomes">Impact</a>
+            </nav>
+        </div>
 
-<p>View more</p>
+        <section class="case-section" id="my-role">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">My Role</p>
+                <h2 class="section-title">Clarifying complex enterprise workflows across security, communication, and device management.</h2>
+                <p class="section-intro">My focus was helping enterprise users understand what requires attention, what state the system is in, and what action to take next.</p>
+            </div>
+            <div class="role-card-grid case-layout-wide">
+                <article class="role-card">
 
-<ul>
-  <li><a href="/smart-tv">Smart TV</a></li>
-  <li><a href="/wbd-hud">WBD 4X Game Design System and Architecture</a></li>
-  <li><a href="/design-guidelines">SecuSuite Design System and UI Guidelines</a></li>
-  <li><a href="/empty-data">BlackBerry Onboarding screens</a></li>
-  <li><a href="/bb-brand">BlackBerry Brand Packaging Guidelines</a></li>
-  <li><a href="/colour-accessibility">BlackBerry Dark Theme Guidelines and Accessibility</a></li>
-</ul>
+                    <h3>Workflow clarity</h3>
+                    <p>Research, journeys, information architecture, and task flows for complex operational work.</p>
+                </article>
+                <article class="role-card">
+                                       <h3>Complex systems UX</h3>
+                    <p>Security, status, permissions, recovery, and data-heavy product experiences.</p>
+                </article>
+                <article class="role-card">
+                   <h3>Cross-platform design</h3>
+                    <p>Desktop, web, and mobile patterns that behave consistently across products.</p>
+                </article>
+                <article class="role-card">
+                    <h3>Accessible execution</h3>
+                    <p>Reusable components, contrast, light and dark themes, and state clarity beyond color alone.</p>
+                </article>
+            </div>
+        </section>
 
-<hr />
+        <section class="case-section" id="ecosystem">
+            <div class="section-band section-dark">
+                <div class="case-layout-text">
+                    <p class="section-eyebrow">Product Domain Ecosystem</p>
+                    <h2 class="section-title">Unifying BlackBerry products into one trusted enterprise ecosystem.</h2>
+                    <p class="section-intro">BlackBerry's ecosystem serves high-stakes enterprise and government users across security, productivity, emergency communication, and device management.</p>
+                    <p>My focus was helping enterprise users understand what requires attention and what action to take next, while also unifying multiple brands into one BlackBerry ecosystem.</p>
+                </div>
+                <figure class="media-frame media-frame-dark case-layout-wide">
+                    <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/bb-moodboard-products.png" alt="BlackBerry secure communication ecosystem moodboard with mobile call, emergency services, scheduling, reporting, and communication panels" data-lightbox="true" />
+                </figure>
+                <div class="case-grid-3 case-layout-wide">
+                    <article class="content-card">
+                        <h3>Security</h3>
+                        <p>Trusted communication, identity, permissions, and sensitive system states.</p>
+                    </article>
+                    <article class="content-card">
+                        <h3>Operations</h3>
+                        <p>Scheduling, reporting, device status, alerts, and high-density workflow decisions.</p>
+                    </article>
+                    <article class="content-card">
+                        <h3>Emergency use</h3>
+                        <p>Fast decisions under pressure, where unclear status or extra steps create risk.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<h4 id="other-pages">Other Pages</h4>
+        <section class="case-section" id="users">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Enterprise User Groups</p>
+                <h2 class="section-title">Government and emergency users needed secure communication without extra cognitive load.</h2>
+                <p class="section-intro">A big part of the users are government and emergency services, who need constant access to secure communication while balancing privacy, urgency, meetings, travel, and sensitive communication on trusted devices.</p>
+                <p>The shared challenge was that these users often operated under pressure, with limited tolerance for unclear system states, security ambiguity, or unnecessary steps. The design work had to reduce cognitive load and feel clear, trusted, reliable, and easy to continue across platforms.</p>
+            </div>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-02-user-groups.png" alt="Enterprise user group cards for emergency operators, IT administrators, field workers, and government executives" data-lightbox="true" />
+            </figure>
+            <article class="bridge-note case-layout-text">
+                <p>Once I understood the ecosystem and the user groups, the next step was identifying where the experience was breaking down across platforms and workflows.</p>
+            </article>
+        </section>
 
-<nav class="case-study-page-links" aria-label="Other pages">
-    <a href="/about.html">About Me</a>
-    <a href="/category/portfolio.html">Portfolio</a>
-    <a href="/#testimonials">Testimonials</a>
-</nav>
+        <section class="case-section" id="ux-audit">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">UX Audit</p>
+                <h2 class="section-title">Testing labels, states, flows, and hierarchy across platforms.</h2>
+                <p class="section-intro">I tested products and reviewed interaction behavior, labels, system states, and flows.</p>
+                <p>The audit showed that priority was hard to scan, status and alerts were mixed together, lists were too long, and labels did not always explain what needed attention. The data was there, but it was confusing and too hard to understand what mattered first and what action was expected.</p>
+            </div>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-03-ux-audit-observations.png" alt="UX audit cross-platform observations showing desktop and tablet interfaces with callouts" data-lightbox="true" />
+            </figure>
+        </section>
 
-    </div>
+        <section class="case-section" id="enterprise-problem">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Enterprise UX Problem</p>
+                <h2 class="section-title">The same experience problems appeared in different products and contexts.</h2>
+                <p class="section-intro">Users needed to make fast, high-confidence decisions across secure communication tools, but the ecosystem repeated the same kinds of problems in different places.</p>
+            </div>
+            <div class="case-grid-2 case-layout-wide">
+                <article class="content-card">
+                    <h3>Dense operational data</h3>
+                    <p>Too much information appeared with weak prioritization, making it hard to see what mattered first.</p>
+                </article>
+                <article class="content-card">
+                    <h3>Unclear system states</h3>
+                    <p>Active, pending, failed, offline, restricted, verified, and unverified states were not always clear.</p>
+                </article>
+                <article class="content-card">
+                    <h3>Cross-platform inconsistency</h3>
+                    <p>Products and devices communicated status, actions, and recovery differently.</p>
+                </article>
+                <article class="content-card">
+                    <h3>Hierarchy and next steps</h3>
+                    <p>Users could see data, but not always what state the system was in or what action to take next.</p>
+                </article>
+            </div>
+        </section>
 
-    <div class="col-md-3">
-        <ul class="cat-ul">
+        <section class="case-section" id="findings">
+            <div class="section-band section-dark">
+                <div class="case-layout-text">
+                    <p class="section-eyebrow">Cross-platform UX Audit Findings</p>
+                    <h2 class="section-title">The audit connected hierarchy, status clarity, recovery, and density into one design challenge.</h2>
+                    <p class="section-intro">Looking from an enterprise UX problem, users needed to make fast, high-confidence decisions across secure communication tools, but the ecosystem showed recurring issues across platforms.</p>
+                </div>
+                <figure class="media-frame media-frame-dark case-layout-wide">
+                    <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-04-ux-audit-findings.png" alt="Cross-platform UX audit findings comparing desktop, Android, iOS, and user impact" data-lightbox="true" />
+                </figure>
+                <div class="case-grid-2 case-layout-wide">
+                    <article class="callout-card">
+                        <h3>The UX challenge</h3>
+                        <p>Make complex security and communication states understandable at a glance so users could quickly understand communication states such as secure, active, failed, pending, restricted, or offline, and know what action to take next.</p>
+                    </article>
+                    <article class="callout-card">
+                        <h3>The enterprise UX problem</h3>
+                        <p>Users were moving across complex products, platforms, and system states without enough clarity. Across platforms, the audit showed four recurring problems: hierarchy, status clarity, recovery, and density. The workflow was too dense, inconsistent, and unclear when users needed to understand priority, status, and recovery.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-section" id="research">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Research Insights</p>
+                <h2 class="section-title">Multiple research inputs shaped the design direction.</h2>
+                <p class="section-intro">I was involved in several layers of research and discovery. The design direction came from multiple inputs: company user interviews, stakeholder input, product feedback, and cross-platform UX audit work.</p>
+                <p>We worked together to translate those findings into four needs: workflow complexity, clearer system-state communication, cross-platform consistency, and better scanability.</p>
+            </div>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-05-research-insights.png" alt="Research insights diagram connecting interviews, stakeholder data, product feedback, and UX audit to what the team learned" data-lightbox="true" />
+            </figure>
+        </section>
+
+        <section class="case-section" id="principles">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Design Principles</p>
+                <h2 class="section-title">Turning research findings into reusable product rules.</h2>
+                <p class="section-intro">The principles were written as implementation guidance: reduce cognitive load, make system state visible, show security status clearly, guide users through problems, keep patterns consistent, and support accessibility across themes.</p>
+            </div>
+            <div class="principle-grid case-layout-wide">
+                <article class="principle-card">
+                    <span class="principle-label">01</span>
+                    <h3>Reduce cognitive load</h3>
+                    <p>Prioritize what requires attention first and reduce visual noise.</p>
+                </article>
+                <article class="principle-card">
+                    <span class="principle-label">02</span>
+                    <h3>Clarify system status</h3>
+                    <p>Make active, pending, failed, offline, and restricted states easy to understand.</p>
+                </article>
+                <article class="principle-card">
+                    <span class="principle-label">03</span>
+                    <h3>Show security status</h3>
+                    <p>Use trusted signals for identity, communication, and security feedback.</p>
+                </article>
+                <article class="principle-card">
+                    <span class="principle-label">04</span>
+                    <h3>Guide recovery</h3>
+                    <p>Write clear errors and next steps for empty, loading, offline, and failure states.</p>
+                </article>
+                <article class="principle-card">
+                    <span class="principle-label">05</span>
+                    <h3>Keep patterns consistent</h3>
+                    <p>Reuse components and align interaction behavior across mobile and desktop.</p>
+                </article>
+                <article class="principle-card">
+                    <span class="principle-label">06</span>
+                    <h3>Design accessibly</h3>
+                    <p>Support contrast, readability, scalable text, touch targets, and dark/light themes.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="case-section" id="flow">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Interactive Flow Diagram</p>
+                <h2 class="section-title">Mapping entry points, dashboard paths, settings, details, and recovery.</h2>
+                <p class="section-intro">This flow helped define the structure of the product experience so users move through a clearer path from login and setup to dashboard, settings, user details, and recovery.</p>
+            </div>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-07-interactive-flow-diagram.png" alt="Interactive flow diagram showing login, signup, password reset, dashboard, settings, user detail, reports, alerts, and sign out" data-lightbox="true" />
+            </figure>
+        </section>
+
+        <section class="case-section" id="before-after">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Before and After</p>
+                <h2 class="section-title">Moving from dense data lists to dashboard structure.</h2>
+                <p class="section-intro">Instead of dense data lists, I grouped related data and used infographics for easier scanning. The goal was not to replace detail; it was to create a better path from overview to detail. Top metrics give immediate context so users can see what matters first, then drill into the table or details when needed.</p>
+            </div>
+            <br>
+            <div class="media-gallery-2 case-layout-wide">
+                <div>
+
+                    <figure class="media-frame">
+                        <h3 class="comparison-label">Before</h3>
+                        <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-03-ux-audit-observations.png" alt="Before audit screen with dense controls and competing priorities" data-lightbox="true" />
+                    </figure>
+                </div>
+
+            <figure class="media-frame case-layout-wide">
+                <h3 class="comparison-label">After</h3>
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-19-dashboard-light-mockup.png" alt="Light theme secure access management dashboard displayed on a desktop monitor" data-lightbox="true" />
+            </figure>
+        </section>
+
+        <section class="case-section" id="empty-states">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Empty States</p>
+                <h2 class="section-title">Giving users clear next steps when there is no data yet.</h2>
+                <p class="section-intro">Empty states became part of the guidance system. The interface needed to explain what happened, what to expect, and what action was available without relying only on color or dense instructions.</p>
+            </div>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-15-empty-states-desktop-light.png" alt="Desktop light theme empty states for no users, devices, activity, reports, messages, and search results" data-lightbox="true" />
+            </figure>
+             <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-15-empty-states-dark-light.png" alt="Empty states comparison across dark and light themes" data-lightbox="true" />
+            </figure>
+        </section>
+
+            <div class="case-layout-text">
+                <h2 class="section-title">Onboarding</h2>
+                <p class="section-intro">The onboarding flow introduced the portal with a calmer sequence, making the product feel secure, simple, and connected before users reached the dashboard.</p>
+            </div>
+
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-20-mobile-onboarding-dark-light.png" alt="Mobile onboarding screens in light and dark themes for BlackBerry Client Portal" data-lightbox="true" />
+            </figure>
+
+
+        <section class="case-section" id="system-model">
+            <div class="section-band section-dark">
+                <div class="case-layout-text">
+                    <p class="section-eyebrow">System Interaction Model</p>
+                    <h2 class="section-title">Connecting system events to meaning, decisions, and UI response.</h2>
+                    <p class="section-intro">This model helped clarify how the product should respond when something changes in the system: who is affected, where it appears, what condition exists now, what action is needed, and how the interface should communicate the response.</p>
+                </div>
+                <figure class="media-frame media-frame-dark case-layout-wide">
+                    <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-16-system-interaction-model.png" alt="System interaction model mapping trigger, role, touchpoint, system state, action needed, and design response" data-lightbox="true" />
+                </figure>
+            </div>
+        </section>
+
+        <section class="case-section" id="secure-workflow">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Secure Workflow Pattern</p>
+                <h2 class="section-title">Making normal, waiting, risk, and failure states understandable across themes.</h2>
+                <p class="section-intro">The state pattern helped users understand when they could continue, when the system was still working, when action was required, and when they needed to retry or escalate.</p>
+            </div>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-17-secure-workflow-pattern.png" alt="Secure workflow design pattern showing normal, waiting, risk, and failure states in dark and light themes" data-lightbox="true" />
+            </figure>
+        </section>
+
+        <section class="case-section" id="design-system">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Design System</p>
+                <h2 class="section-title">A reusable system for light mode, dark mode, accessibility, and implementation handoff.</h2>
+                <p class="section-intro">The design system translated research and audit findings into reusable components, state patterns, color roles, typography, touch targets, and dashboard structures that could scale across products.</p>
+            </div>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-21-design-system-light.png" alt="Light theme design system overview with colors, navigation, login, dashboard, buttons, inputs, statuses, tables, charts, and detail panel" data-lightbox="true" />
+            </figure>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-22-design-system-dark.png" alt="Dark theme design system overview with colors, navigation, login, dashboard, buttons, inputs, statuses, tables, charts, and detail panel" data-lightbox="true" />
+            </figure>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-23-accessibility.png" alt="Accessibility guidance for light and dark themes, contrast, typography, touch targets, and accessible components" data-lightbox="true" />
+            </figure>
+        </section>
+
+        <section class="case-section outcomes-section" id="outcomes">
+            <div class="outcomes-band">
+                <div class="case-layout-text outcomes-copy">
+                    <p class="section-eyebrow">Impact and Outcomes</p>
+                    <h2 class="section-title">A clearer system for users, product teams, and engineering handoff.</h2>
+                    <p class="section-intro">The work simplified complexity into reusable interaction models, clarified system status, strengthened hierarchy and prioritization, and created more actionable specifications for implementation.</p>
+                </div>
+                <div class="outcomes-impact-grid case-layout-wide" aria-label="Outcome highlights">
+                    <article class="outcome-impact-card">
+                        <h3>Clearer user decisions</h3>
+                        <p>Security and communication states became easier to scan, compare, and act on under pressure.</p>
+                    </article>
+                    <article class="outcome-impact-card">
+                        <h3>Reusable system logic</h3>
+                        <p>Teams gained shared patterns for status, recovery, accessibility, and cross-platform behavior.</p>
+                    </article>
+                    <article class="outcome-impact-card">
+                        <h3>Stronger handoff</h3>
+                        <p>Design rationale translated into more actionable specs for product and engineering teams.</p>
+                    </article>
+                </div>
+                <figure class="media-frame media-frame-dark outcomes-media case-layout-wide">
+                    <img src="/assets/posts/2021-06-29-p_bsims_web_guideline/dg-24-impact-outcomes.png" alt="Impact and outcomes summary showing key challenges, impact, and my contribution" data-lightbox="true" />
+                </figure>
+            </div>
+        </section>
+
+        <section class="case-section" id="other-pages">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Other Pages</p>
+            </div>
+
             
-                
-                <li><a href="/tag/3d-design" class="">3D Design</a></li>
-            
-                
-                <li><a href="/tag/brand-marketing" class="">Brand Marketing</a></li>
-            
-                
-                <li><a href="/tag/illustrations" class="">Illustrations</a></li>
-            
-                
-                <li><a href="/tag/ux-ui-product-design" class="">UX/UI Product Design</a></li>
-            
-                
-                <li><a href="/tag/data-visualization" class="">Data Visualization</a></li>
-            
-                
-                <li><a href="/tag/info-architecture" class="">Info Architecture</a></li>
-            
-                
-                <li><a href="/tag/gaming-ixd" class="">Gaming & IxD</a></li>
-            
-                
-                <li><a href="/tag/ux-research" class="">UX Research</a></li>
-            
-                
-                <li><a href="/tag/design-system" class="">Design System</a></li>
-            
-        </ul>
+            <nav class="case-study-page-links case-layout-text" aria-label="Other pages">
+                <a href="/about.html">About Me</a>
+                <a href="/category/portfolio.html">Portfolio</a>
+                <a href="/#testimonials">Testimonials</a>
+            </nav>
+        </section>
     </div>
 </div>
 <!-- end main-container -->
@@ -248,6 +1328,328 @@
 <script src="/assets/js/custom.js"></script>
 <!--  ionicons script -->
 <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+<script>
+  (function () {
+    var slideAlts = [
+      "Cover slide: BlackBerry designing clarity for complex enterprise systems with my role cards for workflow clarity, complex systems UX, cross-platform design, and accessible execution.",
+      "System interaction model slide mapping system events, context, meaning, decisions, and UI output into trigger, role, touchpoint, state, action, and design response.",
+      "Secure Access Management dashboard slide showing empty states, onboarding tasks, and a right-side get started panel.",
+      "Secure workflow design pattern slide comparing normal, waiting, risk, and failure states across dark and light themes.",
+      "Empty states dark versus light slide showing no users, no devices, no activity, no reports, no messages, and no search results cards.",
+      "Data visualization slide comparing a dense alerts table before state with a clearer dashboard after state.",
+      "Interactive flow diagram slide showing global layout and login, signup, reset password, dashboard, settings, detail, reports, and sign out paths.",
+      "Design principles slide with cards for reducing cognitive load, clarifying system status, showing security status, guiding recovery, consistency, and accessibility.",
+      "Cross-platform UX audit evidence and findings slide comparing desktop, Android, iOS, and user impact with audit findings.",
+      "UX audit cross-platform observation slide with annotated desktop and tablet screens showing alert overload, mixed signals, weak guidance, and dense scanning load.",
+      "Enterprise user groups slide showing emergency operators, IT administrators, field workers, and government executive users.",
+      "Product domain ecosystem slide showing BlackBerry SecuSUITE, HUB Plus, QNX, and AtHoc with a secure communication ecosystem moodboard.",
+      "Secure Access Management dashboard displayed on a desktop monitor in a bright office mockup.",
+      "Impact and outcomes slide summarizing key challenges, impact for users and product, impact for the team, and my contribution.",
+      "Accessibility slide comparing light and dark theme tokens, contrast, typography, touch targets, and accessible components.",
+      "Light theme design system slide showing dashboard navigation, colors, login, dashboard overview, buttons, inputs, status, data tables, charts, and detail panel.",
+      "Dark theme design system slide showing dashboard navigation, colors, login, dashboard overview, buttons, inputs, status, data tables, charts, and detail panel."
+    ];
+    var slideBasePath = "/assets/posts/2021-06-29-p_bsims_web_guideline/presentation/";
+    var slides = slideAlts.map(function (alt, index) {
+      var slideNumber = String(index + 1).padStart(2, "0");
+      return {
+        src: slideBasePath + "bsims-slide-" + slideNumber + ".png",
+        alt: alt
+      };
+    });
+
+    var navLinks = Array.prototype.slice.call(document.querySelectorAll(".case-sticky-nav a"));
+    var sections = navLinks
+      .map(function (link) {
+        var target = document.querySelector(link.getAttribute("href"));
+        return target ? { link: link, target: target } : null;
+      })
+      .filter(Boolean);
+
+    function updateActiveNav() {
+      var active = sections[0];
+      sections.forEach(function (entry) {
+        if (entry.target.getBoundingClientRect().top <= 130) {
+          active = entry;
+        }
+      });
+
+      navLinks.forEach(function (link) {
+        link.classList.toggle("is-active", active && link === active.link);
+      });
+    }
+
+    updateActiveNav();
+    window.addEventListener("scroll", updateActiveNav, { passive: true });
+
+    var lightbox = document.createElement("div");
+    lightbox.className = "lightbox";
+    lightbox.setAttribute("role", "dialog");
+    lightbox.setAttribute("aria-modal", "true");
+    lightbox.setAttribute("aria-label", "Expanded image viewer");
+    lightbox.setAttribute("aria-hidden", "true");
+    lightbox.innerHTML = '<button type="button" aria-label="Close image">&times;</button><img alt="">';
+    document.body.appendChild(lightbox);
+
+    var lightboxImage = lightbox.querySelector("img");
+    var closeButton = lightbox.querySelector("button");
+    var lastFocusedElement = null;
+
+    function openLightbox(src, alt) {
+      if (!src) {
+        return;
+      }
+
+      lastFocusedElement = document.activeElement;
+      lightboxImage.src = src;
+      lightboxImage.alt = alt || "";
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      closeButton.focus();
+    }
+
+    function openLightboxFromImage(img) {
+      if (!img) {
+        return;
+      }
+
+      openLightbox(img.currentSrc || img.src, img.alt || "");
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.removeAttribute("src");
+      lightboxImage.alt = "";
+      if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+        lastFocusedElement.focus();
+      }
+    }
+
+    Array.prototype.slice.call(document.querySelectorAll("[data-lightbox='true']")).forEach(function (img) {
+      img.addEventListener("click", function () {
+        openLightboxFromImage(img);
+      });
+    });
+
+    closeButton.addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", function (event) {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    var slideshow = document.querySelector("[data-bsims-presentation]");
+    var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var currentIndex = 0;
+    var renderTimer = null;
+    var preloadCache = {};
+    var showSlide = function () {
+      return false;
+    };
+
+    if (slideshow) {
+      var slideImage = slideshow.querySelector(".bsims-slide-img");
+      var slideImageButton = slideshow.querySelector(".bsims-slide-image-button");
+      var counter = slideshow.querySelector(".bsims-slide-counter");
+      var prevButtons = Array.prototype.slice.call(slideshow.querySelectorAll(".bsims-slide-prev, .bsims-slide-arrow-prev"));
+      var nextButtons = Array.prototype.slice.call(slideshow.querySelectorAll(".bsims-slide-next, .bsims-slide-arrow-next"));
+
+      function setButtonState(buttons, isDisabled) {
+        buttons.forEach(function (button) {
+          button.disabled = isDisabled;
+          button.setAttribute("aria-disabled", isDisabled ? "true" : "false");
+        });
+      }
+
+      function preloadSlide(index) {
+        if (index < 0 || index >= slides.length || preloadCache[index]) {
+          return;
+        }
+
+        preloadCache[index] = new Image();
+        preloadCache[index].src = slides[index].src;
+      }
+
+      function preloadAdjacentSlides() {
+        preloadSlide(currentIndex - 1);
+        preloadSlide(currentIndex + 1);
+      }
+
+      function updateSlideControls() {
+        var slideNumber = currentIndex + 1;
+        counter.textContent = slideNumber + " / " + slides.length;
+        slideImageButton.setAttribute("aria-label", "Open slide " + slideNumber + " of " + slides.length + " larger");
+        setButtonState(prevButtons, currentIndex === 0);
+        setButtonState(nextButtons, currentIndex === slides.length - 1);
+      }
+
+      function finishTransition() {
+        slideImage.classList.remove("is-transitioning");
+        slideImage.removeEventListener("load", finishTransition);
+        slideImage.removeEventListener("error", finishTransition);
+      }
+
+      function applySlide() {
+        var slide = slides[currentIndex];
+        slideImage.addEventListener("load", finishTransition);
+        slideImage.addEventListener("error", finishTransition);
+        slideImage.src = slide.src;
+        slideImage.alt = slide.alt;
+        updateSlideControls();
+        preloadAdjacentSlides();
+
+        if (slideImage.complete) {
+          window.requestAnimationFrame(finishTransition);
+        }
+      }
+
+      showSlide = function (index) {
+        if (index < 0 || index >= slides.length || index === currentIndex) {
+          return false;
+        }
+
+        currentIndex = index;
+        window.clearTimeout(renderTimer);
+
+        if (prefersReducedMotion) {
+          applySlide();
+        } else {
+          slideImage.classList.add("is-transitioning");
+          renderTimer = window.setTimeout(applySlide, 90);
+        }
+
+        return true;
+      };
+
+      prevButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          showSlide(currentIndex - 1);
+        });
+      });
+
+      nextButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          showSlide(currentIndex + 1);
+        });
+      });
+
+      var touchStartX = 0;
+      var touchStartY = 0;
+      var swipeWasHandled = false;
+      var lastSwipeTime = 0;
+
+      function beginSwipe(x, y) {
+        touchStartX = x;
+        touchStartY = y;
+        swipeWasHandled = false;
+      }
+
+      function completeSwipe(x, y) {
+        var deltaX = x - touchStartX;
+        var deltaY = y - touchStartY;
+        var now = Date.now();
+
+        if (now - lastSwipeTime < 280) {
+          return;
+        }
+
+        if (Math.abs(deltaX) > 42 && Math.abs(deltaX) > Math.abs(deltaY) * 1.2) {
+          swipeWasHandled = true;
+          lastSwipeTime = now;
+          if (deltaX < 0) {
+            showSlide(currentIndex + 1);
+          } else {
+            showSlide(currentIndex - 1);
+          }
+        }
+      }
+
+      slideImageButton.addEventListener("click", function (event) {
+        if (swipeWasHandled) {
+          event.preventDefault();
+          swipeWasHandled = false;
+          return;
+        }
+
+        openLightboxFromImage(slideImage);
+      });
+
+      if (window.PointerEvent) {
+        slideImageButton.addEventListener("pointerdown", function (event) {
+          if (event.pointerType === "mouse" && event.button !== 0) {
+            return;
+          }
+
+          beginSwipe(event.clientX, event.clientY);
+          slideImageButton.setPointerCapture(event.pointerId);
+        });
+
+        slideImageButton.addEventListener("pointerup", function (event) {
+          completeSwipe(event.clientX, event.clientY);
+          if (slideImageButton.hasPointerCapture(event.pointerId)) {
+            slideImageButton.releasePointerCapture(event.pointerId);
+          }
+        });
+
+        slideImageButton.addEventListener("pointercancel", function (event) {
+          swipeWasHandled = false;
+          if (slideImageButton.hasPointerCapture(event.pointerId)) {
+            slideImageButton.releasePointerCapture(event.pointerId);
+          }
+        });
+      }
+
+      slideImageButton.addEventListener("touchstart", function (event) {
+        if (!event.touches.length) {
+          return;
+        }
+
+        beginSwipe(event.touches[0].clientX, event.touches[0].clientY);
+      }, { passive: true });
+
+      slideImageButton.addEventListener("touchend", function (event) {
+        if (!event.changedTouches.length) {
+          return;
+        }
+
+        completeSwipe(event.changedTouches[0].clientX, event.changedTouches[0].clientY);
+      }, { passive: true });
+
+      updateSlideControls();
+      preloadAdjacentSlides();
+    }
+
+    function isEditableTarget(target) {
+      if (!target || !target.tagName) {
+        return false;
+      }
+
+      return target.isContentEditable || /^(input|textarea|select)$/i.test(target.tagName);
+    }
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+        return;
+      }
+
+      if (!slideshow || lightbox.classList.contains("is-open") || isEditableTarget(event.target)) {
+        return;
+      }
+
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        showSlide(currentIndex - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        showSlide(currentIndex + 1);
+      }
+    });
+  })();
+</script>
 
 </body>
 
