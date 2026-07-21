@@ -2,14 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=/portfolio/published/secusuite.html">
-    <link rel="canonical" href="/portfolio/published/secusuite.html">
-    <title>Opening secusuite case study</title>
+    <meta http-equiv="refresh" content="0; url=/category/portfolio.html">
+    <link rel="canonical" href="/category/portfolio.html">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>Opening portfolio</title>
     <script>
-        window.location.replace('/portfolio/published/secusuite.html');
+        (function () {
+            var localHosts = ['localhost', '127.0.0.1', '::1', '0.0.0.0'];
+            if (localHosts.indexOf(window.location.hostname) !== -1) {
+                window.location.replace('/portfolio/drafts/secusuite.html');
+                return;
+            }
+
+            window.location.replace('/category/portfolio.html');
+        })();
     </script>
 </head>
 <body>
-    <p><a href="/portfolio/published/secusuite.html">Open the case study</a></p>
+    <p><a href="/category/portfolio.html">Open the portfolio</a></p>
 </body>
 </html>

@@ -126,7 +126,6 @@ Published case studies:
 - [portfolio/published/wbd-hud.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/wbd-hud.html)
 - [portfolio/published/smart-tv.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/smart-tv.html)
 - [portfolio/published/colour-accessibility.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/colour-accessibility.html)
-- [portfolio/published/secusuite.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/secusuite.html)
 - [portfolio/published/bb-brand.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/bb-brand.html)
 - [portfolio/published/design-guidelines.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/design-guidelines.html)
 - [portfolio/published/empty-data.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/empty-data.html)
@@ -140,7 +139,7 @@ Published case studies:
 - [portfolio/published/Interior-Illustrations.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/Interior-Illustrations.html)
 - [portfolio/published/3d-exhibition.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio/published/3d-exhibition.html)
 
-Local draft case studies are listed only in the local-only portfolio script, which is ignored by Git.
+Local draft case studies are listed only in the local-only portfolio script, which is ignored by Git. SecuSuite currently lives at `portfolio/drafts/secusuite.html` for local editing.
 
 ## Portfolio Tags
 

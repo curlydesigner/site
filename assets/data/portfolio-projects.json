@@ -30,16 +30,6 @@
     "imageAlt": "Preview of BlackBerry dark theme accessibility guidelines"
   },
   {
-    "title": "SecuSuite",
-    "category": "Design Systems",
-    "description": "Secure communication UX patterns for mobile, desktop, branding, and product ecosystem flows.",
-    "image": "/assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-feaut-img.png",
-    "url": "/secusuite",
-    "slug": "secusuite",
-    "file": "secusuite.html",
-    "imageAlt": "Preview of the BlackBerry SecuSuite case study"
-  },
-  {
     "title": "BlackBerry Brand",
     "category": "Branding",
     "description": "Packaging and brand marketing guidelines across product, print, and visual identity touchpoints.",

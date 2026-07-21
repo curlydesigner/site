@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Curly Designer - UX/UI Interactive Designer & Illustrator</title>
     <link rel="icon" href="/assets/img/fav.png" type="image/x-icon">
@@ -17,7 +20,7 @@
     <link rel="stylesheet" href="/assets/js/plugins/slick/slick.css">
 
     <!-- main css -->
-    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/style.css?v=case-study-header-20260720c" rel="stylesheet">
 
 
     <!-- modernizr -->
@@ -52,7 +55,7 @@
 
 </head>
 
-<body>
+<body class="portfolio-case-study-page">
 
     <!-- Preloader -->
 <div id="preloader">
@@ -67,11 +70,20 @@
 
     <div class="container-fluid">
         <!-- box header -->
-        <header class="box-header">
+        <header class="box-header case-study-site-header">
             <div class="box-logo">
                 <a href="/" class="page-logo"><img src="/assets/img/logo-light.svg" width="230" alt="Logo"></a>
                 <a href="/" class="menu-logo"><img src="/assets/img/logo-dark.svg" width="150" alt="Logo"></a>
             </div>
+            <nav class="case-study-header-breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="case-study-header-breadcrumb__separator" aria-hidden="true">/</span>
+                <a href="/category/portfolio.html">Portfolio</a>
+            </nav>
+            <button class="case-study-search-trigger" type="button" aria-label="Search portfolio">
+                <span class="case-study-search-icon" aria-hidden="true"></span>
+                <span class="case-study-search-text">Search portfolio</span>
+            </button>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
@@ -99,37 +111,30 @@
 </nav>
 <!-- end nav -->
 
-        
+
     </div>
 
-    
-<!-- top-bar -->
-<div class="top-bar post override-bg">
-    <h5>Dark vs Lights Design System BlackBerry</h5>
-    <p><a href="/">Home</a> / <a href="/category/portfolio">Portfolio</a></p>
-</div>
-<!-- end top-bar -->
+<!-- case-study-top:start -->
+<section class="case-study-top" aria-label="Case study introduction">
+    <div class="case-study-top__inner">
+        <div class="case-study-top__separator" aria-hidden="true"></div>
+        <header class="case-study-intro">
+            <p class="case-study-intro__label">BlackBerry</p>
+            <h1 class="case-study-intro__title">Color and Accessibility</h1>
+            <p class="case-study-intro__keywords">Dark &amp; Light Themes · Accessibility · Design System · HUB+ Products</p>
+            <figure class="case-study-intro__hero">
+                <img src="/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Light-mode-vs-dark-mode.png" alt="Dark and light theme accessibility comparison for BlackBerry HUB+" loading="eager" fetchpriority="high" decoding="async">
+            </figure>
+        </header>
+    </div>
+</section>
+<!-- case-study-top:end -->
 
 <!-- main-container -->
 <div class="container main-container post portfolio-post">
 
     <div class="col-md-9">
-        <p><br /></p>
-
-<h1 id="color-and-accessibility">Color and Accessibility</h1>
-<h3 id="dark--light-themes-for-blackberry-hub">Dark &amp; Light Themes for BlackBerry HUB+</h3>
-
-<p><br /></p>
-
-<h5 id="overview--learnings--challenges--accessibility--design-system"><a href="#overview">Overview</a> | <a href="#learnings">Learnings</a> | <a href="#dark-theme-challenges">Challenges</a> | <a href="#accessibilty">Accessibility</a> | <a href="#design-system-breakdown">Design System</a></h5>
-
-<p><br /></p>
-
-<p><img src="/assets/posts/2020-01-01-bp_Colour_Accessabilty_DarkLight/Light-mode-vs-dark-mode.png" alt="dark-vs-light" title="dark-vs-light" /></p>
-
-<hr />
-
-<style>
+        <style>
   .flex-container {
     display: flex;              /* Enables flexbox */
     justify-content: space-between; /* Positions items on opposite ends */
@@ -143,7 +148,7 @@
     margin: 5px;
     border-radius: 5px;
     color: black;
-    text-align: center; 
+    text-align: center;
   }
 </style>
 
@@ -153,7 +158,7 @@
 
   <div class="info-card">
   <h3>My Role</h3>
-  Senior UX/UI Product Designer at BlackBerry Security, leading system design and scalable IA for secure HUB+ apps across mobile, tablet, and desktop. 
+  Senior UX/UI Product Designer at BlackBerry Security, leading system design and scalable IA for secure HUB+ apps across mobile, tablet, and desktop.
 </div>
 
   <div class="info-card">
@@ -161,7 +166,7 @@
   Evaluated interaction patterns, usability friction, and accessibility differences between dark and light modes to inform design decisions.
 </div>
 
-  
+
   <div class="info-card">
     <h3>System Design / Project Overview</h3>
     Created a unified dark and light theme system for BlackBerry HUB+, improving readability, accessibility, and cross-platform consistency.
@@ -220,11 +225,11 @@
 
 <p>Creating an inclusive experience with careful consideration of color exploration and an understanding of various design principles that prioritize accessibility and diminish the reliance on color as the sole conveyor of critical information.</p>
 
-<div class="info-cards">  
+<div class="info-cards">
 
   <div class="info-card">
     <h3>Design Principles Validation</h3>
-  
+
   <ul>
       <li><b>Visual Hierarchy in Dark Mode</b> defined using surface contrast and tonal layers rather than shadows</li>
       <li><b>High-contrast text and icons</b> established to support readability across lighting conditions </li>
@@ -347,54 +352,12 @@
 
 <p><br /></p>
 
-<hr />
-
 <p><br /></p>
 
-<p>More Works:</p>
 
-<ul>
-  <li><a href="/smart-tv">Smart TV</a></li>
-  <li><a href="/wbd-hud">WBD 4X Game Design System and Architecture</a></li>
-  <li><a href="/design-guidelines">SecuSuite Design System and UI Guidelines</a></li>
-  <li><a href="/empty-data">BlackBerry Onboarding screens</a></li>
-  <li><a href="/bb-brand">BlackBerry Brand Packaging Guidelines</a></li>
-</ul>
 
     </div>
 
-    <div class="col-md-3">
-        <ul class="cat-ul">
-            
-                
-                <li><a href="/tag/3d-design" class="">3D Design</a></li>
-            
-                
-                <li><a href="/tag/brand-marketing" class="">Brand Marketing</a></li>
-            
-                
-                <li><a href="/tag/illustrations" class="">Illustrations</a></li>
-            
-                
-                <li><a href="/tag/ux-ui-product-design" class="">UX/UI Product Design</a></li>
-            
-                
-                <li><a href="/tag/data-visualization" class="">Data Visualization</a></li>
-            
-                
-                <li><a href="/tag/info-architecture" class="">Info Architecture</a></li>
-            
-                
-                <li><a href="/tag/gaming-ixd" class="">Gaming & IxD</a></li>
-            
-                
-                <li><a href="/tag/ux-research" class="">UX Research</a></li>
-            
-                
-                <li><a href="/tag/design-system" class="">Design System</a></li>
-            
-        </ul>
-    </div>
 </div>
 <!-- end main-container -->
 
@@ -425,16 +388,6 @@
                         <span class="portfolio-project-card__category">Interaction Design</span>
                         <span class="portfolio-project-card__title">Smart TV UX</span>
                         <span class="portfolio-project-card__description">Visual-first interaction concepts for cross-device TV experiences and re-engagement flows.</span>
-                    </span>
-                </a>
-                <a class="portfolio-project-card" href="/secusuite">
-                    <span class="portfolio-project-card__image">
-                        <img src="/assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-feaut-img.png" alt="Preview of the BlackBerry SecuSuite case study" loading="lazy">
-                    </span>
-                    <span class="portfolio-project-card__content">
-                        <span class="portfolio-project-card__category">Design Systems</span>
-                        <span class="portfolio-project-card__title">SecuSuite</span>
-                        <span class="portfolio-project-card__description">Secure communication UX patterns for mobile, desktop, branding, and product ecosystem flows.</span>
                     </span>
                 </a>
                 <a class="portfolio-project-card" href="/bb-brand">
@@ -618,6 +571,7 @@
 
 <!--  custom script -->
 <script src="/assets/js/custom.js"></script>
+<script src="/assets/js/portfolio-search.js?v=case-study-header-20260720c"></script>
 <!--  ionicons script -->
 <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
 

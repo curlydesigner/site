@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Curly Designer - UX/UI Interactive Designer & Illustrator</title>
     <link rel="icon" href="/assets/img/fav.png" type="image/x-icon">
@@ -17,7 +20,7 @@
     <link rel="stylesheet" href="/assets/js/plugins/slick/slick.css">
 
     <!-- main css -->
-    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/style.css?v=case-study-header-20260720c" rel="stylesheet">
 
 
     <!-- modernizr -->
@@ -52,114 +55,6 @@
   body.case-study-page {
     background: #f4f7fb;
     color: #102033;
-  }
-
-  .top-bar.post.override-bg.case-context-bar {
-    background: transparent;
-    min-height: 0;
-    padding: 50px 0 16px;
-    margin-bottom: 40px;
-    
-  }
-
-  .case-context-bar h5 {
-    margin: 0 0 6px;
-    font-size: 18px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  .case-context-bar p {
-    margin: 0;
-    font-size: 12px;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    opacity: 0.92;
-    color: #55718c;
-  }
-
-  .case-context-bar a {
-    color: inherit;
-  }
-
-  .case-context-bar .case-context-inner {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .case-context-bar .context-left {
-    justify-self: start;
-  }
-
-  .case-context-bar .context-center {
-    justify-self: center;
-    white-space: nowrap;
-  }
-
-  .case-context-bar .context-right {
-    justify-self: end;
-  }
-
-  .case-context-bar .context-right a {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #55718c;
-  }
-
-  .case-context-bar .context-center a {
-    text-decoration: none;
-  }
-
-  .container-fluid > .box-header {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    min-height: 92px;
-    padding-top: 10px;
-    padding-bottom: 120px;
-    border-bottom: 1px solid rgba(16, 32, 51, 0.1);
-  }
-
-  .container-fluid > .box-header .box-logo,
-  .container-fluid > .box-header .box-primary-nav-trigger {
-    display: flex;
-    align-items: center;
-    height: 100%;
-  }
-
-  .container-fluid > .box-header .box-logo {
-    justify-self: start;
-  }
-
-  .container-fluid > .box-header .box-primary-nav-trigger {
-    justify-self: end;
-  }
-
-  .box-header-center {
-    justify-self: center;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: #55718c;
-    white-space: nowrap;
-  }
-
-  .box-header-center a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .box-header-center .divider {
-    opacity: 0.6;
   }
 
   .case-study-shell {
@@ -729,18 +624,6 @@
   }
 
   @media (max-width: 767px) {
-    .container-fluid > .box-header {
-      grid-template-columns: auto 1fr auto;
-      gap: 12px;
-      min-height: 82px;
-    }
-
-    .box-header-center {
-      white-space: normal;
-      text-align: center;
-      line-height: 1.4;
-    }
-
     .case-study-title {
       font-size: 32px;
       max-width: none;
@@ -843,7 +726,7 @@
 
 </head>
 
-<body class="case-study-page">
+<body class="case-study-page portfolio-case-study-page">
 
     <!-- Preloader -->
 <div id="preloader">
@@ -858,11 +741,20 @@
 
     <div class="container-fluid">
         <!-- box header -->
-        <header class="box-header">
+        <header class="box-header case-study-site-header">
             <div class="box-logo">
                 <a href="/" class="page-logo"><img src="/assets/img/logo-light.svg" width="230" alt="Logo"></a>
                 <a href="/" class="menu-logo"><img src="/assets/img/logo-dark.svg" width="150" alt="Logo"></a>
             </div>
+            <nav class="case-study-header-breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="case-study-header-breadcrumb__separator" aria-hidden="true">/</span>
+                <a href="/category/portfolio.html">Portfolio</a>
+            </nav>
+            <button class="case-study-search-trigger" type="button" aria-label="Search portfolio">
+                <span class="case-study-search-icon" aria-hidden="true"></span>
+                <span class="case-study-search-text">Search portfolio</span>
+            </button>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
@@ -890,32 +782,29 @@
 </nav>
 <!-- end nav -->
 
-        
+
     </div>
 
-    
-<!-- top-bar -->
-<div class="top-bar post override-bg case-context-bar">
-    <p><a href="/">HOME</a> / <a href="/category/portfolio">PORTFOLIO</a></p>
-</div>
-<!-- end top-bar -->
+<!-- case-study-top:start -->
+<section class="case-study-top" aria-label="Case study introduction">
+    <div class="case-study-top__inner">
+        <div class="case-study-top__separator" aria-hidden="true"></div>
+        <header class="case-study-intro">
+            <p class="case-study-intro__label">Warner Bros. Discovery</p>
+            <h1 class="case-study-intro__title">WBD - Dense Game HUD Navigation System</h1>
+            <p class="case-study-intro__keywords">Product Strategy · UX Architecture · HUD System Design · Cross-Functional Leadership</p>
+            <figure class="case-study-intro__hero">
+                <img src="/assets/posts/2025-12-09-p_wbd-4xhud/P_WB-hGOT.png" alt="Game of Thrones inspired strategy HUD hero image" loading="eager" fetchpriority="high" decoding="async">
+            </figure>
+        </header>
+    </div>
+</section>
+<!-- case-study-top:end -->
 
 <!-- main-container -->
 <div class="container main-container post portfolio-post">
     <div class="case-study-shell">
         <section class="case-hero case-layout-full">
-            <div class="case-layout-text case-title-wrap">
-                <span class="case-kicker">Warner Bros Discovery</span>
-            </div>
-
-            <figure class="case-hero-media">
-                <img src="/assets/posts/2025-12-09-p_wbd-4xhud/P_WB-hGOT.png" alt="Game of Thrones inspired strategy HUD hero image" data-lightbox="true" />
-            </figure>
-
-            <div class="case-layout-text case-title-wrap">
-                <h1 class="case-study-title">WBD - Dense Game HUD Navigation System</h1>
-                <p class="case-subtitle">Product Strategy · UX Architecture · HUD System Design · Cross-Functional Leadership</p>
-            </div>
 
             <section class="wbd-presentation case-layout-wide" aria-labelledby="wbd-presentation-title" data-presentation-slideshow>
                 <h2 id="wbd-presentation-title" class="wbd-sr-only">Warner Bros Discovery HUD presentation slideshow</h2>
@@ -963,7 +852,7 @@
                     <h3>Design Decision / System</h3>
                     <p>Created scalable HUD patterns, clearer hierarchy, reusable grayscale components, and accessible interaction zones that could grow with the product.</p>
                 </article>
-        
+
             </div>
         </section>
 
@@ -1169,7 +1058,7 @@
                     </ul>
                 </article>
             </div>
-            
+
 
             <figure class="media-frame case-layout-wide">
                 <img src="/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-07.webp" alt="Map info panel analysis and common patterns" data-lightbox="true" />
@@ -1178,7 +1067,7 @@
             </figure>
 
 
-            
+
 
         <section class="case-section" id="design-system">
             <div class="case-layout-text">
@@ -1253,7 +1142,7 @@
                 <img src="/assets/posts/2025-12-09-p_wbd-4xhud/presentation/wbd-hud-slide-13.webp" alt="Textures and contrast exploration" data-lightbox="true" />
                 <figcaption>Improved clarity, consistency, decision-making flow, accessibility readiness, and team handoff across game design & engineering.</figcaption>
             </figure>
-           
+
 
         <section class="case-section" id="impact">
             <div class="case-layout-text">
@@ -1367,16 +1256,6 @@
                         <span class="portfolio-project-card__category">Accessibility</span>
                         <span class="portfolio-project-card__title">Dark Theme</span>
                         <span class="portfolio-project-card__description">BlackBerry dark and light theme guidelines shaped around contrast, readability, and inclusive UX.</span>
-                    </span>
-                </a>
-                <a class="portfolio-project-card" href="/secusuite">
-                    <span class="portfolio-project-card__image">
-                        <img src="/assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-feaut-img.png" alt="Preview of the BlackBerry SecuSuite case study" loading="lazy">
-                    </span>
-                    <span class="portfolio-project-card__content">
-                        <span class="portfolio-project-card__category">Design Systems</span>
-                        <span class="portfolio-project-card__title">SecuSuite</span>
-                        <span class="portfolio-project-card__description">Secure communication UX patterns for mobile, desktop, branding, and product ecosystem flows.</span>
                     </span>
                 </a>
                 <a class="portfolio-project-card" href="/bb-brand">
@@ -1560,6 +1439,7 @@
 
 <!--  custom script -->
 <script src="/assets/js/custom.js"></script>
+<script src="/assets/js/portfolio-search.js?v=case-study-header-20260720c"></script>
 <script>
   (function () {
     var slides = [
