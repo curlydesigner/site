@@ -3507,6 +3507,309 @@ h1.about-header {
 .portfolio-post {}
 
 /* ==================================================
+Portfolio page ending
+==================================================*/
+
+.portfolio-page-ending {
+    clear: both;
+    margin-top: 44px;
+    background: #fff;
+    border-top: 1px solid #dfe8f4;
+    scroll-margin-top: 120px;
+}
+
+.portfolio-page-ending__inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 54px 28px 0;
+}
+
+.portfolio-ending-section + .portfolio-ending-section {
+    margin-top: 36px;
+}
+
+.portfolio-ending-section__header {
+    max-width: 660px;
+}
+
+.portfolio-ending-eyebrow {
+    margin: 0 0 8px;
+    color: #1975ba;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.portfolio-ending-heading {
+    margin: 0 0 22px;
+    color: #243762;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.portfolio-ending-heading--small {
+    margin-bottom: 14px;
+    font-size: 21px;
+}
+
+.portfolio-project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.portfolio-project-card {
+    display: grid;
+    grid-template-rows: 118px 1fr;
+    min-height: 284px;
+    overflow: hidden;
+    border: 1px solid #d9e5f2;
+    border-radius: 14px;
+    background: #fff;
+    color: #243762;
+    text-decoration: none !important;
+    box-shadow: 0 4px 16px rgba(36, 55, 98, 0.06);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.portfolio-project-card__image {
+    display: block;
+    overflow: hidden;
+    background: #f5f6f7;
+}
+
+.portfolio-project-card__image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.portfolio-project-card__content {
+    display: flex;
+    min-height: 166px;
+    flex-direction: column;
+    gap: 7px;
+    padding: 15px 16px 17px;
+}
+
+.portfolio-project-card__category {
+    color: #1975ba;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.portfolio-project-card__title {
+    color: #17233f;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.portfolio-project-card__description {
+    color: #5f6b7a;
+    font-size: 14px;
+    line-height: 1.45;
+}
+
+.portfolio-project-card:hover,
+.portfolio-project-card:focus {
+    border-color: #a8c7ec;
+    background: #fbfdff;
+    color: #17233f;
+    box-shadow: 0 12px 26px rgba(36, 55, 98, 0.12);
+    text-decoration: none !important;
+    transform: translateY(-2px);
+}
+
+.portfolio-project-card:hover .portfolio-project-card__image img,
+.portfolio-project-card:focus .portfolio-project-card__image img {
+    transform: scale(1.03);
+}
+
+.portfolio-project-card:active {
+    transform: translateY(0);
+}
+
+.portfolio-page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+
+.portfolio-page-pill {
+    display: inline-flex;
+    min-height: 46px;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 22px;
+    border: 1.5px solid #c9daf6;
+    border-radius: 999px;
+    background: #fff;
+    color: #0b4e96 !important;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none !important;
+    transition: border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.portfolio-page-pill:hover,
+.portfolio-page-pill:focus {
+    border-color: #8db2e8;
+    background: #f9fbff;
+    color: #083a72 !important;
+    box-shadow: 0 10px 24px rgba(11, 78, 150, 0.12);
+    text-decoration: none !important;
+    transform: translateY(-1px);
+}
+
+.portfolio-page-pill:active {
+    background: #eef6ff;
+    transform: translateY(0);
+}
+
+.portfolio-project-card:focus-visible,
+.portfolio-page-pill:focus-visible,
+.portfolio-ending-contact .box-social a:focus-visible {
+    outline: 3px solid #ffbf00;
+    outline-offset: 3px;
+}
+
+.portfolio-ending-contact {
+    margin-top: 46px;
+    padding: 46px 0;
+}
+
+.portfolio-ending-contact__inner {
+    min-height: 0;
+}
+
+.portfolio-ending-contact__illustration,
+.portfolio-ending-contact__links {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 0 22px;
+}
+
+.portfolio-ending-contact__illustration {
+    flex: 0 1 360px;
+}
+
+.portfolio-ending-contact__links {
+    flex: 0 1 360px;
+}
+
+.portfolio-ending-contact__illustration img {
+    width: min(100%, 330px);
+    margin: 0 auto;
+}
+
+.portfolio-ending-contact .social-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-ending-contact .social-ul li {
+    float: none;
+    margin: 0;
+}
+
+.portfolio-ending-contact .social-ul li a {
+    display: inline-flex;
+    width: 54px;
+    min-width: 54px;
+    height: 54px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d9e5f2;
+    border-radius: 50%;
+    background: #fff;
+    color: #243762;
+    text-decoration: none;
+}
+
+.portfolio-ending-contact .social-ul li a:hover,
+.portfolio-ending-contact .social-ul li a:focus {
+    border-color: #a8c7ec;
+    color: #1975ba;
+    box-shadow: 0 10px 24px rgba(36, 55, 98, 0.1);
+}
+
+.portfolio-ending-contact .get-in-touch ion-icon,
+.portfolio-ending-contact ion-icon {
+    margin-top: 0;
+}
+
+@media (max-width: 1199px) {
+    .portfolio-project-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 899px) {
+    .portfolio-project-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .portfolio-page-ending__inner {
+        padding-right: 22px;
+        padding-left: 22px;
+    }
+}
+
+@media (max-width: 640px) {
+    .portfolio-page-ending {
+        margin-top: 34px;
+    }
+
+    .portfolio-page-ending__inner {
+        padding: 40px 18px 0;
+    }
+
+    .portfolio-project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-project-card {
+        grid-template-rows: 132px 1fr;
+        min-height: 0;
+    }
+
+    .portfolio-ending-heading {
+        font-size: 23px;
+    }
+
+    .portfolio-page-pill {
+        flex: 1 1 auto;
+        min-width: 128px;
+    }
+
+    .portfolio-ending-contact {
+        padding: 38px 0;
+    }
+
+    .portfolio-ending-contact__illustration,
+    .portfolio-ending-contact__links {
+        padding: 0;
+    }
+}
+
+/* ==================================================
 🟢 GREEN NOTE — get-in-touch
 ==================================================*/
 .get-in-touch {

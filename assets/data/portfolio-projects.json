@@ -1,0 +1,162 @@
+[
+  {
+    "title": "WBD HUD",
+    "category": "Interaction Design",
+    "description": "A dense game HUD system focused on navigation clarity, tile maps, accessibility, and reusable patterns.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/wb-feaut-img.png",
+    "url": "/wbd-hud",
+    "slug": "wbd-hud",
+    "file": "wbd-hud.html",
+    "imageAlt": "Preview of the WBD game HUD navigation case study"
+  },
+  {
+    "title": "Smart TV UX",
+    "category": "Interaction Design",
+    "description": "Visual-first interaction concepts for cross-device TV experiences and re-engagement flows.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_tv-samsung.png",
+    "url": "/smart-tv",
+    "slug": "smart-tv",
+    "file": "smart-tv.html",
+    "imageAlt": "Preview of a Smart TV interaction design case study"
+  },
+  {
+    "title": "Dark Theme",
+    "category": "Accessibility",
+    "description": "BlackBerry dark and light theme guidelines shaped around contrast, readability, and inclusive UX.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_color1.png",
+    "url": "/colour-accessibility",
+    "slug": "colour-accessibility",
+    "file": "colour-accessibility.html",
+    "imageAlt": "Preview of BlackBerry dark theme accessibility guidelines"
+  },
+  {
+    "title": "SecuSuite",
+    "category": "Design Systems",
+    "description": "Secure communication UX patterns for mobile, desktop, branding, and product ecosystem flows.",
+    "image": "/assets/posts/2021-06-31-p_bb-SecuSuite/bb-ss-feaut-img.png",
+    "url": "/secusuite",
+    "slug": "secusuite",
+    "file": "secusuite.html",
+    "imageAlt": "Preview of the BlackBerry SecuSuite case study"
+  },
+  {
+    "title": "BlackBerry Brand",
+    "category": "Branding",
+    "description": "Packaging and brand marketing guidelines across product, print, and visual identity touchpoints.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_poster2.png",
+    "url": "/bb-brand",
+    "slug": "bb-brand",
+    "file": "bb-brand.html",
+    "imageAlt": "Preview of BlackBerry brand packaging guidelines"
+  },
+  {
+    "title": "Design System",
+    "category": "Design Systems",
+    "description": "Enterprise web UI guidelines for dashboards, components, empty states, and accessibility rules.",
+    "image": "/assets/posts/2021-06-29-p_bsims_web_guideline/fp_ph_bberry_bsimsportala.png",
+    "url": "/design-guidelines",
+    "slug": "design-guidelines",
+    "file": "design-guidelines.html",
+    "imageAlt": "Preview of enterprise web UI design system guidelines"
+  },
+  {
+    "title": "Empty Data",
+    "category": "Illustration",
+    "description": "Onboarding and empty-state illustrations that guide users through first-use product moments.",
+    "image": "/assets/posts/2021-01-01-b_EmptyData_Illustrations/fp_ph_bberry_emptydata.png",
+    "url": "/empty-data",
+    "slug": "empty-data",
+    "file": "empty-data.html",
+    "imageAlt": "Preview of onboarding and empty-state illustration work"
+  },
+  {
+    "title": "Labella Umbrella",
+    "category": "Branding",
+    "description": "A responsive online store direction combining brand storytelling, layouts, and product imagery.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_bberry_labellaumbrella3.png",
+    "url": "/labella-umbrella",
+    "slug": "labella-umbrella",
+    "file": "labella-umbrella.html",
+    "imageAlt": "Preview of the Labella Umbrella responsive store"
+  },
+  {
+    "title": "Customer Kiosk",
+    "category": "UX Research",
+    "description": "A service kiosk and app concept for measuring customer satisfaction and operational feedback.",
+    "image": "/assets/posts/2018-05-02-customer-satisfaction-kiosk/fp_customer-journey.jpg",
+    "url": "/customer-satisfaction-kiosk",
+    "slug": "customer-satisfaction-kiosk",
+    "file": "customer-satisfaction-kiosk.html",
+    "imageAlt": "Preview of the customer satisfaction kiosk journey"
+  },
+  {
+    "title": "Wizits Game",
+    "category": "Interaction Design",
+    "description": "A mobile game interface with character art, themed screens, animation, and playful UX systems.",
+    "image": "/assets/posts/2015-07-26-wizits/fp_ph_wizits.jpg",
+    "url": "/wizits",
+    "slug": "wizits",
+    "file": "wizits.html",
+    "imageAlt": "Preview of the Wizits mobile game case study"
+  },
+  {
+    "title": "TJX Market",
+    "category": "Interaction Design",
+    "description": "A multi-brand retail app concept exploring navigation, product discovery, and mobile shopping.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_tjx.png",
+    "url": "/tjx-market",
+    "slug": "tjx-market",
+    "file": "tjx-market.html",
+    "imageAlt": "Preview of the TJX Market mobile app concept"
+  },
+  {
+    "title": "SharpLight",
+    "category": "Branding",
+    "description": "Beauty spa campaign materials spanning print design, promotional layouts, and branded visuals.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_sharplight3.png",
+    "url": "/sharplight",
+    "slug": "sharplight",
+    "file": "sharplight.html",
+    "imageAlt": "Preview of the SharpLight beauty spa campaign"
+  },
+  {
+    "title": "Bwin Promo",
+    "category": "Branding",
+    "description": "A festive gaming promotion with campaign concepts, interface graphics, and seasonal art direction.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_bwin.png",
+    "url": "/bwin",
+    "slug": "bwin",
+    "file": "bwin.html",
+    "imageAlt": "Preview of the Bwin festive game promotion"
+  },
+  {
+    "title": "Power Center",
+    "category": "Data Visualization",
+    "description": "Battery app interaction design with information architecture, visual states, and usage insights.",
+    "image": "/assets/posts/2021-06-31-p_bb-power_centre/featureimage2.png",
+    "url": "/power-center",
+    "slug": "power-center",
+    "file": "power-center.html",
+    "imageAlt": "Preview of the BlackBerry Power Center app"
+  },
+  {
+    "title": "Interior Art",
+    "category": "Illustration",
+    "description": "Interior and architectural illustrations using 3D composition, rooms, textures, and visual mood.",
+    "image": "/assets/posts/2021-06-28-p_Interior-Illustrations/Image3-kitchen.webp",
+    "url": "/Interior-Illustrations",
+    "slug": "Interior-Illustrations",
+    "file": "Interior-Illustrations.html",
+    "imageAlt": "Preview of interior design illustration work"
+  },
+  {
+    "title": "3D Exhibition",
+    "category": "3D Design",
+    "description": "Exhibition and environmental design concepts for branded spaces, spatial storytelling, and display.",
+    "image": "/assets/posts/FeaturedPortfolio- photos/fp_ph_3D.png",
+    "url": "/3d-exhibition",
+    "slug": "3d-exhibition",
+    "file": "3d-exhibition.html",
+    "imageAlt": "Preview of 3D exhibition design work"
+  }
+]
