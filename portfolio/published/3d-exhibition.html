@@ -9,7 +9,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Curly Designer - UX/UI Interactive Designer & Illustrator</title>
+    <title>Designing Across Physical and Digital Environments - Curly Designer</title>
     <link rel="icon" href="/assets/img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -34,10 +34,10 @@
     <![endif]-->
 
     <!-- social share meta tags -->
-  <meta property="og:title" content="CurlyDesigner">
-  <meta property="og:description" content="Portfolio">
-  <meta property="og:image" content="https://curlydesigner.com/assets/img/logo-light.svg">
-  <meta property="og:url" content="https://curlydesigner.com/">
+  <meta property="og:title" content="Designing Across Physical and Digital Environments">
+  <meta property="og:description" content="Early exhibition work reframed as integrated physical and digital experience design.">
+  <meta property="og:image" content="https://curlydesigner.com/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_005.jpg">
+  <meta property="og:url" content="https://curlydesigner.com/portfolio/published/3d-exhibition.html">
   <meta name="twitter:card" content="summary_large_image">
 
   <!-- Google Analytics (GA4) -->
@@ -51,11 +51,496 @@
   gtag('config', 'G-XEPH1STMM3');
 </script>
 
+<style>
+  body.physical-digital-case-study {
+    background: #f4f7fb;
+    color: #101827;
+  }
+
+  .physical-digital-case-study .main-container.portfolio-post {
+    width: 100%;
+    max-width: none;
+    padding: 0 28px 72px;
+  }
+
+  .physical-digital-case-study .case-study-shell,
+  .physical-digital-case-study .case-layout-text,
+  .physical-digital-case-study .case-layout-wide,
+  .physical-digital-case-study .case-layout-full {
+    width: 100%;
+  }
+
+  .physical-digital-case-study .case-layout-text,
+  .physical-digital-case-study .case-layout-wide,
+  .physical-digital-case-study .case-layout-full {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .physical-digital-case-study .case-layout-text {
+    max-width: 820px;
+  }
+
+  .physical-digital-case-study .case-layout-wide {
+    max-width: 1180px;
+  }
+
+  .physical-digital-case-study .case-layout-full {
+    max-width: 1320px;
+  }
+
+  .physical-digital-case-study .case-study-shell {
+    padding-top: 28px;
+  }
+
+  .physical-digital-case-study .case-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 14px;
+    margin: 28px auto 32px;
+  }
+
+  .physical-digital-case-study .summary-card,
+  .physical-digital-case-study .content-card,
+  .physical-digital-case-study .section-story-card,
+  .physical-digital-case-study .process-step,
+  .physical-digital-case-study .journey-card,
+  .physical-digital-case-study .process-placeholder {
+    border: 1px solid rgba(16, 32, 51, 0.1);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 16px 36px rgba(14, 30, 54, 0.08);
+  }
+
+  .physical-digital-case-study .summary-card,
+  .physical-digital-case-study .content-card,
+  .physical-digital-case-study .section-story-card,
+  .physical-digital-case-study .journey-card,
+  .physical-digital-case-study .process-placeholder {
+    padding: 22px;
+  }
+
+  .physical-digital-case-study .summary-card h3,
+  .physical-digital-case-study .content-card h3,
+  .physical-digital-case-study .journey-card h3,
+  .physical-digital-case-study .process-step h3 {
+    margin: 0 0 10px;
+    color: #0b4e96;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  .physical-digital-case-study .summary-card p,
+  .physical-digital-case-study .content-card p,
+  .physical-digital-case-study .journey-card p,
+  .physical-digital-case-study .process-step p,
+  .physical-digital-case-study .case-layout-text p,
+  .physical-digital-case-study .case-layout-wide p,
+  .physical-digital-case-study .case-layout-full p,
+  .physical-digital-case-study .case-layout-text li,
+  .physical-digital-case-study .case-layout-wide li {
+    color: #203448;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+  }
+
+  .physical-digital-case-study .summary-card p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .physical-digital-case-study .case-section {
+    padding: 46px 0;
+    scroll-margin-top: 100px;
+  }
+
+  .physical-digital-case-study .case-section + .case-section {
+    border-top: 1px solid rgba(16, 32, 51, 0.08);
+  }
+
+  .physical-digital-case-study .project-chapter {
+    margin-top: 42px;
+    padding-top: 58px;
+    border-top: 2px solid #cfdceb;
+  }
+
+  .physical-digital-case-study .section-eyebrow,
+  .physical-digital-case-study .placeholder-label {
+    margin: 0 0 10px;
+    color: #0b4e96;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  .physical-digital-case-study .section-title {
+    margin: 0 0 14px;
+    color: #0d1728;
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.12;
+  }
+
+  .physical-digital-case-study .section-intro {
+    margin: 0 0 28px;
+    color: #4b6177;
+    font-size: 20px;
+    line-height: 1.75;
+  }
+
+  .physical-digital-case-study .case-sticky-nav-wrap {
+    position: sticky;
+    top: 12px;
+    z-index: 15;
+    margin: 0 auto 38px;
+  }
+
+  .physical-digital-case-study .case-sticky-nav {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 88px;
+    overflow-x: visible;
+    padding: 18px 22px;
+    border: 1px solid rgba(16, 32, 51, 0.08);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 18px 44px rgba(14, 30, 54, 0.08);
+  }
+
+  .physical-digital-case-study .case-sticky-nav a {
+    display: inline-flex;
+    min-height: 44px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    border-radius: 999px;
+    color: #355067;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .physical-digital-case-study .case-sticky-nav a:hover,
+  .physical-digital-case-study .case-sticky-nav a:focus {
+    background: #0d5cba;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .physical-digital-case-study .process-flow {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: stretch;
+    gap: 12px;
+    margin: 28px auto;
+  }
+
+  .physical-digital-case-study .process-step {
+    min-height: 178px;
+    padding: 20px;
+  }
+
+  .physical-digital-case-study .process-arrow {
+    align-self: center;
+    color: #7892aa;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .physical-digital-case-study .media-frame {
+    margin: 28px auto;
+    padding: 18px;
+    border: 1px solid rgba(16, 32, 51, 0.08);
+    border-radius: 22px;
+    background: #fff;
+    box-shadow: 0 18px 48px rgba(12, 30, 55, 0.08);
+  }
+
+  .physical-digital-case-study .media-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+  }
+
+  .physical-digital-case-study .media-frame figcaption,
+  .physical-digital-case-study .caption {
+    margin-top: 14px;
+    color: #5a6f86;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .physical-digital-case-study .media-gallery-2,
+  .physical-digital-case-study .media-gallery-3,
+  .physical-digital-case-study .journey-grid,
+  .physical-digital-case-study .content-grid-2,
+  .physical-digital-case-study .content-grid-3 {
+    display: grid;
+    gap: 22px;
+  }
+
+  .physical-digital-case-study .section-story-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    align-items: stretch;
+    margin: 0 auto 28px;
+  }
+
+  .physical-digital-case-study .section-story-card {
+    min-height: 100%;
+    scroll-margin-top: 112px;
+  }
+
+  .physical-digital-case-study .section-story-card .chapter-label {
+    margin-bottom: 16px;
+  }
+
+  .physical-digital-case-study .section-story-card .section-title {
+    font-size: 32px;
+    line-height: 1.18;
+  }
+
+  .physical-digital-case-study .section-story-card .section-intro {
+    margin-bottom: 18px;
+    font-size: 18px;
+    line-height: 1.68;
+  }
+
+  .physical-digital-case-study .section-story-card p:last-child {
+    margin-bottom: 0;
+  }
+
+  .physical-digital-case-study .media-gallery-2,
+  .physical-digital-case-study .content-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .physical-digital-case-study .media-gallery-3,
+  .physical-digital-case-study .journey-grid,
+  .physical-digital-case-study .content-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .physical-digital-case-study .journey-grid {
+    margin-top: 24px;
+  }
+
+  .physical-digital-case-study .journey-card {
+    position: relative;
+    min-height: 210px;
+  }
+
+  .physical-digital-case-study .journey-card:before {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 3px;
+    margin-bottom: 18px;
+    border-radius: 999px;
+    background: #d91f2b;
+  }
+
+  .physical-digital-case-study .section-band {
+    margin: 26px 0;
+    padding: 34px 28px;
+    background: #edf3fa;
+    border-top: 1px solid #d9e5f2;
+    border-bottom: 1px solid #d9e5f2;
+  }
+
+  .physical-digital-case-study .section-band--dark {
+    background: #122236;
+  }
+
+  .physical-digital-case-study .section-band--dark .section-eyebrow,
+  .physical-digital-case-study .section-band--dark .section-title,
+  .physical-digital-case-study .section-band--dark .section-intro,
+  .physical-digital-case-study .section-band--dark p,
+  .physical-digital-case-study .section-band--dark li {
+    color: #fff;
+  }
+
+  .physical-digital-case-study .section-band--dark .content-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.16);
+    box-shadow: none;
+  }
+
+  .physical-digital-case-study .section-band--dark .content-card h3 {
+    color: #a9d5ff;
+  }
+
+  .physical-digital-case-study .process-placeholder {
+    min-height: 230px;
+    border-style: dashed;
+    background: #f8fbff;
+  }
+
+  .physical-digital-case-study .process-placeholder p {
+    margin: 0;
+  }
+
+  .physical-digital-case-study .process-placeholder .placeholder-label {
+    margin-bottom: 10px;
+  }
+
+  .physical-digital-case-study .placeholder-code {
+    display: block;
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #eef4fb;
+    color: #486074;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .physical-digital-case-study .zoning-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 22px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .physical-digital-case-study .zoning-list li {
+    padding: 18px;
+    border-left: 4px solid #0b4e96;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 12px 28px rgba(14, 30, 54, 0.06);
+  }
+
+  .physical-digital-case-study .zoning-list strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #10233b;
+    font-size: 15px;
+    line-height: 1.35;
+  }
+
+  .physical-digital-case-study .chapter-label {
+    display: inline-flex;
+    margin-bottom: 18px;
+    padding: 9px 15px;
+    border-radius: 999px;
+    background: rgba(217, 31, 43, 0.1);
+    color: #a61722;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .physical-digital-case-study .chapter-label-row {
+    margin: 0 auto 18px;
+  }
+
+  .physical-digital-case-study .chapter-label-row .chapter-label {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 1100px) {
+    .physical-digital-case-study .case-summary-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .physical-digital-case-study .process-flow,
+    .physical-digital-case-study .media-gallery-3,
+    .physical-digital-case-study .journey-grid,
+    .physical-digital-case-study .content-grid-3,
+    .physical-digital-case-study .zoning-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .physical-digital-case-study .process-arrow {
+      display: none;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .physical-digital-case-study .main-container.portfolio-post {
+      padding-right: 18px;
+      padding-left: 18px;
+    }
+
+    .physical-digital-case-study .case-sticky-nav {
+      gap: 8px;
+      min-height: 0;
+      padding: 14px;
+    }
+
+    .physical-digital-case-study .case-sticky-nav a {
+      min-height: 40px;
+      padding: 10px 14px;
+      font-size: 14px;
+    }
+
+    .physical-digital-case-study .case-summary-grid,
+    .physical-digital-case-study .section-story-grid,
+    .physical-digital-case-study .process-flow,
+    .physical-digital-case-study .media-gallery-2,
+    .physical-digital-case-study .media-gallery-3,
+    .physical-digital-case-study .journey-grid,
+    .physical-digital-case-study .content-grid-2,
+    .physical-digital-case-study .content-grid-3,
+    .physical-digital-case-study .zoning-list {
+      grid-template-columns: 1fr;
+    }
+
+    .physical-digital-case-study .section-title {
+      font-size: 32px;
+    }
+
+    .physical-digital-case-study .section-story-card .section-title {
+      font-size: 28px;
+    }
+
+    .physical-digital-case-study .section-intro,
+    .physical-digital-case-study .case-layout-text p,
+    .physical-digital-case-study .case-layout-wide p,
+    .physical-digital-case-study .case-layout-full p,
+    .physical-digital-case-study .case-layout-text li,
+    .physical-digital-case-study .case-layout-wide li {
+      font-size: 17px;
+    }
+
+    .physical-digital-case-study .media-frame {
+      padding: 12px;
+      border-radius: 16px;
+    }
+
+    .physical-digital-case-study .media-frame img {
+      border-radius: 10px;
+    }
+  }
+</style>
+
 
 
 </head>
 
-<body class="portfolio-case-study-page">
+<body class="portfolio-case-study-page physical-digital-case-study">
 
     <!-- Preloader -->
 <div id="preloader">
@@ -95,7 +580,7 @@
         <!-- nav -->
 <nav>
     <div class="box-primary-nav row">
-        <div class="col-xs-6 text-center"><img src="/assets/img/ic_menu-side-img.png" style="width: 576px;"></div>
+        <div class="col-xs-6 text-center"><img src="/assets/img/ic_menu-side-img.png" style="width: 576px;" alt=""></div>
         <div class="col-xs-6">
             <ul>
                 <li class="box-label">Menu</li>
@@ -119,9 +604,23 @@
     <div class="case-study-top__inner">
         <div class="case-study-top__separator" aria-hidden="true"></div>
         <header class="case-study-intro">
-            <p class="case-study-intro__label">Barzilai Design</p>
-            <h1 class="case-study-intro__title">3D Exhibition Design</h1>
-            <p class="case-study-intro__keywords">Exhibition Design · 3D Modeling · Environmental Graphics</p>
+            <p class="case-study-intro__label">3D Exhibition Design</p>
+            <h1 class="case-study-intro__title">Designing Across Physical and Digital Environments</h1>
+            <p class="case-study-intro__keywords">Spatial UX · Brand Experience · Interactive Kiosks · Service Touchpoints</p>
+
+            <div class="container main-container post portfolio-post">
+    <div class="case-study-shell">
+        <div class="case-sticky-nav-wrap case-layout-wide">
+            <nav class="case-sticky-nav" aria-label="Section navigation">
+                <a href="#overview">Overview</a>
+                <a href="#outsmart">Outsmart Exhibition</a>
+                <a href="#challenge">Challenge</a>
+                <a href="#logo-to-space">Logo to Space</a>
+                <a href="#visitor-journey">Visitor Journey</a>
+                <a href="#kramer">Kramer Exhibition</a>
+            </nav>
+        </div>
+
             <figure class="case-study-intro__hero">
                 <img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_005.jpg" alt="3D exhibition booth design for Outsmart at 3GSM" loading="eager" fetchpriority="high" decoding="async">
             </figure>
@@ -131,45 +630,192 @@
 <!-- case-study-top:end -->
 
 <!-- main-container -->
-<div class="container main-container post portfolio-post">
 
-    <div class="col-md-9">
-        <p><br />
-Working as an Exhibition Designer in <a href="http://www.barzilaidesign.com/" target="_blank">Barzilai Design</a>, I had the chance to experience one of the most challenging, dynamic and exciting projects. With hands-on experience of high-quality 3D modeling and rendering. I was working from the initial brief, brainstorming with other team members, sketching and 3D modeling Interior spaces. At the same time, responsible for designing large print graphics and Branded elements for Marketing products and world Exhibitions for international clients/audiences all over Europe.<br />
-<br /></p>
-<p><a href="#"><img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/outsmart_top.jpg" alt="" /></a></p>
 
-<h6 id="this-booth-was-designed-for-3gsm-mobile-world-congress-exhibtion-in-barcelona-2009-within-barzilai-design-studio-for-outsmart-company-who-produces-and-delivers-inspiring-visual-communication-for-exhibitions">This booth was designed for <a href="https://www.mwcbarcelona.com/" target="_blank">3GSM Mobile World Congress Exhibtion</a> in Barcelona 2009, within <a href="http://www.barzilaidesign.com/" target="_blank">Barzilai Design Studio</a> for Outsmart company who produces and delivers inspiring visual communication for Exhibitions.</h6>
+        <section class="case-hero case-layout-full" id="overview">
+            <div class="case-summary-grid case-layout-wide" aria-label="Project overview">
+                <article class="summary-card">
+                    <h3>Role</h3>
+                    <p>Exhibition and spatial design</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Contribution</h3>
+                    <p>Concept development, spatial planning, sketching, 3D modeling, and exhibition design</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Design approach</h3>
+                    <p>Translated brand identity considering physical 3D exhibition space with interactive digital touchpoints</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Experience</h3>
+                    <p>Product discovery, digtial and in person interactions, service support, and client connections</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Key Elements</h3>
+                    <p>Kiosks, touchscreens, product displays, sales areas, service seating</p>
+                </article>
+            </div>
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Overview</p>
+                <h2 class="section-title">Designing a connected experience across space, interface, brand, and service.</h2>
+                <p class="section-intro">This work was completed during my architecture and exhibition-design work at <a href="http://www.barzilaidesign.com/" target="_blank" rel="noopener noreferrer">Barzilai Design Studio</a>. I contributed to concept development, sketches, spatial planning, 3D modeling, brand elements, and exhibition graphics for international audiences.</p>
+                <p>Translating a brand identity into an experience system that guides people through physical spaces, digital exploration points, product information, and conversation areas.</p>
+            </div>
+        </section>
 
-<p><br /></p>
+        <section class="case-section" id="outsmart">
+            <div class="chapter-label-row case-layout-wide">
+                <span class="chapter-label">Outsmart / 3GSM</span>
+            </div>
 
-<p><a href="#"><img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_002.jpg" alt="" /></a></p>
+            <div class="section-story-grid case-layout-wide">
+                <article class="section-story-card" id="challenge">
+                    <p class="section-eyebrow">The Design Challenge</p>
+                    <h2 class="section-title">Bring brand, products, and people into one experience.</h2>
+                    <p class="section-intro">The exhibition needed to communicate the company's identity, present products clearly, support digital exploration, and create space for both quick visitor interactions and longer sales or service conversations.</p>
+                    <p>The work combined the concerns of spatial design and UX: visibility, wayfinding, interaction points, information hierarchy, and the transition from self-directed exploration to human conversation.</p>
+                </article>
+                <article class="section-story-card" id="logo-to-space">
+                    <p class="section-eyebrow">From Logo to Spatial Concept</p>
+                    <h2 class="section-title">The exhibition form grew from the shape and geometry of the company logo.</h2>
+                    <p class="section-intro">The Outsmart exhibition concept connected brand identity, spatial form, product information, interactive screens, and conversation areas into one visitor experience for 3GSM World Congress in Barcelona, Spain.</p>
+                </article>
+            </div>
 
-<hr />
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/outsmart_top.jpg" alt="Close view of the Outsmart exhibition concept showing the red structural form derived from the brand geometry" loading="lazy" decoding="async" />
+                <figcaption>Translating logo geometry into a built brand environment.</figcaption>
+            </figure>
 
-<p><br />
-Kramer Electronics has a line of over 1,000 innovative products and exhibitions worldwide. Their booth was designed to specific Brand’s requirements. They wanted to have a portable booth with four departments: Tools, Home, New collections and Meeting area. A welcome stand with a bar in the meeting area and screens on all sides.<br />
-With a particular place for their sub-company; Sierra brand.</p>
+            <div class="process-flow case-layout-wide" aria-label="Logo geometry to visitor experience process">
+                <article class="process-step">
+                    <h3>Logo Geometry</h3>
+                    <p>Study the visual form of the mark: curves, repeated shapes, angles, proportions, and the red-and-white brand rhythm.</p>
+                </article>
+                <span class="process-arrow" aria-hidden="true">&rarr;</span>
+                <article class="process-step">
+                    <h3>Exploratory Sketches</h3>
+                    <p>Extract shapes and test how a flat identity could become walls, openings, overhead forms, and display moments.</p>
+                </article>
+                <span class="process-arrow" aria-hidden="true">&rarr;</span>
+                <article class="process-step">
+                    <h3>Spatial Form</h3>
+                    <p>Translate the selected geometry into a booth footprint, structural volume, product wall, and service counter.</p>
+                </article>
+                <span class="process-arrow" aria-hidden="true">&rarr;</span>
+                <article class="process-step">
+                    <h3>Visitor Experience</h3>
+                    <p>Plan how people enter, scan, explore product information, use screens, sit, discuss, and continue the relationship.</p>
+                </article>
+            </div>
 
-<p>One of the biggest challenges was how to design a movable, disassembled booth that creates interaction but at the same time attractive for business visitors. With functional solutions for hidden storage places.</p>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Barzilai_OutsmartLogoc.png" alt="Close view of the Outsmart exhibition concept showing the red structural form derived from the brand geometry" loading="lazy" decoding="async" />
+                <figcaption>Translating logo geometry into a built brand environment.</figcaption>
+            </figure>
 
-<p>The Bar has been planned in the center of the booth, with 360 degrees access, to make it inviting and attractive for more visitors to come &amp; see the booth. From the bar area, the visitor could observe all the different departments and watch the displays.
-<br /></p>
 
-<p><a href="#"><img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/011-Kramer_08_00121.jpg" alt="Kramer Electronics Exhibition" /></a></p>
+            <div class="content-grid-3 case-layout-wide">
+                <article class="content-card">
+                    <h3>Footprint and Circulation</h3>
+                    <p>The form organized movement from the open aisle into product exploration, touchscreens, and seated conversations.</p>
+                </article>
+                <article class="content-card">
+                    <h3>Information Hierarchy</h3>
+                    <p>Large brand surfaces worked from a distance, while product graphics, displays, and screen content supported closer inspection.</p>
+                </article>
+                <article class="content-card">
+                    <h3>Physical + Digital System</h3>
+                    <p>Kiosks, touchscreens, product walls, and service seating were planned as connected parts of the same visitor journey.</p>
+                </article>
+            </div>
+        </section>
 
-<p><a href="#"><img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Kramer_08_0011.jpg" alt="Kramer Electronics Exhibition" /></a></p>
+        <section class="case-section" id="visitor-journey">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Designing the Visitor Journey</p>
+                <h2 class="section-title">Physical and digital touchpoints worked together instead of acting as separate moments.</h2>
+                <p class="section-intro">Visitors could read the brand from the aisle, enter the space through a clear visual path, explore products through displays and screens, then move into sales or service conversations when they needed more context.</p>
+            </div>
 
-<p><a href="#"><img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Kramer_08_008.jpg" alt="Kramer Electronics Exhibition" /></a></p>
+            <div class="section-band">
+                <div class="case-layout-wide">
+                    <div class="journey-grid" aria-label="Visitor journey layers">
+                        <article class="journey-card">
+                            <h3>Digital Layer</h3>
+                            <p>Touchscreens, kiosks, and interactive product information extended the physical booth into a self-guided information layer.</p>
+                        </article>
+                        <article class="journey-card">
+                            <h3>Explore</h3>
+                            <p>Product displays supported quick scanning and self-directed discovery before a visitor needed staff support.</p>
+                        </article>
+                        <article class="journey-card">
+                            <h3>Interact</h3>
+                            <p>Touchscreens and kiosks let visitors access additional product information at the point of interest.</p>
+                        </article>
+                        <article class="journey-card">
+                            <h3>Discuss</h3>
+                            <p>Sales seating and counters created natural places for deeper conversations after initial exploration.</p>
+                        </article>
+                        <article class="journey-card">
+                            <h3>Connect</h3>
+                            <p>Service areas allowed visitors to ask questions, continue the relationship, and move from interest to next steps.</p>
+                        </article>
+                        <article class="journey-card">
+                            <h3>Remember</h3>
+                            <p>The strong overhead form and repeated brand geometry made the booth recognizable within a dense exhibition hall.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
 
-<p><a href="#"><img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Kramer_08_Left.jpg" alt="Kramer Electronics Exhibition" /></a></p>
+             <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Barzilai_Outsmartd.png" alt="Outsmart exhibition rendering showing the full spatial structure, brand graphics, product displays, and kiosk counter" loading="lazy" decoding="async" />
+                <figcaption> The visitor path moves from a strong brand threshold into product displays, screens, and conversation areas..</figcaption>
+            </figure>
 
-<h6 id="designed-within-the-barzilai-design-studio">Designed within the <a href="http://www.barzilaidesign.com/" target="_blank">Barzilai Design Studio</a></h6>
+            <figure class="media-frame case-layout-wide">
+                <img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_006.jpg" alt="Outsmart exhibition rendering showing the full spatial structure, brand graphics, product displays, and kiosk counter" loading="lazy" decoding="async" />
+                <figcaption>The final spatial concept shows how brand form, product hierarchy, touchscreens, seating, and sales/service zones were treated as one integrated experience.</figcaption>
+            </figure>
 
-    </div>
+           <div class="media-gallery-2 case-layout-wide">
+                <figure class="media-frame">
+                    <img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Barzilai_Outsmartd.png" alt="Outsmart exhibition view showing entry path, product graphics, display counters, touchscreens, and visitor scale" loading="lazy" decoding="async" />
+                    <figcaption>The visitor path moves from a strong brand threshold into product displays, screens, and conversation areas.</figcaption>
+                </figure>
+                <figure class="media-frame">
+                    <img src="/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Barzilai_Outsmarte.png" alt="Outsmart exhibition side view showing product wall, digital screens, service counter, and seating" loading="lazy" decoding="async" />
+                    <figcaption>Digital touchpoints were placed near product storytelling and service seating so people could move between exploring, asking, and discussing.</figcaption>
+                </figure>
+            </div>
 
-</div>
-<!-- end main-container -->
+            </div>
+        </section>
+
+        <section class="case-section" id="outcome">
+            <div class="case-layout-text">
+                <p class="section-eyebrow">Design Decisions and Outcome</p>
+                <h2 class="section-title">The final exhibition was constructed and used in a live exhibition environment at the <a href="https://www.mwcbarcelona.com/" target="_blank" rel="noopener noreferrer">3GSM World Congress</a> in Barcelona, Spain.</h2>
+                <p class="section-intro">
+            </div>
+            <div class="content-grid-3 case-layout-wide">
+                <article class="content-card">
+                    <h3>Brand as Structure</h3>
+                    <p>The company mark informed the booth's visible shape, not just the graphics applied to it.</p>
+                </article>
+                <article class="content-card">
+                    <h3>Digital as Context</h3>
+                    <p>Screens and kiosks supported product exploration at the moment visitors were already looking, touching, and asking questions.</p>
+                </article>
+                <article class="content-card">
+                    <h3>Service as Space</h3>
+                    <p>Conversation areas were planned as part of the experience, giving sales and support interactions a clear place in the journey.</p>
+                </article>
+            </div>
+        </section>
+
+       
 
 <!-- portfolio-page-ending:start -->
 <div class="portfolio-page-ending">
