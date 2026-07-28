@@ -53,7 +53,7 @@ function renderOtherPagesNavigation(currentProject) {
             <h2 class="portfolio-ending-heading portfolio-ending-heading--small" id="other-pages-${escapeHtml(currentProject.slug)}">Other Pages</h2>
             <nav class="portfolio-page-nav" aria-label="Other pages">
                 <a class="portfolio-page-pill" href="/about.html">About</a>
-                <a class="portfolio-page-pill" href="/category/portfolio.html">Portfolio</a>
+                <a class="portfolio-page-pill" href="/portfolio">Portfolio</a>
                 <a class="portfolio-page-pill" href="/#testimonials">Testimonials</a>
                 <a class="portfolio-page-pill" href="/teaching.html">Workshops</a>
             </nav>

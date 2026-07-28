@@ -214,7 +214,7 @@ function renderSiteHeader() {
             <nav class="case-study-header-breadcrumb" aria-label="Breadcrumb">
                 <a href="/">Home</a>
                 <span class="case-study-header-breadcrumb__separator" aria-hidden="true">/</span>
-                <a href="/category/portfolio.html">Portfolio</a>
+                <a href="/portfolio">Portfolio</a>
             </nav>
             <button class="case-study-search-trigger" type="button" aria-label="Search portfolio">
                 <span class="case-study-search-icon" aria-hidden="true"></span>

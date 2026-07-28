@@ -23,7 +23,7 @@ How to preview any page:
 
 - homepage = `http://localhost:8000/`
 - about = `http://localhost:8000/about.html`
-- portfolio = `http://localhost:8000/category/portfolio`
+- portfolio = `http://localhost:8000/portfolio.html`
 - case study example = `http://localhost:8000/wbd-hud`
 
 Rule:
@@ -107,7 +107,10 @@ Main editable sections:
 ## Portfolio Archive
 
 - Main portfolio archive page:
-  [category/portfolio.html](/Users/victoriapanshin/Design/Curlydesigner/site/category/portfolio.html)
+  [portfolio.html](/Users/victoriapanshin/Design/Curlydesigner/site/portfolio.html)
+- Public portfolio URL:
+  `https://curlydesigner.com/portfolio`
+- Legacy `/category/portfolio` routes redirect to the new portfolio URL.
 - Blog-style archive page:
   [category/blog.html](/Users/victoriapanshin/Design/Curlydesigner/site/category/blog.html)
 

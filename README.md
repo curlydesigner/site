@@ -50,6 +50,7 @@ Stack:
 
 - `index.html`
 - `about.html`
+- `portfolio.html` (source for the public `/portfolio` route)
 - `resume.html`
 - `contact.html`
 - `services.html`
@@ -77,6 +78,7 @@ http://localhost:8000
 - This is a static HTML site. There is no local Jekyll or package build step.
 - `.nojekyll` is present so GitHub Pages, if used, serves the files as static HTML.
 - Published case studies live in `portfolio/published/`.
+- `portfolio/index.html` is generated from `portfolio.html` by `tools/sync-portfolio-route.js` so static hosting serves the clean `/portfolio` route.
 - Draft case studies live in `portfolio/drafts/`, which is ignored by Git and only previewed locally.
 - Root case-study files are compatibility wrappers for older URLs.
 - Public HTML pages were verified against the live website during the refactor review
