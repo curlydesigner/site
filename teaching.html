@@ -28,270 +28,1104 @@
             border: 0;
         }
 
-        .teaching-quote-showcase {
+        .teaching-hero.teaching-quote-showcase {
+            --hero-gold: #ffc82e;
+            --hero-lilac: #b89cff;
+            --hero-blue: #62d9ff;
+            --hero-pink: #f878d4;
             position: relative;
+            isolation: isolate;
+            min-height: min(880px, 100vh);
             overflow: hidden;
-            padding: 118px 0 122px;
+            padding: 154px 0 92px;
             background:
-                radial-gradient(circle at 16% 18%, rgba(203, 164, 219, 0.18), transparent 18%),
-                radial-gradient(circle at 82% 20%, rgba(120, 91, 198, 0.14), transparent 22%),
-                radial-gradient(circle at 68% 74%, rgba(92, 74, 182, 0.18), transparent 26%),
-                linear-gradient(140deg, #111124 0%, #1e1b44 54%, #18112d 100%);
+                radial-gradient(circle at 74% 48%, rgba(88, 57, 179, 0.24), transparent 33%),
+                radial-gradient(circle at 19% 30%, rgba(72, 47, 145, 0.16), transparent 26%),
+                radial-gradient(circle at 88% 18%, rgba(203, 71, 190, 0.1), transparent 22%),
+                linear-gradient(128deg, #0d0c20 0%, #14112d 45%, #160d2b 100%);
+            color: #fff;
         }
 
-        .teaching-quote-showcase::before {
+        .teaching-hero.teaching-quote-showcase::before {
             content: "";
             position: absolute;
             inset: 0;
-            background:
-                radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.03), transparent 56%),
-                linear-gradient(115deg, rgba(255, 255, 255, 0.04), transparent 30%, rgba(255, 255, 255, 0.02) 58%, transparent 82%);
-            mix-blend-mode: screen;
-            pointer-events: none;
-        }
-
-        .teaching-quote-showcase::after {
-            content: "";
-            position: absolute;
-            inset: 0;
+            z-index: -2;
             background-image:
-                linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-            background-size: 160px 160px;
-            opacity: 0.22;
+                radial-gradient(circle, rgba(255, 255, 255, 0.7) 0 1px, transparent 1.6px),
+                radial-gradient(circle, rgba(150, 112, 255, 0.75) 0 1px, transparent 1.5px);
+            background-position: 0 0, 28px 38px;
+            background-size: 88px 88px, 132px 132px;
+            opacity: 0.18;
             pointer-events: none;
         }
 
-        .teaching-quote-stage {
+        .teaching-hero.teaching-quote-showcase::after {
+            content: "";
+            position: absolute;
+            inset: auto -12% -55% 42%;
+            z-index: -1;
+            height: 92%;
+            border-radius: 50%;
+            background: rgba(97, 57, 203, 0.13);
+            filter: blur(90px);
+            pointer-events: none;
+        }
+
+        .teaching-hero-shell {
             position: relative;
             z-index: 1;
-            max-width: 980px;
-            margin-left: clamp(24px, 6vw, 84px);
-            padding: clamp(16px, 3vw, 30px) 0;
+            display: grid;
+            grid-template-columns: minmax(0, 0.9fr) minmax(520px, 1.1fr);
+            gap: clamp(78px, 7vw, 132px);
+            align-items: center;
+            width: min(1540px, calc(100% - clamp(48px, 8vw, 150px)));
+            margin: 0 auto;
         }
 
-        .teaching-quote-panel {
+        .teaching-hero-copy {
             position: relative;
-            padding: clamp(36px, 5vw, 62px) clamp(26px, 4vw, 44px) clamp(30px, 4vw, 38px);
+            z-index: 2;
+            max-width: 700px;
         }
 
-        .teaching-quote-mark-large {
-            position: absolute;
-            font-family: "Cormorant Garamond", Georgia, serif;
-            font-style: italic;
-            font-weight: 800;
-            line-height: 0.72;
-            color: rgba(228, 197, 217, 0.19);
-            pointer-events: none;
-            user-select: none;
-        }
-
-        .teaching-quote-mark-large--open {
-            top: -10px;
-            left: -100px;
-            font-size: clamp(30rem, 17vw, 25rem);
-        }
-
-        .teaching-quote-mark-large--close {
-            right: 150px;
-            bottom: 50px;
-            font-size: clamp(30rem, 16vw, 25rem);
+        .teaching-hero.teaching-quote-showcase .teaching-eyebrow {
+            display: block;
+            margin: 0 0 clamp(34px, 4vw, 58px);
+            color: var(--hero-gold);
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
         }
 
         .teaching-editorial-quote {
             position: relative;
             margin: 0;
-            max-width: 980px;
-            padding-left: 0;
-            border-left: 0;
+            padding: clamp(10px, 1vw, 16px) clamp(10px, 1.5vw, 24px) clamp(14px, 1.3vw, 22px) clamp(36px, 3.6vw, 60px);
+            border: 0;
         }
 
         .teaching-editorial-quote-text {
-            margin: 0;
-            color: #f7f1eb;
-            font-family: "Cormorant Garamond", Georgia, serif;
-            font-size: clamp(2.7rem, 4.8vw, 5rem);
-            font-style: italic;
-            font-weight: 400;
-            line-height: 1.08;
-            letter-spacing: -0.02em;
-            text-wrap: balance;
-            text-shadow: 0 10px 30px rgba(10, 7, 20, 0.24);
-        }
-
-        .teaching-editorial-quote-text::before,
-        .teaching-editorial-quote-text::after {
-            position: relative;
-            color: #f2eadf;
-            font-size: 0.9em;
-        }
-
-        .teaching-editorial-quote-text::before {
-            content: "\201C";
-            margin-right: 0.04em;
-        }
-
-        .teaching-editorial-quote-text::after {
-            content: "\201D";
-            margin-left: 0.03em;
-        }
-
-        .teaching-editorial-support {
-            max-width: 760px;
-            margin: clamp(28px, 3vw, 34px) 0 0;
-            color: #fff;
-            font-size: 18px;
-            line-height: 1.85;
-            font-family: "Poppins", sans-serif;
-        }
-
-        .teaching-hero.teaching-quote-showcase {
-            padding: 120px 0 0px;
-            background:
-                radial-gradient(circle at 16% 18%, rgba(203, 164, 219, 0.18), transparent 18%),
-                radial-gradient(circle at 82% 20%, rgba(120, 91, 198, 0.14), transparent 22%),
-                radial-gradient(circle at 68% 74%, rgba(92, 74, 182, 0.18), transparent 26%),
-                linear-gradient(140deg, #111124 0%, #1e1b44 54%, #18112d 100%);
-        }
-
-        .teaching-hero.teaching-quote-showcase::before {
-            display: none;
-        }
-
-        .teaching-hero.teaching-quote-showcase .teaching-eyebrow {
-            display: block;
-            margin: 0 0 clamp(28px, 4vw, 42px);
-            padding-left: clamp(24px, 6vw, 128px);
             position: relative;
             z-index: 1;
+            margin: 0;
+            color: #faf7ff;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(3.55rem, 3.6vw, 5.25rem);
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.06;
+            letter-spacing: -0.025em;
+            text-wrap: balance;
+            text-shadow: 0 18px 45px rgba(2, 1, 12, 0.38);
         }
 
-        .teaching-hero.teaching-quote-showcase .teaching-quote-stage {
-            max-width: 1120px;
-            margin-left: clamp(24px, 6vw, 84px);
+        .teaching-quote-mark-large {
+            position: absolute;
+            color: rgba(152, 121, 230, 0.2);
+            font-family: Georgia, serif;
+            font-size: clamp(8rem, 8.5vw, 12rem);
+            font-style: normal;
+            font-weight: 700;
+            line-height: 0.6;
+            pointer-events: none;
+            user-select: none;
         }
 
-        .teaching-hero.teaching-quote-showcase .teaching-quote-panel {
+        .teaching-quote-mark-large--open {
+            top: -2px;
+            left: -6px;
+        }
+
+        .teaching-quote-mark-large--close {
+            right: 0;
+            bottom: -48px;
+        }
+
+        .teaching-audience {
             display: flex;
-            flex-direction: column;
-            min-height: clamp(440px, 58vw, 620px);
-            padding-bottom: clamp(34px, 6vw, 56px);
+            align-items: stretch;
+            margin: clamp(0px, 1vw, 14px) 0 0;
+            padding: 22px 0 0;
+            border-top: 1px solid rgba(202, 187, 242, 0.2);
         }
 
-        .teaching-hero-copy {
-            max-width: 980px;
+        .teaching-audience-item {
+            display: flex;
+            flex: 0 1 auto;
+            align-items: center;
+            gap: 11px;
+            min-width: 0;
+            padding: 0 clamp(15px, 1.55vw, 25px);
+            color: rgba(255, 255, 255, 0.88);
+            font-family: "Poppins", sans-serif;
+            font-size: clamp(12px, 0.85vw, 14px);
+            font-weight: 500;
+            line-height: 1.45;
         }
 
-        .teaching-hero.teaching-quote-showcase .teaching-editorial-support {
-            color: rgba(255, 255, 255, 0.78);
+        .teaching-audience-item:first-child {
+            padding-left: 0;
+        }
+
+        .teaching-audience-item + .teaching-audience-item {
+            border-left: 1px solid rgba(202, 187, 242, 0.17);
+        }
+
+        .teaching-audience-item ion-icon {
+            flex: 0 0 auto;
+            color: var(--hero-lilac);
+            font-size: 25px;
         }
 
         .teaching-hero.teaching-quote-showcase .teaching-hero-actions {
-            margin-top: clamp(34px, 5vw, 56px);
-            align-self: flex-start;
-            justify-content: flex-start;
+            margin-top: 34px;
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-button {
+            position: relative;
+            min-width: 184px;
+            padding: 11px 48px 11px 23px;
+            overflow: hidden;
+            background: linear-gradient(90deg, #ffbb09, #ffd342);
+            box-shadow: 0 16px 40px rgba(255, 187, 9, 0.12);
+            font-size: 13px;
+            letter-spacing: 0.055em;
+            text-align: left;
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-button::after {
+            content: "\2192";
+            position: absolute;
+            top: 50%;
+            right: 19px;
+            font-size: 18px;
+            font-weight: 400;
+            transform: translateY(-52%);
+            transition: transform 0.25s ease;
+        }
+
+        .teaching-hero.teaching-quote-showcase .teaching-button:hover::after,
+        .teaching-hero.teaching-quote-showcase .teaching-button:focus::after {
+            transform: translate(4px, -52%);
+        }
+
+        .teaching-wave-transition {
+            position: absolute;
+            right: 0;
+            bottom: -1px;
+            left: 0;
+            z-index: 6;
+            height: clamp(78px, 8vw, 126px);
+            pointer-events: none;
+        }
+
+        .teaching-wave-transition svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .teaching-topics-section {
+            position: relative;
+            overflow: hidden;
+            padding: clamp(50px, 5vw, 78px) 0 clamp(90px, 8vw, 132px);
+            background:
+                radial-gradient(circle at 8% 30%, rgba(139, 111, 222, 0.06), transparent 22%),
+                radial-gradient(circle at 90% 72%, rgba(106, 188, 149, 0.07), transparent 24%),
+                linear-gradient(180deg, #fbfafc 0%, #fffefd 54%, #fbfaf7 100%);
+        }
+
+        .teaching-topics-shell {
+            width: min(1240px, calc(100% - clamp(40px, 7vw, 104px)));
+            margin: 0 auto;
+        }
+
+        .teaching-topics-header {
+            max-width: 850px;
+        }
+
+        .teaching-topics-section .teaching-section-heading {
+            margin: 0 0 10px;
+            color: #171534;
+            font-size: clamp(38px, 4vw, 54px);
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+        }
+
+        .teaching-topics-intro {
+            margin: 0;
+            color: #666080;
+            font-size: clamp(15px, 1.15vw, 17px);
+            line-height: 1.65;
+        }
+
+        .teaching-audience--light {
+            width: fit-content;
+            max-width: 100%;
+            margin: 28px 0 0;
+            padding: 0;
+            border-top: 0;
+        }
+
+        .teaching-audience--light .teaching-audience-item {
+            color: #282444;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .teaching-audience--light .teaching-audience-item + .teaching-audience-item {
+            border-left-color: rgba(74, 61, 119, 0.18);
+        }
+
+        .teaching-audience--light .teaching-audience-item ion-icon {
+            color: #7557e8;
+            font-size: 24px;
+        }
+
+        .teaching-topic-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: clamp(22px, 2.4vw, 34px);
+            margin-top: clamp(180px, 14vw, 200px);
+        }
+
+        .teaching-topic-card {
+            --topic-accent: #8d6cf3;
+            position: relative;
+            display: flex;
+            min-width: 0;
+            min-height: 100%;
+            overflow: visible;
+            flex-direction: column;
+            border: 1px solid rgba(43, 37, 77, 0.1);
+            border-top: 4px solid var(--topic-accent);
+            border-bottom: 3px solid var(--topic-accent);
+            border-radius: 17px;
+            background: rgba(255, 255, 255, 0.88);
+            box-shadow:
+                0 22px 50px rgba(32, 24, 72, 0.08),
+                0 4px 12px rgba(32, 24, 72, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .teaching-topic-card:nth-child(2) {
+            --topic-accent: #5798f5;
+        }
+
+        .teaching-topic-card:nth-child(3) {
+            --topic-accent: #82b66d;
+        }
+
+        .teaching-topic-card:hover {
+            box-shadow:
+                0 28px 64px rgba(32, 24, 72, 0.13),
+                0 7px 18px rgba(32, 24, 72, 0.07);
+            transform: translateY(-6px);
+        }
+
+        .teaching-topic-art {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            height: clamp(290px, 26vw, 340px);
+            margin: -38px -24px 0;
+            overflow: visible;
+            background: transparent;
+        }
+
+        .teaching-topic-art::after {
+            content: "";
+            position: absolute;
+            right: 26px;
+            bottom: 12px;
+            left: 26px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(72, 59, 117, 0.11), transparent);
+        }
+
+        .teaching-topic-art img {
+            position: relative;
+            z-index: 1;
+            display: block;
+            width: 112%;
+            max-width: none;
+            height: auto;
+            filter: drop-shadow(0 18px 22px rgba(26, 20, 55, 0.09));
+            transition: transform 0.4s ease;
+        }
+
+        .teaching-topic-card:nth-child(1) .teaching-topic-art img {
+            width: 98%;
+        }
+
+        .teaching-topic-card:nth-child(2) .teaching-topic-art img {
+            width: 112%;
+        }
+
+        .teaching-topic-card:nth-child(3) .teaching-topic-art img {
+            width: 134%;
+        }
+
+        .teaching-topic-card:hover .teaching-topic-art img {
+            transform: translateY(-5px) scale(1.015);
+        }
+
+        .teaching-topic-content {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            padding: 24px clamp(22px, 2.2vw, 30px) 30px;
+        }
+
+        .teaching-topic-content h3 {
+            margin: 0 0 14px;
+            color: #171534;
+            font-size: clamp(20px, 1.65vw, 24px);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.25;
+            text-align: center;
+            text-transform: none;
+        }
+
+        .teaching-topic-content p {
+            margin: 0;
+            color: #625d79;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .learning-constellation {
+            --parallax-x: 0px;
+            --parallax-y: 0px;
+            position: relative;
+            width: 100%;
+            max-width: 760px;
+            aspect-ratio: 1.15;
+            margin: 0 auto 0 clamp(12px, 2vw, 32px);
+            transform: translate3d(var(--parallax-x), var(--parallax-y), 0);
+            transition: transform 0.35s ease-out;
+        }
+
+        .constellation-orbit {
+            position: absolute;
+            top: 49%;
+            left: 51%;
+            width: 68%;
+            aspect-ratio: 1;
+            border: 1px dashed rgba(172, 139, 255, 0.28);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .constellation-orbit::before,
+        .constellation-orbit::after {
+            content: "";
+            position: absolute;
+            border: 1px solid rgba(108, 203, 255, 0.12);
+            border-radius: 50%;
+        }
+
+        .constellation-orbit::before {
+            inset: 11%;
+        }
+
+        .constellation-orbit::after {
+            inset: -9%;
+            border-color: rgba(245, 123, 213, 0.1);
+        }
+
+        .constellation-core {
+            position: absolute;
+            top: 49%;
+            left: 51%;
+            z-index: 3;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #fff4b8;
+            border-radius: 50%;
+            background: #ffd34f;
+            box-shadow: 0 0 12px #ffd34f, 0 0 38px rgba(255, 184, 37, 0.9), 0 0 80px rgba(255, 184, 37, 0.35);
+            transform: translate(-50%, -50%);
+            animation: constellationPulse 2.8s ease-in-out infinite;
+        }
+
+        .constellation-line {
+            position: absolute;
+            top: 49%;
+            left: 51%;
+            z-index: 1;
+            width: var(--length);
+            height: 1px;
+            overflow: hidden;
+            background: linear-gradient(90deg, rgba(255, 214, 96, 0.82), rgba(152, 112, 255, 0.5), rgba(104, 218, 255, 0.9));
+            box-shadow: 0 0 7px rgba(178, 129, 255, 0.45);
+            transform: rotate(var(--angle));
+            transform-origin: 0 50%;
+        }
+
+        .constellation-line::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.95), transparent);
+            transform: translateX(-100%);
+            animation: lineTravel 4.2s ease-in-out infinite var(--delay, 0s);
+        }
+
+        .constellation-node {
+            --node-color: 184, 156, 255;
+            position: absolute;
+            z-index: 4;
+            display: grid;
+            place-items: center;
+            width: clamp(100px, 8vw, 126px);
+            aspect-ratio: 1;
+            padding: 12px;
+            border: 1px solid rgba(var(--node-color), 0.78);
+            border-radius: 50%;
+            background:
+                radial-gradient(circle at 38% 28%, rgba(255, 255, 255, 0.13), transparent 31%),
+                linear-gradient(145deg, rgba(var(--node-color), 0.18), rgba(12, 10, 37, 0.86));
+            color: #fff;
+            font-family: "Poppins", sans-serif;
+            text-align: center;
+            box-shadow:
+                inset 0 0 22px rgba(var(--node-color), 0.16),
+                0 0 12px rgba(var(--node-color), 0.3),
+                0 0 44px rgba(var(--node-color), 0.14);
+            transform: translate(-50%, -50%);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            animation: nodeFloat 5s ease-in-out infinite var(--float-delay, 0s);
+        }
+
+        .constellation-node::before {
+            content: "";
+            position: absolute;
+            inset: 7px;
+            border: 1px solid rgba(var(--node-color), 0.16);
+            border-radius: inherit;
+        }
+
+        .constellation-node:hover,
+        .constellation-node:focus-visible {
+            z-index: 8;
+            border-color: rgba(var(--node-color), 1);
+            outline: none;
+            box-shadow:
+                inset 0 0 28px rgba(var(--node-color), 0.25),
+                0 0 18px rgba(var(--node-color), 0.6),
+                0 0 60px rgba(var(--node-color), 0.25);
+            transform: translate(-50%, -50%) scale(1.08);
+        }
+
+        .constellation-node ion-icon {
+            display: block;
+            margin: 0 auto 5px;
+            color: rgb(var(--node-color));
+            font-size: clamp(28px, 2.1vw, 36px);
+            filter: drop-shadow(0 0 8px rgba(var(--node-color), 0.65));
+        }
+
+        .constellation-node span {
+            display: block;
+            font-size: clamp(12px, 0.9vw, 15px);
+            font-weight: 500;
+        }
+
+        .constellation-node .imagine-icon {
+            position: relative;
+            width: 44px;
+            height: 39px;
+            margin: 0 auto 4px;
+        }
+
+        .constellation-node .imagine-icon ion-icon {
+            margin: 0;
+            transform: rotate(-7deg);
+        }
+
+        .constellation-node .imagine-icon i {
+            position: absolute;
+            right: -1px;
+            bottom: 3px;
+            width: 21px;
+            height: 8px;
+            border-top: 2px solid rgb(var(--node-color));
+            border-radius: 50%;
+            transform: rotate(8deg);
+            filter: drop-shadow(0 0 6px rgba(var(--node-color), 0.7));
+        }
+
+        .constellation-node .imagine-icon i::after {
+            content: "";
+            position: absolute;
+            right: -6px;
+            top: -5px;
+            width: 11px;
+            height: 7px;
+            border-bottom: 2px solid rgb(var(--node-color));
+            border-radius: 50%;
+        }
+
+        .constellation-node .node-cube-stack {
+            position: relative;
+            width: 52px;
+            height: 40px;
+            margin: 0 auto 4px;
+        }
+
+        .constellation-node .node-cube-stack ion-icon {
+            position: absolute;
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .constellation-node .node-cube-stack ion-icon:nth-child(1) {
+            top: 0;
+            left: 12px;
+        }
+
+        .constellation-node .node-cube-stack ion-icon:nth-child(2) {
+            left: 0;
+            bottom: 0;
+        }
+
+        .constellation-node .node-cube-stack ion-icon:nth-child(3) {
+            right: 0;
+            bottom: 0;
+        }
+
+        .node-curiosity {
+            --node-color: 255, 199, 63;
+            --float-delay: -0.8s;
+            top: 15%;
+            left: 50%;
+        }
+
+        .node-explore {
+            --node-color: 204, 99, 255;
+            --float-delay: -2.4s;
+            top: 43%;
+            left: 82%;
+        }
+
+        .node-build {
+            --node-color: 91, 190, 255;
+            --float-delay: -1.5s;
+            top: 78%;
+            left: 69%;
+        }
+
+        .node-reflect {
+            --node-color: 247, 111, 209;
+            --float-delay: -3.2s;
+            top: 77%;
+            left: 31%;
+        }
+
+        .node-imagine {
+            --node-color: 104, 223, 215;
+            --float-delay: -4.2s;
+            top: 42%;
+            left: 18%;
+        }
+
+        .learning-float {
+            position: absolute;
+            z-index: 2;
+            color: #b59cff;
+            opacity: 0.38;
+            pointer-events: none;
+            filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.24));
+            animation: objectFloat 6s ease-in-out infinite var(--object-delay, 0s);
+        }
+
+        .learning-float ion-icon {
+            display: block;
+        }
+
+        .learning-notes {
+            --object-delay: -0.7s;
+            top: 8%;
+            left: 5%;
+            width: 64px;
+            height: 82px;
+            padding: 11px 9px;
+            border: 1px solid currentColor;
+            border-radius: 8px;
+            transform: rotate(-8deg);
+        }
+
+        .learning-notes::before {
+            content: "";
+            position: absolute;
+            top: -5px;
+            left: 8px;
+            right: 8px;
+            height: 8px;
+            background: repeating-linear-gradient(90deg, transparent 0 7px, currentColor 8px 10px, transparent 11px 15px);
+        }
+
+        .learning-notes::after {
+            content: "";
+            position: absolute;
+            right: 10px;
+            bottom: 12px;
+            left: 10px;
+            height: 14px;
+            background: repeating-linear-gradient(180deg, currentColor 0 1px, transparent 1px 6px);
+            opacity: 0.72;
+        }
+
+        .learning-notes ion-icon {
+            margin: 9px auto 0;
+            font-size: 28px;
+        }
+
+        .learning-analytics {
+            --object-delay: -3.8s;
+            top: 6%;
+            right: 2%;
+            display: flex;
+            align-items: flex-end;
+            gap: 5px;
+            width: 92px;
+            height: 62px;
+            padding: 16px 12px 10px;
+            border: 1px solid currentColor;
+            border-radius: 8px;
+            transform: rotate(10deg);
+        }
+
+        .learning-analytics::before {
+            content: "";
+            position: absolute;
+            top: 7px;
+            left: 9px;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background: currentColor;
+            box-shadow: 8px 0 currentColor, 16px 0 currentColor;
+        }
+
+        .learning-analytics i {
+            width: 8px;
+            height: var(--bar-height);
+            border: 1px solid currentColor;
+            border-radius: 2px 2px 0 0;
+        }
+
+        .learning-analytics b {
+            width: 24px;
+            height: 24px;
+            margin-left: auto;
+            border: 1px solid currentColor;
+            border-radius: 50%;
+            background: conic-gradient(currentColor 0 28%, transparent 28% 100%);
+        }
+
+        .learning-sketch-card {
+            --object-delay: -2.6s;
+            left: 1%;
+            bottom: 5%;
+            width: 88px;
+            height: 58px;
+            border: 1px solid currentColor;
+            border-radius: 7px;
+            transform: rotate(-7deg);
+        }
+
+        .learning-sketch-card ion-icon:first-child {
+            position: absolute;
+            top: 11px;
+            left: 10px;
+            font-size: 28px;
+        }
+
+        .learning-sketch-card ion-icon:last-child {
+            position: absolute;
+            right: -8px;
+            bottom: -4px;
+            font-size: 34px;
+            transform: rotate(12deg);
+        }
+
+        .learning-rating {
+            --object-delay: -4.6s;
+            left: 12%;
+            bottom: -1%;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            width: 92px;
+            height: 42px;
+            padding: 7px;
+            border: 1px solid currentColor;
+            border-radius: 7px;
+            transform: rotate(-6deg);
+        }
+
+        .learning-rating ion-icon {
+            font-size: 24px;
+        }
+
+        .learning-rating i {
+            flex: 1;
+            height: 12px;
+            background:
+                radial-gradient(circle, currentColor 0 1.5px, transparent 2px) 0 0 / 10px 10px repeat-x,
+                linear-gradient(currentColor, currentColor) 0 10px / 72% 1px no-repeat;
+        }
+
+        .learning-cubes {
+            --object-delay: -1.8s;
+            right: 1%;
+            bottom: 3%;
+            width: 70px;
+            height: 58px;
+            transform: rotate(5deg);
+        }
+
+        .learning-cubes i {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            border: 1px solid currentColor;
+            transform: rotate(30deg) skew(-5deg, -5deg);
+        }
+
+        .learning-cubes i:nth-child(1) {
+            top: 0;
+            left: 23px;
+        }
+
+        .learning-cubes i:nth-child(2) {
+            bottom: 3px;
+            left: 7px;
+        }
+
+        .learning-cubes i:nth-child(3) {
+            right: 5px;
+            bottom: 3px;
+        }
+
+        @keyframes nodeFloat {
+            0%, 100% { margin-top: 0; }
+            50% { margin-top: -8px; }
+        }
+
+        @keyframes objectFloat {
+            0%, 100% { margin-top: 0; }
+            50% { margin-top: -10px; }
+        }
+
+        @keyframes constellationPulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(0.92); opacity: 0.85; }
+            50% { transform: translate(-50%, -50%) scale(1.12); opacity: 1; }
+        }
+
+        @keyframes lineTravel {
+            0%, 20% { transform: translateX(-100%); opacity: 0; }
+            45% { opacity: 1; }
+            75%, 100% { transform: translateX(100%); opacity: 0; }
+        }
+
+        @media (max-width: 1199px) {
+            .teaching-hero.teaching-quote-showcase {
+                min-height: 0;
+                padding-top: 144px;
+            }
+
+            .teaching-hero-shell {
+                grid-template-columns: minmax(0, 0.95fr) minmax(460px, 1.05fr);
+                gap: 52px;
+                width: min(1180px, calc(100% - 54px));
+            }
+
+            .teaching-editorial-quote-text {
+                font-size: clamp(3.55rem, 4.35vw, 4.9rem);
+            }
+
+            .teaching-audience-item {
+                padding-right: 12px;
+                padding-left: 12px;
+                font-size: 11px;
+            }
         }
 
         @media (max-width: 991px) {
             .teaching-hero.teaching-quote-showcase {
-                padding: 150px 0 104px;
+                padding: 130px 0 88px;
+            }
+
+            .teaching-hero-shell {
+                display: flex;
+                flex-direction: column;
+                gap: 34px;
+                width: min(760px, calc(100% - 48px));
+            }
+
+            .learning-constellation {
+                order: -1;
+                width: min(650px, 100%);
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            .teaching-hero-copy {
+                width: 100%;
+                max-width: 720px;
             }
 
             .teaching-hero.teaching-quote-showcase .teaching-eyebrow {
-                padding-left: clamp(18px, 4vw, 36px);
+                margin-bottom: 34px;
             }
 
-            .teaching-hero.teaching-quote-showcase .teaching-quote-stage {
-                max-width: 100%;
-                margin-left: clamp(18px, 4vw, 36px);
-                margin-right: clamp(18px, 4vw, 36px);
+            .teaching-editorial-quote-text {
+                font-size: clamp(3.75rem, 6.7vw, 5.2rem);
             }
 
-            .teaching-hero.teaching-quote-showcase .teaching-quote-panel {
-                min-height: 0;
+            .teaching-topic-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
 
-            .teaching-hero.teaching-quote-showcase .teaching-hero-actions {
-                align-self: flex-start;
-                justify-content: flex-start;
-            }
-
-            .teaching-quote-showcase {
-                padding: 96px 0 104px;
-            }
-
-            .teaching-quote-stage {
-                max-width: 100%;
-                margin-left: clamp(18px, 4vw, 36px);
-                margin-right: clamp(18px, 4vw, 36px);
-            }
-
-            .teaching-quote-panel {
-                padding-right: clamp(18px, 3vw, 28px);
-            }
-
-            .teaching-quote-mark-large--open {
-                top: 10px;
-                left: 8px;
+            .teaching-topic-card:last-child {
+                grid-column: 1 / -1;
+                width: calc(50% - 12px);
+                justify-self: center;
             }
         }
 
         @media (max-width: 767px) {
             .teaching-hero.teaching-quote-showcase {
-                padding: 132px 0 84px;
+                padding: 112px 0 72px;
+            }
+
+            .teaching-hero-shell {
+                gap: 34px;
+                width: calc(100% - 32px);
+            }
+
+            .learning-constellation {
+                width: min(520px, 112%);
+                margin-right: -6%;
+                margin-left: -6%;
+            }
+
+            .constellation-node {
+                width: clamp(76px, 22vw, 102px);
+                padding: 8px;
+            }
+
+            .constellation-node ion-icon {
+                font-size: clamp(23px, 7vw, 31px);
+            }
+
+            .constellation-node span {
+                font-size: 11px;
+            }
+
+            .learning-notes {
+                width: 48px;
+                height: 62px;
+                padding: 7px 6px;
+            }
+
+            .learning-notes ion-icon {
+                font-size: 21px;
+            }
+
+            .learning-analytics {
+                width: 70px;
+                height: 48px;
+                gap: 3px;
+                padding: 14px 8px 7px;
+            }
+
+            .learning-analytics i {
+                width: 6px;
+            }
+
+            .learning-analytics b {
+                width: 18px;
+                height: 18px;
+            }
+
+            .learning-sketch-card {
+                width: 62px;
+                height: 42px;
+            }
+
+            .learning-sketch-card ion-icon:first-child {
+                top: 8px;
+                left: 7px;
+                font-size: 21px;
+            }
+
+            .learning-sketch-card ion-icon:last-child {
+                font-size: 25px;
+            }
+
+            .learning-rating {
+                display: none;
+            }
+
+            .learning-cubes {
+                width: 48px;
+                height: 42px;
+            }
+
+            .learning-cubes i {
+                width: 17px;
+                height: 17px;
+            }
+
+            .learning-cubes i:nth-child(1) {
+                left: 16px;
+            }
+
+            .learning-cubes i:nth-child(2) {
+                left: 4px;
+            }
+
+            .learning-cubes i:nth-child(3) {
+                right: 3px;
             }
 
             .teaching-hero.teaching-quote-showcase .teaching-eyebrow {
-                margin-bottom: 24px;
-                padding-left: 14px;
-                padding-right: 14px;
+                margin-bottom: 26px;
+                font-size: 11px;
+                line-height: 1.5;
             }
 
-            .teaching-hero.teaching-quote-showcase .teaching-quote-stage {
-                margin-left: 14px;
-                margin-right: 14px;
-            }
-
-            .teaching-hero.teaching-quote-showcase .teaching-quote-panel {
-                padding: 30px 10px 16px 14px;
-            }
-
-            .teaching-hero.teaching-quote-showcase .teaching-hero-actions {
-                width: 100%;
-                gap: 14px;
-                align-self: flex-start;
-                justify-content: flex-start;
-            }
-
-            .teaching-quote-showcase {
-                padding: 78px 0 84px;
-            }
-
-            .teaching-quote-panel {
-                padding: 30px 10px 16px 14px;
+            .teaching-editorial-quote {
+                padding: 8px 4px 12px 28px;
             }
 
             .teaching-editorial-quote-text {
-                font-size: clamp(2.35rem, 8vw, 3.9rem);
-                line-height: 1.12;
-                text-wrap: pretty;
+                font-size: clamp(2.8rem, 9vw, 4.2rem);
+                line-height: 1.08;
             }
 
-            .teaching-editorial-support {
-                font-size: 18px;
-                line-height: 1.85;
+            .teaching-quote-mark-large {
+                font-size: 6.8rem;
             }
 
             .teaching-quote-mark-large--open {
-                top: 8px;
-                left: 2px;
-                font-size: 9.5rem;
+                left: -4px;
             }
 
             .teaching-quote-mark-large--close {
-                right: 20px;
-                bottom: 18px;
-                font-size: 8.8rem;
+                right: 2px;
+                bottom: -38px;
+            }
+
+            .teaching-audience {
+                flex-direction: column;
+                gap: 15px;
+                margin-top: 0;
+                padding-top: 20px;
+            }
+
+            .teaching-audience-item {
+                padding: 0;
+                font-size: 13px;
+            }
+
+            .teaching-audience-item + .teaching-audience-item {
+                border-left: 0;
+            }
+
+            .teaching-audience-item ion-icon {
+                width: 26px;
+                font-size: 24px;
+            }
+
+            .teaching-hero.teaching-quote-showcase .teaching-hero-actions {
+                margin-top: 32px;
+            }
+
+            .teaching-wave-transition {
+                height: 68px;
+            }
+
+            .teaching-topics-section {
+                padding-top: 42px;
+            }
+
+            .teaching-topics-shell {
+                width: calc(100% - 32px);
+            }
+
+            .teaching-audience--light {
+                gap: 13px;
+                margin-top: 24px;
+            }
+
+            .teaching-audience--light .teaching-audience-item {
+                font-size: 12px;
+            }
+
+            .teaching-topic-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                margin-top: 190px;
+            }
+
+            .teaching-topic-card:last-child {
+                grid-column: auto;
+                width: 100%;
+            }
+
+            .teaching-topic-content {
+                padding: 22px 22px 28px;
+            }
+
+            .teaching-topic-art {
+                height: 290px;
+                margin: -34px -15px 0;
+            }
+
+            .teaching-topic-card:nth-child(1) .teaching-topic-art img {
+                width: 98%;
+            }
+
+            .teaching-topic-card:nth-child(2) .teaching-topic-art img {
+                width: 100%;
+            }
+
+            .teaching-topic-card:nth-child(3) .teaching-topic-art img {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 430px) {
+            .teaching-hero.teaching-quote-showcase {
+                padding-top: 104px;
+            }
+
+            .learning-constellation {
+                width: 116%;
+                margin-right: -8%;
+                margin-left: -8%;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .learning-constellation,
+            .constellation-core,
+            .constellation-line::after,
+            .constellation-node,
+            .learning-float {
+                animation: none !important;
+                transition: none !important;
             }
         }
     </style>
@@ -360,65 +1194,139 @@
 
     <!-- Hero Banner Start -->
     <section class="teaching-hero teaching-quote-showcase">
-        <div class="container main-container">
-            <span class="teaching-eyebrow">Teaching &amp; Creative Workshops</span>
-            <div class="teaching-quote-stage">
-                <div class="teaching-quote-panel">
+        <div class="teaching-hero-shell">
+            <div class="teaching-hero-copy">
+                <span class="teaching-eyebrow">Teaching &amp; Creative Workshops</span>
+                <blockquote class="teaching-editorial-quote">
                     <span class="teaching-quote-mark-large teaching-quote-mark-large--open" aria-hidden="true">&ldquo;</span>
-                    <div class="teaching-hero-copy">
-                        <blockquote class="teaching-editorial-quote">
-                            <p class="teaching-editorial-quote-text">Teaching is about helping people follow curiosity, think creatively, and discover ideas.</p>
-                        </blockquote>
-                        <p class="teaching-editorial-support">
-                            My workshops create supportive spaces where people of all levels can explore, ask questions, build confidence, and develop their own creative thinking process.
-                        </p>
-                    </div>
-                    <div class="teaching-hero-actions">
-                        <a class="teaching-button" href="mailto:victoria@curlydesigner.com">Let&rsquo;s Connect</a>
-                        <a class="teaching-social-link" href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                    </div>
+                    <p class="teaching-editorial-quote-text">Teaching is about helping people follow curiosity, think creatively, and discover ideas.</p>
                     <span class="teaching-quote-mark-large teaching-quote-mark-large--close" aria-hidden="true">&rdquo;</span>
+                </blockquote>
+                <div class="teaching-audience" aria-label="Workshop audiences">
+                    <div class="teaching-audience-item">
+                        <ion-icon name="school-outline" aria-hidden="true"></ion-icon>
+                        <span>Higher Education</span>
+                    </div>
+                    <div class="teaching-audience-item">
+                        <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
+                        <span>Schools</span>
+                    </div>
+                    <div class="teaching-audience-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                        <span>Professional &amp; Community Workshops</span>
+                    </div>
                 </div>
             </div>
+
+            <div class="learning-constellation" aria-label="An interactive learning constellation connecting curiosity, imagination, exploration, reflection, and building">
+                <div class="constellation-orbit" aria-hidden="true"></div>
+                <div class="constellation-core" aria-hidden="true"></div>
+                <span class="constellation-line" style="--length: 20.5%; --angle: -91deg; --delay: -0.4s;" aria-hidden="true"></span>
+                <span class="constellation-line" style="--length: 21%; --angle: -13deg; --delay: -2.1s;" aria-hidden="true"></span>
+                <span class="constellation-line" style="--length: 20%; --angle: 49deg; --delay: -1.2s;" aria-hidden="true"></span>
+                <span class="constellation-line" style="--length: 21%; --angle: 131deg; --delay: -3.3s;" aria-hidden="true"></span>
+                <span class="constellation-line" style="--length: 23%; --angle: 193deg; --delay: -2.6s;" aria-hidden="true"></span>
+
+                <button class="constellation-node node-curiosity" type="button" aria-label="Curiosity">
+                    <span><ion-icon name="bulb-outline" aria-hidden="true"></ion-icon>Curiosity</span>
+                </button>
+                <button class="constellation-node node-explore" type="button" aria-label="Explore">
+                    <span><ion-icon name="search-outline" aria-hidden="true"></ion-icon>Explore</span>
+                </button>
+                <button class="constellation-node node-build" type="button" aria-label="Build">
+                    <span>
+                        <span class="node-cube-stack" aria-hidden="true">
+                            <ion-icon name="cube-outline"></ion-icon>
+                            <ion-icon name="cube-outline"></ion-icon>
+                            <ion-icon name="cube-outline"></ion-icon>
+                        </span>
+                        Build
+                    </span>
+                </button>
+                <button class="constellation-node node-reflect" type="button" aria-label="Reflect">
+                    <span><ion-icon name="chatbubble-ellipses-outline" aria-hidden="true"></ion-icon>Reflect</span>
+                </button>
+                <button class="constellation-node node-imagine" type="button" aria-label="Imagine">
+                    <span>
+                        <span class="imagine-icon" aria-hidden="true">
+                            <ion-icon name="pencil-outline"></ion-icon>
+                            <i></i>
+                        </span>
+                        Imagine
+                    </span>
+                </button>
+
+                <span class="learning-float learning-notes" aria-hidden="true"><ion-icon name="help-outline"></ion-icon></span>
+                <span class="learning-float learning-analytics" aria-hidden="true">
+                    <i style="--bar-height: 15px;"></i><i style="--bar-height: 24px;"></i><i style="--bar-height: 32px;"></i><b></b>
+                </span>
+                <span class="learning-float learning-sketch-card" aria-hidden="true">
+                    <ion-icon name="image-outline"></ion-icon><ion-icon name="brush-outline"></ion-icon>
+                </span>
+                <span class="learning-float learning-rating" aria-hidden="true"><ion-icon name="person-circle-outline"></ion-icon><i></i></span>
+                <span class="learning-float learning-cubes" aria-hidden="true"><i></i><i></i><i></i></span>
+            </div>
+        </div>
+        <div class="teaching-wave-transition" aria-hidden="true">
+            <svg viewBox="0 0 1440 130" preserveAspectRatio="none" focusable="false">
+                <path d="M0 48C192 2 365 11 548 48C814 103 1090 115 1440 43V130H0V48Z" fill="#fbfafc"></path>
+                <path d="M0 48C192 2 365 11 548 48C814 103 1090 115 1440 43" fill="none" stroke="#7557e8" stroke-width="3"></path>
+            </svg>
         </div>
     </section>
     <!-- Hero Banner End -->
 
     <!-- What I Teach Start -->
-    <section class="section teaching-light-section">
-        <div class="container main-container">
-            <h2 class="teaching-section-heading">What I Teach</h2>
-            <p class="teaching-section-intro">
-                Sessions are designed to be approachable, imaginative, and useful in practice.
-                I create structured spaces where people can explore, experiment safely, and connect ideas across disciplines, abilities, and contexts.
-             My teaching practice spans community workshops, adult learning, creative programs, interdisciplinary collaborations, and online sessions.
-        </p>
+    <section class="teaching-topics-section">
+        <div class="teaching-topics-shell">
+            <header class="teaching-topics-header">
+                <h2 class="teaching-section-heading">What I Teach</h2>
+                <p class="teaching-topics-intro">Teaching topics shaped around design, technology, and creative learning.</p>
+                <div class="teaching-audience teaching-audience--light" aria-label="Teaching audiences">
+                    <div class="teaching-audience-item">
+                        <ion-icon name="school-outline" aria-hidden="true"></ion-icon>
+                        <span>Higher Education</span>
+                    </div>
+                    <div class="teaching-audience-item">
+                        <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
+                        <span>Schools</span>
+                    </div>
+                    <div class="teaching-audience-item">
+                        <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                        <span>Professional &amp; Community Workshops</span>
+                    </div>
+                </div>
+            </header>
 
-            <div class="teaching-card-grid">
-                <article class="teaching-card">
-                    <h3>STEM, Robotics & Spatial 3D Design</h3>
-                       <br>
-                    <p>Hands-on learning that combines experimentation with robotics, circuits, 3D design, architecture, and model-making to develop spatial thinking, creativity, and practical problem-solving.</p>
+            <div class="teaching-topic-grid">
+                <article class="teaching-topic-card">
+                    <div class="teaching-topic-art">
+                        <img src="/assets/img/teaching/img-design.png" alt="Design and visual communication tools including typography, wireframes, presentation boards, and a color palette">
+                    </div>
+                    <div class="teaching-topic-content">
+                        <h3>Design, UX &amp;<br>Visual Communication</h3>
+                        <p>Visual storytelling, design thinking, UX, and presentation that help learners turn ideas into clear, engaging experiences.</p>
+                    </div>
                 </article>
 
-                <article class="teaching-card">
-                    <h3>Design &amp; Visual Storytelling</h3>
-                    <br>
-                    <p>Workshops on communicating ideas visually through design thinking, narrative, compesition, visual communication, mixed media & presentation.</p>
+                <article class="teaching-topic-card">
+                    <div class="teaching-topic-art">
+                        <img src="/assets/img/teaching/img-stem-robotics.png" alt="A robotic arm, rover, spatial structure, and connected learning diagram">
+                    </div>
+                    <div class="teaching-topic-content">
+                        <h3>STEM, Robotics &amp;<br>Spatial Making</h3>
+                        <p>Hands-on exploration through robotics, circuits, 3D and spatial design, architecture, and creative problem-solving.</p>
+                    </div>
                 </article>
 
-                <article class="teaching-card">
-                    <h3>Higher-Education Design Programs & Studio Learning</h3>
-                       <br>
-                    <p>Bachelor-level teaching and instructional support across design foundations, UX and product design, visual communication, research, critique, and portfolio development.</p>
-                </article>
-
-                <article class="teaching-card">
-                    <h3>Workshops, Community & Online Learning</h3>
-                       <br>
-                    <p>Webinars, events & collaborative workshops, that support knowledge sharing, creative exploration, meaningful discussion, and continuous learning across different audiences.</p>
+                <article class="teaching-topic-card">
+                    <div class="teaching-topic-art">
+                        <img src="/assets/img/teaching/img-research-ux.png" alt="User research, journey mapping, creative analysis, and interface design tools">
+                    </div>
+                    <div class="teaching-topic-content">
+                        <h3>Research, UX &amp;<br>Professional Practice</h3>
+                        <p>Research-led learning, user insights, journey mapping, and practical design solutions that create real impact.</p>
+                    </div>
                 </article>
             </div>
         </div>
@@ -557,6 +1465,33 @@
     <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
 
     <script>
+      (function () {
+        var constellation = document.querySelector('.learning-constellation');
+        var hero = document.querySelector('.teaching-hero');
+        var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        var desktopPointer = window.matchMedia('(min-width: 992px) and (pointer: fine)');
+
+        if (!constellation || !hero) return;
+
+        function resetConstellation() {
+          constellation.style.setProperty('--parallax-x', '0px');
+          constellation.style.setProperty('--parallax-y', '0px');
+        }
+
+        hero.addEventListener('pointermove', function (event) {
+          if (reducedMotion.matches || !desktopPointer.matches) return;
+          var bounds = hero.getBoundingClientRect();
+          var x = ((event.clientX - bounds.left) / bounds.width - 0.5) * 16;
+          var y = ((event.clientY - bounds.top) / bounds.height - 0.5) * 12;
+          constellation.style.setProperty('--parallax-x', x.toFixed(2) + 'px');
+          constellation.style.setProperty('--parallax-y', y.toFixed(2) + 'px');
+        });
+
+        hero.addEventListener('pointerleave', resetConstellation);
+        reducedMotion.addEventListener('change', resetConstellation);
+        desktopPointer.addEventListener('change', resetConstellation);
+      }());
+
       (function () {
         var form = document.getElementById('teaching-review-form');
         var successMessage = document.getElementById('teaching-form-success');
