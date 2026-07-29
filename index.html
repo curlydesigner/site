@@ -165,12 +165,14 @@
     /* ===== LOGO GRID (4 per row, centered rows) ===== */
 
     .logo-grid-wrap {
+      width: min(1500px, calc(100% - 64px));
+      max-width: none;
       padding: 40px 0;
     }
 
     .logo-grid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr); /* ✅ Max 5 per row */
+      grid-template-columns: repeat(7, minmax(0, 1fr));
       gap: 10px 10px; /* row-gap, column-gap */
       justify-items: center;       /* ✅ center images */
       justify-content: center;     /* ✅ center incomplete rows */
