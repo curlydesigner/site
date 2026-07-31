@@ -18,6 +18,7 @@
 
     <!-- main css -->
     <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/testimonials-light.css" rel="stylesheet">
 
 
     <!-- modernizr -->
@@ -901,6 +902,8 @@ I design end-to-end products, from research through UX architecture to refined v
 <!-- /End section What I do-->
 
 
+<!-- Legacy dark testimonial markup retained as inert content reference. -->
+<template id="legacy-home-testimonials">
 <!-- testimonial -->
 <section class="section testimonials position-relative testimonial-bg-shapes" id="testimonials">
     <div class="container">
@@ -1153,6 +1156,224 @@ I design end-to-end products, from research through UX architecture to refined v
     </div>
 </section>
 <!-- /testimonial -->
+</template>
+
+<!-- Light Testimonials -->
+<section class="collaborator-testimonials" id="testimonials" aria-labelledby="home-testimonials-title">
+    <div class="collaborator-testimonials-shell">
+        <header class="collaborator-testimonials-header">
+            <span class="collaborator-testimonials-eyebrow">Testimonials</span>
+            <h2 class="collaborator-testimonials-title" id="home-testimonials-title">Kind words from collaborators</h2>
+            <p class="collaborator-testimonials-intro">I’m grateful to have worked with such inspiring people and teams. Here’s what some of them have shared about the work we created together.</p>
+        </header>
+
+        <div class="collaborator-carousel" role="region" aria-roledescription="carousel" aria-label="Professional recommendations" tabindex="0">
+            <button class="collaborator-arrow collaborator-arrow--previous" type="button" aria-label="Show previous testimonial">
+                <ion-icon name="arrow-back-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="collaborator-slides" aria-live="off">
+                <article class="collaborator-slide is-active" id="home-collaborator-slide-1" aria-hidden="false">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-11-Jae.png" alt="Jae Kim">
+                        <div>
+                            <h3 class="collaborator-name">Jae Kim</h3>
+                            <p class="collaborator-role">Director of Product at BlackBerry</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>I remember the first time I saw Victoria’s user experience flow for a mobile project that we were working on at BlackBerry. After a 30-minute phone call with her, a project described with a simple user story and business objective began taking shape. She broke down the problem, suggested multiple options, identified friction points, and proposed thoughtful solutions. Victoria was deliberate, collaborative, and consistently focused on creating the best experience. I would welcome an opportunity to work with her again.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-2" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-10-emma.png" alt="Emma Kurluk">
+                        <div>
+                            <h3 class="collaborator-name">Emma Kurluk</h3>
+                            <p class="collaborator-role">User Experience Designer</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>Victoria brings a passion to her work that helps motivate others and push the design to be its best. She tackles each new project professionally and makes sure she understands the key information needed to create the best user experience. Her attention to detail and accessibility considerations was essential in creating our design guidelines. She is a strong advocate for superior user experiences, asks insightful questions, and helped motivate and foster creativity in our team. She was always a pleasure to work with.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-3" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-13-Anna.png" alt="Anna Vainerovsky">
+                        <div>
+                            <h3 class="collaborator-name">Anna Vainerovsky</h3>
+                            <p class="collaborator-role">Senior Product Manager at BlackBerry</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>It was a great pleasure working with Victoria. She is a true professional who pays attention to detail and has a great sense of good user experience. She quickly learns new products and use cases, then provides valuable input on improving the interface and removing ambiguity. While she has strong opinions, she is always open to other perspectives and ideas. Any development team would greatly benefit from her creative thinking and user-centred approach.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-4" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-1-elena.png" alt="Elena Peres">
+                        <div>
+                            <h3 class="collaborator-name">Elena Peres</h3>
+                            <p class="collaborator-role">PR &amp; Parliamentary Adviser</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>Victoria is a true professional: determined to contribute where needed, proactive in planning and problem-solving, and a team player who builds relationships with people at all levels. She communicates well with customers, understands concepts and feedback, and responds quickly with feasible implementation models. Victoria is a creative thinker and hard worker with a fresh vision. She consistently achieved excellent results and delivered on expectations.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-5" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-2-ray.png" alt="Ray Janjua">
+                        <div>
+                            <h3 class="collaborator-name">Ray Janjua</h3>
+                            <p class="collaborator-role">Research Consultant</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>The moment I met Victoria I was impressed with her work and pleasant can-do attitude. All I needed to do was provide the material and I could expect high-quality work—she did her magic. Victoria is an ambitious designer with extraordinary ideas, a positive attitude, patience, and the ability to work both independently and as part of a team. She showed commitment, punctuality, and the ability to adapt quickly.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-6" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-12-Maria.png" alt="Maria Kurtova">
+                        <div>
+                            <h3 class="collaborator-name">Maria Kurtova</h3>
+                            <p class="collaborator-role">Project Manager</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>I had the pleasure of collaborating with Victoria on developing a UX/UI Designer course. She consistently demonstrated expertise in design and a genuine passion for guiding and mentoring students. Her dedication to creating content for learners from diverse backgrounds and experience levels was evident in every aspect of her work. Victoria went the extra mile to ensure everything was meticulously prepared, and I would eagerly welcome the opportunity to collaborate again.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-7" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-3-graham.png" alt="Graham David Beard">
+                        <div>
+                            <h3 class="collaborator-name">Graham David Beard</h3>
+                            <p class="collaborator-role">Creative Team Lead</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>I very much enjoyed working with Victoria. She is an extremely creative and experienced designer with a great eye for detail. She understands the true requirements of a creative brief and adapts her creativity for both online and offline solutions. She supported a wide range of promotional campaigns with full commitment and passion, reflected in the high standards she set within the team.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-8" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-4-sivakumar.png" alt="Sivakumar Boju">
+                        <div>
+                            <h3 class="collaborator-name">Sivakumar Boju</h3>
+                            <p class="collaborator-role">Senior iOS Developer</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>Victoria worked as a key designer on our mobile applications. Her designs are creative and clean, and I personally enjoyed working with her. She is accommodating, collaborative, and a great team player. I would definitely like to work with her again. She is a great person to work with and will add value to any project.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-9" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-6-eran.png" alt="Eran Dar Rozenberg">
+                        <div>
+                            <h3 class="collaborator-name">Eran Dar Rozenberg</h3>
+                            <p class="collaborator-role">Senior Product Manager</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>Victoria is very professional and dedicated. Her designs are creative and innovative while carefully considering the user and target audience, with high attention to detail. She contributes a great deal through her talent and passion for what she does. It was a pleasure working with Victoria, and I would be happy to work with her again.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-10" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-7-nir.png" alt="Nir Safri">
+                        <div>
+                            <h3 class="collaborator-name">Nir Safri</h3>
+                            <p class="collaborator-role">Head of Game Design</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>Victoria quickly understood the creative process and concepts while designing the visual appeal and usability of our Facebook and mobile game platforms. She is innovative and brings fresh ideas that remain functional. Victoria is a professional with an eye for detail, a reliable team player, and always helpful. She would be a great asset to any company.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-11" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-8-cherisse.png" alt="Cherisse Thurab">
+                        <div>
+                            <h3 class="collaborator-name">Cherisse Thurab</h3>
+                            <p class="collaborator-role">Art Director</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>Victoria is an upbeat, dedicated and talented designer who is comfortable working across digital and traditional platforms and multiple languages. She has strong ideas and hands-on capabilities. Her global experience gives her a sharp creative eye, while her warm nature and drive allow her to complement and support any team. I highly recommend Victoria for any creative undertaking.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-12" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <div class="collaborator-photo collaborator-photo--initials" role="img" aria-label="Natalia Gertzman">NG</div>
+                        <div>
+                            <h3 class="collaborator-name">Natalia Gertzman</h3>
+                            <p class="collaborator-role">Participant — Adult Design Workshop</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>The design workshop felt welcoming, thoughtful, and energizing. The structure was clear, and the session balanced creativity, reflection, and practical tools. Even as someone outside the design field, I felt included and encouraged to explore ideas with curiosity and personal interpretation.</blockquote>
+                    </div>
+                </article>
+
+                <article class="collaborator-slide" id="home-collaborator-slide-13" aria-hidden="true">
+                    <div class="collaborator-profile">
+                        <img class="collaborator-photo" src="/assets/img/testimonial/client-12-Maria.png" alt="Maria Kurtova">
+                        <div>
+                            <h3 class="collaborator-name">Maria Kurtova</h3>
+                            <p class="collaborator-role">Program Coordinator — Project Manager<br>Adult Design Bootcamp</p>
+                        </div>
+                    </div>
+                    <div class="collaborator-quote">
+                        <blockquote>Victoria brought deep design expertise and a genuine passion for mentoring students to our UX/UI Design course collaboration. She created content for learners from diverse backgrounds and experience levels, and went the extra mile to ensure everything was thoughtfully prepared. I would gladly collaborate with her again.</blockquote>
+                    </div>
+                </article>
+            </div>
+
+            <button class="collaborator-arrow collaborator-arrow--next" type="button" aria-label="Show next testimonial">
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="collaborator-carousel-controls">
+                <div class="collaborator-progress" role="group" aria-label="Choose a testimonial"></div>
+                <button class="collaborator-pause" type="button" aria-pressed="false">
+                    <ion-icon name="pause-outline" aria-hidden="true"></ion-icon>
+                    <span>Pause</span>
+                </button>
+            </div>
+            <p class="visually-hidden collaborator-carousel-status" aria-live="polite"></p>
+        </div>
+
+        <div class="collaborator-testimonials-footer">
+            <div class="collaborator-stat">
+                <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                <span><strong data-testimonial-count>0</strong>reviews</span>
+            </div>
+            <div class="collaborator-stat">
+                <ion-icon name="ribbon-outline" aria-hidden="true"></ion-icon>
+                <span><strong>Professional</strong>recommendations</span>
+            </div>
+            <a class="collaborator-linkedin" href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+                <span>View more on LinkedIn</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- /Light Testimonials -->
 
 <!-- ==================================================
   Education (4 cards)
@@ -1336,6 +1557,7 @@ I design end-to-end products, from research through UX architecture to refined v
 <!--  custom script -->
 <script src="/assets/js/custom.js"></script>
 <script src="/assets/js/portfolio-overlay.js"></script>
+<script src="/assets/js/collaborator-testimonials.js"></script>
 <!--  ionicons script -->
 <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
 

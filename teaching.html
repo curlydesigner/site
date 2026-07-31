@@ -1238,6 +1238,363 @@
         .academic-journey-node--three { left: 62.5%; }
         .academic-journey-node--four { left: 87.5%; }
 
+        .collaborator-testimonials {
+            position: relative;
+            overflow: hidden;
+            padding: clamp(92px, 9vw, 132px) 0 clamp(92px, 9vw, 128px);
+            background:
+                radial-gradient(circle at 8% 30%, rgba(117, 87, 232, 0.08), transparent 24%),
+                radial-gradient(circle at 92% 70%, rgba(87, 152, 245, 0.06), transparent 24%),
+                linear-gradient(180deg, #fbfaff 0%, #f6f4fd 100%);
+        }
+
+        .collaborator-testimonials-shell {
+            width: min(1340px, calc(100% - var(--teaching-gutter)));
+            margin: 0 auto;
+        }
+
+        .collaborator-testimonials-header {
+            max-width: 850px;
+            margin: 0 auto clamp(42px, 5vw, 64px);
+            text-align: center;
+        }
+
+        .collaborator-testimonials-eyebrow {
+            display: block;
+            margin-bottom: 14px;
+            color: #7557e8;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+
+        .collaborator-testimonials-title {
+            margin: 0;
+            color: #171534;
+            font-family: "Poppins", sans-serif;
+            font-size: var(--teaching-heading-size);
+            font-weight: 600;
+            letter-spacing: -0.035em;
+            line-height: 1.1;
+            text-transform: none;
+        }
+
+        .collaborator-testimonials-intro {
+            max-width: 720px;
+            margin: 18px auto 0;
+            color: #625d79;
+            font-size: var(--teaching-intro-size);
+            line-height: 1.72;
+        }
+
+        .collaborator-carousel {
+            position: relative;
+            touch-action: pan-y;
+        }
+
+        .collaborator-slides {
+            position: relative;
+        }
+
+        .collaborator-slide {
+            display: none;
+            grid-template-columns: minmax(190px, 0.27fr) minmax(0, 0.73fr);
+            gap: clamp(34px, 5vw, 72px);
+            align-items: center;
+            min-height: 510px;
+            padding: clamp(38px, 5vw, 70px);
+            border: 1px solid rgba(64, 51, 113, 0.09);
+            border-radius: 28px;
+            background:
+                radial-gradient(circle at 12% 16%, rgba(117, 87, 232, 0.055), transparent 25%),
+                rgba(255, 255, 255, 0.94);
+            box-shadow:
+                0 28px 70px rgba(47, 35, 94, 0.1),
+                0 5px 16px rgba(47, 35, 94, 0.04);
+        }
+
+        .collaborator-slide.is-active {
+            display: grid;
+            animation: collaboratorSlideIn 0.48s ease both;
+        }
+
+        .collaborator-profile {
+            text-align: center;
+        }
+
+        .collaborator-photo {
+            display: block;
+            width: clamp(126px, 13vw, 174px);
+            height: clamp(126px, 13vw, 174px);
+            margin: 0 auto 22px;
+            border: 7px solid #fff;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow:
+                0 18px 38px rgba(28, 22, 65, 0.15),
+                0 0 0 1px rgba(117, 87, 232, 0.1);
+        }
+
+        .collaborator-photo--initials {
+            display: grid;
+            place-items: center;
+            background:
+                radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.85), transparent 30%),
+                linear-gradient(145deg, #ded5ff, #b9d8ff);
+            color: #4f3d9c;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(34px, 4vw, 48px);
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        .collaborator-name {
+            margin: 0;
+            color: #362870;
+            font-family: "Great Vibes", cursive;
+            font-size: clamp(30px, 2.7vw, 40px);
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 1.05;
+            text-transform: none;
+        }
+
+        .collaborator-role {
+            margin: 12px 0 0;
+            color: #777283;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .collaborator-quote {
+            position: relative;
+            min-width: 0;
+            padding: 44px 0 32px;
+        }
+
+        .collaborator-quote::before,
+        .collaborator-quote::after {
+            position: absolute;
+            color: rgba(117, 87, 232, 0.32);
+            font-family: Georgia, serif;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 0.7;
+        }
+
+        .collaborator-quote::before {
+            content: "“";
+            top: 0;
+            left: -4px;
+        }
+
+        .collaborator-quote::after {
+            content: "”";
+            right: 0;
+            bottom: -2px;
+        }
+
+        .collaborator-quote blockquote {
+            max-width: 900px;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            color: #39334e;
+            font-family: "Cormorant Garamond", Georgia, serif;
+            font-size: clamp(18px, 1.5vw, 22px);
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.58;
+            text-align: left;
+        }
+
+        .collaborator-arrow {
+            position: absolute;
+            top: 50%;
+            z-index: 5;
+            display: grid;
+            place-items: center;
+            width: 54px;
+            height: 54px;
+            padding: 0;
+            border: 1px solid rgba(117, 87, 232, 0.12);
+            border-radius: 50%;
+            background: rgba(244, 241, 255, 0.92);
+            color: #6747d4;
+            font-size: 27px;
+            box-shadow: 0 12px 26px rgba(47, 35, 94, 0.09);
+            transform: translateY(-50%);
+            transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .collaborator-arrow--previous {
+            left: -72px;
+        }
+
+        .collaborator-arrow--next {
+            right: -72px;
+        }
+
+        .collaborator-arrow:hover,
+        .collaborator-arrow:focus-visible {
+            outline: none;
+            background: #7557e8;
+            color: #fff;
+            box-shadow: 0 16px 32px rgba(76, 50, 170, 0.24);
+            transform: translateY(-50%) scale(1.05);
+        }
+
+        .collaborator-carousel-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 22px;
+        }
+
+        .collaborator-progress {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            gap: 7px;
+            min-width: 0;
+        }
+
+        .collaborator-progress button {
+            position: relative;
+            flex: 1 1 18px;
+            max-width: 34px;
+            height: 18px;
+            padding: 0;
+            border: 0;
+            background: transparent;
+        }
+
+        .collaborator-progress button::before {
+            content: "";
+            position: absolute;
+            top: 7px;
+            right: 0;
+            left: 0;
+            height: 4px;
+            border-radius: 999px;
+            background: #dcd6ee;
+            transition: background-color 0.25s ease, transform 0.25s ease;
+        }
+
+        .collaborator-progress button:hover::before,
+        .collaborator-progress button:focus-visible::before {
+            background: #aa98e3;
+            transform: scaleY(1.5);
+        }
+
+        .collaborator-progress button.is-active::before {
+            background: #6747d4;
+        }
+
+        .collaborator-pause {
+            display: inline-flex;
+            flex: 0 0 auto;
+            align-items: center;
+            gap: 7px;
+            padding: 8px 13px;
+            border: 1px solid rgba(117, 87, 232, 0.16);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.72);
+            color: #554d70;
+            font-size: 12px;
+            font-weight: 500;
+            transition: border-color 0.25s ease, color 0.25s ease, background-color 0.25s ease;
+        }
+
+        .collaborator-pause:hover,
+        .collaborator-pause:focus-visible {
+            border-color: rgba(117, 87, 232, 0.4);
+            outline: none;
+            background: #fff;
+            color: #6747d4;
+        }
+
+        .collaborator-pause ion-icon {
+            font-size: 16px;
+        }
+
+        .collaborator-testimonials-footer {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, auto));
+            justify-content: center;
+            gap: clamp(28px, 6vw, 80px);
+            align-items: center;
+            margin-top: 36px;
+        }
+
+        .collaborator-stat {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            color: #625d79;
+            font-size: 13px;
+            line-height: 1.35;
+        }
+
+        .collaborator-stat ion-icon {
+            display: grid;
+            place-items: center;
+            width: 48px;
+            height: 48px;
+            padding: 11px;
+            border-radius: 50%;
+            background: rgba(117, 87, 232, 0.08);
+            color: #7557e8;
+            font-size: 25px;
+        }
+
+        .collaborator-stat strong {
+            display: block;
+            color: #3c3461;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .collaborator-linkedin {
+            display: inline-flex;
+            grid-column: 1 / -1;
+            align-items: center;
+            justify-self: center;
+            gap: 11px;
+            min-width: 250px;
+            padding: 11px 20px;
+            border: 1px solid rgba(10, 102, 194, 0.42);
+            border-radius: 999px;
+            background: transparent;
+            color: #0a66c2;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .collaborator-linkedin ion-icon {
+            font-size: 23px;
+        }
+
+        .collaborator-linkedin:hover,
+        .collaborator-linkedin:focus-visible {
+            outline: none;
+            border-color: rgba(10, 102, 194, 0.7);
+            background: rgba(10, 102, 194, 0.06);
+            color: #0757a5;
+            text-decoration: none;
+            box-shadow: 0 12px 28px rgba(10, 102, 194, 0.12);
+            transform: translateY(-2px);
+        }
+
+        @keyframes collaboratorSlideIn {
+            from { opacity: 0; transform: translateX(14px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
         .teaching-page .teaching-reviews-section .teaching-section-heading,
         .teaching-page .teaching-invite-panel h2 {
             font-size: var(--teaching-heading-size);
@@ -1769,6 +2126,19 @@
             .academic-journey-timeline {
                 display: none;
             }
+
+            .collaborator-carousel {
+                margin-right: 54px;
+                margin-left: 54px;
+            }
+
+            .collaborator-arrow--previous {
+                left: -48px;
+            }
+
+            .collaborator-arrow--next {
+                right: -48px;
+            }
         }
 
         @media (max-width: 991px) {
@@ -1825,6 +2195,17 @@
             .teaching-where-art {
                 width: min(520px, 80%);
                 margin: 0 auto;
+            }
+
+            .collaborator-slide {
+                grid-template-columns: 170px minmax(0, 1fr);
+                gap: 32px;
+                min-height: 500px;
+                padding: 38px;
+            }
+
+            .collaborator-quote blockquote {
+                font-size: 18px;
             }
         }
 
@@ -2177,6 +2558,99 @@
             .section-wave-divider span:last-child {
                 bottom: -25px;
             }
+
+            .collaborator-testimonials {
+                padding: 78px 0 88px;
+            }
+
+            .collaborator-carousel {
+                margin-right: 0;
+                margin-left: 0;
+            }
+
+            .collaborator-slide {
+                grid-template-columns: 1fr;
+                gap: 28px;
+                min-height: 0;
+                padding: 30px 24px 34px;
+                border-radius: 20px;
+            }
+
+            .collaborator-profile {
+                display: grid;
+                grid-template-columns: 92px minmax(0, 1fr);
+                gap: 18px;
+                align-items: center;
+                text-align: left;
+            }
+
+            .collaborator-photo {
+                width: 92px;
+                height: 92px;
+                margin: 0;
+                border-width: 4px;
+            }
+
+            .collaborator-name {
+                font-size: 30px;
+            }
+
+            .collaborator-role {
+                margin-top: 6px;
+                font-size: 14px;
+            }
+
+            .collaborator-quote {
+                padding: 38px 0 28px;
+            }
+
+            .collaborator-quote blockquote {
+                font-size: 17px;
+                line-height: 1.58;
+            }
+
+            .collaborator-arrow {
+                top: 142px;
+                width: 42px;
+                height: 42px;
+                font-size: 22px;
+            }
+
+            .collaborator-arrow--previous {
+                left: 8px;
+            }
+
+            .collaborator-arrow--next {
+                right: 8px;
+            }
+
+            .collaborator-carousel-controls {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .collaborator-progress {
+                width: 100%;
+                gap: 4px;
+            }
+
+            .collaborator-pause {
+                align-self: center;
+            }
+
+            .collaborator-testimonials-footer {
+                grid-template-columns: 1fr;
+                gap: 18px;
+                justify-items: center;
+                margin-top: 28px;
+            }
+
+            .collaborator-linkedin {
+                grid-column: auto;
+                width: min(100%, 320px);
+                min-width: 0;
+            }
         }
 
         @media (max-width: 430px) {
@@ -2193,6 +2667,15 @@
             .academic-journey-skills {
                 grid-template-columns: 1fr;
             }
+
+            .collaborator-testimonials-shell {
+                width: calc(100% - 24px);
+            }
+
+            .collaborator-slide {
+                padding-right: 19px;
+                padding-left: 19px;
+            }
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -2207,6 +2690,8 @@
             .academic-practice-card,
             .academic-journey-number,
             .academic-journey-skills > span,
+            .collaborator-slide,
+            .collaborator-arrow,
             .where-paper-plane,
             .where-spark {
                 animation: none !important;
@@ -2648,49 +3133,229 @@
                 <span class="academic-journey-node academic-journey-node--four"></span>
             </div>
         </div>
-        <div class="section-wave-divider" style="--wave-color: #fffdf8;" aria-hidden="true">
+        <div class="section-wave-divider" style="--wave-color: #fbfaff;" aria-hidden="true">
             <span></span>
             <span></span>
         </div>
     </section>
     <!-- Academic Practice End -->
 
-    <!-- Reflections from Participants Start -->
-    <section class="teaching-reviews-section">
-        <div class="container main-container">
-            <h2 class="teaching-section-heading">Reflections from Participants</h2>
-            <p class="teaching-section-intro">
-                These reflections share how learners and collaborators experienced the sessions, creativity, and the value they took away.
-            </p>
+    <!-- Collaborator Testimonials Start -->
+    <section class="collaborator-testimonials" id="teaching-testimonials" aria-labelledby="collaborator-testimonials-title">
+        <div class="collaborator-testimonials-shell">
+            <header class="collaborator-testimonials-header">
+                <span class="collaborator-testimonials-eyebrow">Testimonials</span>
+                <h2 class="collaborator-testimonials-title" id="collaborator-testimonials-title">Kind words from collaborators</h2>
+                <p class="collaborator-testimonials-intro">I’m grateful to have worked with such inspiring people and teams. Here’s what some of them have shared about the work we created together.</p>
+            </header>
 
-            <div class="teaching-testimonial-grid">
-                <article class="teaching-testimonial-card">
-                    <div class="teaching-quote-mark">&ldquo;</div>
-                    <blockquote>The design workshop felt welcoming, thoughtful, and energizing.
-                        The structure was clear, and the session balanced creativity, reflection, and practical tools.
-                        Even as someone outside the design field, I felt included and encouraged to explore ideas with curiosity and personal interpretation.</blockquote>
-                    <div class="teaching-testimonial-meta">
-                        <strong>Natalie Gertzman</strong>
-                        <span><em>Participant - Adult Design Workshop</em></span>
-                    </div>
-                </article>
+            <div class="collaborator-carousel" role="region" aria-roledescription="carousel" aria-label="Professional recommendations" tabindex="0">
+                <button class="collaborator-arrow collaborator-arrow--previous" type="button" aria-label="Show previous testimonial">
+                    <ion-icon name="arrow-back-outline" aria-hidden="true"></ion-icon>
+                </button>
 
-                <article class="teaching-testimonial-card">
-                    <div class="teaching-quote-mark">&ldquo;</div>
-                    <blockquote>Victoria brought deep design expertise and a genuine passion for mentoring students to our UX/UI Design course collaboration.
-                        She created content for learners from diverse backgrounds and experience levels, and went the extra mile to ensure everything was thoughtfully prepared. I would gladly collaborate with her again.</blockquote>
-                    <div class="teaching-testimonial-meta">
-                        <strong>Maria Kurtova</strong>
-                          <span><em>Program Coordinator - Project Manager</em></span>
-                        <span><em>Adult Design Bootcamp</em></span>
-                    </div>
-                </article>
+                <div class="collaborator-slides" aria-live="off">
+                    <article class="collaborator-slide is-active" id="collaborator-slide-1" aria-hidden="false">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-11-Jae.png" alt="Jae Kim">
+                            <div>
+                                <h3 class="collaborator-name">Jae Kim</h3>
+                                <p class="collaborator-role">Director of Product at BlackBerry</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>I remember the first time I saw Victoria’s user experience flow for a mobile project that we were working on at BlackBerry. After a 30-minute phone call with her, a project described with a simple user story and business objective began taking shape. She broke down the problem, suggested multiple options, identified friction points, and proposed thoughtful solutions. Victoria was deliberate, collaborative, and consistently focused on creating the best experience. I would welcome an opportunity to work with her again.</blockquote>
+                        </div>
+                    </article>
 
+                    <article class="collaborator-slide" id="collaborator-slide-2" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-10-emma.png" alt="Emma Kurluk">
+                            <div>
+                                <h3 class="collaborator-name">Emma Kurluk</h3>
+                                <p class="collaborator-role">User Experience Designer</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>Victoria brings a passion to her work that helps motivate others and push the design to be its best. She tackles each new project professionally and makes sure she understands the key information needed to create the best user experience. Her attention to detail and accessibility considerations was essential in creating our design guidelines. She is a strong advocate for superior user experiences, asks insightful questions, and helped motivate and foster creativity in our team. She was always a pleasure to work with.</blockquote>
+                        </div>
+                    </article>
 
+                    <article class="collaborator-slide" id="collaborator-slide-3" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-13-Anna.png" alt="Anna Vainerovsky">
+                            <div>
+                                <h3 class="collaborator-name">Anna Vainerovsky</h3>
+                                <p class="collaborator-role">Senior Product Manager at BlackBerry</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>It was a great pleasure working with Victoria. She is a true professional who pays attention to detail and has a great sense of good user experience. She quickly learns new products and use cases, then provides valuable input on improving the interface and removing ambiguity. While she has strong opinions, she is always open to other perspectives and ideas. Any development team would greatly benefit from her creative thinking and user-centred approach.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-4" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-1-elena.png" alt="Elena Peres">
+                            <div>
+                                <h3 class="collaborator-name">Elena Peres</h3>
+                                <p class="collaborator-role">PR &amp; Parliamentary Adviser</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>Victoria is a true professional: determined to contribute where needed, proactive in planning and problem-solving, and a team player who builds relationships with people at all levels. She communicates well with customers, understands concepts and feedback, and responds quickly with feasible implementation models. Victoria is a creative thinker and hard worker with a fresh vision. She consistently achieved excellent results and delivered on expectations.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-5" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-2-ray.png" alt="Ray Janjua">
+                            <div>
+                                <h3 class="collaborator-name">Ray Janjua</h3>
+                                <p class="collaborator-role">Research Consultant</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>The moment I met Victoria I was impressed with her work and pleasant can-do attitude. All I needed to do was provide the material and I could expect high-quality work—she did her magic. Victoria is an ambitious designer with extraordinary ideas, a positive attitude, patience, and the ability to work both independently and as part of a team. She showed commitment, punctuality, and the ability to adapt quickly.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-6" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-12-Maria.png" alt="Maria Kurtova">
+                            <div>
+                                <h3 class="collaborator-name">Maria Kurtova</h3>
+                                <p class="collaborator-role">Project Manager</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>I had the pleasure of collaborating with Victoria on developing a UX/UI Designer course. She consistently demonstrated expertise in design and a genuine passion for guiding and mentoring students. Her dedication to creating content for learners from diverse backgrounds and experience levels was evident in every aspect of her work. Victoria went the extra mile to ensure everything was meticulously prepared, and I would eagerly welcome the opportunity to collaborate again.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-7" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-3-graham.png" alt="Graham David Beard">
+                            <div>
+                                <h3 class="collaborator-name">Graham David Beard</h3>
+                                <p class="collaborator-role">Creative Team Lead</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>I very much enjoyed working with Victoria. She is an extremely creative and experienced designer with a great eye for detail. She understands the true requirements of a creative brief and adapts her creativity for both online and offline solutions. She supported a wide range of promotional campaigns with full commitment and passion, reflected in the high standards she set within the team.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-8" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-4-sivakumar.png" alt="Sivakumar Boju">
+                            <div>
+                                <h3 class="collaborator-name">Sivakumar Boju</h3>
+                                <p class="collaborator-role">Senior iOS Developer</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>Victoria worked as a key designer on our mobile applications. Her designs are creative and clean, and I personally enjoyed working with her. She is accommodating, collaborative, and a great team player. I would definitely like to work with her again. She is a great person to work with and will add value to any project.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-9" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-6-eran.png" alt="Eran Dar Rozenberg">
+                            <div>
+                                <h3 class="collaborator-name">Eran Dar Rozenberg</h3>
+                                <p class="collaborator-role">Senior Product Manager</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>Victoria is very professional and dedicated. Her designs are creative and innovative while carefully considering the user and target audience, with high attention to detail. She contributes a great deal through her talent and passion for what she does. It was a pleasure working with Victoria, and I would be happy to work with her again.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-10" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-7-nir.png" alt="Nir Safri">
+                            <div>
+                                <h3 class="collaborator-name">Nir Safri</h3>
+                                <p class="collaborator-role">Head of Game Design</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>Victoria quickly understood the creative process and concepts while designing the visual appeal and usability of our Facebook and mobile game platforms. She is innovative and brings fresh ideas that remain functional. Victoria is a professional with an eye for detail, a reliable team player, and always helpful. She would be a great asset to any company.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-11" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-8-cherisse.png" alt="Cherisse Thurab">
+                            <div>
+                                <h3 class="collaborator-name">Cherisse Thurab</h3>
+                                <p class="collaborator-role">Art Director</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>Victoria is an upbeat, dedicated and talented designer who is comfortable working across digital and traditional platforms and multiple languages. She has strong ideas and hands-on capabilities. Her global experience gives her a sharp creative eye, while her warm nature and drive allow her to complement and support any team. I highly recommend Victoria for any creative undertaking.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-12" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <div class="collaborator-photo collaborator-photo--initials" role="img" aria-label="Natalia Gertzman">NG</div>
+                            <div>
+                                <h3 class="collaborator-name">Natalia Gertzman</h3>
+                                <p class="collaborator-role">Participant — Adult Design Workshop</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>The design workshop felt welcoming, thoughtful, and energizing. The structure was clear, and the session balanced creativity, reflection, and practical tools. Even as someone outside the design field, I felt included and encouraged to explore ideas with curiosity and personal interpretation.</blockquote>
+                        </div>
+                    </article>
+
+                    <article class="collaborator-slide" id="collaborator-slide-13" aria-hidden="true">
+                        <div class="collaborator-profile">
+                            <img class="collaborator-photo" src="/assets/img/testimonial/client-12-Maria.png" alt="Maria Kurtova">
+                            <div>
+                                <h3 class="collaborator-name">Maria Kurtova</h3>
+                                <p class="collaborator-role">Program Coordinator — Project Manager<br>Adult Design Bootcamp</p>
+                            </div>
+                        </div>
+                        <div class="collaborator-quote">
+                            <blockquote>Victoria brought deep design expertise and a genuine passion for mentoring students to our UX/UI Design course collaboration. She created content for learners from diverse backgrounds and experience levels, and went the extra mile to ensure everything was thoughtfully prepared. I would gladly collaborate with her again.</blockquote>
+                        </div>
+                    </article>
+                </div>
+
+                <button class="collaborator-arrow collaborator-arrow--next" type="button" aria-label="Show next testimonial">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <div class="collaborator-carousel-controls">
+                    <div class="collaborator-progress" role="group" aria-label="Choose a testimonial"></div>
+                    <button class="collaborator-pause" type="button" aria-pressed="false">
+                        <ion-icon name="pause-outline" aria-hidden="true"></ion-icon>
+                        <span>Pause</span>
+                    </button>
+                </div>
+                <p class="visually-hidden" id="collaborator-carousel-status" aria-live="polite"></p>
+            </div>
+
+            <div class="collaborator-testimonials-footer">
+                <div class="collaborator-stat">
+                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                    <span><strong data-testimonial-count>0</strong>reviews</span>
+                </div>
+                <div class="collaborator-stat">
+                    <ion-icon name="ribbon-outline" aria-hidden="true"></ion-icon>
+                    <span><strong>Professional</strong>recommendations</span>
+                </div>
+                <a class="collaborator-linkedin" href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+                    <span>View more on LinkedIn</span>
+                </a>
             </div>
         </div>
     </section>
-    <!-- Reflections from Participants End -->
+    <!-- Collaborator Testimonials End -->
 
     <!-- Share Your Experience Start -->
     <section class="teaching-invite-section">
@@ -2840,6 +3505,204 @@
         cards.forEach(function (card) {
           cardObserver.observe(card);
         });
+      }());
+
+      (function () {
+        var carousel = document.querySelector('.collaborator-carousel');
+        if (!carousel) return;
+
+        var slides = Array.prototype.slice.call(carousel.querySelectorAll('.collaborator-slide'));
+        var previousButton = carousel.querySelector('.collaborator-arrow--previous');
+        var nextButton = carousel.querySelector('.collaborator-arrow--next');
+        var progress = carousel.querySelector('.collaborator-progress');
+        var pauseButton = carousel.querySelector('.collaborator-pause');
+        var pauseIcon = pauseButton ? pauseButton.querySelector('ion-icon') : null;
+        var pauseLabel = pauseButton ? pauseButton.querySelector('span') : null;
+        var status = document.getElementById('collaborator-carousel-status');
+        var reviewCount = document.querySelector('[data-testimonial-count]');
+        var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        var activeIndex = 0;
+        var autoplayTimer = null;
+        var manuallyPaused = reducedMotion.matches;
+        var hoverPaused = false;
+        var touchStartX = 0;
+        var touchStartY = 0;
+        var autoplayDelay = 6500;
+
+        if (slides.length < 2) return;
+        if (reviewCount) reviewCount.textContent = slides.length;
+
+        var progressButtons = slides.map(function (slide, index) {
+          var button = document.createElement('button');
+          button.type = 'button';
+          button.setAttribute('aria-label', 'Show testimonial ' + (index + 1) + ' of ' + slides.length);
+          button.setAttribute('aria-controls', slide.id);
+          button.addEventListener('click', function () {
+            showSlide(index, true);
+            restartAutoplay();
+          });
+          progress.appendChild(button);
+          return button;
+        });
+
+        function reviewerName(slide) {
+          var name = slide.querySelector('.collaborator-name');
+          return name ? name.textContent.trim() : '';
+        }
+
+        function showSlide(index, announce) {
+          activeIndex = (index + slides.length) % slides.length;
+
+          slides.forEach(function (slide, slideIndex) {
+            var isActive = slideIndex === activeIndex;
+            slide.classList.toggle('is-active', isActive);
+            slide.hidden = !isActive;
+            slide.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+          });
+
+          progressButtons.forEach(function (button, buttonIndex) {
+            var isActive = buttonIndex === activeIndex;
+            button.classList.toggle('is-active', isActive);
+            if (isActive) {
+              button.setAttribute('aria-current', 'true');
+            } else {
+              button.removeAttribute('aria-current');
+            }
+          });
+
+          if (announce && status) {
+            status.textContent = 'Testimonial ' + (activeIndex + 1) + ' of ' + slides.length + ', from ' + reviewerName(slides[activeIndex]) + '.';
+          }
+        }
+
+        function stopAutoplay() {
+          if (autoplayTimer) {
+            window.clearInterval(autoplayTimer);
+            autoplayTimer = null;
+          }
+        }
+
+        function startAutoplay() {
+          stopAutoplay();
+          if (
+            manuallyPaused
+            || reducedMotion.matches
+            || document.hidden
+            || carousel.matches(':hover')
+            || carousel.contains(document.activeElement)
+          ) return;
+          autoplayTimer = window.setInterval(function () {
+            showSlide(activeIndex + 1, false);
+          }, autoplayDelay);
+        }
+
+        function restartAutoplay() {
+          if (!manuallyPaused) startAutoplay();
+        }
+
+        function updatePauseControl() {
+          if (!pauseButton) return;
+          pauseButton.setAttribute('aria-pressed', manuallyPaused ? 'true' : 'false');
+          pauseButton.setAttribute('aria-label', manuallyPaused ? 'Resume automatic testimonial rotation' : 'Pause automatic testimonial rotation');
+          if (pauseIcon) pauseIcon.setAttribute('name', manuallyPaused ? 'play-outline' : 'pause-outline');
+          if (pauseLabel) pauseLabel.textContent = manuallyPaused ? 'Play' : (hoverPaused ? 'Hover paused' : 'Pause');
+        }
+
+        function showPrevious() {
+          showSlide(activeIndex - 1, true);
+          restartAutoplay();
+        }
+
+        function showNext() {
+          showSlide(activeIndex + 1, true);
+          restartAutoplay();
+        }
+
+        previousButton.addEventListener('click', showPrevious);
+        nextButton.addEventListener('click', showNext);
+
+        pauseButton.addEventListener('click', function () {
+          manuallyPaused = !manuallyPaused;
+          updatePauseControl();
+          if (manuallyPaused) {
+            stopAutoplay();
+          } else {
+            startAutoplay();
+          }
+        });
+
+        carousel.addEventListener('mouseenter', function () {
+          hoverPaused = true;
+          stopAutoplay();
+          updatePauseControl();
+        });
+        carousel.addEventListener('mouseleave', function () {
+          hoverPaused = false;
+          updatePauseControl();
+          restartAutoplay();
+        });
+        carousel.addEventListener('focusin', stopAutoplay);
+        carousel.addEventListener('focusout', function () {
+          window.setTimeout(function () {
+            if (!carousel.contains(document.activeElement)) restartAutoplay();
+          }, 0);
+        });
+
+        carousel.addEventListener('keydown', function (event) {
+          if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            showPrevious();
+          } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            showNext();
+          } else if (event.key === ' ' && event.target === carousel) {
+            event.preventDefault();
+            pauseButton.click();
+          }
+        });
+
+        carousel.addEventListener('touchstart', function (event) {
+          var touch = event.changedTouches[0];
+          touchStartX = touch.clientX;
+          touchStartY = touch.clientY;
+          stopAutoplay();
+        }, { passive: true });
+
+        carousel.addEventListener('touchend', function (event) {
+          var touch = event.changedTouches[0];
+          var deltaX = touch.clientX - touchStartX;
+          var deltaY = touch.clientY - touchStartY;
+
+          if (Math.abs(deltaX) > 48 && Math.abs(deltaX) > Math.abs(deltaY)) {
+            if (deltaX > 0) {
+              showPrevious();
+            } else {
+              showNext();
+            }
+          } else {
+            restartAutoplay();
+          }
+        }, { passive: true });
+
+        document.addEventListener('visibilitychange', function () {
+          if (document.hidden) {
+            stopAutoplay();
+          } else {
+            restartAutoplay();
+          }
+        });
+
+        reducedMotion.addEventListener('change', function () {
+          if (reducedMotion.matches) {
+            manuallyPaused = true;
+            stopAutoplay();
+          }
+          updatePauseControl();
+        });
+
+        showSlide(0, false);
+        updatePauseControl();
+        startAutoplay();
       }());
 
       (function () {
