@@ -17,7 +17,8 @@
 }
 
 .collaborator-testimonials-header {
-    max-width: 1100px;
+    width: min(1200px, 100%);
+    max-width: none;
     margin: 0 auto clamp(42px, 5vw, 64px);
     text-align: center;
 }
@@ -389,14 +390,6 @@
 }
 
 @media (max-width: 991px) {
-    .collaborator-testimonials-header {
-        max-width: 850px;
-    }
-
-    .collaborator-testimonials-title {
-        white-space: normal;
-    }
-
     .collaborator-slide {
         grid-template-columns: 170px minmax(0, 1fr);
         gap: 32px;
@@ -418,6 +411,10 @@
     .collaborator-carousel {
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .collaborator-testimonials-title {
+        white-space: normal;
     }
 
     .collaborator-slide {
