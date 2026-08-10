@@ -120,11 +120,13 @@ body.portfolio-page .portfolio-hero .portfolio-hero__copy {
     .teaching-page .teaching-hero-copy {
         position: relative;
         top: 18px;
+        left: clamp(18px, 2vw, 28px);
     }
 
     body.portfolio-page .portfolio-hero .portfolio-hero__copy {
         position: relative;
         top: -22px;
+        left: clamp(18px, 2vw, 28px);
     }
 }
 

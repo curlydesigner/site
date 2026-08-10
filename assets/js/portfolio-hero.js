@@ -24,25 +24,64 @@
         });
     }
 
-    principles.forEach(function (principle) {
-        var name = principle.getAttribute('data-principle');
+    function getInteractiveTarget(target) {
+        if (!target || target.nodeType !== 1) return null;
+        return target.closest('[data-principle], [data-layer]');
+    }
 
-        principle.addEventListener('mouseenter', function () { setActive(name); });
-        principle.addEventListener('focus', function () { setActive(name); });
-        principle.addEventListener('click', function () {
-            setActive(name);
-        });
+    function getTargetName(target) {
+        return target && (target.getAttribute('data-principle') || target.getAttribute('data-layer'));
+    }
+
+    map.addEventListener('pointerover', function (event) {
+        var target = getInteractiveTarget(event.target);
+        var name = getTargetName(target);
+        if (name) setActive(name);
     });
 
-    map.addEventListener('mouseleave', function () {
-        if (!map.contains(document.activeElement)) setActive('');
+    map.addEventListener('click', function (event) {
+        var target = getInteractiveTarget(event.target);
+        var name = getTargetName(target);
+        if (name) setActive(name);
+    });
+
+    map.addEventListener('focusin', function (event) {
+        var target = getInteractiveTarget(event.target);
+        var name = getTargetName(target);
+        if (name) setActive(name);
+    });
+
+    map.addEventListener('pointerleave', function () {
+        setActive('');
     });
 
     map.addEventListener('focusout', function (event) {
         if (!map.contains(event.relatedTarget)) setActive('');
     });
 
+    document.addEventListener('pointerdown', function (event) {
+        if (map.contains(event.target)) return;
+        setActive('');
+
+        if (document.activeElement && map.contains(document.activeElement)) {
+            document.activeElement.blur();
+        }
+    });
+
+    document.addEventListener('keydown', function (event) {
+        if (event.key !== 'Escape') return;
+        setActive('');
+
+        if (document.activeElement && map.contains(document.activeElement)) {
+            document.activeElement.blur();
+        }
+    });
+
     hero.addEventListener('pointermove', function (event) {
+        var target = getInteractiveTarget(event.target);
+        var name = getTargetName(target);
+        if (name) setActive(name);
+
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
         var bounds = hero.getBoundingClientRect();
@@ -55,5 +94,6 @@
     hero.addEventListener('pointerleave', function () {
         map.style.setProperty('--pointer-x', '0');
         map.style.setProperty('--pointer-y', '0');
+        setActive('');
     });
 })();

@@ -8379,7 +8379,7 @@ body.portfolio-page .portfolio-hero h1 {
 }
 
 body.portfolio-page .portfolio-hero h1 span {
-    display: block;
+    display: inline;
     background: linear-gradient(92deg, #a78cff 0%, #e48bd8 52%, #ff877c 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -8714,4 +8714,178 @@ body.portfolio-page .portfolio-hero .portfolio-hero__closing span {
         animation: none;
         transition: none;
     }
+}
+
+/* Portfolio hero artwork — supplied PNG layer set */
+body.portfolio-page .portfolio-hero {
+    min-height: 0;
+}
+
+body.portfolio-page .portfolio-hero .portfolio-hero__inner {
+    min-height: 0;
+    padding-bottom: 10px;
+}
+
+.portfolio-system-map {
+    height: 540px;
+}
+
+.portfolio-system-map .system-layer {
+    height: 220px;
+    overflow: visible;
+    border: 0 !important;
+    outline: 0 !important;
+    border-radius: 0;
+    background: none !important;
+    clip-path: none;
+    transform: translateX(calc(var(--pointer-x) * var(--layer-shift, 1px)));
+    box-shadow: none !important;
+}
+
+.portfolio-system-map__stack {
+    border: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.portfolio-system-map .system-layer:before,
+.portfolio-system-map .system-layer:after {
+    display: none;
+    content: none;
+}
+
+.portfolio-system-map .system-layer img {
+    display: block;
+    width: 88%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+    object-position: center;
+    filter: drop-shadow(0 18px 18px rgba(0, 0, 0, 0.38)) drop-shadow(0 0 12px rgba(137, 83, 230, 0.16));
+    cursor: pointer;
+}
+
+.portfolio-system-map .system-layer--outcomes { top: 0; }
+.portfolio-system-map .system-layer--systems { top: 104px; }
+.portfolio-system-map .system-layer--accessible { top: 208px; }
+.portfolio-system-map .system-layer--research { top: 312px; }
+
+.portfolio-system-map .portfolio-principle--outcomes { top: 4%; }
+.portfolio-system-map .portfolio-principle--systems { top: 21%; }
+.portfolio-system-map .portfolio-principle--accessible { top: 38%; }
+.portfolio-system-map .portfolio-principle--research { top: 55%; }
+
+.portfolio-system-map__principles {
+    pointer-events: none;
+}
+
+.portfolio-system-map .portfolio-principle,
+.portfolio-system-map .portfolio-principle:before,
+.portfolio-system-map .portfolio-principle:after {
+    pointer-events: auto;
+}
+
+.portfolio-system-map .portfolio-principle:before {
+    height: 28px;
+    margin-top: -14px;
+    z-index: 2;
+    background: linear-gradient(to bottom, transparent 12px, currentColor 12px 14px, transparent 14px);
+    box-shadow: none;
+    filter: drop-shadow(0 0 4px currentColor);
+    opacity: 0.9;
+}
+
+.portfolio-system-map .portfolio-principle:after {
+    z-index: 3;
+    width: 7px;
+    height: 7px;
+    background: currentColor;
+    box-shadow: 0 0 10px currentColor;
+}
+
+.portfolio-system-map .portfolio-principle:hover:before,
+.portfolio-system-map .portfolio-principle:focus:before,
+.portfolio-system-map .portfolio-principle.is-active:before {
+    background: linear-gradient(to bottom, transparent 12px, currentColor 12px 14px, transparent 14px);
+    box-shadow: none;
+    filter: drop-shadow(0 0 6px currentColor);
+    opacity: 1;
+}
+
+.portfolio-system-map[data-active-principle="outcomes"] .system-layer--outcomes,
+.portfolio-system-map[data-active-principle="systems"] .system-layer--systems,
+.portfolio-system-map[data-active-principle="accessible"] .system-layer--accessible,
+.portfolio-system-map[data-active-principle="research"] .system-layer--research {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+@media (min-width: 1181px) {
+    body.portfolio-page .portfolio-hero .portfolio-hero__inner {
+        grid-template-columns: minmax(420px, 480px) minmax(0, 1fr);
+        column-gap: 28px;
+        width: calc(100% - 96px) !important;
+        max-width: none !important;
+        margin-right: 48px !important;
+        margin-left: 48px !important;
+    }
+
+    body.portfolio-page .portfolio-hero .portfolio-hero__copy,
+    body.portfolio-page .portfolio-hero h1 {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    body.portfolio-page .portfolio-hero h1 {
+        font-size: 42px;
+        text-wrap: pretty;
+    }
+
+    .portfolio-system-map {
+        justify-self: end;
+        width: min(940px, 100%);
+    }
+
+    .portfolio-system-map .system-layer img {
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1600px) {
+    body.portfolio-page .portfolio-hero .portfolio-hero__inner {
+        grid-template-columns: minmax(520px, 600px) minmax(0, 1fr);
+    }
+
+    body.portfolio-page .portfolio-hero .portfolio-hero__copy,
+    body.portfolio-page .portfolio-hero h1 {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 620px) {
+    body.portfolio-page .portfolio-hero .portfolio-hero__inner {
+        padding-bottom: 12px;
+    }
+
+    .portfolio-system-map {
+        height: 360px;
+    }
+
+    .portfolio-system-map .system-layer {
+        height: 132px;
+        border-radius: 0;
+    }
+
+    .portfolio-system-map .system-layer img { width: 90%; }
+
+    .portfolio-system-map .system-layer--outcomes { top: 0; }
+    .portfolio-system-map .system-layer--systems { top: 72px; }
+    .portfolio-system-map .system-layer--accessible { top: 144px; }
+    .portfolio-system-map .system-layer--research { top: 216px; }
+
+    .portfolio-system-map .portfolio-principle--outcomes { top: 1%; }
+    .portfolio-system-map .portfolio-principle--systems { top: 18%; }
+    .portfolio-system-map .portfolio-principle--accessible { top: 35%; }
+    .portfolio-system-map .portfolio-principle--research { top: 52%; }
 }
