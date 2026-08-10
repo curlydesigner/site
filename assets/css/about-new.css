@@ -475,7 +475,7 @@
 
 .milestone-visual {
     /* Manual control: lower this percentage to make all five illustrations smaller. */
-    --journey-image-size: 90%;
+    --journey-image-size: 110%;
     width: min(100%, 270px);
     aspect-ratio: 1;
     margin: 0 auto 14px;
@@ -496,18 +496,12 @@
 }
 
 .milestone-visual__sprite img {
-    --sprite-x: 0%;
-    width: 500%;
-    max-width: none;
-    height: auto;
-    mix-blend-mode: multiply;
-    transform: translate(var(--sprite-x), -19%);
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
-
-.milestone:nth-child(2) .milestone-visual__sprite img { --sprite-x: -20%; }
-.milestone:nth-child(3) .milestone-visual__sprite img { --sprite-x: -40%; }
-.milestone:nth-child(4) .milestone-visual__sprite img { --sprite-x: -60%; }
-.milestone:nth-child(5) .milestone-visual__sprite img { --sprite-x: -80%; }
 
 .milestone:hover .milestone-visual {
     transform: translateY(-6px);
