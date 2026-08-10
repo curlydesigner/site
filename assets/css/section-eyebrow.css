@@ -1,0 +1,142 @@
+/* Shared section eyebrow
+   Usage: .section-eyebrow, with --center or --on-dark when needed. */
+:root {
+    --page-content-gutter: clamp(36px, 6.25vw, 96px);
+}
+
+.section-eyebrow.section-eyebrow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 0 20px;
+    color: #493b88;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    text-align: left;
+    text-transform: uppercase;
+    text-wrap: balance;
+}
+
+.section-eyebrow.section-eyebrow::before {
+    content: none;
+}
+
+.section-eyebrow.section-eyebrow::after {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-top: 10px;
+    border-radius: 999px;
+    background: currentColor;
+    content: "";
+    opacity: 0.78;
+}
+
+.section-eyebrow.section-eyebrow--center {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.section-eyebrow.section-eyebrow--on-dark {
+    color: #e4d9ff;
+}
+
+/* Testimonials can switch between dark and light themes at runtime. */
+.collaborator-testimonials .section-eyebrow {
+    color: #e4d9ff;
+}
+
+html.testimonials-theme-light .collaborator-testimonials .section-eyebrow {
+    color: #493b88;
+}
+
+/* Keep the primary page introductions on one responsive left boundary. */
+.about-page .about-hero > .about-shell {
+    width: min(2200px, calc(100% - var(--page-content-gutter)));
+    margin-right: auto;
+    margin-left: calc(var(--page-content-gutter) / 2);
+}
+
+.teaching-page .teaching-hero-shell {
+    width: min(1340px, calc(100% - var(--page-content-gutter)));
+    margin-right: auto;
+    margin-left: calc(var(--page-content-gutter) / 2);
+}
+
+body.portfolio-page .portfolio-hero .portfolio-hero__inner {
+    width: min(1510px, calc(100% - var(--page-content-gutter)));
+    margin-right: auto;
+    margin-left: calc(var(--page-content-gutter) / 2);
+}
+
+/* Page-specific colors, with identical type and underline treatment. */
+.teaching-hero.teaching-quote-showcase .section-eyebrow.teaching-eyebrow,
+body.portfolio-page .portfolio-hero .section-eyebrow.portfolio-hero__eyebrow {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 20px;
+    color: #ffc82e;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+    text-align: left;
+}
+
+body.portfolio-page .portfolio-hero .section-eyebrow.portfolio-hero__eyebrow {
+    color: #d4a7ff;
+}
+
+/* Align the introductory text itself, not only its outer container. */
+.about-page .hero-connection-script {
+    padding-left: 0;
+}
+
+.teaching-page .teaching-editorial-quote {
+    padding-left: 0;
+}
+
+body.portfolio-page .portfolio-hero .portfolio-hero__copy {
+    padding-left: 0;
+}
+
+/* Teaching sets the desktop hero-label height; align the other introductions to it. */
+@media (min-width: 992px) {
+    .about-page .about-hero-copy {
+        position: relative;
+        top: 36px;
+    }
+
+    .teaching-page .teaching-hero-copy {
+        position: relative;
+        top: 18px;
+    }
+
+    body.portfolio-page .portfolio-hero .portfolio-hero__copy {
+        position: relative;
+        top: -22px;
+    }
+}
+
+@media (max-width: 640px) {
+    .section-eyebrow.section-eyebrow {
+        font-size: 13px;
+        letter-spacing: 0.18em;
+    }
+
+    .teaching-hero.teaching-quote-showcase .section-eyebrow.teaching-eyebrow,
+    body.portfolio-page .portfolio-hero .section-eyebrow.portfolio-hero__eyebrow {
+        font-size: 13px;
+        letter-spacing: 0.18em;
+    }
+}

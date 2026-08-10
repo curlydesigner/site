@@ -8,6 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Curly Designer - UX/UI Interactive Product Designer & Product Owner</title>
     <link rel="icon" href="/assets/img/fav.png" type="image/x-icon">
+    <script src="/assets/js/testimonials-theme.js?v=20260805-2"></script>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -17,8 +18,9 @@
     <link rel="stylesheet" href="/assets/js/plugins/slick/slick.css">
 
     <!-- main css -->
-    <link href="/assets/css/style.css" rel="stylesheet">
-    <link href="/assets/css/testimonials-light.css?v=20260731-2" rel="stylesheet">
+    <link href="/assets/css/style.css?v=20260805-4" rel="stylesheet">
+    <link href="/assets/css/testimonials-light.css?v=20260805-3" rel="stylesheet">
+    <link href="/assets/css/section-eyebrow.css?v=20260805-1" rel="stylesheet">
 
 
     <!-- modernizr -->
@@ -220,7 +222,7 @@
 
   <div class="container main-container">
     <div class="col-md-12">
-      <h3 class="uppercase">Some of the Brands I’ve Been Part Of</h3>
+      <h2 class="section-eyebrow section-eyebrow--center">Some of the Brands I’ve Been Part Of</h2>
     </div>
   </div>
 
@@ -1069,12 +1071,12 @@
 <!-- /testimonial -->
 </template>
 
-<!-- Light Testimonials -->
+<!-- Shared theme is set once in /assets/js/testimonials-theme.js -->
 <section class="collaborator-testimonials" id="testimonials" aria-labelledby="home-testimonials-title">
     <div class="collaborator-testimonials-shell">
         <header class="collaborator-testimonials-header">
-            <span class="collaborator-testimonials-eyebrow">Testimonials</span>
-            <h2 class="collaborator-testimonials-title" id="home-testimonials-title">Perspectives from Collaborators</h2>
+            <span class="section-eyebrow section-eyebrow--center">Testimonials</span>
+            <h2 class="collaborator-testimonials-title" id="home-testimonials-title">Perspectives from Collaborators</span></h2>
             <p class="collaborator-testimonials-intro">I’m grateful to have worked with such inspiring people and teams. Here’s what some of them have shared about the work we created together.</p>
         </header>
 
@@ -1269,14 +1271,6 @@
         </div>
 
         <div class="collaborator-testimonials-footer">
-            <div class="collaborator-stat">
-                <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-                <span><strong data-testimonial-count>0</strong>reviews</span>
-            </div>
-            <div class="collaborator-stat">
-                <ion-icon name="ribbon-outline" aria-hidden="true"></ion-icon>
-                <span><strong>Professional</strong>recommendations</span>
-            </div>
             <a class="collaborator-linkedin" href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer">
                 <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
                 <span>View more on LinkedIn</span>
@@ -1284,7 +1278,7 @@
         </div>
     </div>
 </section>
-<!-- /Light Testimonials -->
+<!-- /Testimonials -->
 
 
 
@@ -1330,29 +1324,31 @@
 <!-- end about intro -->
 
 
-<!-- get in touch -->
-<section class="section position-relative highlighted-section" id="get-in-touch">
-    <div class="container main-container clearfix get-in-touch">
-        <div class="col-xs-5 col-xs-offset-1">
-            <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="" />
+<!-- Let's connect -->
+<section class="connect-footer-section connect-footer-section--fullwidth" id="get-in-touch" aria-labelledby="connect-footer-title-home">
+    <div class="connect-footer-shell">
+        <div class="connect-footer-visual">
+            <img src="/assets/img/get_intouch/img_contactme-illustration-3d.png" alt="Phone, messages, envelope, notebook, and plant" loading="lazy" decoding="async">
         </div>
-        <div class="col-xs-5">
-        <ul class="social-ul">
-                <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
-                        <ion-icon name="logo-behance"></ion-icon>
-                    </a></li>
-
-                <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </a></li>
-            </ul>
+        <div class="connect-footer-content">
+            <p class="section-eyebrow section-eyebrow--center">Let’s shape what comes next.</p>
+            <h2 id="connect-footer-title-home">I <span class="connect-footer-accent">connect</span> people, systems, spaces & ideas.</h2>
+            <p class="connect-footer-subtitle">Get in Touch.</p>
+            <div class="connect-footer-actions">
+                <a href="mailto:victoria@curlydesigner.com" aria-label="Email Victoria">
+                    <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Visit Victoria’s LinkedIn profile">
+                    <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="connect-footer-landscape" aria-hidden="true">
+            <img src="/assets/img/get_intouch/img_contactme-landscape-3d.png" alt="" loading="lazy" decoding="async">
         </div>
     </div>
 </section>
-<!-- /get in touch -->
+<!-- /Let's connect -->
 
 
 

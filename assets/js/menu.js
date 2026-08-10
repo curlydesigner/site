@@ -204,8 +204,7 @@
         if (!header) return;
 
         var activeSection = currentSection();
-        var isNonSticky = document.body.classList.contains('portfolio-page') ||
-            document.body.classList.contains('portfolio-case-study-page');
+        var isNonSticky = document.body.classList.contains('portfolio-case-study-page');
         var startsDark = document.body.classList.contains('teaching-page') ||
             document.body.classList.contains('portfolio-page') ||
             document.body.classList.contains('portfolio-case-study-page') ||

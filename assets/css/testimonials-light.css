@@ -1,14 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap");
 
 .collaborator-testimonials {
     --testimonial-gutter: 64px;
+    --testimonial-purple: #a45cff;
+    --testimonial-purple-bright: #bd76ff;
+    --testimonial-text: #f5f1ff;
+    --testimonial-muted: #aaa2bf;
     position: relative;
+    isolation: isolate;
     overflow: hidden;
-    padding: clamp(92px, 9vw, 132px) 0 clamp(92px, 9vw, 128px);
+    padding: clamp(88px, 8vw, 124px) 0 clamp(72px, 7vw, 104px);
     background:
-        radial-gradient(circle at 8% 30%, rgba(117, 87, 232, 0.08), transparent 24%),
-        radial-gradient(circle at 92% 70%, rgba(87, 152, 245, 0.06), transparent 24%),
-        linear-gradient(180deg, #fbfaff 0%, #f6f4fd 100%);
+        radial-gradient(ellipse 58% 38% at 2% 9%, rgba(110, 58, 167, 0.24), transparent 72%),
+        radial-gradient(ellipse 54% 48% at 97% 92%, rgba(97, 44, 170, 0.3), transparent 73%),
+        linear-gradient(135deg, #0d0916 0%, #090711 52%, #110a1d 100%);
+    color: var(--testimonial-text);
+}
+
+.collaborator-testimonials::before,
+.collaborator-testimonials::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 74%;
+    height: 160px;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: rotate(-7deg);
+    filter: blur(0.2px);
+}
+
+.collaborator-testimonials::before {
+    top: -105px;
+    left: -14%;
+    border-bottom: 1px solid rgba(215, 105, 255, 0.55);
+    box-shadow:
+        0 11px 19px rgba(159, 75, 255, 0.11),
+        0 21px 42px rgba(90, 50, 148, 0.16),
+        inset 0 -16px 40px rgba(109, 59, 172, 0.12);
+}
+
+.collaborator-testimonials::after {
+    right: -17%;
+    bottom: -99px;
+    border-top: 1px solid rgba(233, 101, 255, 0.58);
+    box-shadow:
+        0 -9px 18px rgba(193, 77, 255, 0.13),
+        0 -25px 48px rgba(88, 49, 148, 0.18),
+        inset 0 17px 42px rgba(109, 59, 172, 0.15);
 }
 
 .collaborator-testimonials-shell {
@@ -17,41 +56,53 @@
 }
 
 .collaborator-testimonials-header {
-    width: min(1200px, 100%);
-    max-width: none;
-    margin: 0 auto clamp(42px, 5vw, 64px);
+    width: min(700px, 100%);
+    margin: 0 auto clamp(38px, 4.6vw, 58px);
     text-align: center;
 }
 
 .collaborator-testimonials-eyebrow {
     display: block;
-    margin-bottom: 14px;
-    color: #7557e8;
+    margin-bottom: 15px;
+    color: var(--testimonial-purple);
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
 }
 
 .collaborator-testimonials-title {
     margin: 0;
-    color: #171534;
+    color: var(--testimonial-text);
     font-family: "Poppins", sans-serif;
-    font-size: clamp(36px, 4.2vw, 56px);
-    font-weight: 600;
+    font-size: clamp(36px, 3.4vw, 50px);
+    font-weight: 500;
     letter-spacing: -0.035em;
     line-height: 1.1;
+    text-shadow: 0 0 24px rgba(158, 105, 255, 0.12);
     text-transform: none;
-    white-space: nowrap;
+    text-wrap: balance;
+}
+
+.collaborator-testimonials-title-accent {
+    display: block;
+    padding-right: 0.08em;
+    color: var(--testimonial-purple-bright);
+    font-family: "Great Vibes", cursive;
+    font-size: clamp(52px, 5.2vw, 78px);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 0.9;
 }
 
 .collaborator-testimonials-intro {
-    max-width: 720px;
+    max-width: 760px;
     margin: 18px auto 0;
-    color: #625d79;
-    font-size: clamp(16px, 1.4vw, 19px);
+    color: var(--testimonial-muted);
+    font-size: clamp(15px, 1.25vw, 18px);
     font-weight: 400;
-    line-height: 1.72;
+    line-height: 1.7;
 }
 
 .collaborator-carousel {
@@ -65,19 +116,22 @@
 
 .collaborator-slide {
     display: none;
-    grid-template-columns: minmax(190px, 0.27fr) minmax(0, 0.73fr);
-    gap: clamp(34px, 5vw, 72px);
+    grid-template-columns: minmax(210px, 0.29fr) minmax(0, 0.71fr);
+    gap: clamp(38px, 5.2vw, 76px);
     align-items: center;
-    min-height: 510px;
-    padding: clamp(38px, 5vw, 70px);
-    border: 1px solid rgba(64, 51, 113, 0.09);
-    border-radius: 28px;
+    min-height: 500px;
+    padding: clamp(42px, 5vw, 68px);
+    border: 1px solid rgba(181, 153, 220, 0.22);
+    border-radius: 34px;
     background:
-        radial-gradient(circle at 12% 16%, rgba(117, 87, 232, 0.055), transparent 25%),
-        rgba(255, 255, 255, 0.94);
+        radial-gradient(circle at 17% 28%, rgba(129, 72, 189, 0.12), transparent 30%),
+        linear-gradient(118deg, rgba(38, 26, 57, 0.76), rgba(17, 13, 29, 0.78));
     box-shadow:
-        0 28px 70px rgba(47, 35, 94, 0.1),
-        0 5px 16px rgba(47, 35, 94, 0.04);
+        inset 0 1px 0 rgba(255, 255, 255, 0.025),
+        0 34px 86px rgba(0, 0, 0, 0.28),
+        0 0 54px rgba(118, 62, 181, 0.04);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
 }
 
 .collaborator-slide.is-active {
@@ -86,49 +140,58 @@
 }
 
 .collaborator-profile {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: clamp(26px, 3vw, 46px);
+    border-right: 1px solid rgba(196, 184, 216, 0.5);
     text-align: center;
 }
 
 .collaborator-photo {
     display: block;
-    width: clamp(126px, 13vw, 174px);
-    height: clamp(126px, 13vw, 174px);
-    margin: 0 auto 22px;
-    border: 7px solid #fff;
+    width: clamp(150px, 14vw, 188px);
+    height: clamp(150px, 14vw, 188px);
+    margin: 0 auto 23px;
+    border: 1px solid #ac66ff;
     border-radius: 50%;
     object-fit: cover;
     box-shadow:
-        0 18px 38px rgba(28, 22, 65, 0.15),
-        0 0 0 1px rgba(117, 87, 232, 0.1);
+        0 0 0 1px rgba(223, 187, 255, 0.16),
+        0 0 21px rgba(169, 87, 255, 0.68),
+        0 16px 36px rgba(0, 0, 0, 0.32);
 }
 
 .collaborator-photo--initials {
     display: grid;
     place-items: center;
     background:
-        radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.85), transparent 30%),
-        linear-gradient(145deg, #ded5ff, #b9d8ff);
-    color: #4f3d9c;
+        radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.12), transparent 31%),
+        linear-gradient(145deg, #422564, #1b1528);
+    color: #e5c8ff;
     font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: clamp(34px, 4vw, 48px);
+    font-size: clamp(36px, 4vw, 50px);
     font-style: italic;
     font-weight: 600;
 }
 
 .collaborator-name {
     margin: 0;
-    color: #362870;
+    color: var(--testimonial-purple-bright);
     font-family: "Great Vibes", cursive;
-    font-size: clamp(30px, 2.7vw, 40px);
+    font-size: clamp(34px, 2.9vw, 44px);
+    font-style: normal;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 1.05;
+    line-height: 1.08;
+    text-shadow: 0 0 12px rgba(174, 104, 255, 0.12);
     text-transform: none;
 }
 
 .collaborator-role {
-    margin: 12px 0 0;
-    color: #777283;
+    margin: 13px 0 0;
+    color: var(--testimonial-muted);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -137,29 +200,30 @@
 .collaborator-quote {
     position: relative;
     min-width: 0;
-    padding: 44px 0 32px;
+    padding: 38px 0 31px;
 }
 
 .collaborator-quote::before,
 .collaborator-quote::after {
     position: absolute;
-    color: rgba(117, 87, 232, 0.32);
+    color: var(--testimonial-purple-bright);
     font-family: Georgia, serif;
-    font-size: 72px;
+    font-size: 74px;
     font-weight: 700;
     line-height: 0.7;
+    text-shadow: 0 0 19px rgba(164, 92, 255, 0.35);
 }
 
 .collaborator-quote::before {
     content: "“";
-    top: 0;
+    top: -2px;
     left: -4px;
 }
 
 .collaborator-quote::after {
     content: "”";
     right: 0;
-    bottom: -2px;
+    bottom: -8px;
 }
 
 .collaborator-quote blockquote {
@@ -167,12 +231,13 @@
     margin: 0;
     padding: 0;
     border: 0;
-    color: #39334e;
-    font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: clamp(18px, 1.5vw, 22px);
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.58;
+    color: #e1dce9;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(16px, 1.18vw, 19px);
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.005em;
+    line-height: 1.72;
     text-align: left;
 }
 
@@ -182,46 +247,49 @@
     z-index: 5;
     display: grid;
     place-items: center;
-    width: 54px;
-    height: 54px;
+    width: 62px;
+    height: 62px;
     padding: 0;
-    border: 1px solid rgba(117, 87, 232, 0.12);
+    border: 1px solid rgba(186, 142, 229, 0.36);
     border-radius: 50%;
-    background: rgba(244, 241, 255, 0.92);
-    color: #6747d4;
-    font-size: 27px;
-    box-shadow: 0 12px 26px rgba(47, 35, 94, 0.09);
+    background: rgba(30, 22, 43, 0.86);
+    color: var(--testimonial-purple-bright);
+    font-size: 29px;
+    box-shadow:
+        inset 0 0 22px rgba(140, 73, 204, 0.06),
+        0 12px 28px rgba(0, 0, 0, 0.24);
     transform: translateY(-50%);
-    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    transition: border-color 0.25s ease, background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .collaborator-arrow--previous {
-    left: -72px;
+    left: -96px;
 }
 
 .collaborator-arrow--next {
-    right: -72px;
+    right: -96px;
 }
 
 .collaborator-arrow:hover,
 .collaborator-arrow:focus-visible {
+    border-color: rgba(196, 119, 255, 0.8);
     outline: none;
-    background: #7557e8;
+    background: rgba(77, 38, 111, 0.95);
     color: #fff;
-    box-shadow: 0 16px 32px rgba(76, 50, 170, 0.24);
+    box-shadow: 0 0 28px rgba(164, 92, 255, 0.32);
     transform: translateY(-50%) scale(1.05);
 }
 
 .collaborator-carousel-controls {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
-    margin-top: 22px;
+    margin-top: 17px;
 }
 
 .collaborator-progress {
     display: flex;
-    flex: 1;
     justify-content: center;
     gap: 7px;
     min-width: 0;
@@ -229,9 +297,8 @@
 
 .collaborator-progress button {
     position: relative;
-    flex: 1 1 18px;
-    max-width: 34px;
-    height: 18px;
+    width: 25px;
+    height: 20px;
     padding: 0;
     border: 0;
     background: transparent;
@@ -243,20 +310,25 @@
     top: 7px;
     right: 0;
     left: 0;
-    height: 4px;
+    height: 7px;
     border-radius: 999px;
-    background: #dcd6ee;
-    transition: background-color 0.25s ease, transform 0.25s ease;
+    background: #3a2e51;
+    transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .collaborator-progress button:hover::before,
 .collaborator-progress button:focus-visible::before {
-    background: #aa98e3;
-    transform: scaleY(1.5);
+    background: #765399;
+    transform: scaleY(1.25);
+}
+
+.collaborator-progress button.is-active {
+    width: 38px;
 }
 
 .collaborator-progress button.is-active::before {
-    background: #6747d4;
+    background: linear-gradient(90deg, #9b4dff, #bc70ff);
+    box-shadow: 0 0 13px rgba(164, 92, 255, 0.58);
 }
 
 .collaborator-pause {
@@ -264,11 +336,11 @@
     flex: 0 0 auto;
     align-items: center;
     gap: 7px;
-    padding: 8px 13px;
-    border: 1px solid rgba(117, 87, 232, 0.16);
+    padding: 7px 12px;
+    border: 1px solid rgba(181, 133, 224, 0.26);
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.72);
-    color: #554d70;
+    background: rgba(28, 20, 40, 0.72);
+    color: #aaa2ba;
     font-size: 12px;
     font-weight: 500;
     transition: border-color 0.25s ease, color 0.25s ease, background-color 0.25s ease;
@@ -276,10 +348,10 @@
 
 .collaborator-pause:hover,
 .collaborator-pause:focus-visible {
-    border-color: rgba(117, 87, 232, 0.4);
+    border-color: rgba(192, 113, 255, 0.65);
     outline: none;
-    background: #fff;
-    color: #6747d4;
+    background: rgba(76, 39, 107, 0.8);
+    color: #fff;
 }
 
 .collaborator-pause ion-icon {
@@ -287,73 +359,90 @@
 }
 
 .collaborator-testimonials-footer {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, auto));
+    display: flex;
     justify-content: center;
-    gap: clamp(28px, 6vw, 80px);
+    gap: clamp(22px, 4vw, 58px);
     align-items: center;
-    margin-top: 36px;
+    margin-top: 23px;
 }
 
 .collaborator-stat {
     display: flex;
     align-items: center;
-    gap: 13px;
-    color: #625d79;
+    gap: 12px;
+    color: var(--testimonial-muted);
     font-size: 13px;
     font-weight: 400;
     line-height: 1.35;
 }
 
+.collaborator-stat + .collaborator-stat {
+    padding-left: clamp(22px, 3vw, 42px);
+    border-left: 1px solid rgba(190, 177, 207, 0.32);
+}
+
 .collaborator-stat ion-icon {
     display: grid;
     place-items: center;
-    width: 48px;
-    height: 48px;
-    padding: 11px;
+    width: 51px;
+    height: 51px;
+    padding: 12px;
+    border: 1px solid rgba(184, 128, 229, 0.27);
     border-radius: 50%;
-    background: rgba(117, 87, 232, 0.08);
-    color: #7557e8;
-    font-size: 25px;
+    background: rgba(43, 27, 61, 0.74);
+    color: var(--testimonial-purple-bright);
+    font-size: 26px;
+    box-shadow: inset 0 0 20px rgba(156, 80, 221, 0.08);
 }
 
 .collaborator-stat strong {
     display: block;
-    color: #3c3461;
-    font-size: 18px;
-    font-weight: 500;
+    color: #f1ecf8;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .collaborator-linkedin {
     display: inline-flex;
-    grid-column: 1 / -1;
     align-items: center;
-    justify-self: center;
-    gap: 11px;
-    min-width: 250px;
-    padding: 11px 20px;
-    border: 1px solid rgba(10, 102, 194, 0.42);
+    justify-content: center;
+    gap: 12px;
+    min-width: 280px;
+    padding: 12px 22px;
+    border: 1px solid transparent;
     border-radius: 999px;
-    background: transparent;
-    color: #0a66c2;
-    font-size: 14px;
-    font-weight: 500;
+    background:
+        linear-gradient(#100c1b, #100c1b) padding-box,
+        linear-gradient(100deg, rgba(117, 147, 224, 0.65), #9d4cff) border-box;
+    color: #e9e4ef;
+    font-size: 15px;
+    font-weight: 400;
     text-decoration: none;
-    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: inset 0 0 22px rgba(110, 60, 167, 0.06);
+    transition: color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.collaborator-linkedin::after {
+    content: "→";
+    margin-left: 2px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1;
 }
 
 .collaborator-linkedin ion-icon {
+    color: #8eb2ff;
     font-size: 23px;
+    box-shadow: none;
 }
 
 .collaborator-linkedin:hover,
 .collaborator-linkedin:focus-visible {
-    border-color: rgba(10, 102, 194, 0.7);
     outline: none;
-    background: rgba(10, 102, 194, 0.06);
-    color: #0757a5;
+    color: #fff;
     text-decoration: none;
-    box-shadow: 0 12px 28px rgba(10, 102, 194, 0.12);
+    box-shadow: 0 0 27px rgba(164, 92, 255, 0.26);
     transform: translateY(-2px);
 }
 
@@ -374,38 +463,70 @@
     to { opacity: 1; transform: translateX(0); }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1535px) {
     .collaborator-carousel {
-        margin-right: 54px;
-        margin-left: 54px;
+        margin-right: 70px;
+        margin-left: 70px;
     }
 
     .collaborator-arrow--previous {
-        left: -48px;
+        left: -66px;
     }
 
     .collaborator-arrow--next {
-        right: -48px;
+        right: -66px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .collaborator-slide {
+        grid-template-columns: minmax(180px, 0.29fr) minmax(0, 0.71fr);
+        gap: 36px;
+        min-height: 490px;
+        padding: 40px;
+    }
+
+    .collaborator-testimonials-footer {
+        flex-wrap: wrap;
     }
 }
 
 @media (max-width: 991px) {
+    .collaborator-testimonials {
+        --testimonial-gutter: 44px;
+    }
+
     .collaborator-slide {
-        grid-template-columns: 170px minmax(0, 1fr);
-        gap: 32px;
-        min-height: 500px;
-        padding: 38px;
+        grid-template-columns: 160px minmax(0, 1fr);
+        gap: 30px;
+        padding: 34px;
+    }
+
+    .collaborator-profile {
+        padding-right: 28px;
     }
 
     .collaborator-quote blockquote {
         font-size: 18px;
     }
+
+    .collaborator-progress {
+        gap: 4px;
+    }
+
+    .collaborator-progress button {
+        width: 18px;
+    }
+
+    .collaborator-progress button.is-active {
+        width: 30px;
+    }
 }
 
 @media (max-width: 767px) {
     .collaborator-testimonials {
-        --testimonial-gutter: 32px;
-        padding: 78px 0 88px;
+        --testimonial-gutter: 30px;
+        padding: 76px 0 82px;
     }
 
     .collaborator-carousel {
@@ -417,27 +538,33 @@
         white-space: normal;
     }
 
+    .collaborator-testimonials-intro {
+        font-size: 15px;
+    }
+
     .collaborator-slide {
         grid-template-columns: 1fr;
-        gap: 28px;
+        gap: 25px;
         min-height: 0;
-        padding: 30px 24px 34px;
-        border-radius: 20px;
+        padding: 31px 23px 35px;
+        border-radius: 24px;
     }
 
     .collaborator-profile {
         display: grid;
-        grid-template-columns: 92px minmax(0, 1fr);
+        grid-template-columns: 94px minmax(0, 1fr);
         gap: 18px;
         align-items: center;
+        padding: 0 55px 25px 0;
+        border-right: 0;
+        border-bottom: 1px solid rgba(196, 184, 216, 0.4);
         text-align: left;
     }
 
     .collaborator-photo {
-        width: 92px;
-        height: 92px;
+        width: 94px;
+        height: 94px;
         margin: 0;
-        border-width: 4px;
     }
 
     .collaborator-name {
@@ -450,7 +577,7 @@
     }
 
     .collaborator-quote {
-        padding: 38px 0 28px;
+        padding: 39px 0 27px;
     }
 
     .collaborator-quote blockquote {
@@ -459,65 +586,270 @@
     }
 
     .collaborator-arrow {
-        top: 142px;
+        top: 80px;
         width: 42px;
         height: 42px;
         font-size: 22px;
     }
 
     .collaborator-arrow--previous {
-        left: 8px;
+        left: auto;
+        right: 62px;
     }
 
     .collaborator-arrow--next {
-        right: 8px;
+        right: 11px;
     }
 
     .collaborator-carousel-controls {
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
-        gap: 10px;
+        gap: 9px;
     }
 
     .collaborator-progress {
         width: 100%;
-        gap: 4px;
-    }
-
-    .collaborator-pause {
-        align-self: center;
     }
 
     .collaborator-testimonials-footer {
-        grid-template-columns: 1fr;
-        gap: 18px;
-        justify-items: center;
-        margin-top: 28px;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 27px;
+    }
+
+    .collaborator-stat {
+        width: min(100%, 300px);
+    }
+
+    .collaborator-stat + .collaborator-stat {
+        padding-top: 14px;
+        padding-left: 0;
+        border-top: 1px solid rgba(190, 177, 207, 0.24);
+        border-left: 0;
     }
 
     .collaborator-linkedin {
-        grid-column: auto;
-        width: min(100%, 320px);
+        width: min(100%, 330px);
         min-width: 0;
     }
 }
 
 @media (max-width: 430px) {
     .collaborator-testimonials {
-        --testimonial-gutter: 24px;
+        --testimonial-gutter: 22px;
+    }
+
+    .collaborator-testimonials-eyebrow {
+        font-size: 11px;
     }
 
     .collaborator-slide {
         padding-right: 19px;
         padding-left: 19px;
     }
+
+    .collaborator-profile {
+        grid-template-columns: 78px minmax(0, 1fr);
+        gap: 14px;
+        padding-right: 84px;
+    }
+
+    .collaborator-photo {
+        width: 78px;
+        height: 78px;
+    }
+
+    .collaborator-arrow {
+        top: 70px;
+    }
+
+    .collaborator-progress button {
+        width: 15px;
+    }
+
+    .collaborator-progress button.is-active {
+        width: 24px;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
     .collaborator-slide,
     .collaborator-arrow,
-    .collaborator-progress button::before {
+    .collaborator-progress button::before,
+    .collaborator-linkedin {
         animation: none !important;
         transition: none !important;
+    }
+}
+
+/*
+ * TESTIMONIALS THEME OPTIONS
+ * --------------------------
+ * The shared switch lives in /assets/js/testimonials-theme.js.
+ * Set testimonialsTheme to "dark" or "light" there.
+ *
+ * The layout, content, carousel behavior, and responsive rules stay shared.
+ * Only the visual palette below changes for the light option.
+ */
+
+html.testimonials-theme-light .collaborator-testimonials {
+    --testimonial-purple: #5d59b8;
+    --testimonial-purple-bright: #5b57b4;
+    --testimonial-text: #102f4b;
+    --testimonial-muted: #40566c;
+    background:
+        radial-gradient(ellipse 58% 42% at 2% 9%, rgba(151, 154, 227, 0.2), transparent 72%),
+        radial-gradient(ellipse 54% 50% at 97% 92%, rgba(167, 172, 234, 0.24), transparent 73%),
+        linear-gradient(135deg, #fbf9f7 0%, #fffaf6 52%, #f4f4ff 100%);
+    color: var(--testimonial-text);
+}
+
+html.testimonials-theme-light .collaborator-testimonials::before {
+    border-bottom-color: rgba(255, 255, 255, 0.92);
+    box-shadow:
+        0 11px 19px rgba(126, 124, 201, 0.08),
+        0 21px 42px rgba(126, 124, 201, 0.1),
+        inset 0 -16px 40px rgba(255, 255, 255, 0.34);
+}
+
+html.testimonials-theme-light .collaborator-testimonials::after {
+    border-top-color: rgba(255, 255, 255, 0.94);
+    box-shadow:
+        0 -9px 18px rgba(126, 124, 201, 0.07),
+        0 -25px 48px rgba(126, 124, 201, 0.1),
+        inset 0 17px 42px rgba(255, 255, 255, 0.38);
+}
+
+.testimonials-theme-light .collaborator-testimonials-title {
+    text-shadow: none;
+}
+
+.testimonials-theme-light .collaborator-slide {
+    border-color: rgba(91, 87, 180, 0.26);
+    background:
+        radial-gradient(circle at 82% 50%, rgba(163, 166, 225, 0.1), transparent 34%),
+        linear-gradient(118deg, rgba(255, 255, 255, 0.72), rgba(255, 251, 248, 0.82));
+    box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.9),
+        0 28px 70px rgba(55, 52, 120, 0.12),
+        0 6px 18px rgba(55, 52, 120, 0.04);
+}
+
+.testimonials-theme-light .collaborator-profile {
+    border-right-color: rgba(75, 83, 117, 0.3);
+}
+
+.testimonials-theme-light .collaborator-photo {
+    border-color: #7a78cf;
+    box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.72),
+        0 12px 30px rgba(63, 61, 135, 0.16);
+}
+
+.testimonials-theme-light .collaborator-photo--initials {
+    background:
+        radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.72), transparent 31%),
+        linear-gradient(145deg, #e5e3ff, #c8d5f3);
+    color: #4f4b9c;
+}
+
+.testimonials-theme-light .collaborator-name {
+    color: var(--testimonial-purple-bright);
+    text-shadow: none;
+}
+
+.testimonials-theme-light .collaborator-quote::before,
+.testimonials-theme-light .collaborator-quote::after {
+    text-shadow: none;
+}
+
+.testimonials-theme-light .collaborator-quote blockquote {
+    color: #173552;
+}
+
+.testimonials-theme-light .collaborator-arrow {
+    border-color: rgba(91, 87, 180, 0.28);
+    background: rgba(255, 252, 249, 0.9);
+    color: #5b57b4;
+    box-shadow: 0 12px 28px rgba(55, 52, 120, 0.13);
+}
+
+.testimonials-theme-light .collaborator-arrow:hover,
+.testimonials-theme-light .collaborator-arrow:focus-visible {
+    border-color: #5b57b4;
+    background: #5b57b4;
+    color: #fff;
+    box-shadow: 0 14px 30px rgba(55, 52, 120, 0.22);
+}
+
+.testimonials-theme-light .collaborator-progress button::before {
+    background: #d7d4e8;
+}
+
+.testimonials-theme-light .collaborator-progress button:hover::before,
+.testimonials-theme-light .collaborator-progress button:focus-visible::before {
+    background: #928eca;
+}
+
+.testimonials-theme-light .collaborator-progress button.is-active::before {
+    background: linear-gradient(90deg, #5b57b4, #7773ce);
+    box-shadow: 0 0 10px rgba(91, 87, 180, 0.28);
+}
+
+.testimonials-theme-light .collaborator-pause {
+    border-color: rgba(91, 87, 180, 0.22);
+    background: rgba(255, 255, 255, 0.72);
+    color: #4d526d;
+}
+
+.testimonials-theme-light .collaborator-pause:hover,
+.testimonials-theme-light .collaborator-pause:focus-visible {
+    border-color: rgba(91, 87, 180, 0.52);
+    background: #fff;
+    color: #4f4b9c;
+}
+
+.testimonials-theme-light .collaborator-stat + .collaborator-stat {
+    border-left-color: rgba(75, 83, 117, 0.22);
+}
+
+.testimonials-theme-light .collaborator-stat ion-icon {
+    border-color: rgba(91, 87, 180, 0.2);
+    background: rgba(91, 87, 180, 0.08);
+    box-shadow: none;
+}
+
+.testimonials-theme-light .collaborator-stat strong {
+    color: #263e57;
+}
+
+.testimonials-theme-light .collaborator-linkedin {
+    border-color: transparent;
+    background:
+        linear-gradient(rgba(255, 252, 249, 0.9), rgba(255, 252, 249, 0.9)) padding-box,
+        linear-gradient(100deg, rgba(91, 87, 180, 0.5), rgba(108, 104, 200, 0.8)) border-box;
+    color: #4f4b9c;
+    box-shadow: 0 8px 22px rgba(55, 52, 120, 0.07);
+}
+
+.testimonials-theme-light .collaborator-linkedin ion-icon {
+    color: #5b57b4;
+}
+
+.testimonials-theme-light .collaborator-linkedin:hover,
+.testimonials-theme-light .collaborator-linkedin:focus-visible {
+    color: #37337f;
+    box-shadow: 0 12px 28px rgba(55, 52, 120, 0.14);
+}
+
+@media (max-width: 767px) {
+    .testimonials-theme-light .collaborator-profile {
+        border-right: 0;
+        border-bottom-color: rgba(75, 83, 117, 0.24);
+    }
+
+    .testimonials-theme-light .collaborator-stat + .collaborator-stat {
+        border-top-color: rgba(75, 83, 117, 0.2);
+        border-left: 0;
     }
 }

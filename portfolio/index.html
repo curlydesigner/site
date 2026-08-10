@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="/assets/js/plugins/slick/slick.css">
 
     <!-- main css -->
-    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/style.css?v=20260809-4" rel="stylesheet">
+    <link href="/assets/css/section-eyebrow.css?v=20260809-5" rel="stylesheet">
 
 
     <!-- modernizr -->
@@ -105,37 +106,61 @@
     </div>
 
     <!-- top bar -->
-<div class="top-bar">
-    <h1>Portfolio</h1>
-   
-    <p class="portfolio-breadcrumb">
-        <a href="/">Home</a> /
-        <a href="/portfolio" id="portfolio-home-link">Portfolio</a>
-        <span id="portfolio-breadcrumb-filter" hidden> / <span id="portfolio-breadcrumb-filter-label"></span></span>
-    </p>
+<div class="top-bar portfolio-hero">
+    <div class="portfolio-hero__inner">
+        <div class="portfolio-hero__copy">
+            <p class="section-eyebrow portfolio-hero__eyebrow">Portfolio</p>
+            <h1>My <span>human-centered</span> design thinking</h1>
+            <p class="portfolio-hero__intro">Grounded in research, empathy,<br>accessibility, and systems thinking.</p>
+            <div class="portfolio-hero__accent" aria-hidden="true"><span></span></div>
+            <p class="portfolio-hero__closing">From insight to <span>meaningful outcomes.</span></p>
+        </div>
 
-    <div class="portfolio-filter-groups" aria-label="Portfolio browsing controls">
-        <div class="portfolio-filter-group wow fadeInLeft">
-            <p class="portfolio-filter-group-label">Browse by focus</p>
-            <nav class="categories" aria-label="Portfolio project filters">
-                <ul class="portfolio_filter">
-                    <li><a href="/portfolio" data-filter="all">All work</a></li>
-                    <li><a href="/portfolio?filter=product-design" data-filter="product-design">Product Design</a></li>
-                    <li><a href="/portfolio?filter=enterprise-systems" data-filter="enterprise-systems">Enterprise Systems</a></li>
-                    <li><a href="/portfolio?filter=design-systems" data-filter="design-systems">Design Systems</a></li>
-                    <li><a href="/portfolio?filter=3d" data-filter="3d">3D</a></li>
-                    <li><a href="/portfolio?filter=visual-storytelling" data-filter="visual-storytelling">Visual Storytelling</a></li>
-                    <li><a href="/portfolio?filter=research" data-filter="research">Research</a></li>
-                    <li><a href="/portfolio?filter=accessibility" data-filter="accessibility">Accessibility</a></li>
-                </ul>
-            </nav>
+        <div class="portfolio-system-map" aria-label="Four interactive layers of Victoria's design practice">
+            <div class="portfolio-system-map__stack" aria-hidden="true">
+                <div class="system-layer system-layer--outcomes" data-layer="outcomes">
+                    <div class="system-layer__browser"><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="system-layer__chart"><span></span><span></span><span></span><span></span><span></span></div>
+                    <div class="system-layer__metrics"><i></i><i></i><i></i><i></i></div>
+                </div>
+                <div class="system-layer system-layer--systems" data-layer="systems">
+                    <div class="system-layer__cubes"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="system-layer__route"></div>
+                </div>
+                <div class="system-layer system-layer--accessible" data-layer="accessible">
+                    <div class="system-layer__cards system-layer__cards--wide"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                </div>
+                <div class="system-layer system-layer--research" data-layer="research">
+                    <div class="system-layer__research-path"></div>
+                    <div class="system-layer__research-dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                </div>
+            </div>
+
+            <div class="portfolio-system-map__principles">
+                <button class="portfolio-principle portfolio-principle--outcomes" type="button" data-principle="outcomes" aria-pressed="false">
+                    <span class="portfolio-principle__icon"><ion-icon name="locate-outline" aria-hidden="true"></ion-icon></span>
+                    <span class="portfolio-principle__content"><strong>Focused on<br>outcomes</strong><small>Clarity measured by real-world impact.</small></span>
+                </button>
+                <button class="portfolio-principle portfolio-principle--systems" type="button" data-principle="systems" aria-pressed="false">
+                    <span class="portfolio-principle__icon"><ion-icon name="layers-outline" aria-hidden="true"></ion-icon></span>
+                    <span class="portfolio-principle__content"><strong>Built as<br>systems</strong><small>Patterns designed to scale and connect.</small></span>
+                </button>
+                <button class="portfolio-principle portfolio-principle--accessible" type="button" data-principle="accessible" aria-pressed="false">
+                    <span class="portfolio-principle__icon"><ion-icon name="accessibility-outline" aria-hidden="true"></ion-icon></span>
+                    <span class="portfolio-principle__content"><strong>Accessible<br>by default</strong><small>Inclusive choices from the first sketch.</small></span>
+                </button>
+                <button class="portfolio-principle portfolio-principle--research" type="button" data-principle="research" aria-pressed="false">
+                    <span class="portfolio-principle__icon"><ion-icon name="search-outline" aria-hidden="true"></ion-icon></span>
+                    <span class="portfolio-principle__content"><strong>Research-led</strong><small>Evidence reveals the right problem.</small></span>
+                </button>
+            </div>
         </div>
     </div>
 </div>
 <!-- end top bar -->
 
 <!-- main container -->
-<div class="main-container portfolio-inner clearfix">
+<div class="main-container portfolio-inner clearfix" id="portfolio-work">
     <!-- portfolio div -->
     <div class="portfolio-div">
         <div class="portfolio">
@@ -725,28 +750,27 @@
 </div>
 <!-- end main container -->
 
-<!-- get in touch -->
-<section class="section position-relative highlighted-section" id="get-in-touch">
-    <div class="container main-container clearfix get-in-touch">
-        <div class="col-xs-5 col-xs-offset-1">
-            <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="" />
+<!-- Let's connect -->
+<section class="connect-footer-section connect-footer-section--portfolio" id="get-in-touch" aria-labelledby="connect-footer-title-portfolio">
+    <div class="connect-footer-shell">
+        <div class="connect-footer-visual">
+            <img src="/assets/img/get_intouch/img_contact-portfolio.png" alt="Project overview, case study, and wireframe design boards with a color palette and pencils" loading="lazy" decoding="async">
         </div>
-        <div class="col-xs-5">
-            <ul class="social-ul">
-                <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
-                        <ion-icon name="logo-behance"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </a></li>
-            </ul>
+        <div class="connect-footer-content">
+            <p class="section-eyebrow section-eyebrow--center">Let’s connect</p>
+            <h2 id="connect-footer-title-portfolio">Every project begins with a question, a challenge, and a <span class="connect-footer-accent">shared direction.</span></h2>
+            <p class="connect-footer-subtitle">Let’s shape what comes next.</p>
+            <div class="connect-footer-actions">
+                <a href="mailto:victoria@curlydesigner.com" aria-label="Email Victoria"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Visit Victoria’s LinkedIn profile"><ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon></a>
+            </div>
+        </div>
+        <div class="connect-footer-landscape" aria-hidden="true">
+            <img src="/assets/img/get_intouch/img_contactme-landscape-3d.png" alt="" loading="lazy" decoding="async">
         </div>
     </div>
 </section>
-<!-- /get in touch -->
+<!-- /Let's connect -->
 
     <!-- footer -->
 <footer class="no-print">
@@ -765,7 +789,7 @@
 <script src="/assets/js/jquery-2.1.1.js"></script>
 <!--  plugins -->
 <script src="/assets/js/bootstrap.min.js"></script>
-<script src="/assets/js/menu.js"></script>
+<script src="/assets/js/menu.js?v=20260805-1"></script>
 <script src="/assets/js/animated-headline.js"></script>
 <script src="/assets/js/isotope.pkgd.min.js"></script>
 <script>
@@ -787,6 +811,7 @@
 <!--  ionicons script -->
 <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
 <script src="/assets/js/portfolio-overlay.js"></script>
+<script src="/assets/js/portfolio-hero.js?v=20260809-2"></script>
 <script>
     (function () {
         var cards = Array.prototype.slice.call(document.querySelectorAll('.portfolio_container > [class*="col-"]'));

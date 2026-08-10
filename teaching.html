@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Teaching &amp; Workshops | Curly Designer</title>
     <link rel="icon" href="/assets/img/fav.png" type="image/x-icon">
+    <script src="/assets/js/testimonials-theme.js?v=20260805-2"></script>
 
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/js/plugins/slick/slick.css">
-    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/style.css?v=20260805-3" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&display=swap" rel="stylesheet">
@@ -32,7 +33,7 @@
             --teaching-shell: 1240px;
             --teaching-gutter: clamp(32px, 6vw, 80px);
             --teaching-display-size: clamp(3.6rem, 4.3vw, 4.75rem);
-            --teaching-heading-size: clamp(2.5rem, 3.4vw, 3.35rem);
+            --teaching-heading-size: clamp(2.25rem, 3.4vw, 3.125rem);
             --teaching-card-title-size: clamp(1.4rem, 1.7vw, 1.65rem);
             --teaching-intro-size: clamp(15px, 1.05vw, 16px);
             --teaching-body-size: 15px;
@@ -92,11 +93,54 @@
             pointer-events: none;
         }
 
+        .teaching-glow-field {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .teaching-glow-field i {
+            --glow-color: #b89cff;
+            --drift-x: 34px;
+            --drift-y: -28px;
+            position: absolute;
+            width: var(--glow-size, 5px);
+            height: var(--glow-size, 5px);
+            border-radius: 50%;
+            color: var(--glow-color);
+            background: currentColor;
+            box-shadow:
+                0 0 10px 2px currentColor,
+                0 0 30px 7px currentColor;
+            opacity: var(--glow-opacity, 0.72);
+            animation: teachingGlowFloat var(--glow-duration, 14s) ease-in-out infinite alternate;
+            animation-delay: var(--glow-delay, 0s);
+            will-change: transform, opacity;
+        }
+
+        .teaching-glow-field i:nth-child(1) { top: 18%; left: 7%; --glow-size: 4px; --glow-delay: -5s; }
+        .teaching-glow-field i:nth-child(2) { top: 62%; left: 14%; --glow-color: #62d9ff; --glow-size: 6px; --glow-duration: 17s; --glow-delay: -11s; --drift-x: 48px; --drift-y: -36px; }
+        .teaching-glow-field i:nth-child(3) { top: 82%; left: 34%; --glow-color: #f878d4; --glow-size: 4px; --glow-duration: 12s; --glow-delay: -8s; --drift-x: -28px; --drift-y: -42px; }
+        .teaching-glow-field i:nth-child(4) { top: 24%; left: 42%; --glow-color: #ffc82e; --glow-size: 5px; --glow-duration: 16s; --glow-delay: -3s; --drift-x: 26px; --drift-y: 34px; }
+        .teaching-glow-field i:nth-child(5) { top: 74%; left: 57%; --glow-color: #b89cff; --glow-size: 7px; --glow-duration: 19s; --glow-delay: -14s; --drift-x: -44px; --drift-y: -30px; }
+        .teaching-glow-field i:nth-child(6) { top: 14%; right: 28%; --glow-color: #62d9ff; --glow-size: 4px; --glow-duration: 13s; --glow-delay: -7s; --drift-x: 36px; --drift-y: 28px; }
+        .teaching-glow-field i:nth-child(7) { top: 47%; right: 16%; --glow-color: #f878d4; --glow-size: 6px; --glow-duration: 18s; --glow-delay: -10s; --drift-x: -38px; --drift-y: 44px; }
+        .teaching-glow-field i:nth-child(8) { right: 6%; bottom: 18%; --glow-color: #ffc82e; --glow-size: 5px; --glow-duration: 15s; --glow-delay: -4s; --drift-x: -46px; --drift-y: -24px; }
+        .teaching-glow-field i:nth-child(9) { top: 43%; left: 27%; --glow-color: #f878d4; --glow-size: 3px; --glow-duration: 11s; --glow-delay: -6s; --drift-x: 30px; --drift-y: -32px; }
+        .teaching-glow-field i:nth-child(10) { top: 30%; right: 38%; --glow-color: #b89cff; --glow-size: 4px; --glow-duration: 20s; --glow-delay: -16s; --drift-x: -52px; --drift-y: 26px; }
+
+        @keyframes teachingGlowFloat {
+            from { transform: translate3d(0, 0, 0) scale(0.82); opacity: 0.38; }
+            to { transform: translate3d(var(--drift-x), var(--drift-y), 0) scale(1.18); opacity: var(--glow-opacity, 0.72); }
+        }
+
         .teaching-hero-shell {
             position: relative;
             z-index: 1;
             display: grid;
-            grid-template-columns: minmax(0, 0.95fr) minmax(480px, 1.05fr);
+            grid-template-columns: minmax(0, 1.1fr) minmax(480px, 0.9fr);
             gap: clamp(48px, 5vw, 80px);
             align-items: center;
             width: min(var(--teaching-shell), calc(100% - var(--teaching-gutter)));
@@ -122,7 +166,7 @@
         .teaching-editorial-quote {
             position: relative;
             margin: 0;
-            padding: clamp(10px, 1vw, 16px) clamp(10px, 1.5vw, 24px) clamp(14px, 1.3vw, 22px) clamp(36px, 3.6vw, 60px);
+            padding: clamp(10px, 1vw, 16px) 0 clamp(14px, 1.3vw, 22px) clamp(36px, 3.6vw, 60px);
             border: 0;
         }
 
@@ -131,14 +175,23 @@
             z-index: 1;
             margin: 0;
             color: #faf7ff;
-            font-family: "Cormorant Garamond", Georgia, serif;
-            font-size: clamp(3.55rem, 3.6vw, 5.25rem);
-            font-style: italic;
+            font-family: "Poppins", sans-serif;
+            font-size: clamp(38px, 3vw, 50px);
+            font-style: normal;
             font-weight: 400;
-            line-height: 1.06;
-            letter-spacing: -0.025em;
+            line-height: 1.18;
+            letter-spacing: -0.055em;
             text-wrap: balance;
             text-shadow: 0 18px 45px rgba(2, 1, 12, 0.38);
+        }
+
+        .teaching-quote-accent {
+            background: linear-gradient(92deg, #a78cff 0%, #e48bd8 52%, #ff877c 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
         }
 
         .teaching-quote-mark-large {
@@ -263,7 +316,7 @@
         }
 
         .teaching-topics-header {
-            max-width: 850px;
+            max-width: 700px;
         }
 
         .teaching-topics-section .teaching-section-heading {
@@ -477,7 +530,7 @@
             margin-bottom: 20px;
             color: #7557e8;
             font-size: 12px;
-            font-weight: 700;
+            font-weight: 600;
             letter-spacing: 0.18em;
             text-transform: uppercase;
         }
@@ -858,7 +911,7 @@
         }
 
         .academic-practice-header {
-            max-width: 760px;
+            max-width: 700px;
             margin: 0 auto;
             text-align: center;
         }
@@ -1254,7 +1307,7 @@
         }
 
         .collaborator-testimonials-header {
-            max-width: 850px;
+            max-width: 700px;
             margin: 0 auto clamp(42px, 5vw, 64px);
             text-align: center;
         }
@@ -1265,7 +1318,7 @@
             color: #7557e8;
             font-size: 12px;
             font-weight: 600;
-            letter-spacing: 0.2em;
+            letter-spacing: 0.18em;
             text-transform: uppercase;
         }
 
@@ -1274,7 +1327,7 @@
             color: #171534;
             font-family: "Poppins", sans-serif;
             font-size: var(--teaching-heading-size);
-            font-weight: 600;
+            font-weight: 500;
             letter-spacing: -0.035em;
             line-height: 1.1;
             text-transform: none;
@@ -2106,7 +2159,7 @@
             }
 
             .teaching-editorial-quote-text {
-                font-size: clamp(3.55rem, 4.35vw, 4.9rem);
+                font-size: clamp(38px, 3vw, 50px);
             }
 
             .teaching-audience-item {
@@ -2170,7 +2223,7 @@
             }
 
             .teaching-editorial-quote-text {
-                font-size: clamp(3.75rem, 6.7vw, 5.2rem);
+                font-size: clamp(38px, 3vw, 50px);
             }
 
             .teaching-topic-grid {
@@ -2324,8 +2377,8 @@
             }
 
             .teaching-editorial-quote-text {
-                font-size: clamp(2.8rem, 9vw, 4.2rem);
-                line-height: 1.08;
+                font-size: clamp(34px, 9.5vw, 44px);
+                line-height: 1.18;
             }
 
             .teaching-quote-mark-large {
@@ -2680,6 +2733,7 @@
 
         @media (prefers-reduced-motion: reduce) {
             .learning-constellation,
+            .teaching-glow-field i,
             .constellation-core,
             .constellation-line::after,
             .constellation-node,
@@ -2730,7 +2784,7 @@
         .teaching-page .teaching-invite-panel h2 {
             font-family: "Poppins", sans-serif;
             font-size: var(--teaching-heading-size);
-            font-weight: 600;
+            font-weight: 500;
             letter-spacing: -0.035em;
             line-height: 1.1;
         }
@@ -2751,6 +2805,8 @@
             line-height: 1.25;
         }
     </style>
+    <link href="/assets/css/testimonials-light.css?v=20260805-3" rel="stylesheet">
+    <link href="/assets/css/section-eyebrow.css?v=20260809-5" rel="stylesheet">
 
     <script src="/assets/js/modernizr.js"></script>
 
@@ -2816,12 +2872,16 @@
 
     <!-- Hero Banner Start -->
     <section class="teaching-hero teaching-quote-showcase">
+        <div class="teaching-glow-field" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i>
+        </div>
         <div class="teaching-hero-shell">
             <div class="teaching-hero-copy">
-                <span class="teaching-eyebrow">Teaching &amp; Creative Workshops</span>
+                <span class="section-eyebrow teaching-eyebrow">Teaching &amp; Creative Workshops</span>
                 <blockquote class="teaching-editorial-quote">
                     <span class="teaching-quote-mark-large teaching-quote-mark-large--open" aria-hidden="true">&ldquo;</span>
-                    <p class="teaching-editorial-quote-text">Teaching is about helping people follow curiosity, think creatively, and discover ideas.</p>
+                    <p class="teaching-editorial-quote-text">Teaching is about helping people <span class="teaching-quote-accent">follow curiosity, think creatively, and discover ideas.</span></p>
                     <span class="teaching-quote-mark-large teaching-quote-mark-large--close" aria-hidden="true">&rdquo;</span>
                 </blockquote>
                 <div class="teaching-audience" aria-label="Workshop audiences">
@@ -2902,12 +2962,12 @@
     <section class="teaching-topics-section">
         <div class="teaching-topics-shell">
             <header class="teaching-topics-header">
-                <h2 class="teaching-section-heading">What I Teach</h2>
+                <h2 class="section-eyebrow">What I Teach</h2>
                 <p class="teaching-topics-intro">Teaching topics shaped around design, technology, and creative learning.</p>
                 <div class="teaching-audience teaching-audience--light" aria-label="Teaching audiences">
                     <div class="teaching-audience-item">
                         <ion-icon name="school-outline" aria-hidden="true"></ion-icon>
-                        <span>Higher My Education</span>
+                        <span>Higher Education</span>
                     </div>
                     <div class="teaching-audience-item">
                         <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
@@ -2967,12 +3027,12 @@
         <div class="teaching-where-shell">
             <div class="teaching-where-intro">
                 <div class="teaching-where-copy">
-                    <span class="teaching-where-eyebrow">Where I Teach</span>
+                <span class="section-eyebrow">Where I Teach</span>
                     <h2 class="teaching-where-heading" id="where-i-teach-title">Teaching Across Classrooms, Workshops &amp; Communities</h2>
                     <p class="teaching-where-summary">Bridging cross-industry design practice with academic learning, I create engaging experiences that connect creativity, technology, and real-world problem solving.</p>
                 </div>
                 <div class="teaching-where-art" aria-hidden="true">
-                    <img src="/assets/img/teaching/img-where-teach.png" alt="">
+                    <img src="/assets/img/teaching/img-where-teach.png?v=20260809-2" alt="">
                     <div class="where-art-decoration">
                         <span class="where-art-circle"></span>
                         <span class="where-dot-grid"></span>
@@ -3050,7 +3110,7 @@
     <section class="academic-practice-section" aria-labelledby="academic-practice-title">
         <div class="academic-practice-shell">
             <header class="academic-practice-header">
-                <span class="academic-practice-eyebrow">Education</span>
+                <span class="section-eyebrow section-eyebrow--center">Education</span>
                 <h2 class="academic-practice-title" id="academic-practice-title">My Academic Journey</h2>
                 <p class="academic-practice-intro">A multidisciplinary foundation spanning creative practice, interaction design, research, and business.</p>
             </header>
@@ -3140,12 +3200,12 @@
     </section>
     <!-- Academic Practice End -->
 
-    <!-- Collaborator Testimonials Start -->
+    <!-- Shared theme is set once in /assets/js/testimonials-theme.js -->
     <section class="collaborator-testimonials" id="teaching-testimonials" aria-labelledby="collaborator-testimonials-title">
         <div class="collaborator-testimonials-shell">
             <header class="collaborator-testimonials-header">
-                <span class="collaborator-testimonials-eyebrow">Testimonials</span>
-                <h2 class="collaborator-testimonials-title" id="collaborator-testimonials-title">Perspectives from Collaborators</h2>
+                <span class="section-eyebrow section-eyebrow--center">Testimonials</span>
+                <h2 class="collaborator-testimonials-title" id="collaborator-testimonials-title">Perspectives from Collaborators</span></h2>
                 <p class="collaborator-testimonials-intro">I’m grateful to have worked with such inspiring people and teams. Here’s what some of them have shared about the work we created together.</p>
             </header>
 
@@ -3340,14 +3400,6 @@
             </div>
 
             <div class="collaborator-testimonials-footer">
-                <div class="collaborator-stat">
-                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-                    <span><strong data-testimonial-count>0</strong>reviews</span>
-                </div>
-                <div class="collaborator-stat">
-                    <ion-icon name="ribbon-outline" aria-hidden="true"></ion-icon>
-                    <span><strong>Professional</strong>recommendations</span>
-                </div>
                 <a class="collaborator-linkedin" href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer">
                     <ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon>
                     <span>View more on LinkedIn</span>
@@ -3408,28 +3460,26 @@
     </section>
     <!-- Share Your Experience End -->
 
-    <!-- Contact Start -->
-    <section class="section position-relative highlighted-section teaching-contact-wrap" id="get-in-touch">
-        <div class="container main-container clearfix get-in-touch">
-            <div class="col-xs-5 col-xs-offset-1">
-                <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="Get in touch">
+    <!-- Let's connect -->
+    <section class="connect-footer-section connect-footer-section--fullwidth" id="get-in-touch" aria-labelledby="connect-footer-title-teaching">
+        <div class="connect-footer-shell">
+            <div class="connect-footer-visual">
+                <img src="/assets/img/get_intouch/img_contactme-illustration-3d.png" alt="Phone, messages, envelope, notebook, and plant" loading="lazy" decoding="async">
             </div>
-            <div class="col-xs-5">
-                <ul class="social-ul">
-                    <li class="box-social"><a target="_blank" href="https://www.linkedin.com/in/curlydesigner/">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a></li>
-                    <li class="box-social"><a target="_blank" href="https://www.behance.net/curlydesigner">
-                            <ion-icon name="logo-behance"></ion-icon>
-                        </a></li>
-                    <li class="box-social"><a target="_blank" href="mailto: victoria@curlydesigner.com">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </a></li>
-                </ul>
+            <div class="connect-footer-content">
+                <p class="section-eyebrow section-eyebrow--center">Let’s connect</p>
+                <h2 id="connect-footer-title-teaching">Learning grows through curiosity, creativity, & <span class="connect-footer-accent"> shared discovery.</span></h2>
+                <div class="connect-footer-actions">
+                    <a href="mailto:victoria@curlydesigner.com" aria-label="Email Victoria"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Visit Victoria’s LinkedIn profile"><ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon></a>
+                </div>
+            </div>
+            <div class="connect-footer-landscape" aria-hidden="true">
+                <img src="/assets/img/get_intouch/img_contactme-landscape-3d.png" alt="" loading="lazy" decoding="async">
             </div>
         </div>
     </section>
-    <!-- Contact End -->
+    <!-- /Let's connect -->
 
     <footer class="no-print">
         <div class="container-fluid">
