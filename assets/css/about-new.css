@@ -416,6 +416,8 @@
 }
 
 .milestone {
+    display: flex;
+    flex-direction: column;
     opacity: 0;
     transform: translateY(12px);
     text-align: center;
@@ -447,6 +449,7 @@
     box-shadow: none;
     font-size: 1.4rem;
     font-weight: 700;
+    align-self: center;
 }
 
 .milestone:nth-child(1) .milestone-number {
@@ -509,30 +512,55 @@
 }
 
 .milestone h3 {
+    position: relative;
+    width: 100%;
     margin: 0 0 4px;
     min-height: 5.88rem;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 1.45rem;
     font-weight: 600;
     line-height: 1.35;
     text-align: center;
 }
 
+.milestone h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 30px;
+    height: 2px;
+    border-radius: 999px;
+    background: #69aaa6;
+    opacity: .78;
+}
+
+.milestone:nth-child(2) h3::after { background: #c8922f; }
+.milestone:nth-child(3) h3::after { background: #4f9f89; }
+.milestone:nth-child(4) h3::after { background: #7498df; }
+.milestone:nth-child(5) h3::after { background: #9576df; }
+
 .milestone p {
+    width: 100%;
     margin-bottom: 11px;
     min-height: 1.74rem;
     color: #535b75;
     font-size: 1.16rem;
     line-height: 1.5;
-    text-align: center;
-    white-space: nowrap;
+    text-align: left;
+    white-space: normal;
 }
 
 .milestone-tag {
+    position: relative;
+    top: 8px;
     display: inline-block;
-    width: min(90%, 220px);
+    width: min(calc(100% + 12px), 240px);
+    margin-top: auto;
+    align-self: center;
     padding: 8px 14px;
     border-radius: 999px;
     color: #514877;
