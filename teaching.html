@@ -2804,6 +2804,317 @@
             letter-spacing: -0.025em;
             line-height: 1.25;
         }
+
+        /* Teaching contact footer — intentionally scoped to this page and section. */
+        .teaching-page .connect-footer-section--teaching {
+            position: relative;
+            isolation: isolate;
+            overflow: hidden;
+            padding: clamp(76px, 8vw, 118px) 24px clamp(54px, 7vw, 92px);
+            background:
+                radial-gradient(circle at 10% 18%, rgba(205, 193, 255, 0.28), transparent 30%),
+                radial-gradient(circle at 86% 12%, rgba(255, 207, 215, 0.32), transparent 31%),
+                linear-gradient(112deg, #faf8ff 0%, #fffafa 48%, #fff8fb 100%);
+        }
+
+        .teaching-page .connect-footer-section--teaching::before,
+        .teaching-page .connect-footer-section--teaching::after {
+            position: absolute;
+            z-index: -1;
+            width: 48vw;
+            height: 48vw;
+            border: 1px solid rgba(139, 113, 224, 0.13);
+            border-radius: 50%;
+            content: "";
+            pointer-events: none;
+        }
+
+        .teaching-page .connect-footer-section--teaching::before {
+            top: -31vw;
+            right: -6vw;
+            transform: rotate(-16deg);
+        }
+
+        .teaching-page .connect-footer-section--teaching::after {
+            bottom: -38vw;
+            left: -12vw;
+        }
+
+        .teaching-page .connect-teaching-shell {
+            position: relative;
+            z-index: 2;
+            width: min(100%, 1040px);
+            margin: 0 auto;
+        }
+
+        .teaching-page .connect-teaching-intro {
+            width: min(100%, 760px);
+            margin: 0 auto;
+        }
+
+        .teaching-page .connect-teaching-intro .section-eyebrow {
+            justify-content: flex-start;
+            margin-bottom: 18px;
+            text-align: left;
+        }
+
+        .teaching-page .connect-teaching-intro h2 {
+            margin: 0;
+            color: #12213a;
+            font-family: "Poppins", sans-serif;
+            font-size: clamp(38px, 5vw, 64px);
+            font-weight: 600;
+            letter-spacing: -0.05em;
+            line-height: 1.06;
+            text-transform: none;
+            text-wrap: balance;
+        }
+
+        .teaching-page .connect-teaching-intro > p:last-child {
+            max-width: 690px;
+            margin: 14px 0 0;
+            color: #435c84;
+            font-size: clamp(15px, 1.25vw, 18px);
+            line-height: 1.65;
+        }
+
+        .teaching-page .connect-footer-accent {
+            background: linear-gradient(90deg, #e86d79 0%, #9d72df 85%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .teaching-page .connect-teaching-card {
+            position: relative;
+            z-index: 3;
+            width: min(100%, 800px);
+            margin: clamp(48px, 6vw, 76px) auto 0;
+            padding: clamp(28px, 4vw, 48px);
+            border: 1px solid rgba(133, 118, 181, 0.16);
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.82);
+            box-shadow: 0 26px 70px rgba(92, 70, 134, 0.13);
+            backdrop-filter: blur(18px);
+        }
+
+        .teaching-page .connect-form-kicker {
+            margin: 0 0 10px;
+            color: #6548da;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+
+        .teaching-page .connect-teaching-card h3 {
+            margin: 0 0 24px;
+            color: #12213a;
+            font-family: "Poppins", sans-serif;
+            font-size: clamp(24px, 3vw, 32px);
+            font-weight: 600;
+            letter-spacing: -0.035em;
+            line-height: 1.2;
+        }
+
+        .teaching-page .connect-interest-group {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+            margin: 0 0 22px;
+            padding: 0;
+            border: 0;
+        }
+
+        .teaching-page .connect-interest-option {
+            position: relative;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .teaching-page .connect-interest-option input {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+        }
+
+        .teaching-page .connect-interest-option span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 50px;
+            padding: 10px 14px;
+            border: 1.5px solid var(--pill-color, #765ce5);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.62);
+            color: var(--pill-text, #5337cb);
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 1.25;
+            text-align: center;
+            transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+        }
+
+        .teaching-page .connect-interest-option:nth-of-type(2) { --pill-color: #e88b73; --pill-text: #b4472c; }
+        .teaching-page .connect-interest-option:nth-of-type(3) { --pill-color: #55abc0; --pill-text: #176e82; }
+        .teaching-page .connect-interest-option:nth-of-type(4) { --pill-color: #a66bb2; --pill-text: #764083; }
+
+        .teaching-page .connect-interest-option input:checked + span {
+            background: color-mix(in srgb, var(--pill-color) 14%, white);
+            box-shadow: inset 0 0 0 1px var(--pill-color), 0 7px 18px rgba(75, 59, 126, 0.1);
+        }
+
+        .teaching-page .connect-interest-option input:focus-visible + span {
+            outline: 3px solid #12213a;
+            outline-offset: 3px;
+        }
+
+        .teaching-page .connect-interest-option:hover span { transform: translateY(-1px); }
+
+        .teaching-page .connect-form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+        }
+
+        .teaching-page .connect-form-field {
+            position: relative;
+            display: block;
+            margin: 0;
+        }
+
+        .teaching-page .connect-form-field--wide { grid-column: 1 / -1; }
+
+        .teaching-page .connect-form-field ion-icon {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            z-index: 1;
+            color: #6c79c6;
+            font-size: 20px;
+            pointer-events: none;
+        }
+
+        .teaching-page .connect-teaching-form input:not([type="radio"]):not([type="checkbox"]),
+        .teaching-page .connect-teaching-form textarea {
+            width: 100%;
+            min-height: 52px;
+            padding: 13px 16px 13px 48px;
+            border: 1px solid #cdd4e8;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.72);
+            color: #17213c;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .teaching-page .connect-teaching-form textarea {
+            min-height: 112px;
+            resize: vertical;
+        }
+
+        .teaching-page .connect-teaching-form input::placeholder,
+        .teaching-page .connect-teaching-form textarea::placeholder { color: #52668e; opacity: 1; }
+
+        .teaching-page .connect-teaching-form input:focus,
+        .teaching-page .connect-teaching-form textarea:focus {
+            border-color: #6448d7;
+            outline: 3px solid rgba(100, 72, 215, 0.2);
+            outline-offset: 1px;
+        }
+
+        .teaching-page .connect-permission {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 18px 0 22px;
+            color: #43577e;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.5;
+            cursor: pointer;
+        }
+
+        .teaching-page .connect-permission input {
+            width: 19px;
+            height: 19px;
+            margin: 1px 0 0;
+            accent-color: #6044d3;
+            flex: 0 0 auto;
+        }
+
+        .teaching-page .connect-send-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            width: min(100%, 300px);
+            min-height: 54px;
+            margin: 0 auto;
+            padding: 13px 26px;
+            border: 0;
+            border-radius: 999px;
+            background: linear-gradient(100deg, #5433bd 0%, #a51f4c 100%);
+            box-shadow: 0 12px 26px rgba(83, 51, 189, 0.22);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        .teaching-page .connect-send-button:hover,
+        .teaching-page .connect-send-button:focus-visible {
+            background: linear-gradient(100deg, #4324a8 0%, #8d153d 100%);
+            box-shadow: 0 15px 30px rgba(83, 51, 189, 0.3);
+            color: #fff;
+            outline: 3px solid #17213c;
+            outline-offset: 3px;
+        }
+
+        .teaching-page .connect-teaching-art {
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            width: clamp(220px, 25vw, 430px);
+            pointer-events: none;
+        }
+
+        .teaching-page .connect-teaching-art img { display: block; width: 100%; height: auto; }
+        .teaching-page .connect-teaching-art--left { left: max(-34px, calc(50% - 810px)); }
+        .teaching-page .connect-teaching-art--right { right: max(-42px, calc(50% - 820px)); }
+        .teaching-page .connect-teaching-art--right img { width: 125%; max-width: none; }
+
+        .teaching-page .connect-form-success {
+            margin: 16px 0 0;
+            color: #315f46;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        @media (max-width: 900px) {
+            .teaching-page .connect-teaching-art { width: 32vw; opacity: 0.42; }
+        }
+
+        @media (max-width: 640px) {
+            .teaching-page .connect-footer-section--teaching { padding: 58px 16px 210px; }
+            .teaching-page .connect-teaching-intro .section-eyebrow { justify-content: center; text-align: center; }
+            .teaching-page .connect-teaching-intro h2,
+            .teaching-page .connect-teaching-intro > p:last-child { text-align: center; }
+            .teaching-page .connect-teaching-card { margin-top: 42px; padding: 26px 18px; border-radius: 24px; }
+            .teaching-page .connect-interest-group,
+            .teaching-page .connect-form-grid { grid-template-columns: 1fr; }
+            .teaching-page .connect-form-field--wide { grid-column: auto; }
+            .teaching-page .connect-teaching-art { width: min(58vw, 280px); opacity: 0.76; }
+            .teaching-page .connect-teaching-art--left { left: -44px; }
+            .teaching-page .connect-teaching-art--right { right: -64px; opacity: 0.42; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .teaching-page .connect-interest-option span,
+            .teaching-page .connect-send-button { transition: none; }
+        }
     </style>
     <link href="/assets/css/testimonials-light.css?v=20260805-3" rel="stylesheet">
     <link href="/assets/css/section-eyebrow.css?v=20260809-6" rel="stylesheet">
@@ -3409,74 +3720,88 @@
     </section>
     <!-- Collaborator Testimonials End -->
 
-    <!-- Share Your Experience Start -->
-    <section class="teaching-invite-section">
-        <div class="container main-container">
-            <div class="teaching-invite-panel">
-                <h2>What would you like to share?</h2>
-                <p>
-                    Whether you’d like to share a reflection, explore a potential collaboration, discuss working together, or invite me to facilitate a workshop, I’d love to hear from you.
-                </p>
-                <form class="teaching-form" id="teaching-review-form">
-                    <div class="teaching-form-row">
-                        <div class="teaching-form-field">
-                            <label for="review-name">Name</label>
-                            <input id="review-name" name="name" type="text">
-                        </div>
-                        <div class="teaching-form-field">
-                            <label for="review-email">Email</label>
-                            <input id="review-email" name="email" type="email">
-                        </div>
+    
+
+    <!-- Let's connect -->
+    <section class="connect-footer-section connect-footer-section--teaching" id="get-in-touch" aria-labelledby="connect-footer-title-teaching">
+        <div class="connect-teaching-shell">
+            <header class="connect-teaching-intro">
+                <p class="section-eyebrow">Let’s connect</p>
+                <h2 id="connect-footer-title-teaching">Learning grows through curiosity, creativity, &amp; <span class="connect-footer-accent">shared discovery.</span></h2>
+                <p>For hiring opportunities, collaborations, guest teaching, workshops, or thoughtful reflections, I’d love to hear from you.</p>
+            </header>
+
+            <div class="connect-teaching-card">
+                <p class="connect-form-kicker">A note from you</p>
+                <h3>What would you like to share?</h3>
+                <form class="connect-teaching-form" id="teaching-review-form">
+                    <fieldset class="connect-interest-group">
+                        <legend class="visually-hidden">Reason for getting in touch</legend>
+                        <label class="connect-interest-option">
+                            <input name="interest" type="radio" value="Hiring / Opportunity" checked>
+                            <span>Hiring / Opportunity</span>
+                        </label>
+                        <label class="connect-interest-option">
+                            <input name="interest" type="radio" value="Workshop or Teaching">
+                            <span>Workshop or Teaching</span>
+                        </label>
+                        <label class="connect-interest-option">
+                            <input name="interest" type="radio" value="Collaboration / Reflection">
+                            <span>Collaboration / Reflection</span>
+                        </label>
+                        <label class="connect-interest-option">
+                            <input name="interest" type="radio" value="Other">
+                            <span>Other</span>
+                        </label>
+                    </fieldset>
+
+                    <div class="connect-form-grid">
+                        <label class="connect-form-field" for="review-name">
+                            <span class="visually-hidden">Your name</span>
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                            <input id="review-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+                        </label>
+                        <label class="connect-form-field" for="review-email">
+                            <span class="visually-hidden">Email</span>
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                            <input id="review-email" name="email" type="email" autocomplete="email" placeholder="Email" required>
+                        </label>
+                        <label class="connect-form-field" for="review-role">
+                            <span class="visually-hidden">Organization or role</span>
+                            <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
+                            <input id="review-role" name="role" type="text" autocomplete="organization-title" placeholder="Organization or role">
+                        </label>
+                        <label class="connect-form-field" for="review-subject">
+                            <span class="visually-hidden">Subject</span>
+                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                            <input id="review-subject" name="subject" type="text" placeholder="Subject">
+                        </label>
+                        <label class="connect-form-field connect-form-field--wide" for="review-message">
+                            <span class="visually-hidden">Your message</span>
+                            <ion-icon name="chatbubble-outline" aria-hidden="true"></ion-icon>
+                            <textarea id="review-message" name="message" placeholder="Your message" required></textarea>
+                        </label>
                     </div>
 
-                    <div class="teaching-form-row">
-                        <div class="teaching-form-field">
-                            <label for="review-role">Linkedin or Role / Participation</label>
-                            <input id="review-role" name="role" type="text">
-                        </div>
-                        <div class="teaching-form-field">
-                            <label for="review-context">Program or workshop name</label>
-                            <input id="review-context" name="context" type="text">
-                        </div>
-                    </div>
-
-                    <div class="teaching-form-field">
-                        <label for="review-message">Review / Reflection</label>
-                        <textarea id="review-message" name="message" required></textarea>
-                    </div>
-
-                    <label class="teaching-permission" for="review-anonymous">
+                    <label class="connect-permission" for="review-anonymous">
                         <input id="review-anonymous" name="anonymous" type="checkbox">
-                        <span>I would like my review to stay anonymous.</span>
+                        <span>If my message is shared publicly, please keep it anonymous.</span>
                     </label>
 
-                    <button type="submit">Send Reflection</button>
-                    <p class="teaching-form-success" id="teaching-form-success" hidden aria-live="polite">
-                        Thank you for sharing your experience. Your reflection has been sent.
-                    </p>
+                    <button class="connect-send-button" type="submit">
+                        <span>Send message</span>
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                    <p class="connect-form-success" id="teaching-form-success" hidden aria-live="polite">Your email app is opening with your message ready to send.</p>
                 </form>
             </div>
         </div>
-    </section>
-    <!-- Share Your Experience End -->
 
-    <!-- Let's connect -->
-    <section class="connect-footer-section connect-footer-section--fullwidth" id="get-in-touch" aria-labelledby="connect-footer-title-teaching">
-        <div class="connect-footer-shell">
-            <div class="connect-footer-visual">
-                <img src="/assets/img/get_intouch/img_contactme-illustration-3d.png" alt="Phone, messages, envelope, notebook, and plant" loading="lazy" decoding="async">
-            </div>
-            <div class="connect-footer-content">
-                <p class="section-eyebrow section-eyebrow--center">Let’s connect</p>
-                <h2 id="connect-footer-title-teaching">Learning grows through curiosity, creativity, & <span class="connect-footer-accent"> shared discovery.</span></h2>
-                <div class="connect-footer-actions">
-                    <a href="mailto:victoria@curlydesigner.com" aria-label="Email Victoria"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon></a>
-                    <a href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Visit Victoria’s LinkedIn profile"><ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon></a>
-                </div>
-            </div>
-            <div class="connect-footer-landscape" aria-hidden="true">
-                <img src="/assets/img/get_intouch/img_contactme-landscape-3d.png" alt="" loading="lazy" decoding="async">
-            </div>
+        <div class="connect-teaching-art connect-teaching-art--left" aria-hidden="true">
+            <img src="/assets/img/get_intouch/img_contactme-illustration-3d.png" alt="" loading="lazy" decoding="async">
+        </div>
+        <div class="connect-teaching-art connect-teaching-art--right" aria-hidden="true">
+            <img src="/assets/img/get_intouch/img_contactme-landscape-3d.png" alt="" loading="lazy" decoding="async">
         </div>
     </section>
     <!-- /Let's connect -->
@@ -3764,18 +4089,18 @@
           event.preventDefault();
 
           var formData = new FormData(form);
-          var subject = 'Teaching Reflection Submission';
+          var subject = formData.get('subject') || formData.get('interest') || 'Website message';
 
           // No email service or backend handler exists in this project yet.
           // Connect this form to the site's future email endpoint here when one is added.
           var bodyLines = [
             'Name: ' + (formData.get('name') || ''),
             'Email: ' + (formData.get('email') || ''),
-            'Role / relationship: ' + (formData.get('role') || ''),
-            'Organization or context: ' + (formData.get('context') || ''),
-            'Keep public review anonymous: ' + (formData.get('anonymous') ? 'Yes' : 'No'),
+            'Organization or role: ' + (formData.get('role') || ''),
+            'Reason for getting in touch: ' + (formData.get('interest') || ''),
+            'Keep public message anonymous: ' + (formData.get('anonymous') ? 'Yes' : 'No'),
             '',
-            'Review / reflection:',
+            'Message:',
             formData.get('message') || ''
           ];
 
