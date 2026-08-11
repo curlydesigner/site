@@ -7,7 +7,7 @@ const publishedDir = path.join(rootDir, 'portfolio/published');
 
 const START_MARKER = '<!-- case-study-top:start -->';
 const END_MARKER = '<!-- case-study-top:end -->';
-const ASSET_VERSION = 'case-study-header-20260720c';
+const ASSET_VERSION = 'case-study-nav-20260811a';
 
 const projects = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 

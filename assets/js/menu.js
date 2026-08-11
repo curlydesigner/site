@@ -205,13 +205,14 @@
 
         var activeSection = currentSection();
         var isNonSticky = document.body.classList.contains('portfolio-case-study-page');
+        var isCaseStudy = document.body.classList.contains('portfolio-case-study-page');
         var startsDark = document.body.classList.contains('teaching-page') ||
             document.body.classList.contains('portfolio-page') ||
-            document.body.classList.contains('portfolio-case-study-page') ||
             document.body.classList.contains('tag-page');
 
         header.className = 'box-header global-site-header' +
             (isNonSticky ? ' global-site-header--nonsticky' : ' global-site-header--sticky') +
+            (isCaseStudy ? ' global-site-header--case-study' : '') +
             (startsDark ? ' global-site-header--dark-start' : '');
         header.setAttribute('data-global-navigation', '');
         header.innerHTML = [

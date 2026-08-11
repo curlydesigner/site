@@ -2950,6 +2950,14 @@ body.site-page-is-entering > *:not(script) {
     position: absolute;
 }
 
+.global-site-header--case-study:not(.menu-is-open) {
+    border-color: rgba(27, 25, 55, 0.08);
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 12px 36px rgba(23, 22, 45, 0.08);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    backdrop-filter: blur(18px) saturate(140%);
+}
+
 .global-site-header--sticky.is-scrolled {
     border-color: rgba(27, 25, 55, 0.08);
     background: var(--global-nav-surface);
@@ -3751,8 +3759,8 @@ body.case-study-card-embed .portfolio-inner {
     box-shadow: inset 0 0 34px rgba(221, 102, 167, 0.13), 0 0 4px #ffd2ca, 0 0 26px rgba(255, 113, 105, 0.23);
 }
 
-.system-layer--systems { top: 142px; z-index: 3; animation-delay: -2s; }
-.system-layer--accessible { top: 284px; z-index: 2; animation-delay: -4s; }
+.system-layer--systems { top: 284px; z-index: 2; animation-delay: -2s; }
+.system-layer--accessible { top: 142px; z-index: 3; animation-delay: -4s; }
 .system-layer--research { top: 426px; z-index: 1; animation-delay: -6s; }
 
 .system-layer__browser {
@@ -3975,8 +3983,8 @@ body.case-study-card-embed .portfolio-inner {
 }
 
 .portfolio-system-map .portfolio-principle--outcomes { top: 7%; color: #ff8d7e; }
-.portfolio-system-map .portfolio-principle--systems { top: 29%; color: #ef8ee5; }
-.portfolio-system-map .portfolio-principle--accessible { top: 51%; color: #b68cff; }
+.portfolio-system-map .portfolio-principle--systems { top: 51%; color: #ef8ee5; }
+.portfolio-system-map .portfolio-principle--accessible { top: 29%; color: #b68cff; }
 .portfolio-system-map .portfolio-principle--research { top: 73%; color: #a881ff; }
 
 .portfolio-system-map .portfolio-principle--outcomes:before { background: linear-gradient(90deg, rgba(255, 132, 119, 0.42), rgba(255, 132, 119, 0.9)); }
@@ -4237,8 +4245,8 @@ body.case-study-card-embed .portfolio-inner {
         border-radius: 8px;
     }
 
-    .system-layer--systems { top: 98px; }
-    .system-layer--accessible { top: 196px; }
+    .system-layer--systems { top: 196px; }
+    .system-layer--accessible { top: 98px; }
     .system-layer--research { top: 294px; }
 
     .portfolio-system-map .portfolio-principle {
@@ -4249,8 +4257,8 @@ body.case-study-card-embed .portfolio-inner {
     }
 
     .portfolio-system-map .portfolio-principle--outcomes { top: 4%; }
-    .portfolio-system-map .portfolio-principle--systems { top: 27%; }
-    .portfolio-system-map .portfolio-principle--accessible { top: 50%; }
+    .portfolio-system-map .portfolio-principle--systems { top: 50%; }
+    .portfolio-system-map .portfolio-principle--accessible { top: 27%; }
     .portfolio-system-map .portfolio-principle--research { top: 73%; }
 
     .portfolio-system-map .portfolio-principle__icon {
@@ -8454,8 +8462,8 @@ body.portfolio-page .portfolio-hero .portfolio-hero__closing span {
 }
 
 .portfolio-system-map .system-layer--outcomes { top: 4px; --layer-shift: 5px; }
-.portfolio-system-map .system-layer--systems { top: 151px; --layer-shift: 3px; }
-.portfolio-system-map .system-layer--accessible { top: 298px; --layer-shift: 2px; }
+.portfolio-system-map .system-layer--systems { top: 298px; --layer-shift: 3px; }
+.portfolio-system-map .system-layer--accessible { top: 151px; --layer-shift: 2px; }
 .portfolio-system-map .system-layer--research { top: 445px; --layer-shift: 1px; }
 
 .portfolio-system-map .system-layer:before {
@@ -8526,8 +8534,8 @@ body.portfolio-page .portfolio-hero .portfolio-hero__closing span {
 }
 
 .portfolio-system-map .portfolio-principle--outcomes { top: 4%; color: #ff8a7c; }
-.portfolio-system-map .portfolio-principle--systems { top: 27%; color: #e58de5; }
-.portfolio-system-map .portfolio-principle--accessible { top: 50%; color: #b68cff; }
+.portfolio-system-map .portfolio-principle--systems { top: 50%; color: #e58de5; }
+.portfolio-system-map .portfolio-principle--accessible { top: 27%; color: #b68cff; }
 .portfolio-system-map .portfolio-principle--research { top: 73%; color: #a985ff; }
 
 .portfolio-system-map .portfolio-principle:before {
@@ -8683,8 +8691,8 @@ body.portfolio-page .portfolio-hero .portfolio-hero__closing span {
     .portfolio-system-map__stack { inset: 0 32% 0 0; }
     .portfolio-system-map .system-layer { height: 104px; border-radius: 9px; }
     .portfolio-system-map .system-layer--outcomes { top: 0; }
-    .portfolio-system-map .system-layer--systems { top: 100px; }
-    .portfolio-system-map .system-layer--accessible { top: 200px; }
+    .portfolio-system-map .system-layer--systems { top: 200px; }
+    .portfolio-system-map .system-layer--accessible { top: 100px; }
     .portfolio-system-map .system-layer--research { top: 300px; }
 
     .portfolio-system-map .portfolio-principle {
@@ -8695,8 +8703,8 @@ body.portfolio-page .portfolio-hero .portfolio-hero__closing span {
     }
 
     .portfolio-system-map .portfolio-principle--outcomes { top: 1%; }
-    .portfolio-system-map .portfolio-principle--systems { top: 24%; }
-    .portfolio-system-map .portfolio-principle--accessible { top: 47%; }
+    .portfolio-system-map .portfolio-principle--systems { top: 47%; }
+    .portfolio-system-map .portfolio-principle--accessible { top: 24%; }
     .portfolio-system-map .portfolio-principle--research { top: 70%; }
     .portfolio-system-map .portfolio-principle__icon { width: 43px; height: 43px; font-size: 21px; border-width: 1px; }
     .portfolio-system-map .portfolio-principle__content strong { font-size: 10px; line-height: 1.35; }
@@ -8766,13 +8774,13 @@ body.portfolio-page .portfolio-hero .portfolio-hero__inner {
 }
 
 .portfolio-system-map .system-layer--outcomes { top: 0; }
-.portfolio-system-map .system-layer--systems { top: 104px; }
-.portfolio-system-map .system-layer--accessible { top: 208px; }
+.portfolio-system-map .system-layer--systems { top: 208px; }
+.portfolio-system-map .system-layer--accessible { top: 104px; }
 .portfolio-system-map .system-layer--research { top: 312px; }
 
 .portfolio-system-map .portfolio-principle--outcomes { top: 4%; }
-.portfolio-system-map .portfolio-principle--systems { top: 21%; }
-.portfolio-system-map .portfolio-principle--accessible { top: 38%; }
+.portfolio-system-map .portfolio-principle--systems { top: 38%; }
+.portfolio-system-map .portfolio-principle--accessible { top: 21%; }
 .portfolio-system-map .portfolio-principle--research { top: 55%; }
 
 .portfolio-system-map__principles {
@@ -8880,12 +8888,12 @@ body.portfolio-page .portfolio-hero .portfolio-hero__inner {
     .portfolio-system-map .system-layer img { width: 90%; }
 
     .portfolio-system-map .system-layer--outcomes { top: 0; }
-    .portfolio-system-map .system-layer--systems { top: 72px; }
-    .portfolio-system-map .system-layer--accessible { top: 144px; }
+    .portfolio-system-map .system-layer--systems { top: 144px; }
+    .portfolio-system-map .system-layer--accessible { top: 72px; }
     .portfolio-system-map .system-layer--research { top: 216px; }
 
     .portfolio-system-map .portfolio-principle--outcomes { top: 1%; }
-    .portfolio-system-map .portfolio-principle--systems { top: 18%; }
-    .portfolio-system-map .portfolio-principle--accessible { top: 35%; }
+    .portfolio-system-map .portfolio-principle--systems { top: 35%; }
+    .portfolio-system-map .portfolio-principle--accessible { top: 18%; }
     .portfolio-system-map .portfolio-principle--research { top: 52%; }
 }
