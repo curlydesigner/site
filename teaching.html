@@ -2898,13 +2898,8 @@
             backdrop-filter: blur(18px);
         }
 
-        .teaching-page .connect-form-kicker {
-            margin: 0 0 10px;
-            color: #6548da;
-            font-size: 13px;
-            font-weight: 700;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
+        .teaching-page .connect-form-kicker.section-eyebrow {
+            color: #493b88;
         }
 
         .teaching-page .connect-teaching-card h3 {
@@ -2919,58 +2914,62 @@
 
         .teaching-page .connect-interest-group {
             display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 12px;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 8px;
             margin: 0 0 22px;
             padding: 0;
             border: 0;
         }
 
         .teaching-page .connect-interest-option {
-            position: relative;
-            margin: 0;
-            cursor: pointer;
-        }
-
-        .teaching-page .connect-interest-option input {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            opacity: 0;
-        }
-
-        .teaching-page .connect-interest-option span {
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 50px;
-            padding: 10px 14px;
-            border: 1.5px solid var(--pill-color, #765ce5);
+            min-height: 42px;
+            padding: 8px 9px;
+            border: 1px solid rgba(116, 96, 169, 0.34);
             border-radius: 999px;
-            background: rgba(255, 255, 255, 0.62);
-            color: var(--pill-text, #5337cb);
-            font-size: 13px;
-            font-weight: 600;
+            background: rgba(248, 246, 253, 0.5);
+            color: #4a3b70;
+            font-size: 11px;
+            font-weight: 500;
             line-height: 1.25;
+            margin: 0;
             text-align: center;
-            transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+            cursor: pointer;
+            transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, color 180ms ease, transform 180ms ease;
         }
 
-        .teaching-page .connect-interest-option:nth-of-type(2) { --pill-color: #e88b73; --pill-text: #b4472c; }
-        .teaching-page .connect-interest-option:nth-of-type(3) { --pill-color: #55abc0; --pill-text: #176e82; }
-        .teaching-page .connect-interest-option:nth-of-type(4) { --pill-color: #a66bb2; --pill-text: #764083; }
-
-        .teaching-page .connect-interest-option input:checked + span {
-            background: color-mix(in srgb, var(--pill-color) 14%, white);
-            box-shadow: inset 0 0 0 1px var(--pill-color), 0 7px 18px rgba(75, 59, 126, 0.1);
+        .teaching-page .connect-interest-input {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            opacity: 0;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            white-space: nowrap;
         }
 
-        .teaching-page .connect-interest-option input:focus-visible + span {
-            outline: 3px solid #12213a;
-            outline-offset: 3px;
+        .teaching-page .connect-interest-input:checked + .connect-interest-option {
+            border-color: #7d68b8;
+            background: rgba(225, 217, 245, 0.78);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 4px 12px rgba(81, 61, 133, 0.09);
+            color: #34265e;
         }
 
-        .teaching-page .connect-interest-option:hover span { transform: translateY(-1px); }
+        .teaching-page .connect-interest-input:focus-visible + .connect-interest-option {
+            outline: 3px solid rgba(52, 38, 94, 0.82);
+            outline-offset: 2px;
+        }
+
+        .teaching-page .connect-interest-option:hover {
+            border-color: #8d7aba;
+            background: rgba(237, 232, 248, 0.66);
+            color: #34265e;
+            transform: translateY(-1px);
+        }
 
         .teaching-page .connect-form-grid {
             display: grid;
@@ -3006,6 +3005,7 @@
             background: rgba(255, 255, 255, 0.72);
             color: #17213c;
             font-size: 14px;
+            font-weight: 400;
             line-height: 1.5;
         }
 
@@ -3015,7 +3015,11 @@
         }
 
         .teaching-page .connect-teaching-form input::placeholder,
-        .teaching-page .connect-teaching-form textarea::placeholder { color: #52668e; opacity: 1; }
+        .teaching-page .connect-teaching-form textarea::placeholder {
+            color: #52668e;
+            font-weight: 400;
+            opacity: 1;
+        }
 
         .teaching-page .connect-teaching-form input:focus,
         .teaching-page .connect-teaching-form textarea:focus {
@@ -3045,6 +3049,8 @@
         }
 
         .teaching-page .connect-send-button {
+            position: relative;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -3053,22 +3059,54 @@
             min-height: 54px;
             margin: 0 auto;
             padding: 13px 26px;
-            border: 0;
+            border: 1px solid rgba(105, 76, 171, 0.28);
             border-radius: 999px;
-            background: linear-gradient(100deg, #5433bd 0%, #a51f4c 100%);
-            box-shadow: 0 12px 26px rgba(83, 51, 189, 0.22);
-            color: #fff;
+            background:
+                linear-gradient(105deg, rgba(255, 178, 190, 0.5) 0%, rgba(211, 177, 239, 0.54) 52%, rgba(177, 151, 237, 0.58) 100%);
+            box-shadow:
+                0 9px 24px rgba(93, 66, 157, 0.14),
+                inset 0 1px 0 rgba(255, 255, 255, 0.82),
+                inset 0 -1px 0 rgba(91, 58, 153, 0.08);
+            color: #32136f;
             font-size: 16px;
-            font-weight: 700;
+            font-weight: 500;
             letter-spacing: 0;
             text-transform: none;
+            backdrop-filter: blur(16px) saturate(125%);
+            -webkit-backdrop-filter: blur(16px) saturate(125%);
+            transition: background 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
         }
 
-        .teaching-page .connect-send-button:hover,
+        .teaching-page .connect-send-button::before {
+            position: absolute;
+            top: 1px;
+            left: 0;
+            width: 100%;
+            height: 24%;
+            border-radius: 999px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0.04));
+            content: "";
+            pointer-events: none;
+        }
+
+        .teaching-page .connect-send-button > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .teaching-page .connect-send-button:hover {
+            border-color: rgba(104, 70, 177, 0.36);
+            background: linear-gradient(105deg, rgba(255, 168, 181, 0.68) 0%, rgba(210, 168, 238, 0.7) 52%, rgba(169, 139, 235, 0.74) 100%);
+            box-shadow: 0 11px 26px rgba(93, 66, 157, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.84);
+            color: #32136f;
+            transform: translateY(-1px);
+        }
+
         .teaching-page .connect-send-button:focus-visible {
-            background: linear-gradient(100deg, #4324a8 0%, #8d153d 100%);
-            box-shadow: 0 15px 30px rgba(83, 51, 189, 0.3);
-            color: #fff;
+            border-color: #4c2b8e;
+            background: linear-gradient(105deg, rgba(255, 168, 181, 0.68) 0%, rgba(210, 168, 238, 0.7) 52%, rgba(169, 139, 235, 0.74) 100%);
+            box-shadow: 0 11px 26px rgba(93, 66, 157, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.84);
+            color: #32136f;
             outline: 3px solid #17213c;
             outline-offset: 3px;
         }
@@ -3103,7 +3141,7 @@
             .teaching-page .connect-teaching-intro h2,
             .teaching-page .connect-teaching-intro > p:last-child { text-align: center; }
             .teaching-page .connect-teaching-card { margin-top: 42px; padding: 26px 18px; border-radius: 24px; }
-            .teaching-page .connect-interest-group,
+            .teaching-page .connect-interest-group { grid-template-columns: repeat(2, minmax(0, 1fr)); }
             .teaching-page .connect-form-grid { grid-template-columns: 1fr; }
             .teaching-page .connect-form-field--wide { grid-column: auto; }
             .teaching-page .connect-teaching-art { width: min(58vw, 280px); opacity: 0.76; }
@@ -3727,37 +3765,29 @@
         <div class="connect-teaching-shell">
             <header class="connect-teaching-intro">
                 <p class="section-eyebrow">Let’s connect</p>
-                <h2 id="connect-footer-title-teaching">Learning grows through curiosity, creativity, &amp; <span class="connect-footer-accent">shared discovery.</span></h2>
-                <p>For hiring opportunities, collaborations, guest teaching, workshops, or thoughtful reflections, I’d love to hear from you.</p>
+                <h2 id="connect-footer-title-teaching">Curiosity invites conversation, creativity inspires ideas, & <span class="connect-footer-accent">shared discovery builds connection.</span></h2>
+                <p>For opportunities, collaborations, workshops, or thoughtful reflections, I’d love to hear from you.</p>
             </header>
 
             <div class="connect-teaching-card">
-                <p class="connect-form-kicker">A note from you</p>
+                <p class="connect-form-kicker section-eyebrow">A note from you</p>
                 <h3>What would you like to share?</h3>
                 <form class="connect-teaching-form" id="teaching-review-form">
                     <fieldset class="connect-interest-group">
                         <legend class="visually-hidden">Reason for getting in touch</legend>
-                        <label class="connect-interest-option">
-                            <input name="interest" type="radio" value="Hiring / Opportunity" checked>
-                            <span>Hiring / Opportunity</span>
-                        </label>
-                        <label class="connect-interest-option">
-                            <input name="interest" type="radio" value="Workshop or Teaching">
-                            <span>Workshop or Teaching</span>
-                        </label>
-                        <label class="connect-interest-option">
-                            <input name="interest" type="radio" value="Collaboration / Reflection">
-                            <span>Collaboration / Reflection</span>
-                        </label>
-                        <label class="connect-interest-option">
-                            <input name="interest" type="radio" value="Other">
-                            <span>Other</span>
-                        </label>
+                        <input class="connect-interest-input" id="interest-hiring" name="interest" type="radio" value="Hiring / Opportunity" required>
+                        <label class="connect-interest-option" for="interest-hiring">Collaboration Opportunity</label>
+                        <input class="connect-interest-input" id="interest-workshop" name="interest" type="radio" value="Workshop or Teaching">
+                        <label class="connect-interest-option" for="interest-workshop">Workshop or Teaching</label>
+                        <input class="connect-interest-input" id="interest-collaboration" name="interest" type="radio" value="Collaboration / Reflection">
+                        <label class="connect-interest-option" for="interest-collaboration">Reflection</label>
+                        <input class="connect-interest-input" id="interest-other" name="interest" type="radio" value="Other">
+                        <label class="connect-interest-option" for="interest-other">Other</label>
                     </fieldset>
 
                     <div class="connect-form-grid">
                         <label class="connect-form-field" for="review-name">
-                            <span class="visually-hidden">Your name</span>
+                            <span class="visually-hidden">Name</span>
                             <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
                             <input id="review-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
                         </label>
