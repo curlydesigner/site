@@ -150,29 +150,50 @@
     color: black;
     text-align: center;
   }
+
+  .portfolio-case-study-page .colour-accessibility-info-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "challenges role"
+      "challenges research"
+      "challenges overview";
+    align-items: stretch;
+  }
+
+  .portfolio-case-study-page .colour-accessibility-info-card--challenges {
+    grid-area: challenges;
+  }
+
+  .portfolio-case-study-page .colour-accessibility-info-card--role {
+    grid-area: role;
+  }
+
+  .portfolio-case-study-page .colour-accessibility-info-card--research {
+    grid-area: research;
+  }
+
+  .portfolio-case-study-page .colour-accessibility-info-card--overview {
+    grid-area: overview;
+  }
+
+  @media (max-width: 767px) {
+    .portfolio-case-study-page .colour-accessibility-info-cards {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas:
+        "challenges"
+        "role"
+        "research"
+        "overview";
+    }
+  }
 </style>
 
 <!-- 4 Cards  -->
 
-<div class="info-cards">
+<div class="info-cards colour-accessibility-info-cards">
 
-  <div class="info-card">
-  <h3>My Role</h3>
-  Senior UX/UI Product Designer at BlackBerry Security, leading system design and scalable IA for secure HUB+ apps across mobile, tablet, and desktop.
-</div>
-
-  <div class="info-card">
-  <h3>Research &amp; Analysis</h3>
-  Evaluated interaction patterns, usability friction, and accessibility differences between dark and light modes to inform design decisions.
-</div>
-
-
-  <div class="info-card">
-    <h3>System Design / Project Overview</h3>
-    Created a unified dark and light theme system for BlackBerry HUB+, improving readability, accessibility, and cross-platform consistency.
-  </div>
-
-  <div class="info-card">
+  <div class="info-card colour-accessibility-info-card--challenges">
     <h3>Accessibility &amp; Visual Challenges</h3>
     <ul>
       <li>Color and contrast inconsistencies reduced readability across themes</li>
@@ -181,6 +202,21 @@
       <li>Creating meaningful white space in dark mode without relying on brightness</li>
       <li>Color-dependent indicators failed accessibility requirements</li>
     </ul>
+  </div>
+
+  <div class="info-card colour-accessibility-info-card--role">
+    <h3>My Role</h3>
+    Senior UX/UI Product Designer at BlackBerry Security, leading system design and scalable IA for secure HUB+ apps across mobile, tablet, and desktop.
+  </div>
+
+  <div class="info-card colour-accessibility-info-card--research">
+    <h3>Research &amp; Analysis</h3>
+    Evaluated interaction patterns, usability friction, and accessibility differences between dark and light modes to inform design decisions.
+  </div>
+
+  <div class="info-card colour-accessibility-info-card--overview">
+    <h3>System Design / Project Overview</h3>
+    Created a unified dark and light theme system for BlackBerry HUB+, improving readability, accessibility, and cross-platform consistency.
   </div>
 
 </div>

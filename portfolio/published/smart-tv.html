@@ -330,6 +330,27 @@
     line-height: 1;
   }
 
+  .smart-tv-case-study .smart-tv-info-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas:
+      "overview role"
+      "overview industry";
+    align-items: stretch;
+  }
+
+  .smart-tv-case-study .smart-tv-info-card--overview {
+    grid-area: overview;
+  }
+
+  .smart-tv-case-study .smart-tv-info-card--role {
+    grid-area: role;
+  }
+
+  .smart-tv-case-study .smart-tv-info-card--industry {
+    grid-area: industry;
+  }
+
   @media (max-width: 767px) {
     .smart-tv-case-study .box-primary-nav.row {
       margin-right: 0;
@@ -379,6 +400,14 @@
       min-height: 48px;
       padding: 0 14px;
     }
+
+    .smart-tv-case-study .smart-tv-info-cards {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas:
+        "overview"
+        "role"
+        "industry";
+    }
   }
 </style>
 <section class="smart-tv-presentation" aria-labelledby="smart-tv-presentation-title" data-smart-tv-presentation>
@@ -411,20 +440,9 @@
 
 
 
-<div class="info-cards">
+<div class="info-cards smart-tv-info-cards">
 
-  <div class="info-card">
-    <h3>Role &amp; Scope </h3>
-    <p>Senior Interaction Designer for a system-level re-engagement concept for Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.</p>
-  </div>
-
-  <div class="info-card">
-    <h3>Industry Context</h3>
-    <p>Multitasking is now the default TV behavior.
-    Over 70% of viewers use a second device while watching TV — creating moments of distraction, but also new opportunities for re-engagement.</p>
-  </div>
-
-  <div class="info-card">
+  <div class="info-card smart-tv-info-card--overview">
     <h3>Project Overview</h3>
     <p>This project explores how Smart TV can design a scalable re-engagement system that:
      <br />
@@ -445,6 +463,17 @@
       <li>What happens after content pauses, ends, or is missed </li>
     </ul>
 
+  </div>
+
+  <div class="info-card smart-tv-info-card--role">
+    <h3>Role &amp; Scope </h3>
+    <p>Senior Interaction Designer for a system-level re-engagement concept for Smart TV, exploring how on-screen interactions can bring distracted viewers back into the TV experience without competing for attention.</p>
+  </div>
+
+  <div class="info-card smart-tv-info-card--industry">
+    <h3>Industry Context</h3>
+    <p>Multitasking is now the default TV behavior.
+    Over 70% of viewers use a second device while watching TV — creating moments of distraction, but also new opportunities for re-engagement.</p>
   </div>
 </div>
 

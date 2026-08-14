@@ -4314,6 +4314,9 @@ Case-study navigation system
 ==================================================*/
 
 .case-project-nav {
+    --case-project-arrow-lane: 64px;
+    --case-project-card-width: clamp(150px, 20vw, 210px);
+    --case-project-card-image-height: clamp(78px, 9.75vw, 102px);
     position: fixed;
     right: 0;
     left: 0;
@@ -4466,10 +4469,9 @@ Case-study navigation system
     display: flex;
     gap: 14px;
     width: 100%;
-    max-width: 1540px;
-    margin: 0 auto;
+    box-sizing: border-box;
     overflow-x: auto;
-    padding: 18px max(78px, calc((100vw - 1540px) / 2 + 78px)) 20px;
+    padding: 18px 14px 20px;
     scroll-behavior: smooth;
     scroll-snap-type: x proximity;
     scrollbar-color: #a9b8cc transparent;
@@ -4479,13 +4481,28 @@ Case-study navigation system
 .case-project-switcher__inner:before,
 .case-project-switcher__inner:after {
     content: "";
-    flex: 0 0 calc(50% - 110px);
+    flex: 0 0 calc(50% - (var(--case-project-card-width) / 2) - 14px);
+}
+
+.case-project-nav.is-open {
+    display: grid;
+    grid-template-columns:
+        max(var(--case-project-arrow-lane), calc((100vw - 1540px) / 2 + var(--case-project-arrow-lane)))
+        minmax(0, 1fr)
+        max(var(--case-project-arrow-lane), calc((100vw - 1540px) / 2 + var(--case-project-arrow-lane)));
+    grid-template-rows: 56px auto;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.98) 0 56px, #dfe7f0 56px 57px, #f7f9fc 57px 100%);
+}
+
+.case-project-nav.is-open .case-project-nav__bar {
+    display: contents;
 }
 
 .case-project-nav.is-open .case-project-arrow {
-    position: absolute;
+    position: relative;
     z-index: 3;
-    top: 158px;
+    top: auto;
+    align-self: center;
     width: 48px;
     min-width: 48px;
     height: 48px;
@@ -4494,26 +4511,37 @@ Case-study navigation system
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.96);
     box-shadow: 0 8px 22px rgba(36, 55, 98, 0.14);
-    transform: translateY(-50%);
+    transform: none;
 }
 
 .case-project-nav.is-open .case-project-arrow--previous {
-    left: max(16px, calc((100vw - 1540px) / 2 + 16px));
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: end;
 }
 
 .case-project-nav.is-open .case-project-arrow--next {
-    right: max(16px, calc((100vw - 1540px) / 2 + 16px));
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: start;
 }
 
 .case-project-nav.is-open .case-project-switcher-toggle {
-    grid-column: 1 / -1;
-    margin: 0 64px;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+}
+
+.case-project-nav.is-open .case-project-switcher {
+    grid-column: 2;
+    grid-row: 2;
+    min-width: 0;
 }
 
 .case-project-card {
     display: grid;
-    flex: 0 0 210px;
-    grid-template-rows: 102px auto;
+    flex: 0 0 var(--case-project-card-width);
+    grid-template-rows: var(--case-project-card-image-height) auto;
     overflow: hidden;
     border: 1px solid #d8e2ee;
     border-radius: 8px;
@@ -4754,6 +4782,10 @@ Case-study navigation system
 }
 
 @media (max-width: 767px) {
+    .case-project-nav {
+        --case-project-arrow-lane: 52px;
+    }
+
     .case-project-nav__bar {
         grid-template-columns: 48px minmax(0, 1fr) 48px;
     }
@@ -4770,22 +4802,19 @@ Case-study navigation system
     }
 
     .case-project-card {
-        flex-basis: 168px;
-        grid-template-rows: 82px auto;
+        flex-basis: var(--case-project-card-width);
+        grid-template-rows: var(--case-project-card-image-height) auto;
     }
 
-    .case-project-nav.is-open .case-project-arrow {
-        top: 149px;
+    .case-project-switcher__inner {
+        gap: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     .case-project-switcher__inner:before,
     .case-project-switcher__inner:after {
-        flex-basis: calc(50% - 93px);
-    }
-
-    .case-project-switcher__inner {
-        padding-right: 64px;
-        padding-left: 64px;
+        flex-basis: calc(50% - (var(--case-project-card-width) / 2) - 10px);
     }
 
     .portfolio-case-study-page .case-study-top__inner,
