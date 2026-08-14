@@ -7,7 +7,7 @@ const publishedDir = path.join(rootDir, 'portfolio/published');
 
 const START_MARKER = '<!-- case-study-top:start -->';
 const END_MARKER = '<!-- case-study-top:end -->';
-const ASSET_VERSION = 'case-study-nav-20260811a';
+const ASSET_VERSION = 'case-study-nav-20260812h';
 
 const projects = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
@@ -88,7 +88,7 @@ const detailsBySlug = {
   },
   'labella-umbrella': {
     label: 'Labella Umbrella',
-    title: 'Responsive Online Store',
+    title: 'e-Commerce Online Store',
     keywords: 'E-Commerce UX · Brand Storytelling · Responsive Web Design',
     hero: '/assets/posts/2016-09-27-labella-umbrella/LBU_Mockup-768x1586.jpg',
     alt: 'Labella Umbrella online store responsive mockup',
@@ -107,7 +107,7 @@ const detailsBySlug = {
   },
   wizits: {
     label: 'Wizits',
-    title: 'Mobile Game Interface Design',
+    title: 'Game Illustrations',
     keywords: 'Game UI · Character Illustration · Mobile UX · Animation',
     hero: '/assets/posts/2015-07-26-wizits/wizits_iPad_mock2.jpg',
     alt: 'Wizits mobile game interface on tablet',
@@ -166,9 +166,9 @@ const detailsBySlug = {
     ],
   },
   '3d-exhibition': {
-    label: 'Barzilai Design',
-    title: '3D Exhibition Design',
-    keywords: 'Exhibition Design · 3D Modeling · Environmental Graphics',
+    label: '3D Exhibition Design',
+    title: 'Designing Across Physical and Digital Environments',
+    keywords: 'Spatial UX · Brand Experience · Interactive Kiosks · Service Touchpoints',
     hero: '/assets/posts/2012-03-18-outsmart-3gsm-exhibition/Outsmart@3GSM_005.jpg',
     alt: '3D exhibition booth design for Outsmart at 3GSM',
     removeHeroFromBody: true,
@@ -289,6 +289,27 @@ function addPortfolioSearchScript(html) {
   return html.replace(
     '<script src="/assets/js/custom.js"></script>',
     `<script src="/assets/js/custom.js"></script>\n${scriptTag}`
+  );
+}
+
+function addCaseStudyNavigationScript(html) {
+  const scriptTag = `<script src="/assets/js/case-study-navigation.js?v=${ASSET_VERSION}"></script>`;
+  html = html.replace(/\n<script src="\/assets\/js\/case-study-navigation\.js(?:\?[^\"]*)?"><\/script>/g, '');
+
+  if (!html.includes('<script src="/assets/js/custom.js"></script>')) {
+    throw new Error('Could not find custom.js script tag for case-study navigation');
+  }
+
+  return html.replace(
+    '<script src="/assets/js/custom.js"></script>',
+    `<script src="/assets/js/custom.js"></script>\n${scriptTag}`
+  );
+}
+
+function removeLegacyHorizontalNavigation(html) {
+  return html.replace(
+    /\n\s*<div class="case-sticky-nav-wrap[^\"]*">\s*<nav class="case-sticky-nav" aria-label="Section navigation">[\s\S]*?<\/nav>\s*<\/div>\s*/g,
+    '\n\n        '
   );
 }
 
@@ -438,8 +459,10 @@ projects.forEach((project) => {
   updated = removeExistingCaseStudyTop(updated);
   updated = insertCaseStudyTop(updated, renderedTop);
   updated = stripMovedOpeningContent(updated, detail);
+  updated = removeLegacyHorizontalNavigation(updated);
   updated = versionSharedAssets(updated);
   updated = addPortfolioSearchScript(updated);
+  updated = addCaseStudyNavigationScript(updated);
   updated = stripTrailingWhitespace(updated);
 
   if (updated === original) {

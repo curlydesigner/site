@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Curly Designer - UX/UI Interactive Designer & Illustrator</title>
+    <title>Victoria Panshin - UX/UI Interactive Product Designer & Educator</title>
     <link rel="icon" href="/assets/img/fav.png" type="image/x-icon">
 
     <!-- Bootstrap -->
@@ -124,7 +124,8 @@
     }
 
     .print-size {
-        width: 900px;
+        width: 100%;
+        max-width: 900px;
     }
 
     /* width of the resume */
@@ -245,6 +246,47 @@
         background-color: #f4f4f4;
         font-size: 0.8em;
         text-align: center;
+    }
+
+    @media screen and (max-width: 767px) {
+        .section {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .print-size > .header > .col-xs-6,
+        .print-size > .row > .col-xs-8,
+        .print-size > .row > .col-xs-4,
+        .experience .job-title,
+        .experience .job-dates {
+            float: none;
+            width: 100%;
+        }
+
+        .print-size > .header .contact-details {
+            margin-top: 18px;
+            text-align: left;
+        }
+
+        .print-size > .header .contact-details ul {
+            display: block;
+            margin-bottom: 0;
+        }
+
+        .print-size a,
+        .print-size h4,
+        .print-size li,
+        .print-size p {
+            overflow-wrap: anywhere;
+        }
+
+        .design-tools .col-xs-4 {
+            width: 50%;
+        }
+
+        .design-tools .col-xs-offset-2 {
+            margin-left: 0;
+        }
     }
 
 

@@ -418,6 +418,7 @@
 .milestone {
     display: flex;
     flex-direction: column;
+    min-width: 0;
     opacity: 0;
     transform: translateY(12px);
     text-align: center;
@@ -524,13 +525,15 @@
     font-weight: 600;
     line-height: 1.35;
     text-align: center;
+    overflow-wrap: anywhere;
+    padding-bottom: 18px;
 }
 
 .milestone h3::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 10px;
+    bottom: 4px;
     width: 30px;
     height: 2px;
     border-radius: 999px;
@@ -568,7 +571,10 @@
     font-size: .95rem;
     font-weight: 500;
     text-align: center;
-    white-space: nowrap;
+    min-height: 2.65rem;
+    line-height: 1.25;
+    white-space: normal;
+    overflow-wrap: anywhere;
 }
 
 /* Connected practice — light */
@@ -2089,6 +2095,53 @@
     color: #b8b9c8;
 }
 
+/* Intermediate widths cannot safely hold all five ecosystem columns. Keep the
+   same visual order, but place the optional detail cards beneath their side. */
+@media (min-width: 1101px) and (max-width: 1400px) {
+    .identity-explorer {
+        grid-template-areas:
+            'designer ecosystem educator'
+            'design-panel ecosystem education-panel';
+        grid-template-columns: minmax(210px, .82fr) minmax(400px, 1.25fr) minmax(210px, .82fr);
+        gap: clamp(14px, 1.5vw, 22px);
+    }
+
+    .identity-column {
+        padding-top: 35px;
+    }
+
+    .identity-column h3 .about-script {
+        font-size: 2.9rem;
+    }
+
+    .identity-keyword {
+        grid-template-columns: 32px minmax(0, 1fr) 15px;
+        gap: 9px;
+        padding: 9px 11px;
+        font-size: .9rem;
+    }
+
+    .principle-side-detail {
+        width: 100%;
+        max-width: none;
+        min-height: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    .milestone h3 {
+        min-height: 10rem;
+    }
+
+    .milestone-tag {
+        display: inline-flex;
+        min-height: clamp(3.4rem, 7vw, 4.2rem);
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 /* Tablet */
 @media (max-width: 1100px) {
     .about-shell {
@@ -2274,6 +2327,31 @@
         width: 100%;
         max-width: 800px;
         margin: 22px auto 0;
+    }
+}
+
+/* At tablet widths, the five-card timeline becomes too narrow for its copy.
+   Reflow the same cards into two columns while retaining their visual styling. */
+@media (min-width: 768px) and (max-width: 1100px) {
+    .journey-track {
+        display: none;
+    }
+
+    .milestone-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 52px 24px;
+    }
+
+    .milestone-number {
+        margin-bottom: 20px;
+    }
+
+    .milestone-visual {
+        width: min(100%, 250px);
+    }
+
+    .milestone h3 {
+        min-height: 7.5rem;
     }
 }
 

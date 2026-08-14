@@ -60,24 +60,23 @@ function renderOtherPagesNavigation(currentProject) {
         </section>`;
 }
 
-function renderContactSection() {
-  return `    <section class="section position-relative highlighted-section portfolio-ending-contact" id="get-in-touch" aria-label="Contact">
-        <div class="container main-container clearfix get-in-touch portfolio-ending-contact__inner">
-            <div class="portfolio-ending-contact__illustration">
-                <img src="/assets/img/get_intouch/p_home_connect_typo.svg" class="img-responsive" alt="Want to know more? Let's get in touch!">
+function renderContactSection(currentProject) {
+  return `    <section class="connect-footer-section connect-footer-section--portfolio" id="get-in-touch" aria-labelledby="connect-footer-title-${escapeHtml(currentProject.slug)}">
+        <div class="connect-footer-shell">
+            <div class="connect-footer-visual">
+                <img src="/assets/img/get_intouch/img_contact-portfolio.png" alt="Project overview, case study, and wireframe design boards with a color palette and pencils" loading="lazy" decoding="async">
             </div>
-            <div class="portfolio-ending-contact__links">
-                <ul class="social-ul" aria-label="Contact links">
-                    <li class="box-social"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/curlydesigner/" aria-label="Visit LinkedIn profile">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a></li>
-                    <li class="box-social"><a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/curlydesigner" aria-label="Visit Behance profile">
-                            <ion-icon name="logo-behance"></ion-icon>
-                        </a></li>
-                    <li class="box-social"><a href="mailto:victoria@curlydesigner.com" aria-label="Email Victoria">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </a></li>
-                </ul>
+            <div class="connect-footer-content">
+                <p class="section-eyebrow section-eyebrow--center">Let’s shape what comes next.</p>
+                <h2 id="connect-footer-title-${escapeHtml(currentProject.slug)}">Challenges create opportunities to <span class="connect-footer-accent">explore, innovate &amp; make an impact.</span></h2>
+                <p class="connect-footer-subtitle">Let’s shape what comes next.</p>
+                <div class="connect-footer-actions">
+                    <a href="mailto:victoria@curlydesigner.com" aria-label="Email Victoria"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/curlydesigner/" target="_blank" rel="noopener noreferrer" aria-label="Visit Victoria’s LinkedIn profile"><ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon></a>
+                </div>
+            </div>
+            <div class="connect-footer-landscape" aria-hidden="true">
+                <img src="/assets/img/get_intouch/img_contactme-landscape-3d.png" alt="" loading="lazy" decoding="async">
             </div>
         </div>
     </section>`;
@@ -90,7 +89,7 @@ function renderPortfolioPageEnding(currentProject) {
 ${renderOtherProjects(currentProject)}
 ${renderOtherPagesNavigation(currentProject)}
     </div>
-${renderContactSection()}
+${renderContactSection(currentProject)}
 </div>
 ${END_MARKER}`;
 }
